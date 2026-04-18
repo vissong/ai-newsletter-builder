@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "daily-ai-news": {
+      "source": "yyh211/claude-meta-skill",
+      "sourceType": "github",
+      "computedHash": "e98e0d29ff4b5425e7a422108082671f5ccca2208ea1ce86673137959a0a4d88"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# ── Raw collection data ────────────────────────────────────────────
+# Raw per-day source files can be large and may contain tracking tokens.
+# Keep merged.json (reproducible from scratch) but drop the raw sources.
+site/data/raw/
+
+# Especially: email raw bodies contain per-recipient unsubscribe tokens.
+site/data/raw/**/gmail-*.md
+site/data/raw/**/tencent-news-*.md
+
+# ── macOS / editor ─────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# ── Python ─────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Local overrides ─────────────────────────────────────────────────
+site/config/*.local.yaml

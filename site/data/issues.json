@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "date": "2026-04-18",
+      "title": "AI 日报 · 2026-04-18",
+      "path": "issues/2026-04-18.html",
+      "item_count": 49,
+      "top_items": [
+        {
+          "title": "Anthropic 推出旗舰模型 Claude Opus 4.7",
+          "source_count": 4,
+          "category": "major-release"
+        },
+        {
+          "title": "Anthropic 推出 Claude Design，设计工具股应声下跌",
+          "source_count": 4,
+          "category": "major-release"
+        },
+        {
+          "title": "腾讯混元 HY-World 2.0：多模态生成可交互 3D 场景",
+          "source_count": 3,
+          "category": "research-frontier"
+        },
+        {
+          "title": "Google 发布 Gemma 4 开源模型家族",
+          "source_count": 2,
+          "category": "major-release"
+        },
+        {
+          "title": "OpenAI 重构 Codex，桌面自主能力对标 Anthropic",
+          "source_count": 2,
+          "category": "major-release"
+        }
+      ],
+      "summary": "Anthropic 同日连发 Claude Opus 4.7 与 Claude Design，直接从模型层切入设计工具市场；Google 跟进 Gemma 4 与 Gemini 系列全面更新，OpenAI 则重构 Codex 强化桌面自主能力。国内侧，阿里通义、百度文心、腾讯混元、阶跃星辰、智谱等密集释放开源与 Agent 新工具。",
+      "generated_at": "2026-04-18T13:00:00Z",
+      "category_counts": {
+        "major-release": 10,
+        "industry-business": 15,
+        "research-frontier": 10,
+        "tools-release": 9,
+        "policy-regulation": 5
+      },
+      "trimmed_count": 35
+    }
+  ],
+  "generated_at": "2026-04-18T13:00:00Z",
+  "index_built_at": "2026-04-18T13:00:00Z"
+}
