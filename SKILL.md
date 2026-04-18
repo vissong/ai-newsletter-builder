@@ -118,13 +118,30 @@ When the user says "add a source" / "接入一个数据源" / similar, run the g
 
 ### Choosing the web-reading tool
 
-Web and search sources should prefer the most capable tool available in the current environment. In priority order:
+Web and search sources use a **tiered fallback chain**. Try each tier in order; move to the next only when the current one fails or returns empty/blocked content.
 
-1. An environment-specific skill dedicated to web access (e.g. `web-access`, `browser-use`) — check if it's listed in the available skills and invoke via the Skill tool.
-2. Built-in `WebFetch` / `WebSearch`.
-3. MCP tools like `mcp__web_reader__webReader` if present.
+**Tier 1 — Real browser (best for JS-heavy or auth-gated pages)**
+Check the available skills list. If `web-access`, `browser-use`, or any CDP-capable skill is present, prefer it — it handles JavaScript rendering, cookie persistence, and anti-bot measures.
 
-Pick once per session and stick with it for consistency, but note the choice in `data/raw/<date>/collect.log` so the user can see what was used.
+**Tier 2 — Built-in WebFetch / MCP reader**
+Plain HTTP fetch. Works for most server-rendered pages. Tools: built-in `WebFetch`, `mcp__web_reader__webReader`, or similar MCP tools if present.
+
+**Tier 3 — Jina Reader (clean-text fallback)**
+When Tiers 1 and 2 both return empty content, a 403/429/paywall, or unreadable HTML, use Jina Reader:
+```
+GET https://r.jina.ai/<original-url>
+```
+Jina converts any URL to clean Markdown, bypassing most anti-scraping measures. Works as a plain `WebFetch` call — no special tool needed. Example:
+```
+https://r.jina.ai/https://venturebeat.com/category/ai/
+```
+
+**Tier 4 — Web search fallback**
+If all above fail, fall back to `WebSearch` with `site:<domain> AI after:{{yesterday}}` to retrieve recent headlines as search snippets. Lower fidelity but better than nothing.
+
+**Decision log**: Note in `collect.log` which tier was used for each source: `tool: WebFetch (tier-2)` or `tool: jina-reader (tier-3)`. This helps diagnose sources that consistently need a higher tier.
+
+**Consistency within a run**: Prefer using the same tool for all sources of the same type within one collection run (e.g., don't mix Tier 1 for some sources and Tier 3 for others without reason), but do escalate per-source when a lower tier fails.
 
 ### CLI sources (including email)
 

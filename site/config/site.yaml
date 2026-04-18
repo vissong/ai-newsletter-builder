@@ -1,8 +1,0 @@
-# Site-level configuration.
-title: "AI 日报"
-subtitle: "每日 AI 资讯精选"
-output_language: zh   # zh | en — used for rendered summaries & lead
-timezone: Asia/Shanghai
-design: terminal
-layout: terminal-log
-hero_on_homepage: true

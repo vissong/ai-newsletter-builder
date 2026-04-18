@@ -76,6 +76,37 @@ Before suggesting this, confirm the user wants CI — it's extra moving parts fo
 
 ## Cloudflare Pages
 
+Two methods: **Wrangler CLI** (recommended, no GitHub required) or **Git-connected** (auto-rebuilds on push).
+
+### Method A: Wrangler CLI (direct upload — preferred)
+
+No GitHub repo needed. Deploys the local `site/` directly to Cloudflare Pages.
+
+```bash
+# Install once
+npm install -g wrangler
+
+# Authenticate (opens browser the first time)
+wrangler login
+
+# First deploy — creates the Pages project
+wrangler pages deploy site --project-name ai-daily
+
+# Subsequent deploys (same command)
+wrangler pages deploy site --project-name ai-daily
+```
+
+- `--project-name` becomes the subdomain: `ai-daily.pages.dev`
+- Use a different name if the project already exists under another name
+- Each deploy is a new immutable deployment; Cloudflare keeps the last few for rollback
+- No build step needed — `site/` is already fully built; pass `--no-bundle` if wrangler tries to bundle
+
+**After each daily run**, deploy with the same command to push the new issue and refreshed homepage.
+
+**Custom domain**: After first deploy, go to Cloudflare Dashboard → Pages → `ai-daily` → Custom domains → Add domain. Wrangler cannot set custom domains; that part is browser-only.
+
+### Method B: Git-connected (auto-deploys on push)
+
 1. Push the repo to GitHub (or GitLab).
 2. Cloudflare Dashboard → Pages → Create a project → Connect to Git → pick the repo.
 3. Build settings:
@@ -89,7 +120,7 @@ Cloudflare Pages rebuilds on every push. If the user edits per-day issues outsid
 
 ### Custom domain
 
-For either host, after the deploy URL is working, connect a custom domain if the user wants. Tell them the DNS record type and target — don't try to configure it yourself.
+After the deploy URL is working, connect a custom domain via the Cloudflare dashboard. Tell the user the DNS record type and target — don't try to configure it yourself.
 
 ## Pre-publish checklist
 

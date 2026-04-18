@@ -43,12 +43,20 @@ Keep `name` stable — it's the filename key under `data/raw/<date>/<name>.md` a
 
 ## Type: `web`
 
-Fetch a page (index or article) and extract a list of items. Prefer the best available reader in this priority order:
+Fetch a page (index or article) and extract a list of items. Use the **tiered fallback chain** — try each tier in order, escalate only when the current tier returns empty content, a 403/429, or unreadable HTML:
 
-1. `web-access` skill (if listed in available skills) — invoke via the Skill tool. Best at login walls and JS-rendered pages.
-2. `browser-use` skill — use when the page needs real browser interaction.
-3. `mcp__web_reader__webReader` — lightweight, good enough for most article indexes.
-4. Built-in `WebFetch` — fallback.
+| Tier | Tool | When to use |
+|---|---|---|
+| 1 | `web-access` / `browser-use` skill (CDP real browser) | JS-rendered pages, login walls, anti-bot pages |
+| 2 | `mcp__web_reader__webReader` or built-in `WebFetch` | Standard server-rendered pages |
+| 3 | **Jina Reader** — `https://r.jina.ai/<url>` | Tiers 1-2 fail or return blocked/empty content |
+| 4 | `WebSearch` with `site:<domain> after:{{yesterday}}` | All above fail; headlines-only, low fidelity |
+
+**Jina Reader** (Tier 3) is a plain WebFetch call — no special tool needed. Prepend `https://r.jina.ai/` to any URL:
+```
+WebFetch → https://r.jina.ai/https://venturebeat.com/category/ai/
+```
+Jina converts the page to clean Markdown, bypasses most anti-scraping measures, and works with standard HTTP. Use it whenever direct fetching returns empty, blocked, or unparseable content.
 
 Per-source fields:
 
