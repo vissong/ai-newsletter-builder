@@ -208,6 +208,83 @@ This design is already implemented; the CSS file is the source of truth.
 
 Daily issue pages load `../assets/style.css` (relative path) and are self-contained HTML files.
 
+### Known pitfalls (from first production run)
+
+**1. `issues.json` must include `source_count` at the issue level.**
+The homepage JS reads `it.source_count` in two places (`.iside` row and featured byline).
+Missing this field renders as "来源 undefined 个". Always write:
+```json
+{ "date": "...", "item_count": 17, "source_count": 2, ... }
+```
+
+**2. Body wrapper: use `<body><main class="paper">` not `<body class="paper">`.**
+The `.paper` class applies `max-width: 1280px`. Putting it on `<body>` clips the background
+texture to the content width. Use `<main class="paper">` inside a plain `<body>` — matches
+`standalone.html` structure.
+
+**3. Topbar requires `.left` / `.right` child divs.**
+```html
+<!-- CORRECT -->
+<div class="topbar">
+  <div class="left"><span><span class="dot"></span>正在刊行</span></div>
+  <div class="right"><span id="live-clock">— : —</span></div>
+</div>
+```
+Bare `<span>` children inside `.topbar` break the flex layout.
+
+**4. `.sep` in `.art-meta` must be an EMPTY element.**
+The CSS renders `.sep` as a 3 px dot via `width`/`height`/`background`. Putting text
+inside it (e.g. `<span class="sep">·</span>`) shows both the dot AND the character.
+```html
+<!-- CORRECT -->
+<span class="sep"></span>
+<!-- WRONG -->
+<span class="sep">·</span>
+```
+
+**5. Lead/summary section: use `.highlights-block`, not custom classes.**
+There is no `.lead-section`, `.lead-text`, or `.lead-meta` in the stylesheet.
+The correct structure for the "今日要闻" block is:
+```html
+<div class="highlights-block">
+  <div>
+    <div class="hl-title">今日要闻 · TODAY'S HIGHLIGHTS</div>
+    <h2>Issue headline</h2>
+    <ol class="hl-list">
+      <li><a href="#item-1">Top story title</a></li>
+      ...
+    </ol>
+  </div>
+  <aside class="stats-aside">
+    <h4>今日数字 · IN NUMBERS</h4>
+    <ul>
+      <li><span class="n">17</span><span>今日条目</span><span class="v">ITEMS</span></li>
+      ...
+    </ul>
+  </aside>
+</div>
+```
+
+**6. Footer must be a `<footer>` element, not a `<div>`.**
+The CSS selector is `footer.site-footer` — a `<div class="site-footer">` gets no styles.
+No `.footer-inner` wrapper. Direct children: `.colophon`, plain `div(h5+ul)` × 3,
+`div.bottom` (spans all 4 columns via `grid-column: 1 / -1`).
+
+**7. Issue page masthead: date as `h1`, site name as kicker.**
+Reusing the homepage's giant `clamp(72px,9vw,140px)` h1 on issue pages is wrong —
+it dominates the page and repeats the homepage brand without adding value.
+On issue pages:
+- Site name → small kicker with link back to homepage
+- Date → `h1` at `clamp(36px,4vw,52px)` (Chinese date format: `2026年04月19日`)
+- Period / source count → `meta-strip`
+
+**8. After running `build_index.py`, always re-copy `standalone.html`.**
+`build_index.py` overwrites `site/index.html` with a script-generated version that
+doesn't work for this design. For `ciyuan-jie`, always follow with:
+```bash
+cp designs/ciyuan-jie/standalone.html site/index.html
+```
+
 ---
 
 ## §9 Sample Markup Skeleton
