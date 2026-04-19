@@ -332,7 +332,12 @@ Each `<item>` in the feed contains:
 - `<title>` — issue title
 - `<link>` / `<guid>` — absolute URL to the daily HTML page
 - `<pubDate>` — RFC-822 timestamp from `generated_at`
-- `<description>` — CDATA block with the issue summary, top 3–5 items as a bulleted list, and category counts
+- `<description>` — CDATA block with the full categorized content. Data source priority:
+  1. `site/data/raw/<date>/merged.json` — full structured items grouped by category
+  2. `site/issues/<date>.html` — parsed via `html.parser` to extract category sections and articles
+  3. `issues.json` `top_items` — fallback summary-only if neither exists
+
+  The rich format shows each category as an `<h3>` heading followed by a `<ul>` with every item's title (linked), multi-source badge, and summary sentence. This gives feed readers the complete daily content without visiting the site.
 
 **Add the feed autodiscovery tag to `site/index.html`** so browsers and feed readers find it automatically. If `index.html` is already generated, insert this line into its `<head>` (before `</head>`):
 
