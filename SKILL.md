@@ -308,6 +308,11 @@ The homepage should show, at minimum: the newsletter title (from `site/config/si
 
 Never hand-edit `site/index.html` — it's a build artifact.
 
+**Exception for `ciyuan-jie` design**: `site/index.html` is a copy of
+`designs/ciyuan-jie/standalone.html`, which renders itself from `data/issues.json`
+via client-side JavaScript. Skip `build_index.py` entirely for this design —
+just ensure `data/issues.json` is up to date.
+
 ## Phase 6.5: Regenerate RSS feed
 
 Run immediately after Phase 6 (index rebuild). The feed is a build artifact like `index.html` — never hand-edit it.
@@ -370,6 +375,7 @@ Directory-based, 9-section prose spec. This is the richer format — read `refer
 Built-ins under `designs/`:
 - `figma/DESIGN.md` — Figma's site: pill buttons, variable-weight type, monochrome chrome with colorful hero gradients
 - `cohere/DESIGN.md` — (empty scaffold; drop in a spec or fetch from getdesign.md)
+- `ciyuan-jie/DESIGN.md` — 词元长街 · Token Street: Chinese newspaper broadsheet aesthetic, warm paper + 朱砂红 accent + Noto Serif SC / Playfair Display / JetBrains Mono. **CSS is pre-built** — `designs/ciyuan-jie/style.css` should be copied verbatim to `site/assets/style.css`; do not regenerate from DESIGN.md. Pair with `editorial-longscroll` layout.
 
 Users can fetch more from [getdesign.md](https://getdesign.md) or write their own.
 
