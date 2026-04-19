@@ -41,6 +41,23 @@ Record dropped ads in `collect.log` as `<source>: N items fetched, M dropped as 
 
 Keep `name` stable — it's the filename key under `data/raw/<date>/<name>.md` and the key inside each item's `sources` array. Renaming breaks the dedup history.
 
+## Fetch strategy: RSS-first, web scraping as fallback
+
+For every `web` source, **prefer RSS if one exists**. RSS is more reliable, cheaper to parse, and returns structured metadata (pubDate, author, categories). Only fall back to web scraping when:
+
+1. The source has no RSS feed (❌ in the catalog table), OR
+2. The RSS feed is stale — latest item is older than `time_window_hours * 2` (e.g. synced-review's feed was last updated in 2025-08), OR
+3. The RSS feed returns empty content for 2+ consecutive runs on weekdays (not weekends — arXiv is empty on weekends by design)
+
+When degrading to web scraping, log the reason in `collect.log`:
+```
+techcrunch-ai: rss→ok (23 items)
+synced-review: rss→stale (last item 2025-08-14), degraded to web scrape
+anthropic-news: no rss, web scrape (tier-2)
+```
+
+This log makes it easy to spot sources that need attention without silently producing empty results.
+
 ## Type: `web`
 
 Fetch a page (index or article) and extract a list of items. Use the **tiered fallback chain** — try each tier in order, escalate only when the current tier returns empty content, a 403/429, or unreadable HTML:
@@ -131,6 +148,84 @@ Add new providers by dropping in a different `cli`. Each one should expose "sear
 
 Document the install step in the source's `auth_hint` so the add-source flow can surface it.
 
+## Type: `git-json` — follow-builders (AI KOC/KOL content)
+
+A special built-in source backed by the GitHub repo `zarazhangrui/follow-builders`. The repo contains three feed files updated daily with content produced by famous AI builders:
+
+| File | Content | Source tag |
+|---|---|---|
+| `feed-x.json` | X/Twitter posts (tweets, engagement metrics) | `follow-builders-x` |
+| `feed-blogs.json` | Blog posts (title, description, full content) | `follow-builders-blogs` |
+| `feed-podcasts.json` | Podcast episodes with transcripts | `follow-builders-podcasts` |
+
+**Change detection**: `scripts/fetch_follow_builders.py` stores SHA-256 hashes of each file in `site/data/sources/follow-builders/.hashes.json`. On each run it `git pull`s then compares hashes — only changed files are processed. If nothing changed, the script exits cleanly with 0 items (not an error).
+
+**YAML config** (add to `sources.yaml` during init — enabled by default):
+
+```yaml
+- name: follow-builders
+  type: cli
+  enabled: true
+  language: en
+  priority: 1
+  command: >
+    python scripts/fetch_follow_builders.py
+    --cache-dir site/data/sources/follow-builders
+    --output site/data/raw/{{date}}/follow-builders.md
+    --recent-hours 24
+  check:
+    binary: git
+    install_hint: "git must be installed and available in PATH"
+```
+
+**JSON schemas** (for reference):
+
+`feed-x.json`:
+```json
+{
+  "generatedAt": "ISO-8601",
+  "builders": [
+    {
+      "source": "x", "name": "Swyx", "handle": "swyx", "bio": "...",
+      "tweets": [
+        { "id": "...", "text": "...", "createdAt": "ISO-8601",
+          "url": "...", "likes": 42, "retweets": 7, "replies": 3,
+          "isQuote": false, "quotedTweetId": null }
+      ]
+    }
+  ]
+}
+```
+
+`feed-blogs.json`:
+```json
+{
+  "generatedAt": "ISO-8601", "lookbackHours": 48,
+  "blogs": [
+    { "source": "blog", "name": "...", "title": "...", "url": "...",
+      "publishedAt": "ISO-8601|null", "author": "...",
+      "description": "...", "content": "full text" }
+  ]
+}
+```
+
+`feed-podcasts.json`:
+```json
+{
+  "generatedAt": "ISO-8601", "lookbackHours": 48,
+  "podcasts": [
+    { "source": "podcast", "name": "...", "title": "...", "guid": "...",
+      "url": "...", "publishedAt": "ISO-8601", "transcript": "timestamped text" }
+  ]
+}
+```
+
+**Notes:**
+- Tweets without `text` are silently skipped; blogs without `title+url` are skipped.
+- `publishedAt: null` in blogs is common — falls back to `fetched_at`.
+- Transcripts can be long; the script caps summaries at 400 chars; set `follow_articles: false` (not applicable here — content is inline).
+- Use `--force` flag to reprocess all files regardless of hash (useful after schema changes).
+
 ## Type: `cli`
 
 Arbitrary command whose stdout is the content. Use this for anything that isn't email/web/search — RSS tools, paper-scraping scripts, custom aggregators, feed readers.
@@ -161,20 +256,52 @@ If no parser matches, tell the user and ask them to pick one or provide a regex.
 
 Imported from the repo's existing `daily-ai-news` skill. During `scripts/init_site.py`, offer these as a checklist. Not everything has to be enabled — default to the starred ones.
 
+### Git-tracked JSON feed (default ★★)
+
+| name              | repo                                          | priority | ★  |
+| ----------------- | --------------------------------------------- | -------- | -- |
+| follow-builders   | github.com/zarazhangrui/follow-builders       | 1        | ★★ |
+
+This source is **enabled by default** — always include it during `init`. It requires `git` in PATH. See the `Type: git-json` section above for full YAML and schema.
+
 ### Web sources (news)
 
-| name                         | url                                                     | priority | ★ |
-| ---------------------------- | ------------------------------------------------------- | -------- | - |
-| venturebeat-ai               | https://venturebeat.com/category/ai/                     | 1        | ★ |
-| techcrunch-ai                | https://techcrunch.com/category/artificial-intelligence/ | 1        | ★ |
-| theverge-ai                  | https://www.theverge.com/ai-artificial-intelligence     | 1        |   |
-| mit-tech-review-ai           | https://www.technologyreview.com/topic/artificial-intelligence/ | 1 |   |
-| 36kr-ai                      | https://36kr.com/search/articles/AI                      | 1        | ★ |
-| ai-bot-daily-news            | https://ai-bot.cn/daily-ai-news/                         | 1        | ★ |
-| ai-bot-tools                 | https://ai-bot.cn/ai-tools/                              | 2        | ★ |
-| artificial-intelligence-news | https://artificialintelligence-news.com/                | 2        |   |
-| ai-hub-today                 | https://ai.hubtoday.app/                                | 2        | ★ |
-| synced-review                | https://syncedreview.com/                               | 2        |   |
+| name                         | url                                                                         | rss? | priority | ★ |
+| ---------------------------- | --------------------------------------------------------------------------- | ---- | -------- | - |
+| venturebeat-ai               | https://venturebeat.com/category/ai/feed                                    | ✅   | 1        | ★ |
+| techcrunch-ai                | https://techcrunch.com/category/artificial-intelligence/feed/               | ✅   | 1        | ★ |
+| theverge-ai                  | https://www.theverge.com/ai-artificial-intelligence                         | ❌   | 1        |   |
+| mit-tech-review-ai           | https://www.technologyreview.com/topic/artificial-intelligence/feed/        | ✅   | 1        |   |
+| 36kr-ai                      | https://36kr.com/search/articles/AI                                         | ❌   | 1        | ★ |
+| ai-bot-daily-news            | https://ai-bot.cn/daily-ai-news/                                            | ❌   | 1        | ★ |
+| ai-bot-tools                 | https://ai-bot.cn/ai-tools/                                                 | ❌   | 2        | ★ |
+| artificial-intelligence-news | https://artificialintelligence-news.com/feed/                               | ✅   | 2        |   |
+| ai-hub-today                 | https://ai.hubtoday.app/                                                    | ❌   | 2        | ★ |
+| synced-review                | https://syncedreview.com/feed/                                              | ✅   | 2        |   |
+
+**Note on `venturebeat-ai`**: RSS feed at `/category/ai/feed` returns 80–120 word paragraph excerpts with author and category metadata — good enough to summarize without `follow_articles`. pubDate is accurate. Set `item_limit: 10` and `time_window_hours: 24`.
+
+**Note on `techcrunch-ai`**: Use the RSS feed URL (`/feed/`) — it returns 200 directly without anti-bot friction that often forces Tier 3 (Jina). The feed contains 23 items updated hourly, with `dc:creator`, `category` tags, and `pubDate`. Description fields are short excerpts (~25-30 words); always set `follow_articles: true` to fetch full text for summaries. Recommended YAML:
+
+```yaml
+- name: techcrunch-ai
+  type: web
+  enabled: true
+  language: en
+  priority: 1
+  url: https://techcrunch.com/category/artificial-intelligence/feed/
+  extract:
+    item_limit: 15
+    time_window_hours: 24
+    follow_articles: true
+    follow_limit: 10
+```
+
+**Note on `mit-tech-review-ai`**: RSS feed at `/topic/artificial-intelligence/feed/` returns 50–70 word excerpts with author and category. **Sponsored content appears in the feed** — add `exclude_keywords: ["Sponsored"]` to filter it. pubDate accurate.
+
+**Note on `artificial-intelligence-news`**: RSS at `/feed/` returns only 35–40 word excerpts; not enough for good summaries. Set `follow_articles: true, follow_limit: 8`.
+
+**Note on `synced-review`**: RSS at `/feed/` works (60-word excerpts, good structure) but the feed is **very slow to update** — latest item observed was from 2025-08, months stale. Consider disabling or setting `time_window_hours: 720` (30 days) and `priority: 3` to avoid empty runs.
 
 **Note on `36kr-ai`**: Chinese startup/tech portal. The "AI 频道" is at `/motif/327685989388`; the AI search endpoint (`/search/articles/AI`) returns most recent matches and is the easier target. Content is Chinese; entries are sorted by recency, which pairs well with `time_window_hours: 48`.
 
@@ -212,26 +339,40 @@ Imported from the repo's existing `daily-ai-news` skill. During `scripts/init_si
 
 ### Web sources (company blogs)
 
-| name            | url                                      | priority | ★ |
-| --------------- | ---------------------------------------- | -------- | - |
-| openai-blog     | https://openai.com/blog                  | 1        | ★ |
-| anthropic-news  | https://www.anthropic.com/news           | 1        | ★ |
-| google-ai-blog  | https://blog.google/technology/ai/       | 1        |   |
-| deepmind-blog   | https://deepmind.google/discover/blog/   | 1        |   |
-| microsoft-ai    | https://blogs.microsoft.com/ai/          | 2        |   |
-| meta-ai-blog    | https://ai.meta.com/blog/                | 2        |   |
+| name            | url                                           | rss? | priority | ★ |
+| --------------- | --------------------------------------------- | ---- | -------- | - |
+| openai-blog     | https://openai.com/blog/rss.xml               | ✅   | 1        | ★ |
+| anthropic-news  | https://www.anthropic.com/news                | ❌   | 1        | ★ |
+| google-ai-blog  | https://blog.google/technology/ai/rss/        | ✅   | 1        |   |
+| deepmind-blog   | https://deepmind.google/discover/blog/feed/   | ✅   | 1        |   |
+| microsoft-ai    | https://blogs.microsoft.com/ai/               | ❌   | 2        |   |
+| meta-ai-blog    | https://ai.meta.com/blog/                     | ❌   | 2        |   |
+
+**Note on `openai-blog`**: RSS at `/blog/rss.xml` returns ~130-character short excerpts with category tags (Product/Research). Must use `follow_articles: true` to get full content. 940 items total; use `item_limit: 10` and `time_window_hours: 168` (company blogs publish infrequently).
+
+**Note on `google-ai-blog`**: RSS at `/technology/ai/rss/` returns 60–95 character headline-only excerpts with author and media assets. Must use `follow_articles: true`. 20 items, good pubDate accuracy. Set `time_window_hours: 168`.
+
+**Note on `deepmind-blog`**: RSS at `/discover/blog/feed/` returns 95–120 character excerpts, no author or category fields. Must use `follow_articles: true`. 100 items. Set `time_window_hours: 168`.
+
+**Note on `anthropic-news` / `microsoft-ai` / `meta-ai-blog`**: No RSS feed found — use web scraping (Tier 1/2) or Jina (Tier 3). These publish rarely; set `time_window_hours: 168`.
 
 ### Research sources
 
-| name             | url                                     | priority |
-| ---------------- | --------------------------------------- | -------- |
-| arxiv-cs-ai      | https://arxiv.org/list/cs.AI/recent     | 2        |
-| arxiv-cs-lg      | https://arxiv.org/list/cs.LG/recent     | 2        |
-| arxiv-cs-cl      | https://arxiv.org/list/cs.CL/recent     | 2        |
-| huggingface-blog | https://huggingface.co/blog             | 2        |
-| papers-with-code | https://paperswithcode.com/             | 3        |
+| name             | url                                     | rss? | priority |
+| ---------------- | --------------------------------------- | ---- | -------- |
+| arxiv-cs-ai      | https://arxiv.org/rss/cs.AI             | ✅   | 2        |
+| arxiv-cs-lg      | https://arxiv.org/rss/cs.LG             | ✅   | 2        |
+| arxiv-cs-cl      | https://arxiv.org/rss/cs.CL             | ✅   | 2        |
+| huggingface-blog | https://huggingface.co/blog/feed.xml    | ✅   | 2        |
+| papers-with-code | https://paperswithcode.com/             | ❌   | 3        |
 
 arXiv has three separate recent-listings relevant to AI: `cs.AI` (general AI), `cs.LG` (machine learning), `cs.CL` (computation & language — LLMs/NLP). The three overlap significantly in content but each surfaces items the others miss. Enable all three when you want broad research coverage; the `research-frontier` cap of 10 will keep it manageable. If budget-conscious, `cs.AI` alone is usually enough.
+
+**Note on arXiv RSS**: Use the RSS URLs (`https://arxiv.org/rss/cs.AI` etc.) directly — they return well-structured XML with title, abstract, authors, and arXiv ID. The feed is only populated on weekdays when new submissions are announced (Mon–Fri, ~midnight ET); on weekends and holidays the feed returns a valid but empty document — this is normal, not a failure. Set `time_window_hours: 48` so Friday submissions survive the weekend gap.
+
+**Note on `huggingface-blog`**: Use the RSS feed at `https://huggingface.co/blog/feed.xml` (200, 766+ items). **Critical: the feed contains NO description field — only title, link, pubDate, and guid.** Always set `follow_articles: true` to fetch full post content. Posts are deep technical writeups (model cards, research, integrations) — almost always `research-frontier` or `tools-release`. Set `item_limit: 10` and `time_window_hours: 72`.
+
+**Note on `papers-with-code`**: No RSS feed found — the site now redirects to `huggingface.co/papers/trending`. Skip this source and rely on arXiv RSS + HuggingFace blog instead; between the two you get both the raw papers and the curated commentary.
 
 ### Chinese social / content platforms (login- or JS-heavy, opt-in)
 
