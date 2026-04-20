@@ -1,5 +1,59 @@
 [
   {
+    "title": "OpenAI发布面向开发者的新工具，包括Codex和Flex处理",
+    "url": "https://www.cnet.com/tech/services-and-software/researchers-use-quantum-computer-to-improve-ai-predictions/",
+    "published_at": "2026-04-20T11:01:00+00:00",
+    "summary": "OpenAI发布Codex和Flex处理等开发者工具",
+    "language": "en",
+    "fetched_at": "2026-04-20T14:26:43.373339+00:00",
+    "recent": true,
+    "source": "search-major-release",
+    "sources": [
+      "search-research",
+      "search-major-release"
+    ],
+    "source_count": 2,
+    "category": "major-release",
+    "title_original": "Researchers Use Quantum Computer to Improve AI Predictions - CNET",
+    "summary_original": "# Researchers Use Quantum Computer to Improve AI Predictions. A quantum computer assists an AI model with calculations that would take weeks to figure out with a normal computer. The research team from University College London, who published their findings\") on Friday in the journal Science Advances, say that one day, quantum computers could help AI models make fast, accurate predictions across a",
+    "id": "item-40",
+    "trimmed": false
+  },
+  {
+    "title": "AI工具集官网| 1000+ AI工具集合，国内外AI工具集导航大全",
+    "url": "https://ai-bot.cn/",
+    "summary": "LiblibAI – Seedance 2.0上线 支持真人素材. OpenAI《构建 Agents 实用指南》（PDF文件） – AI教程资料. Claude 官方发布《Agent 构建指南》（中文版）. Anthropic《AI 经济指数报告》38页PDF（中文版）. 谷歌《Prompt Engineering》提示词工程白皮书（PDF文件） – AI教程资料. 专业AI视频创作平台，支持Seedance 2.0（真人参考）. #### AI写作工具. 专为小说创作者打造的 AI 写作 PC 客户端软件. #### AI图像工具. #### AI视频工具. 专业AI视频创作平台，支持Seedance 2.0（真人参考）. AI 视频创作Agent，个人 AI 视频伙伴. #### AI办公工具. #### AI智能体. AI图文创作智能体，支持生成、排版、编辑、发布. 融合CUA（Computer Use Agent）的工业级通用 Agent 智能助手. Trickle 团队推出的云端 AI Agent 计算机. 腾讯电脑管家团队基于 OpenClaw 打造的本地 AI 助手. 开箱即用的桌面端 AI 助手，基于 OpenClaw. #### AI聊天助手. #### AI编程工具. 开源 AI 编程工具 ， Claude Code 最佳平替. StackBlitz 推出的全栈AI代码工具，可以看作 Artfacts、V0 和 Replit 的结合体. #### AI开发平台. GLM-5编程能力媲美Claude Sonnet 4.5，首购5折！. 免费体验和测试 Google 最新的 AI 模型. 赤子城科技推出的 AI 游戏社区，被誉为”游戏版TikTok”. AI 模型 API 聚合平台，一个接口调用400多个模型. #### AI设计工具. Google Labs 推出的 AI 原生设计工具. #### AI音频工具. 在线 AI 音乐生成器，支持扩展、替换、翻唱. #### AI搜索引擎. #### AI学习网站. #### AI训练模型. 一站式AI大模型体验、调用、部署、精调平台，Coding Plan套餐首购特惠低至3.9元/月. #### AI内容检测. AI工具集导航收录了国内外数百个不同类型的AI工具，每日更新和添加最新AI工具，AI工具集还推荐了AI学习开发的常用网站、框架和模型，帮助你加入人工智能浪潮，自动化高效完成任务！ Ctrl + D 或 ⌘ + D 收藏本站到浏览器书签栏。. AI工具集导航 关于我们 免责声明 最新AI项目 AI应用商店 果核剥壳 VipCheap 攻壳智能体 映技派 豆包 讯飞绘文 Coze 绘蛙 即梦 蛙蛙写作 白日梦 咔片PPT 办公小浣熊 稿定AI TRAE 码上飞 堆友AI LiblibAI 星流AI 秒哒 AstronClaw. Copyright © 2026 AI工具集 蜀ICP备2022019184号-2  川公网安备 51010702003349号.",
+    "source": "ai-bot-tools",
+    "language": "zh",
+    "fetched_at": "2026-04-20T14:27:54.791453+00:00",
+    "published_at": "2026-04-20T00:00:00+00:00",
+    "sources": [
+      "ai-bot-tools",
+      "ai-bot-daily-news"
+    ],
+    "source_count": 2,
+    "category": "tools-release",
+    "id": "item-70",
+    "trimmed": false
+  },
+  {
+    "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
+    "url": "https://ai-bot.cn/daily-ai-news/",
+    "summary": "## 谷歌推出 Nano Banana 2 图像 AI 模型：支持 4K 分辨率输出. ## Skywork AI 正式发布多模态视频基础模型 SkyReels V4. 千寻智能近日完成近20亿元人民币融资，资本方覆盖顶级、产业、国有及战投机构，阵容强大。其开源模型Spirit v1.5在性能上超越了Pi0.5，凭借独特的“数据金字塔”训练理念和低成本数据采集技术，构筑了核心竞争壁垒。来源：千寻智能Spirit AI. ## OpenAI 发布 GPT-5.3-Codex-Spark ：专为实时编程而生. ## Mistral AI 推出新一代语音转文本模型Voxtral Transcribe 2. Vidu Q3 全球震撼来袭，作为全球首个支持16秒音视频直出的AI视频生成模型，专为漫剧、短剧、影视剧创作设计。模型实现声画同步高清直出，支持多镜头自由切换、多语言对话与文字渲染，具备电影级视听张力，让AI视频进入”一键成片”时代。来源：Vidu AI. ## 苹果20亿美元收购以色列AI公司Q.ai. ## Qwen Code 重磅更新：让 AI 编程跳出命令行. MiniMax发布新一代大模型MiniMax M2.1，该版本在多语言编程与真实世界复杂任务处理上实现显著突破。模型系统性提升了Rust、Java、Golang等十余种编程语言能力，在SWE-bench Verified基准测试中获得74分，超越Claude Sonnet 4.5。其创新的VIBE基准测试显示，M2.1在全栈应用构建能力上接近顶级闭源模型水平。来源：MiniMax稀宇科技. ## 面壁智能完成数亿元融资，加码投入领跑端侧 AI. ## 钉钉发布全球首个为 AI 打造的工作智能操作系统 Agent OS. ## Google 发布了高速、低成本模型 Gemini 3 Flash. ## OpenAI 最强 AI 生图模型GPT Image 1.5登场. ## 谷歌公测“奥数金牌级”推理 AI 模型 Gemini 3 Deep Think. Allen Institute for Artificial Intelligence (AI2) 推出的开源大型语言模型Olmo 3系列，包括 Olmo 3-Base（7B 和 32B 参数）、Olmo 3-Think、Olmo 3-Instruct 和 Olmo 3-RL Zero 等版本，分别擅长编程、阅读理解、数学解题、复杂推理、多轮对话和强化学习等任务。来源：AI工具集. ## OpenAI 发布最强编程模型 GPT-5.1-Codex-Max. OpenAI发布GPT-5.1-Codex-Max编程模型，取代GPT-5.1-Codex，成为Codex集成界面上默认模型。模型在多个编程基准测试中超越谷歌Gemini 3 Pro，如SWE-Bench Verified测试中准确率77.9%，领先对方1.7个百分点。其引入“压缩”机制，可连续工作超24小时，token效率提升约30%。来源：IT之家. 全球权威 AI 评测平台 LMArena 更新 Code Arena (编程与代码生成) 专项榜单，智谱 GLM-4.6 与 Anthropic Claude、OpenAI GPT-5 等顶尖模型一同位列全球榜首。来源：智谱. ## 美团 LongCat 团队发布全模态一站式评测基准UNO-Bench. ## 软银与 OpenAI 宣布成立合资公司，明年推出企业级 AI 解决方案. ## Mistral AI 推出企业级 AI 应用开发平台AI Studio. ## Skywork AI 的网页复刻（Web Clone）功能正式上线. ## Figure AI 发布最新人形机器人——Figure 03. ## Anthropic 发布 AI Agent 上下文工程指南. ## Opera Neon 正式发布：首款 AI Agent 浏览器.",
+    "source": "ai-bot-daily-news",
+    "language": "zh",
+    "fetched_at": "2026-04-20T14:28:28.366568+00:00",
+    "published_at": "2026-04-20T00:00:00+00:00",
+    "sources": [
+      "ai-bot-tools",
+      "ai-bot-daily-news"
+    ],
+    "source_count": 2,
+    "category": "tools-release",
+    "id": "item-71",
+    "trimmed": false
+  },
+  {
     "title": "$\\pi_{0.7}$：具有涌现能力的可控通用机器人基础模型",
     "url": "https://arxiv.org/abs/2604.15483",
     "published_at": "2026-04-20T00:00:00-04:00",
@@ -11,10 +65,11 @@
       "arxiv-cs-lg"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "${\\pi}_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
     "summary_original": "arXiv:2604.15483v1 Announce Type: new Abstract: We present a new robotic foundation model, called ${\\pi}_{0.7}$, that can enable strong out-of-the-box performance in a wide range of scenarios. ${\\pi}_{0.7}$ can follow diverse language instructions in unseen environments, including multi-stage tasks with various kitchen appliances, provide zero-shot cross-embodiment generalization, for example enabling a robot to fold laundry without seeing the task before, and perform challenging tasks such as operating an espresso machine out of the box at a level of performance that matches much more specialized RL-finetuned models. The main idea behind ${\\pi}_{0.7}$ is to use diverse context conditioning during training. This conditioning information, contained in the prompt, makes it possible to steer the model precisely to perform many tasks with different strategies. It is conditioned not just on a language command that describes what it should do, but on additional multimodal information that also describes the manner or strategy in which it should do it, including metadata about task performance and subgoal images. This enables ${\\pi}_{0.7}$ to use very diverse data, including demonstrations, potentially suboptimal (autonomous) data including failures, and data from non-robot sources. Our experiments evaluate ${\\pi}_{0.7}$ across numerous tasks with multiple robot platforms, on tasks that require speed and dexterity, language following, and compositional task generalization.",
-    "id": "item-0"
+    "id": "item-0",
+    "trimmed": false
   },
   {
     "title": "AI by AI 每周Top 5：2026年4月6日–12日",
@@ -31,7 +86,8 @@
     "category": "major-release",
     "title_original": "AI by AI Weekly Top 5: April 6 – 12, 2026 - Champaign Magazine",
     "summary_original": "*   ([Reuters](https://www.reuters.com/sustainability/sustainable-finance-reporting/meta-unveils-first-ai-model-superintelligence-team-2026-04-08/?utm_source=chatgpt.com)). *   ([Axios](https://www.axios.com/2026/04/06/meta-open-source-ai-models?utm_source=chatgpt.com)). *   ([Reuters](https://www.reuters.com/sustainability/sustainable-finance-reporting/meta-unveils-first-ai-model-superintelligence-team-2026-04-08/?utm_source=chatgpt.com)). Fact check: ✓ Confirmed across multiple outlets | Date: ✓ April 6 verified | Source: ✓ Major investigative outlet Links: newyorker.com · fortune.com/2026/04/07/openai-drama-sam-altman-ipo · gizmodo.com/anonymous-sources-detail-sam-altmans-alleged-untrustworthiness-in-new-report-2000742847. Fact check: ✓ Confirmed via The Information | Date: ✓ April 6–7 verified | Source: ✓ Reputable outlets Links: fortune.com/2026/04/07/openai-drama-sam-altman-ipo · stocktwits.com/news-articles/markets/equity/open-ai-ipo-cfo-reportedly-flags-2026-timeline. Fact check: ✓ Confirmed by official Meta blog | Date: ✓ April 8 verified | Source: ✓ Primary + tier-1 outlets Links: about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs · bloomberg.com/news/articles/2026-04-08/meta-debuts-first-ai-model · techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model. Fact check: ✓ Confirmed analyst quotes | Date: ✓ April 9 verified | Source: ✓ CNBC Link: cnbc.com/2026/04/09/metas-long-awaited-ai-model-is-finally-here-but-can-it-make-money. Fact check: ✓ Confirmed by SFPD and Altman’s own blog | Date: ✓ April 11 verified | Source: ✓ TechCrunch Link: techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home. *   **Source:**[Meta AI Blog](https://ai.meta.com/blog/introducing-muse-spark-msl/). *   [Share on X (Opens in new window)X](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/?share=twitter). *   [Share on Facebook (Opens in new window)Facebook](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/?share=facebook). *   [Share on LinkedIn (Opens in new window)LinkedIn](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/?share=linkedin). [](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/). *   [Share Icon](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/#). *   [Tumblr](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/#). *   [Instagram](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/#). [WordPress](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/#). [Instagram](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/#). *   [Comment](https://champaignmagazine.com/2026/04/13/ai-by-ai-weekly-top-5-april-6-april-12-2026/#respond).",
-    "id": "item-1"
+    "id": "item-1",
+    "trimmed": false
   },
   {
     "title": "AI大模型周报：腾讯阿里同日发布世界模型，云服务三巨头全面涨价",
@@ -46,7 +102,7 @@
     ],
     "source_count": 1,
     "id": "item-2",
-    "category": "major-release",
+    "category": "industry-business",
     "trimmed": false
   },
   {
@@ -61,10 +117,11 @@
       "arxiv-cs-lg"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "Aletheia: Gradient-Guided Layer Selection for Efficient LoRA Fine-Tuning Across Architectures",
     "summary_original": "arXiv:2604.15351v1 Announce Type: new Abstract: Low-Rank Adaptation (LoRA) has become the dominant parameter-efficient fine-tuning method for large language models, yet standard practice applies LoRA adapters uniformly to all transformer layers regardless of their relevance to the downstream task. We introduce Aletheia, a gradient-guided layer selection method that identifies the most task-relevant layers via a lightweight gradient probe and applies LoRA adapters only to those layers with asymmetric rank allocation. Across 81 experiment rows covering 14 successful models from 8 architecture families (0.5B-72B parameters, including dense and Mixture-of-Experts architectures), with one additional documented failed Pythia/GPT-NeoX attempt in Campaign 2, Aletheia achieves a 15-28% training speedup (mean 23.1%, p < 0.001) with bounded extra forgetting and broadly matched downstream behavior on the evaluated MMLU, GSM8K, and HumanEval benchmark pack. Across the tested families and scales, Campaign 1 shows a 100% per-model speed win rate and Campaign 2 shows broadly preserved downstream behavior within a bounded-degradation framing. Together these results support a practical model-economics claim: intelligent layer selection can make LoRA fine-tuning materially more efficient without introducing major downstream damage on the evaluated set.",
-    "id": "item-3"
+    "id": "item-3",
+    "trimmed": false
   },
   {
     "title": "Anthropic 2026年4月10日公告：定制芯片、CoreWeave……",
@@ -81,7 +138,8 @@
     "category": "major-release",
     "title_original": "Anthropic April 10 2026 Announcement: Custom Chips, CoreWeave ...",
     "summary_original": "| Date | Announcement | Details | |---|---|---| | April 7 | Project Glasswing | Cybersecurity consortium with AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, NVIDIA, Palo Alto Networks | | April 7 | Claude Mythos Preview | Gated frontier model for defensive security research; found thousands of unknown vulnerabilities in major OS and browser codebases | | April 7 | Google/Broadcom TPU Deal | 3.5 gigawatts of next-gen TPU capacity secured starting 2027 | | April 7 | $30B Revenue Run Rate | Tripled from $9B at end of 2025; over 1,000 enterprise customers each spending $1M+ annually | | April 7 | $380B Valuation | Series G funding round closed | | April 8 | Claude Managed Agents | Public beta with sandboxing, built-in tools, and the `ant` CLI | | April 8 | Service Outage | Second consecutive day of connectivity issues affecting Claude users | | April 9 | Claude Cowork GA | Generally available on macOS and Windows in Claude Desktop with analytics API and role-based access | | April 10 | Custom Chip Exploration | Reuters reported Anthropic is in preliminary stages of evaluating in-house chip design | | April 10 | CoreWeave Multi-Year Deal | GPU cloud deal for Claude production workloads on Nvidia hardware in U.S. data centers |.",
-    "id": "item-4"
+    "id": "item-4",
+    "trimmed": false
   },
   {
     "title": "Anthropic推出Claude Design，用于快速创建视觉内容",
@@ -98,7 +156,8 @@
     "category": "major-release",
     "title_original": "Anthropic launches Claude Design, a new product for creating quick ...",
     "summary_original": "[AI](https://techcrunch.com/category/artificial-intelligence/). Anthropic [announced](https://www.anthropic.com/news/claude-design-anthropic-labs) on Friday that it’s launching Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude. While Claude Design may initially seem like it’s looking to compete with popular design app Canva, which [has just expanded its own AI capabilities,](https://techcrunch.com/2026/04/16/canvas-ai-assistant-can-now-call-various-tools-to-make-designs-for-you/) Anthropic told TechCrunch that it’s intended to complement it rather than replace it. In January, Anthropic rolled out [Claude Cowork](https://techcrunch.com/2026/01/12/anthropics-new-cowork-tool-offers-claude-code-without-the-code/), an agentic assistant built for complex tasks. A few weeks later, the company brought [agentic plug-ins to Cowork](https://techcrunch.com/2026/01/30/anthropic-brings-agentic-plugins-to-cowork/) that are designed to automate specialized tasks within a company’s various departments. Today’s announcement comes a few days after [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-14/anthropic-attracts-investor-offers-at-a-800-billion-valuation) reported that VCs have been offering the company a preemptive funding round that would [value it at $800 billion or more](https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/), which would almost match or even surpass its rival OpenAI. [AI](https://techcrunch.com/category/artificial-intelligence/), [Anthropic](https://techcrunch.com/tag/anthropic/), [Apps](https://techcrunch.com/category/apps/), [Claude](https://techcrunch.com/tag/claude/), [claude design](https://techcrunch.com/tag/claude-design/), [design](https://techcrunch.com/tag/design/), [Enterprise](https://techcrunch.com/category/enterprise/). * [Anthropic launches Claude Design, a new product for creating quick visuals](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/).",
-    "id": "item-5"
+    "id": "item-5",
+    "trimmed": false
   },
   {
     "title": "人类与大语言模型交互中的拟人化与信任",
@@ -112,10 +171,11 @@
       "arxiv-cs-ai"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "Anthropomorphism and Trust in Human-Large Language Model interactions",
     "summary_original": "arXiv:2604.15316v1 Announce Type: cross Abstract: With large language models (LLMs) becoming increasingly prevalent in daily life, so too has the tendency to attribute to them human-like minds and emotions, or anthropomorphize them. Here, we investigate dimensions people use to anthropomorphize and attribute trust toward LLMs across more than 2,000 human-LLM interactions. Participants (N=115) engaged with LLM chatbots systematically varied in warmth (friendliness), competence (capability, coherence), and empathy (cognitive and affective). Warmth and cognitive empathy significantly predicted perceptions on all outcomes (perceived anthropomorphism, trust, similarity, relational closeness, frustration, usefulness), while competence predicted all outcomes except for anthropomorphism. Affective empathy primarily predicted perceived relational measures, but did not predict the epistemic outcomes. Topic sub-analyses showed that more subjective, personally relevant topics (e.g., relationship advice) amplified these effects, producing greater human-likeness and relational connection with the LLM than did objective topics. Together, these findings reveal that warmth, competence, and empathy are key dimensions through which people attribute relational and epistemic perceptions to artificial agents.",
-    "id": "item-6"
+    "id": "item-6",
+    "trimmed": false
   },
   {
     "title": "苹果公布iPhone新版Siri发布日期",
@@ -133,7 +193,8 @@
     "category": "major-release",
     "title_original": "Apple Revealed New Siri Release Date For iPhone, Latest Report Claims - Forbes",
     "summary_original": "# Apple Revealed New Siri Release Date For iPhone, Latest Report Claims. *   The Enterprise AI Shortcut: Why Co-Innovation Is Setting A New Speed For Adopting and Operationalizing AI| Paid Program. # Apple Revealed New Siri Release Date For iPhone, Latest Report Claims. When is new Siri coming to the iPhone 17? One of the biggest developments coming to the iPhone and other Apple products is the al",
-    "id": "item-7"
+    "id": "item-7",
+    "trimmed": false
   },
   {
     "title": "CHOP：面向多文档RAG的分块上下文保留框架",
@@ -147,10 +208,11 @@
       "arxiv-cs-cl"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "CHOP: Chunkwise Context-Preserving Framework for RAG on Multi Documents",
     "summary_original": "arXiv:2604.15802v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) systems lose retrieval accuracy when similar documents coexist in the vector database, causing unnecessary information, hallucinations, and factual errors. To alleviate this issue, we propose CHOP, a framework that iteratively evaluates chunk relevance with Large Language Models (LLMs) and progressively reconstructs documents by determining their association with specific topics or query types. CHOP integrates two key components: the CNM-Extractor, which generates compact per-chunk signatures capturing categories, key nouns, and model names, and the Continuity Decision Module, which preserves contextual coherence by deciding whether consecutive chunks belong to the same document flow. By prefixing each chunk with context-aware metadata, CHOP reduces semantic conflicts among similar documents and enhances retriever discrimination. Experiments on benchmark datasets show that CHOP alleviates retrieval confusion and provides a scalable approach for building high-quality knowledge bases, achieving a Top-1 Hit Rate of 90.77% and notable gains in ranking quality metrics.",
-    "id": "item-8"
+    "id": "item-8",
+    "trimmed": false
   },
   {
     "title": "LLM生成的能力问题特征分析：跨领域实证研究",
@@ -164,10 +226,11 @@
       "arxiv-cs-ai"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "Characterising LLM-Generated Competency Questions: a Cross-Domain Empirical Study using Open and Closed Models",
     "summary_original": "arXiv:2604.16258v1 Announce Type: new Abstract: Competency Questions (CQs) are a cornerstone of requirement elicitation in ontology engineering. CQs represent requirements as a set of natural language questions that an ontology should satisfy; they are traditionally modelled by ontology engineers together with domain experts as part of a human-centred, manual elicitation process. The use of Generative AI automates CQ creation at scale, therefore democratising the process of generation, widening stakeholder engagement, and ultimately broadening access to ontology engineering. However, given the large and heterogeneous landscape of LLMs, varying in dimensions such as parameter scale, task and domain specialisation, and accessibility, it is crucial to characterise and understand the intrinsic, observable properties of the CQs they produce (e.g., readability, structural complexity) through a systematic, cross-domain analysis. This paper introduces a set of quantitative measures for the systematic comparison of CQs across multiple dimensions. Using CQs generated from well defined use cases and scenarios, we identify their salient properties, including readability, relevance with respect to the input text and structural complexity of the generated questions. We conduct our experiments over a set of use cases and requirements using a range of LLMs, including both open (KimiK2-1T, LLama3.1-8B, LLama3.2-3B) and closed models (Gemini 2.5 Pro, GPT 4.1). Our analysis demonstrates that LLM performance reflects distinct generation profiles shaped by the use case.",
-    "id": "item-9"
+    "id": "item-9",
+    "trimmed": false
   },
   {
     "title": "Anthropic Claude发布说明 - 2026年4月最新更新",
@@ -184,7 +247,8 @@
     "category": "major-release",
     "title_original": "Claude by Anthropic - Release Notes - April 2026 Latest Updates",
     "summary_original": "# Claude by Anthropic - Release Notes - April 2026 Latest Updates - Releasebot. [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). Claude Cowork is now generally available on macOS and Windows in the Claude Desktop app, with expanded analytics, OpenTelemetry support, and role-based access controls for Enterprise plans to help admins tailor access by team and department. [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). [Claude](https://releasebot.io/updates/anthropic/claude) by [Anthropic](https://releasebot.io/updates/anthropic). *   [![Image 18: Claude Code logo](https://releasebot.io/api/logo/470?domain=githubusercontent.com&source=https%3A%2F%2Fraw.githubusercontent.com%2Fanthropics%2Fclaude-code%2Frefs%2Fheads%2Fmain%2FCHANGELOG.md) Claude Code](https://releasebot.io/updates/anthropic/claude-code). *   [![Image 19: Claude Apps logo](https://releasebot.io/api/logo/470?domain=anthropic.com&source=https%3A%2F%2Fdocs.anthropic.com%2Fen%2Frelease-notes%2Fclaude-apps) Claude Apps](https://releasebot.io/updates/anthropic/claude-apps). *   [![Image 22: Claude Developer Platform logo](https://releasebot.io/api/logo/470?domain=claude.com&source=https%3A%2F%2Fdocs.claude.com%2Fen%2Frelease-notes%2Foverview.md) Claude Developer Platform](https://releasebot.io/updates/anthropic/claude-developer-platform). Claude by Anthropic - Release Notes - April 2026 Latest Updates - Releasebot.",
-    "id": "item-10"
+    "id": "item-10",
+    "trimmed": false
   },
   {
     "title": "使用SSAS的情感预测一致性分析",
@@ -198,10 +262,11 @@
       "arxiv-cs-cl"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "Consistency Analysis of Sentiment Predictions using Syntactic & Semantic Context Assessment Summarization (SSAS)",
     "summary_original": "arXiv:2604.15547v1 Announce Type: new Abstract: The fundamental challenge of using Large Language Models (LLMs) for reliable, enterprise-grade analytics, such as sentiment prediction, is the conflict between the LLMs' inherent stochasticity (generative, non-deterministic nature) and the analytical requirement for consistency. The LLM inconsistency, coupled with the noisy nature of chaotic modern datasets, renders sentiment predictions too volatile for strategic business decisions. To resolve this, we present a Syntactic & Semantic Context Assessment Summarization (SSAS) framework for establishing context. Context established by SSAS functions as a sophisticated data pre-processing framework that enforces a bounded attention mechanism on LLMs. It achieves this by applying a hierarchical classification structure (Themes, Stories, Clusters) and an iterative Summary-of-Summaries (SoS) based context computation architecture. This endows the raw text with high-signal, sentiment-dense prompts, that effectively mitigate both irrelevant data and analytical variance. We empirically evaluated the efficacy of SSAS, using Gemini 2.0 Flash Lite, against a direct-LLM approach across three industry-standard datasets - Amazon Product Reviews, Google Business Reviews, Goodreads Book Reviews - and multiple robustness scenarios. Our results show that our SSAS framework is capable of significantly improving data quality, up to 30%, through a combination of noise removal and improvement in the estimation of sentiment prediction. Ultimately, consistency in our context-estimation capabilities provides a stable and reliable evidence base for decision-making.",
-    "id": "item-11"
+    "id": "item-11",
+    "trimmed": false
   },
   {
     "title": "Claude在2026年发布的所有功能及实际使用指南",
@@ -218,7 +283,8 @@
     "category": "major-release",
     "title_original": "Everything Claude Has Shipped in 2026. And How to Actually Use It",
     "summary_original": "[![Image 3: Anthropic release calendar showing everything Claude shipped in 52 days from February 1 to March 24 2026, including Claude Opus 4.6, Sonnet 4.6, Cowork, Agent Teams, Computer Use, Channels, Dispatch, Scheduled Tasks, Plugins, Projects, and over 40 product releases mapped by date](https://substackcdn.com/image/fetch/$s_!QCuk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb5cc126-441e-4ea5-9f25-859a4f8cb5fc_1456x1682.webp)](https://substackcdn.com/image/fetch/$s_!QCuk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb5cc126-441e-4ea5-9f25-859a4f8cb5fc_1456x1682.webp). [![Image 4: Claude Opus 4.6 official launch image from Anthropic showing the model name against a collage of a vintage Sony monitor with a calendar, a Mars rover, clouds, and green geometric shapes, representing the February 5 2026 release with 1 million token context window](https://substackcdn.com/image/fetch/$s_!WMYN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2940d42-3c90-404f-aa4d-bd99aa332840_686x386.webp)](https://substackcdn.com/image/fetch/$s_!WMYN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2940d42-3c90-404f-aa4d-bd99aa332840_686x386.webp). [![Image 7: Official Anthropic tweet from March 13 2026 announcing the 1 million context window as generally available for Claude Opus 4.6 and Claude Sonnet 4.6, showing a long context retrieval benchmark chart comparing MRCR v2 8-needle scores across 128K, 256K, 512K, and 1M input tokens, with Opus 4.6 scoring 78.3% at 1M tokens and Sonnet 4.6 scoring 65.1%, both significantly outperforming GPT-5.4 at 36.6% and Gemini 3.1 Pro at 18.3%](https://substackcdn.com/image/fetch/$s_!-WqT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53376eb3-a9b8-46e2-9668-562405361354_1320x1414.webp)](https://substackcdn.com/image/fetch/$s_!-WqT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53376eb3-a9b8-46e2-9668-562405361354_1320x1414.webp).",
-    "id": "item-12"
+    "id": "item-12",
+    "trimmed": false
   },
   {
     "title": "GroupDPO：内存高效的分组直接偏好优化",
@@ -232,10 +298,11 @@
       "arxiv-cs-cl"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "GroupDPO: Memory efficient Group-wise Direct Preference Optimization",
     "summary_original": "arXiv:2604.15602v1 Announce Type: new Abstract: Preference optimization is widely used to align Large Language Models (LLMs) with preference feedback. However, most existing methods train on a single positive-negative pair per prompt, discarding additional supervision available in preference datasets that typically contain multiple candidate responses. Motivated by this limitation, recent work explores group-wise preference optimization, which jointly contrasts multiple responses for the same prompt, but its empirical behavior and scalability remain underexplored due to the memory overhead of group-coupled objectives. In this work, we introduce a memory-efficient group-wise preference optimization algorithm that preserves gradients while decoupling samples during backpropagation, substantially reducing peak memory usage, which enables scalable training with larger group sizes. Across both offline and online alignment settings, we show that leveraging multiple responses consistently outperforms single-pair training. Furthermore, incorporating a negative log-likelihood (NLL) term on positive responses is critical for both performance gains and training stability.",
-    "id": "item-13"
+    "id": "item-13",
+    "trimmed": false
   },
   {
     "title": "Muse Spark发布：迈向个人超级智能",
@@ -252,7 +319,8 @@
     "category": "major-release",
     "title_original": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
     "summary_original": "[![Image 1: Meta](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=NejrQKWcX5YQ7kNvwHBqqyc&_nc_oc=AdpCWnY8NNL53IWImNlMfql15DL5d1R4u-6DbO6H93I70SurNIDg0zjOeK1t5jF0pWfq8xQ3NFVoZbe8dgvIDpx0&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af0l8wdhV0oEIWOR6_Dz-dA5zVsuLXRF91_x0bs74rEsRA&oe=69EB66B9)](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [Products](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [AI Research](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [About](https://ai.meta.com/blog/introducing-muse-spark-msl/#). This allows Muse Spark to compete with the extreme reasoning modes of frontier models such as Gemini Deep Think and GPT Pro. Contemplating mode provides significant capability improvements in challenging tasks, achieving 58% in Humanity’s Last Exam and 38% in FrontierScience Research. Muse Spark is available now, and Contemplating mode will be rolling out gradually in [meta.ai](https://applink.meta.ai/?utm_source=ai_meta&utm_medium=web&utm_content=Blog-Intro-Muse-Spark_Rolling-Out_Meta-AI&utm_campaign=04082026). *For more details about our evaluations, [see our methodology document](https://ai.meta.com/static-resource/muse-spark-eval-methodology). Our process follows the updated [Advanced AI Scaling Framework](https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2), which defines threat models, evaluation protocols, and deployment thresholds for our most advanced models. Full results are available in our [Safety & Preparedness Report](https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/). Read more in our [Safety & Preparedness Report](https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/). [![Image 10](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=E_vJ5_IByBwQ7kNvwF9Vzly&_nc_oc=AdoNl_afxcrMVWWYz_oAyuh_cnoNLzVMfrCAeXShXQefcYLQ9IJCS_KDEjaZYB6Ajl0YCzjRo_GeSuguxzl8ChH7&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af24-07pYWUnsVn-1Q591T9aO6QcAZjAI7X1Ftn2phr3Dw&oe=69EB56E7) ![Image 11](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=E_vJ5_IByBwQ7kNvwF9Vzly&_nc_oc=AdoNl_afxcrMVWWYz_oAyuh_cnoNLzVMfrCAeXShXQefcYLQ9IJCS_KDEjaZYB6Ajl0YCzjRo_GeSuguxzl8ChH7&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af24-07pYWUnsVn-1Q591T9aO6QcAZjAI7X1Ftn2phr3Dw&oe=69EB56E7)](https://www.facebook.com/aiatmeta/). [![Image 12](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336009607_1870102080040414_6753977241281150924_n.svg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6cxIn0ngcKIQ7kNvwEMSKpG&_nc_oc=AdoLMT0hsvJah8B2a3j9K3YlXnj3UujuNGVw5fYLgWKu0IDQ-EUQOsOv_T-7BGhBmZkxQer82PHTzSOlXSy6aLKZ&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af1arBLMOdQ1yMvmY2lO10CJEy12HWuL10eu7atxvKerfw&oe=69EB4F22) ![Image 13](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336009607_1870102080040414_6753977241281150924_n.svg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6cxIn0ngcKIQ7kNvwEMSKpG&_nc_oc=AdoLMT0hsvJah8B2a3j9K3YlXnj3UujuNGVw5fYLgWKu0IDQ-EUQOsOv_T-7BGhBmZkxQer82PHTzSOlXSy6aLKZ&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af1arBLMOdQ1yMvmY2lO10CJEy12HWuL10eu7atxvKerfw&oe=69EB4F22)](https://twitter.com/aiatmeta/). [![Image 14](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=1_xk5hIVGWQQ7kNvwHHcpdN&_nc_oc=AdpABpT7coDX8dNh3L5SEfARB_tDAmqIdifXhNulfTGtg4Co2ZhiDfMv7DlJGMgDpybodiESPnQMxiCrcxBzk5q_&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3Fz8qlOUMXTDH4eBp6acOaZMpZ6I1B_SXnPWTVvWJXIQ&oe=69EB7AFB) ![Image 15](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=1_xk5hIVGWQQ7kNvwHHcpdN&_nc_oc=AdpABpT7coDX8dNh3L5SEfARB_tDAmqIdifXhNulfTGtg4Co2ZhiDfMv7DlJGMgDpybodiESPnQMxiCrcxBzk5q_&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3Fz8qlOUMXTDH4eBp6acOaZMpZ6I1B_SXnPWTVvWJXIQ&oe=69EB7AFB)](https://www.linkedin.com/showcase/aiatmeta). [![Image 16](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=x19NAE2qOiAQ7kNvwEogQri&_nc_oc=Adre9eBwDnekIBsoz8aGfFuHusFziiuIFmMzAJwJxSaz--Zh2vlkjKlATrBmwuqKKf1cHN1Sy2Gx6fGEVXJvf6oH&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3o6XdhZoqvTNSD25_EvOi8__yEuU17nYlaUYnnhebnvg&oe=69EB5C2E) ![Image 17](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=x19NAE2qOiAQ7kNvwEogQri&_nc_oc=Adre9eBwDnekIBsoz8aGfFuHusFziiuIFmMzAJwJxSaz--Zh2vlkjKlATrBmwuqKKf1cHN1Sy2Gx6fGEVXJvf6oH&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3o6XdhZoqvTNSD25_EvOi8__yEuU17nYlaUYnnhebnvg&oe=69EB5C2E)](https://www.youtube.com/@aiatmeta). [![Image 18](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=E_vJ5_IByBwQ7kNvwF9Vzly&_nc_oc=AdoNl_afxcrMVWWYz_oAyuh_cnoNLzVMfrCAeXShXQefcYLQ9IJCS_KDEjaZYB6Ajl0YCzjRo_GeSuguxzl8ChH7&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af24-07pYWUnsVn-1Q591T9aO6QcAZjAI7X1Ftn2phr3Dw&oe=69EB56E7) ![Image 19](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=E_vJ5_IByBwQ7kNvwF9Vzly&_nc_oc=AdoNl_afxcrMVWWYz_oAyuh_cnoNLzVMfrCAeXShXQefcYLQ9IJCS_KDEjaZYB6Ajl0YCzjRo_GeSuguxzl8ChH7&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af24-07pYWUnsVn-1Q591T9aO6QcAZjAI7X1Ftn2phr3Dw&oe=69EB56E7)](https://www.facebook.com/aiatmeta/). [![Image 20](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336009607_1870102080040414_6753977241281150924_n.svg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6cxIn0ngcKIQ7kNvwEMSKpG&_nc_oc=AdoLMT0hsvJah8B2a3j9K3YlXnj3UujuNGVw5fYLgWKu0IDQ-EUQOsOv_T-7BGhBmZkxQer82PHTzSOlXSy6aLKZ&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af1arBLMOdQ1yMvmY2lO10CJEy12HWuL10eu7atxvKerfw&oe=69EB4F22) ![Image 21](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336009607_1870102080040414_6753977241281150924_n.svg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6cxIn0ngcKIQ7kNvwEMSKpG&_nc_oc=AdoLMT0hsvJah8B2a3j9K3YlXnj3UujuNGVw5fYLgWKu0IDQ-EUQOsOv_T-7BGhBmZkxQer82PHTzSOlXSy6aLKZ&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af1arBLMOdQ1yMvmY2lO10CJEy12HWuL10eu7atxvKerfw&oe=69EB4F22)](https://twitter.com/aiatmeta/). [![Image 22](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=1_xk5hIVGWQQ7kNvwHHcpdN&_nc_oc=AdpABpT7coDX8dNh3L5SEfARB_tDAmqIdifXhNulfTGtg4Co2ZhiDfMv7DlJGMgDpybodiESPnQMxiCrcxBzk5q_&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3Fz8qlOUMXTDH4eBp6acOaZMpZ6I1B_SXnPWTVvWJXIQ&oe=69EB7AFB) ![Image 23](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=1_xk5hIVGWQQ7kNvwHHcpdN&_nc_oc=AdpABpT7coDX8dNh3L5SEfARB_tDAmqIdifXhNulfTGtg4Co2ZhiDfMv7DlJGMgDpybodiESPnQMxiCrcxBzk5q_&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3Fz8qlOUMXTDH4eBp6acOaZMpZ6I1B_SXnPWTVvWJXIQ&oe=69EB7AFB)](https://www.linkedin.com/showcase/aiatmeta). [![Image 24](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=x19NAE2qOiAQ7kNvwEogQri&_nc_oc=Adre9eBwDnekIBsoz8aGfFuHusFziiuIFmMzAJwJxSaz--Zh2vlkjKlATrBmwuqKKf1cHN1Sy2Gx6fGEVXJvf6oH&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3o6XdhZoqvTNSD25_EvOi8__yEuU17nYlaUYnnhebnvg&oe=69EB5C2E) ![Image 25](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=x19NAE2qOiAQ7kNvwEogQri&_nc_oc=Adre9eBwDnekIBsoz8aGfFuHusFziiuIFmMzAJwJxSaz--Zh2vlkjKlATrBmwuqKKf1cHN1Sy2Gx6fGEVXJvf6oH&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3o6XdhZoqvTNSD25_EvOi8__yEuU17nYlaUYnnhebnvg&oe=69EB5C2E)](https://www.youtube.com/@aiatmeta). [![Image 26](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=E_vJ5_IByBwQ7kNvwF9Vzly&_nc_oc=AdoNl_afxcrMVWWYz_oAyuh_cnoNLzVMfrCAeXShXQefcYLQ9IJCS_KDEjaZYB6Ajl0YCzjRo_GeSuguxzl8ChH7&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af24-07pYWUnsVn-1Q591T9aO6QcAZjAI7X1Ftn2phr3Dw&oe=69EB56E7) ![Image 27](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=E_vJ5_IByBwQ7kNvwF9Vzly&_nc_oc=AdoNl_afxcrMVWWYz_oAyuh_cnoNLzVMfrCAeXShXQefcYLQ9IJCS_KDEjaZYB6Ajl0YCzjRo_GeSuguxzl8ChH7&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af24-07pYWUnsVn-1Q591T9aO6QcAZjAI7X1Ftn2phr3Dw&oe=69EB56E7)](https://www.facebook.com/aiatmeta/). [![Image 28](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336009607_1870102080040414_6753977241281150924_n.svg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6cxIn0ngcKIQ7kNvwEMSKpG&_nc_oc=AdoLMT0hsvJah8B2a3j9K3YlXnj3UujuNGVw5fYLgWKu0IDQ-EUQOsOv_T-7BGhBmZkxQer82PHTzSOlXSy6aLKZ&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af1arBLMOdQ1yMvmY2lO10CJEy12HWuL10eu7atxvKerfw&oe=69EB4F22) ![Image 29](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336009607_1870102080040414_6753977241281150924_n.svg?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=6cxIn0ngcKIQ7kNvwEMSKpG&_nc_oc=AdoLMT0hsvJah8B2a3j9K3YlXnj3UujuNGVw5fYLgWKu0IDQ-EUQOsOv_T-7BGhBmZkxQer82PHTzSOlXSy6aLKZ&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af1arBLMOdQ1yMvmY2lO10CJEy12HWuL10eu7atxvKerfw&oe=69EB4F22)](https://twitter.com/aiatmeta/). [![Image 30](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=1_xk5hIVGWQQ7kNvwHHcpdN&_nc_oc=AdpABpT7coDX8dNh3L5SEfARB_tDAmqIdifXhNulfTGtg4Co2ZhiDfMv7DlJGMgDpybodiESPnQMxiCrcxBzk5q_&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3Fz8qlOUMXTDH4eBp6acOaZMpZ6I1B_SXnPWTVvWJXIQ&oe=69EB7AFB) ![Image 31](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=1_xk5hIVGWQQ7kNvwHHcpdN&_nc_oc=AdpABpT7coDX8dNh3L5SEfARB_tDAmqIdifXhNulfTGtg4Co2ZhiDfMv7DlJGMgDpybodiESPnQMxiCrcxBzk5q_&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3Fz8qlOUMXTDH4eBp6acOaZMpZ6I1B_SXnPWTVvWJXIQ&oe=69EB7AFB)](https://www.linkedin.com/showcase/aiatmeta). [![Image 32](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=x19NAE2qOiAQ7kNvwEogQri&_nc_oc=Adre9eBwDnekIBsoz8aGfFuHusFziiuIFmMzAJwJxSaz--Zh2vlkjKlATrBmwuqKKf1cHN1Sy2Gx6fGEVXJvf6oH&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3o6XdhZoqvTNSD25_EvOi8__yEuU17nYlaUYnnhebnvg&oe=69EB5C2E) ![Image 33](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=x19NAE2qOiAQ7kNvwEogQri&_nc_oc=Adre9eBwDnekIBsoz8aGfFuHusFziiuIFmMzAJwJxSaz--Zh2vlkjKlATrBmwuqKKf1cHN1Sy2Gx6fGEVXJvf6oH&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=znyoShe-jTPvB3fJ0gn_tA&_nc_ss=7a389&oh=00_Af3o6XdhZoqvTNSD25_EvOi8__yEuU17nYlaUYnnhebnvg&oe=69EB5C2E)](https://www.youtube.com/@aiatmeta).",
-    "id": "item-14"
+    "id": "item-14",
+    "trimmed": false
   },
   {
     "title": "委托工作时LLM会损坏你的文档",
@@ -266,10 +334,11 @@
       "arxiv-cs-cl"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "LLMs Corrupt Your Documents When You Delegate",
     "summary_original": "arXiv:2604.15597v1 Announce Type: new Abstract: Large Language Models (LLMs) are poised to disrupt knowledge work, with the emergence of delegated work as a new interaction paradigm (e.g., vibe coding). Delegation requires trust - the expectation that the LLM will faithfully execute the task without introducing errors into documents. We introduce DELEGATE-52 to study the readiness of AI systems in delegated workflows. DELEGATE-52 simulates long delegated workflows that require in-depth document editing across 52 professional domains, such as coding, crystallography, and music notation. Our large-scale experiment with 19 LLMs reveals that current models degrade documents during delegation: even frontier models (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) corrupt an average of 25% of document content by the end of long workflows, with other models failing more severely. Additional experiments reveal that agentic tool use does not improve performance on DELEGATE-52, and that degradation severity is exacerbated by document size, length of interaction, or presence of distractor files. Our analysis shows that current LLMs are unreliable delegates: they introduce sparse but severe errors that silently corrupt documents, compounding over long interaction.",
-    "id": "item-15"
+    "id": "item-15",
+    "trimmed": false
   },
   {
     "title": "用于训练Physics-Informed Neural Networks的轻量级几何自适应方法",
@@ -283,10 +352,11 @@
       "arxiv-cs-lg"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "Lightweight Geometric Adaptation for Training Physics-Informed Neural Networks",
     "summary_original": "arXiv:2604.15392v1 Announce Type: new Abstract: Physics-Informed Neural Networks (PINNs) often suffer from slow convergence, training instability, and reduced accuracy on challenging partial differential equations due to the anisotropic and rapidly varying geometry of their loss landscapes. We propose a lightweight curvature-aware optimization framework that augments existing first-order optimizers with an adaptive predictive correction based on secant information. Consecutive gradient differences are used as a cheap proxy for local geometric change, together with a step-normalized secant curvature indicator to control the correction strength. The framework is plug-and-play, computationally efficient, and broadly compatible with existing optimizers, without explicitly forming second-order matrices. Experiments on diverse PDE benchmarks show consistent improvements in convergence speed, training stability, and solution accuracy over standard optimizers and strong baselines, including on the high-dimensional heat equation, Gray--Scott system, Belousov--Zhabotinsky system, and 2D Kuramoto--Sivashinsky system.",
-    "id": "item-16"
+    "id": "item-16",
+    "trimmed": false
   },
   {
     "title": "MEDLEY-BENCH：规模提升AI元认知的评估能力但非控制能力",
@@ -300,10 +370,11 @@
       "arxiv-cs-ai"
     ],
     "source_count": 1,
-    "category": "major-release",
+    "category": "research-frontier",
     "title_original": "MEDLEY-BENCH: Scale Buys Evaluation but Not Control in AI Metacognition",
     "summary_original": "arXiv:2604.16009v1 Announce Type: new Abstract: Metacognition, the ability to monitor and regulate one's own reasoning, remains under-evaluated in AI benchmarking. We introduce MEDLEY-BENCH, a benchmark of behavioural metacognition that separates independent reasoning, private self-revision, and socially influenced revision under genuine inter-model disagreement. The benchmark evaluates 35 models from 12 families on 130 ambiguous instances across five domains and reports two complementary scores: the Medley Metacognition Score (MMS), a tier-based aggregate of reflective updating, social robustness, and epistemic articulation, and the Medley Ability Score (MAS), derived from four metacognitive sub-abilities. Results show a robust evaluation/control dissociation: evaluation ability increases with model size within families, whereas control does not. In a follow-up progressive adversarial analysis of 11 models, we observed two behavioural profiles, i.e., models that revise primarily in response to argument quality and models that track consensus statistics. Under within-model relative profiling (ipsative scoring), evaluation was the weakest relative ability in all 35 models, indicating a systematic knowing/doing gap. Smaller and cheaper models often matched or outperformed larger counterparts, suggesting that metacognitive competence is not simply a function of scale. These findings position MEDLEY-BENCH as a tool for measuring belief revision under social pressure and suggest that future training should reward calibrated, proportional updating rather than output quality alone.",
-    "id": "item-17"
+    "id": "item-17",
+    "trimmed": false
   },
   {
     "title": "Meta AI 推出更智能更快的 AI 助手和 Muse Spark 模型",
@@ -338,7 +409,7 @@
     "source_count": 1,
     "id": "item-19",
     "category": "major-release",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "Mozilla Launches Thunderbolt Self-Hosted Enterprise AI Client - Let's Data Science",
     "summary_original": "MZLA Technologies, the Mozilla subsidiary, released Thunderbolt, an open-source, self-hosted enterprise AI client that gives organizations direct control over their AI front end and data. Thunderbolt acts as a unified AI workspace for chat, search, research, automation, and cross-device workflows while connecting to any ACP- or OpenAI-compatible model endpoint and orchestration backend. MZLA Techn"
   },
@@ -355,7 +426,7 @@
     ],
     "source_count": 1,
     "id": "item-20",
-    "category": "industry-business",
+    "category": "tools-release",
     "trimmed": false
   },
   {
@@ -371,7 +442,8 @@
       "ai-hub-today"
     ],
     "category": "industry-business",
-    "id": "item-21"
+    "id": "item-21",
+    "trimmed": false
   },
   {
     "title": "AI Coding，终究是大厂的-36氪",
@@ -387,7 +459,8 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "id": "item-22"
+    "id": "item-22",
+    "trimmed": false
   },
   {
     "title": "AI世界模型：它们是什么以及为何值得关注",
@@ -403,8 +476,8 @@
     ],
     "source_count": 1,
     "id": "item-23",
-    "category": "industry-business",
-    "trimmed": true,
+    "category": "major-release",
+    "trimmed": false,
     "title_original": "AI World Models: What Are They And Why Should You Care - Forbes",
     "summary_original": "# AI World Models: What Are They And Why Should You Care. # AI World Models: What Are They And Why Should You Care. The past month brought the news that AMI Labs, Yann LeCun’snew company, has raised just over a billion dollars to explore an emerging AI technology known as world models. World models are an approach, where rather than trying to understand an input as a series of small sub-components"
   },
@@ -422,8 +495,8 @@
     ],
     "source_count": 1,
     "id": "item-24",
-    "category": "industry-business",
-    "trimmed": true,
+    "category": "major-release",
+    "trimmed": false,
     "title_original": "AI’s Missing Link Is Accountability - Forbes",
     "summary_original": "*   The Enterprise AI Shortcut: Why Co-Innovation Is Setting A New Speed For Adopting and Operationalizing AI| Paid Program. What’s it like to build a business run entirely by teams of AI agents? Bret Greenstein, chief AI officer at West Monroe, explained how he launched an experimental business using fleets of AI agents and subagents running marketing, finance, sales, and product development. Som"
   },
@@ -441,7 +514,7 @@
     "source_count": 1,
     "id": "item-25",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": false
   },
   {
     "title": "Adobe为营销AI未来押下最大赌注",
@@ -456,10 +529,11 @@
     "sources": [
       "search-major-release"
     ],
-    "category": "industry-business",
+    "category": "major-release",
     "title_original": "Adobe makes its biggest play yet for marketing’s AI future - The Drum",
     "summary_original": "“All the CMOs and marketers I talk to are excited about the possibilities of AI,” she says. “I think for lots of people, they’re looking at how working with agentic systems can help them scale content, scale customer experiences.”. This is where Adobe is trying to move the market – from managing touchpoints to orchestrating entire customer experiences. The promise of personalization is something t",
-    "id": "item-26"
+    "id": "item-26",
+    "trimmed": false
   },
   {
     "title": "苹果新Siri将\"在所有功能中使用Apple Intelligence\"",
@@ -475,7 +549,7 @@
     "source_count": 1,
     "id": "item-27",
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "A股三大股指涨跌互现：商业航天概念活跃，两市成交近2.6万亿元",
     "summary_original": "A股三大股指4月20日开盘涨跌互现。早盘冲高回落，创指一度转跌。午后快速回落后，尾盘略有回暖。从盘面上看，商业航天、光纤、液冷服务器、稀有金属、AI应用、光伏、特高压、消费电子概念股活跃；锂电池、创新药题材走弱，地产、煤炭板块回调。至收盘，上证综指涨0.76%，报4082.13点；深证成指涨0.55%，报14966.75点；创业板指跌0.02%，报3677.58点。Wind统计显示，两市及北交所共3421家上涨，1890家下跌，平盘有185家。两市成交25788亿元，较前一交易日的24256亿元增加1532亿元。其中，沪市成交10846亿元，比上一交易日10135亿元增加711亿元，深市成交1"
   },
@@ -493,7 +567,7 @@
     "source_count": 1,
     "id": "item-28",
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "A股异动丨AI应用股集体上涨，中文在线涨超5%，DeepSeek据报启动首轮外部融资",
     "summary_original": "A股市场AI应用股集体上涨，其中，青木科技涨11%，三人行、魅视科技10CM涨停，蓝色光标涨超9%，润达医疗涨超7%，中控技术、法本信息、中文在线、浙文互联涨超5%，值得买、海康威视、引力传媒、昆仑万维、流金科技、乐心医疗涨超4%，易点天下、壹网壹创、视源股份、神州数码、浩云科技、掌阅科技、世纪天鸿、志晟信息涨超3%。..."
   },
@@ -512,7 +586,8 @@
     "category": "industry-business",
     "title_original": "Bobyard 2.0 offers improved takeoffs and unified AI for estimators",
     "summary_original": "AI platform, Bobyard , has unveiled Bobyard 2.0 , its latest platform update delivering accelerated takeoff workflows and a unified AI workbench, designed to keep pace with the estimators (those responsible for calculating project budgets) who use it every day throughout the construction and landscaping industry. By speeding up takeoff operations, a important part of estimating a project where details of materials and quantities needed for a construction job are analysed, contractors can reduce the risk of the errors possible with manual measurements. Ultimately, faster takeoffs can lead to fewer costly surprises during the construction process. Bobyard 2.0 features Bobyard 2.0 integrates materials and their costs with a ‘measure first, price later’ model, designed to save time and reduce errors from takeoff to finalised bids. A new Multi-Measure feature lets estimators to draw once, and not have to create separate lines or shapes to calculate an area, perimeter, or total volume. The system generates all related measurements simultaneously, reducing the need for measurements. Bobyard has also connected its AI tools in an AI Workbench that includes a Review Workflow option to let estimators to check and decide whether to trust or adjust certain AI outputs before adding them to their takeoff. Another updated feature providing flexibility is Legend Manager, that gives users a “dedicated space to create and run symbol and pattern legends.” Text Count lets users turn words or labels in drawings into count measurements. According to Bobyard, “once your takeoff is done, you shouldn’t have to rebuild anything to get to a finalised estimate.” Moreover, importing pricing and assemblies into Bobyard 2.0’s Estimate Table is “simpler and more streamlined” letting users “move from takeoff to a production-ready estimate without exporting anything to Excel or redoing anything just to see it in an estimate context.” In other words, it places itself as a big update for estimators. Improvements to navigation means greater ease of use, with cross-page search introduced as a feature and a generally streamlining of the workflow from takeoff to final, ready-to-use estimates, without needing to leave the platform or switch tools. Bobyard raised $35 million Series A funding last year, led by 8VC with Pear VC and Caffeinated Capital. The company says its platform currently automates up to 70% of the quantity and material takeoff process with contractors using Bobyard reporting an average reduction in takeoff times of 65%. Estimators are reportedly submitting three to five times more bids while enjoying more accurate results with improved margins and win rates. Michael Ding, founder and CEO of Bobyard, said: “Every change we made was driven by what our customers told us they needed to move faster, stay in control, and spend less time doing work that software should be doing for them. This is our answer to that, and it’s only the beginning.” Marty Grunder, founder of The Grow Group and Grunder Landscaping, said: “The AI tools are on another level. We’re talking cutting takeoff time in half on real jobs. If you’re trying to level up your estimating this season, there’s nothing else like this on the market. Period.” Launched on April 8 for landscaping contractors, Bobyard 2.0 is expected to be available for additional construction trades in late April. (Image source: “Contractors continue renovations on Vicenza conference center” by USACE Europe District is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0) Want to learn more about AI and big data from industry leaders? Check out AI & Big Data Expo taking place in Amsterdam, California, and London. The comprehensive event is part of TechEx and co-located with other leading technology events. Click here for more information. AI News is powered by TechForge Media . Explore other upcoming enterprise technology events and webinars here . The post Bobyard 2.0 offers improved takeoffs and unified AI for estimators appeared first on AI News .",
-    "id": "item-29"
+    "id": "item-29",
+    "trimmed": false
   },
   {
     "title": "Google将具备\"计算机操作\"能力的AI代理从实验室推向市场",
@@ -528,8 +603,8 @@
     ],
     "source_count": 1,
     "id": "item-30",
-    "category": "industry-business",
-    "trimmed": true,
+    "category": "major-release",
+    "trimmed": false,
     "title_original": "Exclusive | Adobe Unveils Agents for Businesses Amid Threat of AI Disruption - WSJ",
     "summary_original": "https://www.wsj.com/cio-journal/adobe-unveils-agents-for-businesses-amid-threat-of-ai-disruption-d3cf479c. Software maker Adobe has to prove that tools like its new AI agent platform can help it get ahead of the AI-native competition.Justin Sullivan/Getty Images. Adobe is releasing a set of AI agents that aim to help corporate customers automate digital marketing and other functions, the latest mo"
   },
@@ -548,7 +623,8 @@
     "category": "industry-business",
     "title_original": "Google's $15B AI Hub India | AI Startup Exposed - YouTube",
     "summary_original": "... news. #AINewsIndia #GoogleAIHub #QuantumComputing ... Today's broadcast connects India's AI infrastructure ambitions, the",
-    "id": "item-31"
+    "id": "item-31",
+    "trimmed": false
   },
   {
     "title": "韩国AI初创公司Rebellions融资1.15亿美元开发数据中心AI芯片",
@@ -563,8 +639,8 @@
     ],
     "source_count": 1,
     "id": "item-32",
-    "category": "industry-business",
-    "trimmed": true,
+    "category": "policy-regulation",
+    "trimmed": false,
     "title_original": "IMF称财政吃紧已成全球性问题，而AI或许是唯一出路",
     "summary_original": "2026年4月15日，在华盛顿举行的2026年IMF与世界银行春季会议期间，IMF财政事务部主任罗德里戈·巴尔德斯出席《财政监测报告》发布会并发言。图片来源：Kent NISHIMURA / AFP via Getty Images美国高达39万亿美元的国债，早已成为美国政坛被反复踢来踢去的“政治皮球”——在预算谈判中被反复提起，在国会听证会上被频频引用..."
   },
@@ -581,8 +657,8 @@
     ],
     "source_count": 1,
     "id": "item-33",
-    "category": "industry-business",
-    "trimmed": true,
+    "category": "major-release",
+    "trimmed": false,
     "title_original": "OpenAI helps Hyatt advance AI among colleagues",
     "summary_original": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences."
   },
@@ -601,7 +677,8 @@
     "category": "industry-business",
     "title_original": "OpenAI’s existential questions",
     "summary_original": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
-    "id": "item-34"
+    "id": "item-34",
+    "trimmed": false
   },
   {
     "title": "微软称目前大多数生产环境中的AI代理都构建在Azure AI Foundry上",
@@ -617,8 +694,8 @@
     ],
     "source_count": 1,
     "id": "item-35",
-    "category": "industry-business",
-    "trimmed": true,
+    "category": "major-release",
+    "trimmed": false,
     "title_original": "San Francisco tests whether AI can run a retail store - Axios",
     "summary_original": "# We visited San Francisco's AI-run store so you don't have to. **The big picture:** This Anthropic-backed, first-of-its-kind retail experiment is part store and part social experiment, designed to test whether an AI model can run a business. * Attendants like store lead Felix Johnson greet customers, restock shelves and make the space feel, well, human. **But Andon Market** isn't really about sel"
   },
@@ -636,7 +713,7 @@
     "source_count": 1,
     "id": "item-36",
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "The 12-month window",
     "summary_original": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever."
   },
@@ -653,7 +730,7 @@
     "source_count": 1,
     "id": "item-37",
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "When you ask Claude to evaluate a potential investment and it replies “cute, jus…",
     "summary_original": "[Matt Turck @mattturck · likes:17 rt:0] When you ask Claude to evaluate a potential investment and it replies “cute, just not as good as me” lol https://t.co/HL1aByBAoj"
   },
@@ -671,7 +748,7 @@
     "source_count": 1,
     "id": "item-38",
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "人工智能早参｜“投不进去”？DeepSeek首轮外部融资引热议",
     "summary_original": "4月17日，创业板人工智能ETF（159279）上涨3.46%，换手率达24.63%，交投活跃。成分股方面，新易盛涨超8%、天孚通信涨超6%、中际旭创涨超5%。与此同时，科创芯片ETF华安（588290）上涨0.88%，港股通恒生科技ETF（520840）下跌0.49%。美股三大指数上周五集体收涨，纳指涨1.52%，为连续13个交易日上涨续创新高，创下2013年以来..."
   },
@@ -689,28 +766,9 @@
     "source_count": 1,
     "id": "item-39",
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "人工智能类ETF上周领涨，机构看好弹性资产丨ETF基金周报",
     "summary_original": "一、证券市场回顾南财金融终端数据显示，上周(4月13日-4月17日,下同)，上证综指周内上涨1.64%，收于4051.43点，最高4058.6点；深证成指周内上涨4.02%，收于14885.42点，最高14916.39点；创业板指周内上涨6.65%，收于3678.29点，最高3685.1点。在全球市场中，主要指数均上涨。纳斯达克综指上涨6.84%，道琼斯工业指数上涨3.1..."
-  },
-  {
-    "title": "OpenAI发布面向开发者的新工具，包括Codex和Flex处理",
-    "url": "https://www.cnet.com/tech/services-and-software/researchers-use-quantum-computer-to-improve-ai-predictions/",
-    "published_at": "2026-04-20T11:01:00+00:00",
-    "summary": "OpenAI发布Codex和Flex处理等开发者工具",
-    "language": "en",
-    "fetched_at": "2026-04-20T14:26:43.373339+00:00",
-    "recent": true,
-    "source": "search-major-release",
-    "sources": [
-      "search-research",
-      "search-major-release"
-    ],
-    "source_count": 2,
-    "category": "research-frontier",
-    "title_original": "Researchers Use Quantum Computer to Improve AI Predictions - CNET",
-    "summary_original": "# Researchers Use Quantum Computer to Improve AI Predictions. A quantum computer assists an AI model with calculations that would take weeks to figure out with a normal computer. The research team from University College London, who published their findings\") on Friday in the journal Science Advances, say that one day, quantum computers could help AI models make fast, accurate predictions across a",
-    "id": "item-40"
   },
   {
     "title": "PRISMA：基于边缘计算的隐私保护智能电网数据管理",
@@ -727,7 +785,8 @@
     "category": "research-frontier",
     "title_original": "\"Excuse me, may I say something...\" CoLabScience, A Proactive AI Assistant for Biomedical Discovery and LLM-Expert Collaborations",
     "summary_original": "arXiv:2604.15588v1 Announce Type: new Abstract: The integration of Large Language Models (LLMs) into scientific workflows presents exciting opportunities to accelerate biomedical discovery. However, the reactive nature of LLMs, which respond only when prompted, limits their effectiveness in collaborative settings that demand foresight and autonomous engagement. In this study, we introduce CoLabScience, a proactive LLM assistant designed to enhance biomedical collaboration between AI systems and human experts through timely, context-aware interventions. At the core of our method is PULI (Positive-Unlabeled Learning-to-Intervene), a novel framework trained with a reinforcement learning objective to determine when and how to intervene in streaming scientific discussions, by leveraging the team's project proposal and long- and short-term conversational memory. To support this work, we introduce BSDD (Biomedical Streaming Dialogue Dataset), a new benchmark of simulated research discussion dialogues with intervention points derived from PubMed articles. Experimental results show that PULI significantly outperforms existing baselines in both intervention precision and collaborative task utility, highlighting the potential of proactive LLMs as intelligent scientific assistants.",
-    "id": "item-41"
+    "id": "item-41",
+    "trimmed": true
   },
   {
     "title": "Reasoning Model不够：赋能长上下文与多模态智能",
@@ -744,7 +803,8 @@
     "category": "research-frontier",
     "title_original": "A Systematic Study of Training-Free Methods for Trustworthy Large Language Models",
     "summary_original": "arXiv:2604.15789v1 Announce Type: new Abstract: As Large Language Models (LLMs) receive increasing attention and are being deployed across various domains, their potential risks, including generating harmful or biased content, producing unsupported claims, and exhibiting vulnerabilities to adversarial attacks, have drawn significant attention. To enable quick and low-cost adaptation, training-free methods have recently emerged as cost-effective alternatives to post-training alignment techniques. Despite their promising results, these methods are evaluated inconsistently across the literature, cover limited dimensions of trustworthiness, and can introduce undesirable side effects, such as utility degradation and increased brittleness. To fully assess the impacts of these training-free methods, we take a step back and systematically re-evaluate the effectiveness of existing training-free methods against various trustworthy settings and their influence on utility, robustness, and computational overhead. We also categorize these methods into three levels (input, internal, and output) based on where they intervene in the model's information flow during inference. Using this taxonomy, we conduct a comprehensive analysis of various representative and effective methods from each level across different LLM families and sizes. Our analysis highlights several trade-offs and unresolved challenges in current approaches. We summarize key findings and limitations in the existing literature, and propose practical recommendations for balancing trustworthiness, utility, and robustness in LLMs without the need for additional training.",
-    "id": "item-42"
+    "id": "item-42",
+    "trimmed": true
   },
   {
     "title": "SAM-L：通过LLM监督增强的Segment Anything Model",
@@ -758,10 +818,11 @@
     "sources": [
       "ai-hub-today"
     ],
-    "category": "research-frontier",
+    "category": "industry-business",
     "title_original": "AI Hub",
     "summary_original": "Welcome to our monthly digest, where you can catch up with AI research, events and news from the month past.",
-    "id": "item-43"
+    "id": "item-43",
+    "trimmed": false
   },
   {
     "title": "利用RAG引导LLM进行生物医学关系抽取",
@@ -775,10 +836,11 @@
     "sources": [
       "ai-bot-daily-news"
     ],
-    "category": "research-frontier",
+    "category": "tools-release",
     "title_original": "AI 新闻机器人：每天一分钟，轻松掌握前沿AI 动态 - 火山引擎ADG 社区",
     "summary_original": "AI新闻机器人是一个开源自动化工具，可帮助用户高效追踪人工智能领域前沿动态。该项目通过爬取多个信息源，利用大模型自动生成简洁摘要，并每天推送排版",
-    "id": "item-44"
+    "id": "item-44",
+    "trimmed": false
   },
   {
     "title": "增强可解释性：面向城市可持续性预测的多变量时间序列分析",
@@ -792,10 +854,11 @@
     "sources": [
       "ai-bot-daily-news"
     ],
-    "category": "research-frontier",
+    "category": "tools-release",
     "title_original": "AICoding & 具身智能日报 | 2026年3月27日一、今日 AI 动态摘要 1. 🤖 Figure 03 亮 - 掘金",
     "summary_original": "# AICoding & 具身智能日报 | 2026年3月27日. 📡 侧重 **AI Coding & 具身智能** | 2026年3月27日（周五）. 信息来源：ai-bot.cn · 人人都是产品经理 · 深圳新闻网 · arXiv · CNBC. ## 一、今日 AI 动态摘要. 🤖 Figure 03 亮相白宫 AI 教育峰会，人形机器人首次进入国家政治舞台. 🧠 智谱 AI 开源 InternVL-U：4B 参数统一理解+推理+生成+编辑. ## 二、具身智能 arXiv 论文精选. ### 论文 1：MMaDA-VLA — 统一多模态扩散 VLA 大模型. **[arXiv:2603.25406 · 2026-03-26 · cs.RO]**. **MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation**. ### 论文 2：LaMP — 用 3D 场景流作为运动先验的 VLA 策略. **[arXiv:2603.25399 · 2026-03-26 · cs.RO]**. **LaMP: Learning Vision-Language-Action Policies with 3D Scene Flow as Latent Motion Prior**. | 新闻 | Figure 03 白宫亮相 | creati.ai/ai-news/202… |. | 新闻 | 具身智能清场报道 | www.woshipm.com/ai/6363784.… |. | 大会 | EAIDC 2026 深圳 | www.sznews.com/news/conten… |. | 论文 | MMaDA-VLA | arxiv.org/abs/2603.25… |. | 论文 | LaMP (3D Scene Flow VLA) | arxiv.org/abs/2603.25… |. | 资讯 | AI工具集每日动态 | ai-bot.cn/daily-ai-ne… |. | arXiv | VLA 最新论文列表 | arxiv.org/search/? **今日关键词**：`Figure 03白宫` · `具身智能清场` · `EAIDC深圳` · `MMaDA-VLA` · `3D场景流`.",
-    "id": "item-45"
+    "id": "item-45",
+    "trimmed": false
   },
   {
     "title": "AI Fix #49：在Doom游戏中表现过于出色的AI智能体",
@@ -810,7 +873,7 @@
     ],
     "source_count": 1,
     "id": "item-46",
-    "category": "research-frontier",
+    "category": "industry-business",
     "trimmed": false,
     "title_original": "AI大家说 | AI落地的实践分享：从大模型盈利到新工作方式",
     "summary_original": "要点速览· 本文分享了两位企业实践者的自述，深入理解他们的具体探索，为更多企业提供AI落地思路的借鉴。· 智谱高级副总裁吴玮杰表示，大模型盈利关键在于结合自身资源禀赋选择合适的商业模式（订阅、API、项目制或AI原生应用），并对市场需求保持敏锐感知、快速迭代。· 钉钉副总裁贾伟表示，AI 不是替代人的工具，而是..."
@@ -828,8 +891,8 @@
     ],
     "source_count": 1,
     "id": "item-47",
-    "category": "research-frontier",
-    "trimmed": true,
+    "category": "industry-business",
+    "trimmed": false,
     "title_original": "AI大模型吞噬软件路径推演",
     "summary_original": "2023年AI爆发以来，绝大部分人都没敢如此设想，大模型有一天可能会吞噬一切——软件、互联网、工作机会；而对比鲜明的是，AI原厂年化收入ARR呈现指数级上升趋势。图：海外AI原厂年化收入快速增长资料来源：epoch.ai今年以来，软件行业成为市场对“被吞噬”担忧的焦点领域，美股软件ETF（IGV 指数）年初至今跌幅已达 24%。由...\n   发布时间: 2026-04-17 08:13:44\n   链接: https://view.inews.qq.com/a/20260417A020J500?scene=news-skill\n\n14. 标题：大华股份：员工持股计划首增AI大模型收入目标 未"
   },
@@ -848,7 +911,8 @@
     "category": "research-frontier",
     "title_original": "Adapting in the Dark: Efficient and Stable Test-Time Adaptation for Black-Box Models",
     "summary_original": "arXiv:2604.15609v1 Announce Type: new Abstract: Test-Time Adaptation (TTA) for black-box models accessible only via APIs remains a largely unexplored challenge. Existing approaches such as post-hoc output refinement offer limited adaptive capacity, while Zeroth-Order Optimization (ZOO) enables input-space adaptation but faces high query costs and optimization challenges in the unsupervised TTA setting. We introduce BETA (Black-box Efficient Test-time Adaptation), a framework that addresses these limitations by employing a lightweight, local white-box steering model to create a tractable gradient pathway. Through a prediction harmonization technique combined with consistency regularization and prompt learning-oriented filtering, BETA enables stable adaptation with no additional API calls and negligible latency beyond standard inference. On ImageNet-C, BETA achieves a +7.1% accuracy gain on ViT-B/16 and +3.4% on CLIP, surpassing strong white-box and gray-box methods including TENT and TPT. On a commercial API, BETA achieves comparable performance to ZOO at 250x lower cost while maintaining real-time inference speed, establishing it as a practical and efficient solution for real-world black-box TTA.",
-    "id": "item-48"
+    "id": "item-48",
+    "trimmed": true
   },
   {
     "title": "特朗普考虑大幅削减AI芯片出口限制",
@@ -864,7 +928,7 @@
     ],
     "source_count": 1,
     "id": "item-49",
-    "category": "research-frontier",
+    "category": "major-release",
     "trimmed": false,
     "title_original": "Anthropic Mythos 引发大量关键软件安全更新",
     "summary_original": "Anthropic 最新最强大的 AI 模型 Mythos 催生了新一波关键安全补丁，用户不应忽视这些更新。"
@@ -882,10 +946,11 @@
       "gmail-ai-newsletter"
     ],
     "source_count": 1,
-    "category": "tools-release",
+    "category": "industry-business",
     "title_original": "\"Intention is What We Need\": Neeru Khosla on the Future of Education and Learning with AI",
     "summary_original": "I loved that conversation with **Neeru Khosla, co-founder of the CK-12 Foundation**, a nonprofit focused on free, adaptive learning materials for students and teachers. She **articulated one of the most important shifts now unfolding in education.** For years, digital learning has focused on access: more content, more devices, more formats, more scale. But Neeru’s point is that **the real shift br",
-    "id": "item-50"
+    "id": "item-50",
+    "trimmed": false
   },
   {
     "title": "Apple Intelligence汇总：苹果所有公告一览（2026年4月更新）",
@@ -899,10 +964,11 @@
     "sources": [
       "ai-hub-today"
     ],
-    "category": "tools-release",
+    "category": "industry-business",
     "title_original": "AI Digest - April 17, 2026",
     "summary_original": "The latest AI Digest captures a rapidly evolving landscape where powerful foundation models are reshaping finance, cybersecurity,",
-    "id": "item-51"
+    "id": "item-51",
+    "trimmed": false
   },
   {
     "title": "苹果在WWDC 2026上发布的所有内容",
@@ -916,10 +982,11 @@
     "sources": [
       "ai-hub-today"
     ],
-    "category": "tools-release",
+    "category": "industry-business",
     "title_original": "AI News | Latest Headlines and Developments | Reuters",
     "summary_original": "The United States and the Philippines will build a 4,000-acre (1,620-hectare) industrial hub after Manila joined a Washington-led initiative to ​secure AI and",
-    "id": "item-52"
+    "id": "item-52",
+    "trimmed": false
   },
   {
     "title": "Meta AI博客——2026年4月研究动态",
@@ -936,7 +1003,8 @@
     "category": "tools-release",
     "title_original": "AI 资讯 - AI 导航官网",
     "summary_original": "专业的AI应用导航与资讯平台，精选全球顶级AI工具与应用，及时更新AI行业动态、深度研报和原创博客。涵盖AI对话、MCP工具、开发、创作、办公等领域优质工具，提供AI技术",
-    "id": "item-53"
+    "id": "item-53",
+    "trimmed": false
   },
   {
     "title": "Meta开源新AI模型",
@@ -950,10 +1018,11 @@
     "sources": [
       "anthropic-news"
     ],
-    "category": "tools-release",
+    "category": "major-release",
     "title_original": "Anthropic's latest model and big tech earnings preview — 4/16/2026",
     "summary_original": "Connect with CNBC News Online Get the latest news: http://www.cnbc ... Anthropic's latest model and big tech earnings preview — 4/16/2026.",
-    "id": "item-54"
+    "id": "item-54",
+    "trimmed": false
   },
   {
     "title": "TruthReader：基于多模态验证的可信文档理解",
@@ -967,10 +1036,11 @@
     "sources": [
       "ai-hub-today"
     ],
-    "category": "tools-release",
+    "category": "industry-business",
     "title_original": "Artificial intelligence - AP News",
     "summary_original": "Trump wants to stop states from regulating AI. This Utah Republican isn't listening · Doug Fiefia once worked at Google. Now he's a Utah state representative",
-    "id": "item-55"
+    "id": "item-55",
+    "trimmed": false
   },
   {
     "title": "VR-Doh：基于可变形隐式曲面的VR手动3D建模",
@@ -984,7 +1054,7 @@
     ],
     "source_count": 1,
     "id": "item-56",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "As AI gets more capable, product teams should spend more time on external commun…",
     "summary_original": "[Zara Zhang @zarazhangrui · likes:146 rt:12] As AI gets more capable, product teams should spend more time on external communication (talking to users, customers, etc) than internal communication\n\n1. Figuring out “what” to build will be a lot more important than building it. Getting this right requires sparks of inspiration that strike when you talk to external people, esp those who are every different from you. Since AI is very good at implementing solutions, humans should focus on understanding the PROBLEM\n\n2. Teams will be a lot smaller, so internal communication overhead will decrease dramatically. Teams that work extensively with agents are already seeing a huge decrease in the number of internal meetings & coordination work \n\n3. I’m seeing a more dramatic version of this with some of my indie entrepreneur friends: they spend all day talking to customers, and then just dump the recordings at their agents who will figure out what to do and handle the execution"
@@ -1003,7 +1073,7 @@
     ],
     "source_count": 1,
     "id": "item-57",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "Cloud development platform Vercel was hacked",
     "summary_original": "The company says the attack originated from a compromised ‘third-party AI tool.’"
@@ -1022,7 +1092,7 @@
     "source_count": 1,
     "id": "item-58",
     "category": "tools-release",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "Cursor升级AI Agent能力，编程工具竞争进入「自动化开发」阶段",
     "summary_original": "AIPress.com.cn报道4月20日消息，初创公司 Cursor 宣布对其AI Agent进行重大升级，以应对来自 OpenAI、Anthropic 及 Microsoft 等竞争对手的压力。此次更新的核心在于提升AI代理的“自主执行能力”。据介绍，新一代代理不仅可以生成和修改代码，还能够对自身改动进行测试，并通过视频、日志及截图记录执行过程，从而增强开..."
   },
@@ -1038,7 +1108,7 @@
     ],
     "source_count": 1,
     "id": "item-59",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "Cybersecurity companies are going to be worth a lot.. the pace of attacks is onl…",
     "summary_original": "[Nikunj Kothari @nikunj · likes:79 rt:7] Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to increase as model capabilities improve. \n\nHumans will continue to be the primary vector of attack - and we haven’t seen anything yet.\n\nHugops to all the infra providers 🫡"
@@ -1055,7 +1125,7 @@
     ],
     "source_count": 1,
     "id": "item-60",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "Find someone who loves you as much as a VC who loves the word “fiduciary duty”",
     "summary_original": "[Nikunj Kothari @nikunj · likes:23 rt:1] Find someone who loves you as much as a VC who loves the word “fiduciary duty”"
@@ -1072,7 +1142,7 @@
     ],
     "source_count": 1,
     "id": "item-61",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "If a press release comes out from each of the major labs, which one do you feel …",
     "summary_original": "[Nan Yu @thenanyu · likes:0 rt:0] If a press release comes out from each of the major labs, which one do you feel would have the shortest distance between what they said and what they believe?"
@@ -1089,7 +1159,7 @@
     ],
     "source_count": 1,
     "id": "item-62",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "If people think you’re bad at PR then they tend to believe you’re not lying to t…",
     "summary_original": "[Nan Yu @thenanyu · likes:13 rt:0] If people think you’re bad at PR then they tend to believe you’re not lying to them, which, if you think about it, makes you good at PR. https://t.co/AWvcydiIDW"
@@ -1106,7 +1176,7 @@
     ],
     "source_count": 1,
     "id": "item-63",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "I’ve always felt this as well, but I couldn’t put it to words until I read this.…",
     "summary_original": "[Nan Yu @thenanyu · likes:18 rt:0] I’ve always felt this as well, but I couldn’t put it to words until I read this. \n\nIt’s like asking “should I get a red Lambo or a green Lambo?” expecting the correct answer to be “you shouldn’t buy a Lambo because that’s a poor financial decision.” https://t.co/LZVOnNZ47Y"
@@ -1125,7 +1195,7 @@
     ],
     "source_count": 1,
     "id": "item-64",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "Meet Samsung’s new AI robot.Project Luna — a round screen with a swiveling head that reminds me of Samsung’s “AI OLED Turntable” — offers a glimpse of what’s to come from Samsung’s design, according t",
     "summary_original": "Project Luna — a round screen with a swiveling head that reminds me of Samsung’s “AI OLED Turntable” — offers a glimpse of what’s to come from Samsung’s design, according to chief design officer, Mauro Porcini. Samsung teased the bot in a YouTube Shorts, and now Fast Company has some exclusive detai"
@@ -1142,10 +1212,11 @@
     "sources": [
       "meta-ai-blog"
     ],
-    "category": "tools-release",
+    "category": "major-release",
     "title_original": "Meta Ai Blog April 2026 - Instagram",
     "summary_original": "Meta is reportedly working on AI that can create and run ads for you — from creative to targeting. Sounds powerful… but here's the shift: When everyone can",
-    "id": "item-65"
+    "id": "item-65",
+    "trimmed": false
   },
   {
     "title": "OpenAI竞相构建可能最终取代所有工人的AI智能体",
@@ -1161,8 +1232,8 @@
     ],
     "source_count": 1,
     "id": "item-66",
-    "category": "tools-release",
-    "trimmed": true,
+    "category": "major-release",
+    "trimmed": false,
     "title_original": "Open Source AI Is Moving From Sideshow To Strategy - Forbes",
     "summary_original": "Image 19: Open source AI icons depict accessibility, collaboration, and community support. So while closed AI models from commercial vendors still lead the pack, the performance floor for what these open source models can do is getting much higher and the stack around open models getting good enough to competitively perform real work. ## Open Source AI Is Now A Full Stack Story. An open weight mod"
   },
@@ -1179,7 +1250,7 @@
     ],
     "source_count": 1,
     "id": "item-67",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true,
     "title_original": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
     "summary_original": "Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\""
@@ -1197,7 +1268,7 @@
     ],
     "source_count": 1,
     "id": "item-68",
-    "category": "tools-release",
+    "category": "industry-business",
     "trimmed": true
   },
   {
@@ -1214,40 +1285,8 @@
     ],
     "source_count": 1,
     "id": "item-69",
-    "category": "tools-release",
+    "category": "major-release",
     "trimmed": true
-  },
-  {
-    "title": "AI工具集官网| 1000+ AI工具集合，国内外AI工具集导航大全",
-    "url": "https://ai-bot.cn/",
-    "summary": "LiblibAI – Seedance 2.0上线 支持真人素材. OpenAI《构建 Agents 实用指南》（PDF文件） – AI教程资料. Claude 官方发布《Agent 构建指南》（中文版）. Anthropic《AI 经济指数报告》38页PDF（中文版）. 谷歌《Prompt Engineering》提示词工程白皮书（PDF文件） – AI教程资料. 专业AI视频创作平台，支持Seedance 2.0（真人参考）. #### AI写作工具. 专为小说创作者打造的 AI 写作 PC 客户端软件. #### AI图像工具. #### AI视频工具. 专业AI视频创作平台，支持Seedance 2.0（真人参考）. AI 视频创作Agent，个人 AI 视频伙伴. #### AI办公工具. #### AI智能体. AI图文创作智能体，支持生成、排版、编辑、发布. 融合CUA（Computer Use Agent）的工业级通用 Agent 智能助手. Trickle 团队推出的云端 AI Agent 计算机. 腾讯电脑管家团队基于 OpenClaw 打造的本地 AI 助手. 开箱即用的桌面端 AI 助手，基于 OpenClaw. #### AI聊天助手. #### AI编程工具. 开源 AI 编程工具 ， Claude Code 最佳平替. StackBlitz 推出的全栈AI代码工具，可以看作 Artfacts、V0 和 Replit 的结合体. #### AI开发平台. GLM-5编程能力媲美Claude Sonnet 4.5，首购5折！. 免费体验和测试 Google 最新的 AI 模型. 赤子城科技推出的 AI 游戏社区，被誉为”游戏版TikTok”. AI 模型 API 聚合平台，一个接口调用400多个模型. #### AI设计工具. Google Labs 推出的 AI 原生设计工具. #### AI音频工具. 在线 AI 音乐生成器，支持扩展、替换、翻唱. #### AI搜索引擎. #### AI学习网站. #### AI训练模型. 一站式AI大模型体验、调用、部署、精调平台，Coding Plan套餐首购特惠低至3.9元/月. #### AI内容检测. AI工具集导航收录了国内外数百个不同类型的AI工具，每日更新和添加最新AI工具，AI工具集还推荐了AI学习开发的常用网站、框架和模型，帮助你加入人工智能浪潮，自动化高效完成任务！ Ctrl + D 或 ⌘ + D 收藏本站到浏览器书签栏。. AI工具集导航 关于我们 免责声明 最新AI项目 AI应用商店 果核剥壳 VipCheap 攻壳智能体 映技派 豆包 讯飞绘文 Coze 绘蛙 即梦 蛙蛙写作 白日梦 咔片PPT 办公小浣熊 稿定AI TRAE 码上飞 堆友AI LiblibAI 星流AI 秒哒 AstronClaw. Copyright © 2026 AI工具集 蜀ICP备2022019184号-2  川公网安备 51010702003349号.",
-    "source": "ai-bot-tools",
-    "language": "zh",
-    "fetched_at": "2026-04-20T14:27:54.791453+00:00",
-    "published_at": "2026-04-20T00:00:00+00:00",
-    "sources": [
-      "ai-bot-tools",
-      "ai-bot-daily-news"
-    ],
-    "source_count": 2,
-    "category": "policy-regulation",
-    "id": "item-70"
-  },
-  {
-    "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
-    "url": "https://ai-bot.cn/daily-ai-news/",
-    "summary": "## 谷歌推出 Nano Banana 2 图像 AI 模型：支持 4K 分辨率输出. ## Skywork AI 正式发布多模态视频基础模型 SkyReels V4. 千寻智能近日完成近20亿元人民币融资，资本方覆盖顶级、产业、国有及战投机构，阵容强大。其开源模型Spirit v1.5在性能上超越了Pi0.5，凭借独特的“数据金字塔”训练理念和低成本数据采集技术，构筑了核心竞争壁垒。来源：千寻智能Spirit AI. ## OpenAI 发布 GPT-5.3-Codex-Spark ：专为实时编程而生. ## Mistral AI 推出新一代语音转文本模型Voxtral Transcribe 2. Vidu Q3 全球震撼来袭，作为全球首个支持16秒音视频直出的AI视频生成模型，专为漫剧、短剧、影视剧创作设计。模型实现声画同步高清直出，支持多镜头自由切换、多语言对话与文字渲染，具备电影级视听张力，让AI视频进入”一键成片”时代。来源：Vidu AI. ## 苹果20亿美元收购以色列AI公司Q.ai. ## Qwen Code 重磅更新：让 AI 编程跳出命令行. MiniMax发布新一代大模型MiniMax M2.1，该版本在多语言编程与真实世界复杂任务处理上实现显著突破。模型系统性提升了Rust、Java、Golang等十余种编程语言能力，在SWE-bench Verified基准测试中获得74分，超越Claude Sonnet 4.5。其创新的VIBE基准测试显示，M2.1在全栈应用构建能力上接近顶级闭源模型水平。来源：MiniMax稀宇科技. ## 面壁智能完成数亿元融资，加码投入领跑端侧 AI. ## 钉钉发布全球首个为 AI 打造的工作智能操作系统 Agent OS. ## Google 发布了高速、低成本模型 Gemini 3 Flash. ## OpenAI 最强 AI 生图模型GPT Image 1.5登场. ## 谷歌公测“奥数金牌级”推理 AI 模型 Gemini 3 Deep Think. Allen Institute for Artificial Intelligence (AI2) 推出的开源大型语言模型Olmo 3系列，包括 Olmo 3-Base（7B 和 32B 参数）、Olmo 3-Think、Olmo 3-Instruct 和 Olmo 3-RL Zero 等版本，分别擅长编程、阅读理解、数学解题、复杂推理、多轮对话和强化学习等任务。来源：AI工具集. ## OpenAI 发布最强编程模型 GPT-5.1-Codex-Max. OpenAI发布GPT-5.1-Codex-Max编程模型，取代GPT-5.1-Codex，成为Codex集成界面上默认模型。模型在多个编程基准测试中超越谷歌Gemini 3 Pro，如SWE-Bench Verified测试中准确率77.9%，领先对方1.7个百分点。其引入“压缩”机制，可连续工作超24小时，token效率提升约30%。来源：IT之家. 全球权威 AI 评测平台 LMArena 更新 Code Arena (编程与代码生成) 专项榜单，智谱 GLM-4.6 与 Anthropic Claude、OpenAI GPT-5 等顶尖模型一同位列全球榜首。来源：智谱. ## 美团 LongCat 团队发布全模态一站式评测基准UNO-Bench. ## 软银与 OpenAI 宣布成立合资公司，明年推出企业级 AI 解决方案. ## Mistral AI 推出企业级 AI 应用开发平台AI Studio. ## Skywork AI 的网页复刻（Web Clone）功能正式上线. ## Figure AI 发布最新人形机器人——Figure 03. ## Anthropic 发布 AI Agent 上下文工程指南. ## Opera Neon 正式发布：首款 AI Agent 浏览器.",
-    "source": "ai-bot-daily-news",
-    "language": "zh",
-    "fetched_at": "2026-04-20T14:28:28.366568+00:00",
-    "published_at": "2026-04-20T00:00:00+00:00",
-    "sources": [
-      "ai-bot-tools",
-      "ai-bot-daily-news"
-    ],
-    "source_count": 2,
-    "category": "policy-regulation",
-    "id": "item-71"
   },
   {
     "title": "2026: AI Drives Performance - About Meta",
@@ -1261,8 +1300,9 @@
     "sources": [
       "meta-ai-blog"
     ],
-    "category": "policy-regulation",
-    "id": "item-72"
+    "category": "major-release",
+    "id": "item-72",
+    "trimmed": true
   },
   {
     "title": "AI Daily Digest | April 19, 2026 - LinkedIn",
@@ -1276,8 +1316,9 @@
     "sources": [
       "ai-hub-today"
     ],
-    "category": "policy-regulation",
-    "id": "item-73"
+    "category": "industry-business",
+    "id": "item-73",
+    "trimmed": true
   },
   {
     "title": "AI Today in 5: April 3, 2026, The Good Friday Edition | Thomas Fox - Compliance Evangelist - JDSupra",
@@ -1291,8 +1332,9 @@
     "sources": [
       "ai-hub-today"
     ],
-    "category": "policy-regulation",
-    "id": "item-74"
+    "category": "industry-business",
+    "id": "item-74",
+    "trimmed": true
   },
   {
     "title": "AI Today in 5: April 7, 2026, The AI Governance Edition | JD Supra",
@@ -1306,8 +1348,9 @@
     "sources": [
       "ai-hub-today"
     ],
-    "category": "policy-regulation",
-    "id": "item-75"
+    "category": "industry-business",
+    "id": "item-75",
+    "trimmed": true
   },
   {
     "title": "AI at Meta Blog",
@@ -1321,8 +1364,9 @@
     "sources": [
       "meta-ai-blog"
     ],
-    "category": "policy-regulation",
-    "id": "item-76"
+    "category": "major-release",
+    "id": "item-76",
+    "trimmed": true
   },
   {
     "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
@@ -1336,8 +1380,9 @@
       "arxiv-cs-ai"
     ],
     "source_count": 1,
-    "category": "policy-regulation",
-    "id": "item-77"
+    "category": "research-frontier",
+    "id": "item-77",
+    "trimmed": true
   },
   {
     "title": "Anthropic Claude News | April, 2026 (STARTUP EDITION)",
@@ -1351,8 +1396,9 @@
     "sources": [
       "anthropic-news"
     ],
-    "category": "policy-regulation",
-    "id": "item-78"
+    "category": "major-release",
+    "id": "item-78",
+    "trimmed": true
   },
   {
     "title": "Anthropic says Claude Code subscribers will need to pay extra for ...",
@@ -1366,8 +1412,9 @@
     "sources": [
       "anthropic-news"
     ],
-    "category": "policy-regulation",
-    "id": "item-79"
+    "category": "major-release",
+    "id": "item-79",
+    "trimmed": true
   },
   {
     "title": "Anthropic says will put AI risks ‘on the table’ with Mythos model - Digital Journal",
@@ -1383,7 +1430,7 @@
     ],
     "source_count": 1,
     "id": "item-80",
-    "category": "policy-regulation",
+    "category": "major-release",
     "trimmed": true
   },
   {
@@ -1398,8 +1445,9 @@
       "artificial-intelligence-news"
     ],
     "source_count": 1,
-    "category": "policy-regulation",
-    "id": "item-81"
+    "category": "industry-business",
+    "id": "item-81",
+    "trimmed": true
   },
   {
     "title": "Anthropic's Mythos - The Most Important AI Announcement of 2026",
@@ -1413,8 +1461,9 @@
     "sources": [
       "anthropic-news"
     ],
-    "category": "policy-regulation",
-    "id": "item-82"
+    "category": "major-release",
+    "id": "item-82",
+    "trimmed": true
   },
   {
     "title": "Beyond Single-Model Optimization: Preserving Plasticity in Continual Reinforcement Learning",
@@ -1428,8 +1477,9 @@
       "arxiv-cs-lg"
     ],
     "source_count": 1,
-    "category": "policy-regulation",
-    "id": "item-83"
+    "category": "research-frontier",
+    "id": "item-83",
+    "trimmed": true
   },
   {
     "title": "Blog | MR, AR, AI glasses news and updates | Meta Store (en-gb)",
@@ -1443,8 +1493,9 @@
     "sources": [
       "meta-ai-blog"
     ],
-    "category": "policy-regulation",
-    "id": "item-84"
+    "category": "major-release",
+    "id": "item-84",
+    "trimmed": true
   },
   {
     "title": "Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures",
@@ -1458,8 +1509,9 @@
       "arxiv-cs-ai"
     ],
     "source_count": 1,
-    "category": "policy-regulation",
-    "id": "item-85"
+    "category": "research-frontier",
+    "id": "item-85",
+    "trimmed": true
   },
   {
     "title": "Charting the Next Frontier With AI | Meta Quest Blog | Meta Store (en-gb)",
@@ -1473,8 +1525,9 @@
     "sources": [
       "meta-ai-blog"
     ],
-    "category": "policy-regulation",
-    "id": "item-86"
+    "category": "major-release",
+    "id": "item-86",
+    "trimmed": true
   },
   {
     "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
@@ -1489,7 +1542,7 @@
     ],
     "source_count": 1,
     "id": "item-87",
-    "category": "policy-regulation",
+    "category": "industry-business",
     "trimmed": true
   },
   {
@@ -1506,7 +1559,7 @@
     ],
     "source_count": 1,
     "id": "item-88",
-    "category": "policy-regulation",
+    "category": "industry-business",
     "trimmed": true
   },
   {
@@ -1521,7 +1574,8 @@
       "arxiv-cs-cl"
     ],
     "source_count": 1,
-    "category": "policy-regulation",
-    "id": "item-89"
+    "category": "research-frontier",
+    "id": "item-89",
+    "trimmed": true
   }
 ]
