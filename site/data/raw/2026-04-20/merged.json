@@ -51,7 +51,7 @@
     "source_count": 2,
     "category": "tools-release",
     "id": "item-71",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "$\\pi_{0.7}$：具有涌现能力的可控通用机器人基础模型",
@@ -1272,10 +1272,10 @@
     "trimmed": true
   },
   {
-    "title": "Reports indicate the National Security Agency (NSA) is already using Anthropic's next-generation AI, 'Mythos Preview,' and that Claude is still widely used within the Department of Defense despite being designated a supply chain risk. - GIGAZINE",
+    "title": "报道称美国国家安全局已在使用 Anthropic 的 Mythos 模型",
     "url": "https://gigazine.net/gsc_news/en/20260420-us-government-anthropic-mythos-preview/",
     "published_at": "2026-04-20T02:36:00+00:00",
-    "summary": "# Reports indicate the National Security Agency (NSA) is already using Anthropic's next-generation AI, 'Mythos Preview,' and that Claude is still widely used within the Department of Defense despite being designated a supply chain risk. It has been reported that the U.S. National Security Agency (NSA) has already begun using Anthropic's next-generation high-performance AI model, ' **Mythos Preview",
+    "summary": "据报道，美国国家安全局（NSA）已开始使用 Anthropic 最新发布的 Mythos 模型，引发外界对 AI 在政府安全领域应用的关注",
     "language": "en",
     "fetched_at": "2026-04-20T13:38:18.981350+00:00",
     "recent": true,
@@ -1286,7 +1286,9 @@
     "source_count": 1,
     "id": "item-69",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": false,
+    "title_original": "Reports indicate the National Security Agency (NSA) is already using Anthropic's next-generation AI, 'Mythos Preview,' and that Claude is still widely used within the Department of Defense despite being designated a supply chain risk. - GIGAZINE",
+    "summary_original": "# Reports indicate the National Security Agency (NSA) is already using Anthropic's next-generation AI, 'Mythos Preview,' and that Claude is still widely used within the Department of Defense despite being designated a supply chain risk. It has been reported that the U.S. National Security Agency (NSA) has already begun using Anthropic's next-generation high-performance AI model, ' **Mythos Preview"
   },
   {
     "title": "2026: AI Drives Performance - About Meta",
@@ -1302,7 +1304,7 @@
     ],
     "category": "major-release",
     "id": "item-72",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "AI Daily Digest | April 19, 2026 - LinkedIn",
@@ -1398,7 +1400,7 @@
     ],
     "category": "major-release",
     "id": "item-78",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "Anthropic says Claude Code subscribers will need to pay extra for ...",
@@ -1417,10 +1419,10 @@
     "trimmed": true
   },
   {
-    "title": "Anthropic says will put AI risks ‘on the table’ with Mythos model - Digital Journal",
+    "title": "Anthropic 称将公开 Mythos 模型的 AI 风险",
     "url": "https://www.digitaljournal.com/business/anthropic-says-will-put-ai-risks-on-the-table-with-mythos-model/article",
     "published_at": "2026-04-20T09:57:33+00:00",
-    "summary": "# Anthropic says will put AI risks ‘on the table’ with Mythos model. American AI developer Anthropic plans to “lay the risks out on the table” even as it restricts deployment of a new model dubbed Mythos, whose powerful cybersecurity capabilities raise stark questions for companies and governments. “We have a model that’s beginning to outstrip human capabilities in the cyber world,” Anthropic’s Pa",
+    "summary": "美国 AI 公司 Anthropic 表示将把 Mythos 模型的 AI 风险问题摆上台面，强调透明度和安全治理",
     "language": "en",
     "fetched_at": "2026-04-20T13:38:18.981350+00:00",
     "recent": true,
@@ -1431,7 +1433,9 @@
     "source_count": 1,
     "id": "item-80",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": false,
+    "title_original": "Anthropic says will put AI risks ‘on the table’ with Mythos model - Digital Journal",
+    "summary_original": "# Anthropic says will put AI risks ‘on the table’ with Mythos model. American AI developer Anthropic plans to “lay the risks out on the table” even as it restricts deployment of a new model dubbed Mythos, whose powerful cybersecurity capabilities raise stark questions for companies and governments. “We have a model that’s beginning to outstrip human capabilities in the cyber world,” Anthropic’s Pa"
   },
   {
     "title": "Anthropic walks into the White House and Mythos is the reason Washington let it in",
@@ -1463,7 +1467,7 @@
     ],
     "category": "major-release",
     "id": "item-82",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "Beyond Single-Model Optimization: Preserving Plasticity in Continual Reinforcement Learning",

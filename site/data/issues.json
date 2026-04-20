@@ -4,19 +4,19 @@
       "date": "2026-04-20",
       "n": 1,
       "dow": "MON",
-      "title": "Mythos 震撼发布，DeepSeek 首轮外部融资",
-      "summary": "本期共 41 条 AI 资讯，来自 16 个数据源。头条：Anthropic Mythos 成年度最重磅发布，苹果公布新版 Siri 日期",
+      "title": "NSA 已用上 Mythos，Muse Spark 迈向超级智能",
+      "summary": "本期共 37 条 AI 资讯，来自 15 个数据源。头条：报道称 NSA 已使用 Anthropic Mythos，Meta 推出 Muse Spark",
       "headlines": [
         {
-          "title": "Anthropic Mythos 成年度最重磅 AI 发布",
+          "title": "苹果公布 iPhone 新版 Siri 发布日期",
           "tag": "重大发布"
         },
         {
-          "title": "DeepSeek 首轮外部融资引热议",
-          "tag": "行业动态"
+          "title": "Anthropic Claude 2026 年 4 月最新更新",
+          "tag": "重大发布"
         },
         {
-          "title": "苹果公布新版 Siri 发布日期",
+          "title": "报道称 NSA 已在使用 Anthropic Mythos 模型",
           "tag": "重大发布"
         },
         {
@@ -24,17 +24,11 @@
           "tag": "重大发布"
         },
         {
-          "title": "OpenAI 发布 Codex 和 Flex 处理开发者工具",
-          "tag": "工具发布"
+          "title": "AI Coding 终究是大厂的游戏",
+          "tag": "行业动态"
         }
       ],
       "top_items": [
-        {
-          "id": "item-71",
-          "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
-          "source_count": 2,
-          "category": "tools-release"
-        },
         {
           "id": "item-0",
           "title": "$\\pi_{0.7}$：具有涌现能力的可控通用机器人基础模型",
@@ -58,18 +52,24 @@
           "title": "苹果公布iPhone新版Siri发布日期",
           "source_count": 1,
           "category": "major-release"
+        },
+        {
+          "id": "item-8",
+          "title": "CHOP：面向多文档RAG的分块上下文保留框架",
+          "source_count": 1,
+          "category": "research-frontier"
         }
       ],
-      "item_count": 41,
-      "trimmed_count": 49,
-      "source_count": 16,
+      "item_count": 37,
+      "trimmed_count": 53,
+      "source_count": 15,
       "categories": {
-        "tools-release": 4,
         "research-frontier": 10,
-        "major-release": 15,
+        "major-release": 12,
+        "tools-release": 3,
         "industry-business": 12
       },
-      "generated_at": "2026-04-20T15:28:04.564124+00:00"
+      "generated_at": "2026-04-20T15:33:10.499039+00:00"
     }
   ]
 }
