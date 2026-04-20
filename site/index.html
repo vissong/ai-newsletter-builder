@@ -1,0 +1,290 @@
+<!-- layout: newspaper-editorial -->
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Newsletter — </title>
+  <meta name="description" content="AI Newsletter — ">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="alternate" type="application/rss+xml" title="AI Newsletter RSS" href="feed.xml">
+</head>
+<body>
+<main class="paper">
+
+  <!-- ====== TOP BAR ====== -->
+  <div class="topbar">
+    <div class="left">
+      <span><span class="dot"></span>正在刊行</span>
+      <span id="topbar-issue">VOL. I</span>
+    </div>
+    <div class="right">
+      <span>归档 · RSS</span>
+      <span id="clock">— : —</span>
+    </div>
+  </div>
+
+  <!-- ====== MASTHEAD ====== -->
+  <header class="masthead">
+    <div class="kicker">A Daily Digest of Artificial Intelligence Research &amp; Systems</div>
+    <h1><span class="cn">AI Newsletter</span></h1>
+    <div class="en">Token Street &middot; Est. MMXXVI</div>
+    <div class="meta-strip">
+      <span class="l">北京 · 旧金山 · 深圳</span>
+      <span class="c" id="issue-count">载入中……</span>
+      <span class="r" id="today">载入中……</span>
+    </div>
+  </header>
+
+  <!-- ====== FEATURED (由 JS 填充) ====== -->
+  <section class="featured" id="featured" style="display:none">
+    <div>
+      <div class="feat-tag">最新一期 · LATEST ISSUE</div>
+      <h2 id="feat-title"><a id="feat-link" href="#"></a></h2>
+      <p class="dek" id="feat-summary"></p>
+      <div class="byline" id="feat-byline"></div>
+    </div>
+    <aside class="aside">
+      <h4>今日数字 · IN NUMBERS</h4>
+      <ul id="feat-numbers"></ul>
+      <h4>头条 · TOP STORY</h4>
+      <p id="feat-quote" style="font-family:var(--serif);font-size:14px;line-height:1.6;color:var(--ink);font-style:italic;margin:0"></p>
+      <p id="feat-quote-attr" style="margin:6px 0 0;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-mute)"></p>
+    </aside>
+  </section>
+
+  <!-- ====== ARCHIVE ====== -->
+  <div class="section-head">
+    <h3>过刊索引 <span style="font-family:var(--display);font-style:italic;font-weight:400;color:var(--ink-soft);font-size:18px">· The Archive</span></h3>
+    <span class="meta" id="countline">载入中……</span>
+  </div>
+
+  <!-- Search + Filters -->
+  <div class="toolrow">
+    <label class="search" for="q">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="搜索日期、关键字……" autocomplete="off"/>
+      <kbd>⌘K</kbd>
+    </label>
+    <div class="filters" id="filters">
+      <button class="chip on" data-cat="">全部</button>
+      <button class="chip" data-cat="major-release">重大发布</button>
+      <button class="chip" data-cat="industry-business">行业动态</button>
+      <button class="chip" data-cat="research-frontier">研究前沿</button>
+      <button class="chip" data-cat="tools-release">工具发布</button>
+      <button class="chip" data-cat="policy-regulation">政策监管</button>
+    </div>
+  </div>
+
+  <ul class="issues" id="issues-list"></ul>
+  <div id="noresults" class="empty" style="display:none">未找到匹配条目。</div>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="colophon">
+      <span class="brand">AI Newsletter</span>
+      
+    </div>
+    <div>
+      <h5>栏目</h5>
+      <ul>
+        <li>重大发布 / Releases</li>
+        <li>行业动态 / Industry</li>
+        <li>研究前沿 / Research</li>
+        <li>工具发布 / Tools</li>
+        <li>政策监管 / Policy</li>
+      </ul>
+    </div>
+    <div>
+      <h5>关于</h5>
+      <ul>
+        <li><a href="feed.xml">RSS Feed</a></li>
+        <li><a href="data/issues.json">issues.json</a></li>
+      </ul>
+    </div>
+    <div class="bottom">
+      <span>Powered by ai-newsletter-builder</span>
+      <span>Set in Noto Serif SC &amp; Playfair Display</span>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+(function () {
+  var cnNum = function(n) { return '\u3007\u4E00\u4E8C\u4E09\u56DB\u4E94\u516D\u4E03\u516B\u4E5D'[n]; };
+  var dows  = ['\u65E5','\u4E00','\u4E8C','\u4E09','\u56DB','\u4E94','\u516D'];
+
+  function cnDate(d) {
+    var y   = String(d.getFullYear()).split('').map(function(c) { return cnNum(+c); }).join('');
+    var m   = d.getMonth() + 1;
+    var day = d.getDate();
+    var mo  = m <= 10 ? cnNum(m) : (m === 11 ? '\u5341\u4E00' : '\u5341\u4E8C');
+    var t   = Math.floor(day / 10), o = day % 10;
+    var da  = day < 10 ? cnNum(day)
+            : day === 10 ? '\u5341'
+            : day < 20  ? '\u5341' + cnNum(o)
+            : t === 2   ? '\u4E8C\u5341' + (o ? cnNum(o) : '')
+            :              '\u4E09\u5341' + (o ? cnNum(o) : '');
+    return '\u661F\u671F' + dows[d.getDay()] + ' \u00B7 ' + y + '\u5E74' + mo + '\u6708' + da + '\u65E5';
+  }
+
+  document.getElementById('today').textContent = cnDate(new Date());
+
+  var tick = function() {
+    var n = new Date();
+    document.getElementById('clock').textContent =
+      '\u5317\u4EAC ' + String(n.getHours()).padStart(2,'0') + ':' + String(n.getMinutes()).padStart(2,'0') + ':' + String(n.getSeconds()).padStart(2,'0');
+  };
+  tick(); setInterval(tick, 1000);
+
+  var CAT = {
+    'major-release':     '\u91CD\u5927\u53D1\u5E03',
+    'industry-business': '\u884C\u4E1A\u52A8\u6001',
+    'research-frontier': '\u7814\u7A76\u524D\u6CBF',
+    'tools-release':     '\u5DE5\u5177\u53D1\u5E03',
+    'policy-regulation': '\u653F\u7B56\u76D1\u7BA1'
+  };
+  var DOW_ZH = {SUN:'\u5468\u65E5',MON:'\u5468\u4E00',TUE:'\u5468\u4E8C',WED:'\u5468\u4E09',THU:'\u5468\u56DB',FRI:'\u5468\u4E94',SAT:'\u5468\u516D'};
+
+  var ISSUES = [];
+  var activeFilter = '';
+  var query = '';
+
+  function issueHref(it) {
+    return 'issues/?date=' + it.date;
+  }
+
+  function renderFeatured(it) {
+    var sec = document.getElementById('featured');
+    document.getElementById('feat-link').textContent = it.title;
+    document.getElementById('feat-link').href = issueHref(it);
+    document.getElementById('feat-summary').textContent = it.summary;
+
+    var d = new Date(it.date + 'T00:00:00');
+    var dow = ['SUN','MON','TUE','WED','THU','FRI','SAT'][d.getDay()];
+    document.getElementById('feat-byline').innerHTML =
+      '<span>' + it.date + ' \u00B7 ' + dow + '</span>' +
+      '<span class="sep"></span>' +
+      '<span>\u5171 ' + it.item_count + ' \u6761</span>' +
+      '<span class="sep"></span>' +
+      '<span>\u6765\u81EA ' + it.source_count + ' \u4E2A\u6E90</span>' +
+      '<span class="sep"></span>' +
+      '<span>5 \u5927\u680F\u76EE</span>';
+
+    var nums = Object.entries(it.categories || {}).map(function(entry, i) {
+      return '<li><span class="n">' + String(i+1).padStart(2,'0') + '</span><span>' + (CAT[entry[0]]||entry[0]) + '</span><span class="v">' + entry[1] + ' \u6761</span></li>';
+    }).join('');
+    document.getElementById('feat-numbers').innerHTML = nums;
+
+    if (it.quote) {
+      document.getElementById('feat-quote').textContent = '\u201C' + it.quote + '\u201D';
+      document.getElementById('feat-quote-attr').textContent = '\u2014\u2014 ' + it.date;
+    }
+
+    sec.style.display = '';
+  }
+
+  function renderList(list) {
+    document.getElementById('countline').textContent =
+      '\u5171 ' + list.length + ' \u671F \u00B7 \u6309\u65E5\u5012\u5E8F' +
+      (activeFilter ? ' \u00B7 #' + (CAT[activeFilter]||activeFilter) : '') +
+      (query        ? ' \u00B7 "' + query + '"' : '');
+
+    document.getElementById('issues-list').innerHTML = list.map(function(it) {
+      var catTags = Object.entries(it.categories || {}).map(function(entry) {
+        return '<span class="tag">' + (CAT[entry[0]]||entry[0]) + ' \u00B7 ' + entry[1] + '</span>';
+      }).join('');
+
+      var href = issueHref(it);
+      var topItems = (it.top_items || []).map(function(t) {
+        return '<div class="row">' +
+          '<span class="src-count">' + t.source_count + '\u6E90</span>' +
+          '<span><a href="' + href + '#' + (t.id||'') + '">' + t.title + '</a></span>' +
+          '<span style="font-family:var(--mono);font-size:10px;color:var(--ink-mute);white-space:nowrap">' + (CAT[t.category]||t.category) + '</span>' +
+        '</div>';
+      }).join('');
+
+      var d = new Date(it.date + 'T00:00:00');
+      var dow = it.dow || ['SUN','MON','TUE','WED','THU','FRI','SAT'][d.getDay()];
+
+      return '<li class="issue" onclick="location.href=\'' + href + '\'">' +
+        '<div class="num">' +
+          '<span>\u2116</span>' +
+          '<span class="big">' + String(it.n || '').padStart(3,'0') + '</span>' +
+        '</div>' +
+        '<div class="idate">' +
+          it.date +
+          '<span class="dow">' + dow + ' \u00B7 ' + (DOW_ZH[dow]||dow) + '</span>' +
+        '</div>' +
+        '<div class="ibody">' +
+          '<div class="eyebrow">\u8BCD\u5143\u957F\u8857 \u00B7 Daily</div>' +
+          '<div class="issue-title">' + it.title + '</div>' +
+          '<p class="idek">' + (it.summary||'') + '</p>' +
+          '<div class="itags">' + catTags + '</div>' +
+          '<span class="readmore">\u9605\u8BFB\u5168\u6587 \u2192</span>' +
+        '</div>' +
+        '<div class="iside">' +
+          '<div class="row"><span>\u6761\u76EE</span><span>' + it.item_count + ' \u6761</span></div>' +
+          '<div class="row"><span>\u6765\u6E90</span><span>' + it.source_count + ' \u4E2A</span></div>' +
+          topItems +
+        '</div>' +
+      '</li>';
+    }).join('');
+
+    document.getElementById('noresults').style.display = list.length ? 'none' : 'block';
+  }
+
+  function applyFilters() {
+    var q = query.trim().toLowerCase();
+    var list = ISSUES.filter(function(it) {
+      if (activeFilter && !(it.categories || {})[activeFilter]) return false;
+      if (!q) return true;
+      return [it.title, it.summary, it.date].join(' ').toLowerCase().indexOf(q) >= 0;
+    });
+    renderList(list);
+  }
+
+  document.getElementById('q').addEventListener('input', function(e) {
+    query = e.target.value; applyFilters();
+  });
+
+  document.querySelectorAll('#filters .chip').forEach(function(c) {
+    c.addEventListener('click', function() {
+      document.querySelectorAll('#filters .chip').forEach(function(x) { x.classList.remove('on'); });
+      c.classList.add('on');
+      activeFilter = c.dataset.cat;
+      applyFilters();
+    });
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      document.getElementById('q').focus();
+    }
+  });
+
+  fetch('data/issues.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      ISSUES = (data.issues || []).sort(function(a, b) { return b.date.localeCompare(a.date); });
+
+      if (ISSUES.length) {
+        var latest = ISSUES[0];
+        document.getElementById('topbar-issue').textContent =
+          'VOL. I \u00B7 ISSUE ' + String(latest.n || ISSUES.length).padStart(3,'0');
+        document.getElementById('issue-count').textContent =
+          '\u7B2C ' + String(latest.n || ISSUES.length).padStart(3,'0') + ' \u671F \u00B7 \u6BCF\u65E5\u66F4\u65B0';
+        renderFeatured(latest);
+      }
+
+      applyFilters();
+    })
+    .catch(function() {
+      document.getElementById('countline').textContent = '\u52A0\u8F7D\u5931\u8D25\uFF0C\u8BF7\u5237\u65B0\u91CD\u8BD5';
+    });
+})();
+</script>
+</body>
+</html>

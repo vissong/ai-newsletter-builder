@@ -1,0 +1,275 @@
+<!-- layout: newspaper-editorial -->
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Newsletter</title>
+  <meta name="description" content="AI Newsletter">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="alternate" type="application/rss+xml" title="AI Newsletter RSS" href="../feed.xml">
+</head>
+<body>
+<main class="paper">
+
+  <!-- ====== TOP BAR ====== -->
+  <div class="topbar">
+    <div class="left">
+      <span><span class="dot"></span><a href="../" style="color:inherit">首页</a></span>
+      <span id="topbar-issue">载入中……</span>
+    </div>
+    <div class="right">
+      <span id="topbar-date">— : —</span>
+    </div>
+  </div>
+
+  <!-- ====== MASTHEAD ====== -->
+  <header class="masthead">
+    <div class="kicker">A Daily Digest of Artificial Intelligence Research &amp; Systems</div>
+    <h1><span class="cn"><a href="../" style="color:inherit">AI Newsletter</a></span></h1>
+    <div class="en">Token Street &middot; Est. MMXXVI</div>
+    <div class="meta-strip">
+      <span class="l" id="issue-date">载入中……</span>
+      <span class="c" id="issue-stats">载入中……</span>
+      <span class="r" id="issue-sources">载入中……</span>
+    </div>
+  </header>
+
+  <!-- ====== HIGHLIGHTS (由 JS 填充) ====== -->
+  <section class="highlights-block" id="highlights" style="display:none">
+    <div>
+      <div class="hl-title">今日要闻 · HIGHLIGHTS</div>
+      <h2 id="hl-headline"></h2>
+      <p class="dek" id="hl-summary" style="font-size:16px;line-height:1.6;color:var(--ink-soft);max-width:56ch"></p>
+    </div>
+    <aside class="stats-aside">
+      <h4>栏目分布 · BY CATEGORY</h4>
+      <ul id="stats-cats"></ul>
+      <h4>热门来源 · TOP SOURCES</h4>
+      <ul id="stats-sources"></ul>
+    </aside>
+  </section>
+
+  <!-- ====== CATEGORIES (由 JS 填充) ====== -->
+  <div id="categories"></div>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="issue-nav" id="issue-nav" style="display:none">
+    <span id="nav-prev"></span>
+    <a href="../">← 全部期号</a>
+    <span id="nav-next"></span>
+  </nav>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="colophon">
+      <span class="brand"><a href="../" style="color:inherit">AI Newsletter</a></span>
+    </div>
+    <div>
+      <h5>栏目</h5>
+      <ul>
+        <li>重大发布 / Releases</li>
+        <li>行业动态 / Industry</li>
+        <li>研究前沿 / Research</li>
+        <li>工具发布 / Tools</li>
+        <li>政策监管 / Policy</li>
+      </ul>
+    </div>
+    <div>
+      <h5>关于</h5>
+      <ul>
+        <li><a href="../feed.xml">RSS Feed</a></li>
+        <li><a href="../">返回首页</a></li>
+      </ul>
+    </div>
+    <div class="bottom">
+      <span>Powered by ai-newsletter-builder</span>
+      <span>Set in Noto Serif SC &amp; Playfair Display</span>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+(function () {
+  var CAT_META = {
+    'major-release':     { zh: '\u91CD\u5927\u53D1\u5E03', en: 'Major Releases' },
+    'industry-business': { zh: '\u884C\u4E1A\u52A8\u6001\u53CA\u5546\u4E1A\u4EF7\u503C', en: 'Industry & Business' },
+    'research-frontier': { zh: '\u7814\u7A76\u524D\u6CBF', en: 'Research Frontier' },
+    'tools-release':     { zh: '\u5DE5\u5177\u53D1\u5E03', en: 'Tools & Libraries' },
+    'policy-regulation': { zh: '\u653F\u7B56\u76D1\u7BA1', en: 'Policy & Regulation' }
+  };
+  var CAT_ORDER = ['major-release', 'industry-business', 'research-frontier', 'tools-release', 'policy-regulation'];
+
+  var params = new URLSearchParams(window.location.search);
+  var date = params.get('date');
+  if (!date) {
+    document.getElementById('categories').innerHTML = '<div class="empty">\u7F3A\u5C11 date \u53C2\u6570\u3002\u8BF7\u4ECE<a href="../">\u9996\u9875</a>\u8FDB\u5165\u3002</div>';
+    return;
+  }
+
+  document.title = 'AI Newsletter \u00B7 ' + date;
+
+  function escHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function fmtTime(iso) {
+    if (!iso) return '';
+    try {
+      var d = new Date(iso);
+      return d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' }) + ' ' +
+             d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+    } catch (e) { return iso; }
+  }
+
+  function renderHighlights(items) {
+    var sec = document.getElementById('highlights');
+    var top = items.filter(function(it) { return it.source_count > 1; })
+                   .sort(function(a, b) { return (b.source_count||1) - (a.source_count||1); });
+    if (!top.length) top = items.slice(0, 1);
+    if (!top.length) return;
+
+    document.getElementById('hl-headline').textContent = top[0].title;
+    document.getElementById('hl-summary').textContent = top[0].summary || '';
+
+    var catCounts = {};
+    var srcCounts = {};
+    items.forEach(function(it) {
+      if (it.trimmed) return;
+      var cat = it.category || 'uncategorized';
+      catCounts[cat] = (catCounts[cat] || 0) + 1;
+      (it.sources || []).forEach(function(s) { srcCounts[s] = (srcCounts[s] || 0) + 1; });
+    });
+
+    document.getElementById('stats-cats').innerHTML = CAT_ORDER.map(function(slug, i) {
+      var cnt = catCounts[slug] || 0;
+      if (!cnt) return '';
+      return '<li><span class="n">' + String(i+1).padStart(2,'0') + '</span><span>' + CAT_META[slug].zh + '</span><span class="v">' + cnt + ' \u6761</span></li>';
+    }).join('');
+
+    var topSources = Object.entries(srcCounts).sort(function(a,b) { return b[1]-a[1]; }).slice(0, 5);
+    document.getElementById('stats-sources').innerHTML = topSources.map(function(entry, i) {
+      return '<li><span class="n">' + String(i+1).padStart(2,'0') + '</span><span>' + entry[0] + '</span><span class="v">' + entry[1] + '</span></li>';
+    }).join('');
+
+    sec.style.display = '';
+  }
+
+  function renderCategories(items) {
+    var grouped = {};
+    items.forEach(function(it) {
+      if (it.trimmed) return;
+      var cat = it.category || 'uncategorized';
+      if (!grouped[cat]) grouped[cat] = [];
+      grouped[cat].push(it);
+    });
+
+    var html = '';
+    CAT_ORDER.forEach(function(slug) {
+      var list = grouped[slug];
+      if (!list || !list.length) return;
+      var meta = CAT_META[slug] || { zh: slug, en: slug };
+
+      html += '<div class="cat-head">' +
+        '<div><span class="cat-name">' + meta.zh + '</span><span class="cat-en"> ' + meta.en + '</span></div>' +
+        '<span class="cat-count">' + list.length + ' ITEMS</span>' +
+      '</div>';
+
+      html += '<ul class="articles">';
+      list.forEach(function(it, idx) {
+        var multi = (it.source_count || 1) > 1;
+        html += '<li class="article' + (multi ? ' multi-source' : '') + '" id="' + (it.id || '') + '">' +
+          '<div class="art-num">' +
+            '<span class="art-n">' + String(idx+1).padStart(2,'0') + '</span>' +
+            (multi ? '<span class="badge badge-hot">' + it.source_count + '\u6E90</span>' : '') +
+          '</div>' +
+          '<div>' +
+            '<div class="art-eyebrow">' + meta.zh + '</div>' +
+            '<h3><a href="' + escHtml(it.url || '#') + '" target="_blank" rel="noopener">' + escHtml(it.title) + '</a></h3>' +
+            (it.summary ? '<p class="art-dek">' + escHtml(it.summary) + '</p>' : '') +
+            '<div class="art-meta">' +
+              (it.sources ? '<span>' + it.sources.join(' \u00B7 ') + '</span><span class="sep"></span>' : '') +
+              (it.published_at ? '<span>' + fmtTime(it.published_at) + '</span>' : '') +
+              (multi ? '<span class="sep"></span><span class="src-count">' + it.source_count + ' \u4E2A\u6765\u6E90\u62A5\u9053</span>' : '') +
+            '</div>' +
+            (it.url ? '<a class="art-link" href="' + escHtml(it.url) + '" target="_blank" rel="noopener">\u9605\u8BFB\u539F\u6587 \u2192</a>' : '');
+
+        if (it.alt_urls && it.alt_urls.length) {
+          html += '<details class="alt-urls"><summary>\u5176\u4ED6\u6765\u6E90 (' + it.alt_urls.length + ')</summary><ul>';
+          it.alt_urls.forEach(function(u) {
+            html += '<li><a href="' + escHtml(u) + '" target="_blank" rel="noopener">' + escHtml(u) + '</a></li>';
+          });
+          html += '</ul></details>';
+        }
+
+        html += '</div></li>';
+      });
+      html += '</ul>';
+    });
+
+    document.getElementById('categories').innerHTML = html || '<div class="empty">\u672C\u671F\u6682\u65E0\u5185\u5BB9\u3002</div>';
+  }
+
+  function renderNav(issues, currentDate) {
+    var sorted = issues.sort(function(a, b) { return a.date.localeCompare(b.date); });
+    var idx = sorted.findIndex(function(it) { return it.date === currentDate; });
+    var nav = document.getElementById('issue-nav');
+
+    if (idx > 0) {
+      document.getElementById('nav-prev').innerHTML = '<a href="?date=' + sorted[idx-1].date + '">\u2190 ' + sorted[idx-1].date + '</a>';
+    }
+    if (idx >= 0 && idx < sorted.length - 1) {
+      document.getElementById('nav-next').innerHTML = '<a href="?date=' + sorted[idx+1].date + '">' + sorted[idx+1].date + ' \u2192</a>';
+    }
+    nav.style.display = '';
+  }
+
+  Promise.all([
+    fetch('../data/raw/' + date + '/merged.json').then(function(r) {
+      if (!r.ok) throw new Error('merged.json not found');
+      return r.json();
+    }),
+    fetch('../data/issues.json').then(function(r) { return r.json(); }).catch(function() { return { issues: [] }; })
+  ]).then(function(results) {
+    var items = results[0];
+    var manifest = results[1];
+    var issues = manifest.issues || [];
+
+    if (!Array.isArray(items)) items = [];
+
+    var activeItems = items.filter(function(it) { return !it.trimmed; });
+    var totalSources = {};
+    activeItems.forEach(function(it) {
+      (it.sources || []).forEach(function(s) { totalSources[s] = true; });
+    });
+
+    var d = new Date(date + 'T00:00:00');
+    var dows = ['SUN','MON','TUE','WED','THU','FRI','SAT'];
+    var dow = dows[d.getDay()];
+    var dowZh = {SUN:'\u5468\u65E5',MON:'\u5468\u4E00',TUE:'\u5468\u4E8C',WED:'\u5468\u4E09',THU:'\u5468\u56DB',FRI:'\u5468\u4E94',SAT:'\u5468\u516D'};
+
+    var currentIssue = issues.find(function(it) { return it.date === date; });
+    var issueN = currentIssue ? currentIssue.n : '';
+
+    document.getElementById('topbar-issue').textContent = issueN ? 'ISSUE ' + String(issueN).padStart(3,'0') : date;
+    document.getElementById('topbar-date').textContent = date + ' ' + dow;
+    document.getElementById('issue-date').textContent = date + ' \u00B7 ' + dow + ' \u00B7 ' + (dowZh[dow]||dow);
+    document.getElementById('issue-stats').textContent = '\u5171 ' + activeItems.length + ' \u6761';
+    document.getElementById('issue-sources').textContent = '\u6765\u81EA ' + Object.keys(totalSources).length + ' \u4E2A\u6570\u636E\u6E90';
+
+    renderHighlights(activeItems);
+    renderCategories(items);
+
+    if (issues.length) renderNav(issues, date);
+
+  }).catch(function(err) {
+    document.getElementById('categories').innerHTML =
+      '<div class="empty">\u52A0\u8F7D\u5931\u8D25\uFF1A' + err.message + '<br><a href="../">\u8FD4\u56DE\u9996\u9875</a></div>';
+  });
+})();
+</script>
+</body>
+</html>

@@ -6,14 +6,11 @@ set -e
 GLOBAL_SKILL="$HOME/.claude/skills/ai-newsletter-builder"
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
-echo "→ syncing $GLOBAL_SKILL → $REPO_DIR"
+echo "→ syncing $GLOBAL_SKILL → $REPO_DIR/skill"
 
 rsync -av --delete \
   --exclude='.git' \
-  --exclude='.gitignore' \
-  --exclude='README.md' \
-  --exclude='scripts/publish.sh' \
-  "$GLOBAL_SKILL/" "$REPO_DIR/"
+  "$GLOBAL_SKILL/" "$REPO_DIR/skill/"
 
 cd "$REPO_DIR"
 
