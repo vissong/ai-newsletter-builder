@@ -11,6 +11,7 @@ import json
 import re
 import sys
 from collections import Counter
+from datetime import datetime, timedelta
 
 # ─── 栏目上限 ───
 CAT_CAPS = {
@@ -174,6 +175,56 @@ def trim_by_caps(items: list) -> list:
     return items
 
 
+# ─── 垃圾/过期数据检测 ───
+
+# Homepage/index URLs that are not real articles
+HOMEPAGE_PATTERNS = [
+    re.compile(r'https?://[^/]+/?$'),
+    re.compile(r'reuters\.com/technology/artificial-intelligence/?$'),
+    re.compile(r'aihub\.org/?$'),
+    re.compile(r'instagram\.com/popular/'),
+    re.compile(r'aiopenminds\.com/ai/news/?$'),
+    re.compile(r'apnews\.com/hub/'),
+]
+
+
+def is_garbage(item: dict, run_date: str):
+    """Check if item is garbage. Returns reason string or None."""
+    url = item.get("url", "")
+    title = item.get("title", "")
+    summary = item.get("summary", "")
+
+    # 1. Homepage URLs
+    for pat in HOMEPAGE_PATTERNS:
+        if pat.search(url):
+            return "homepage URL"
+
+    # 2. URL contains a date older than run_date - 2 days
+    url_date_match = re.search(r'/(\d{4})/(\d{2})/(\d{2})/', url)
+    if url_date_match:
+        url_date = f"{url_date_match.group(1)}-{url_date_match.group(2)}-{url_date_match.group(3)}"
+        try:
+            ud = datetime.strptime(url_date, "%Y-%m-%d")
+            rd = datetime.strptime(run_date, "%Y-%m-%d")
+            if ud < rd - timedelta(days=2):
+                return f"URL date {url_date} too old"
+        except:
+            pass
+
+    # 3. Scraping artifacts in summary
+    if any(kw in summary.lower() for kw in [
+        "enter at least", "cookie policy", "sign up for",
+        "page not found", "404", "subscribe to"
+    ]):
+        return "scraping artifact"
+
+    # 4. Summary is site navigation / too much boilerplate (>800 chars with lots of ####)
+    if summary.count("####") >= 3:
+        return "site navigation dump"
+
+    return None
+
+
 def main():
     if len(sys.argv) < 2:
         print("用法: python3 scripts/classify.py <merged.json>")
@@ -183,12 +234,36 @@ def main():
     with open(path, "r") as f:
         items = json.load(f)
 
-    # 分类
+    # Infer run date from path (e.g., site/data/raw/2026-04-20/merged.json)
+    date_match = re.search(r'(\d{4}-\d{2}-\d{2})', path)
+    run_date = date_match.group(1) if date_match else datetime.now().strftime("%Y-%m-%d")
+
+    # Garbage detection (before classification) — mark as trimmed permanently
+    garbage_ids = set()
+    garbage_count = 0
+    for item in items:
+        reason = is_garbage(item, run_date)
+        if reason:
+            item["trimmed"] = True
+            garbage_ids.add(item.get("id"))
+            garbage_count += 1
+            print(f"  🗑️ {item.get('id','?')}: {reason} | {item.get('title','')[:50]}")
+
+    if garbage_count:
+        print(f"垃圾过滤: {garbage_count} 条\n")
+
+    # 分类 (all items, including garbage — for stats)
     for item in items:
         item["category"] = classify_item(item)
 
-    # 裁剪
-    items = trim_by_caps(items)
+    # 裁剪 (only non-garbage items participate in cap counting)
+    non_garbage = [i for i in items if i.get("id") not in garbage_ids]
+    non_garbage = trim_by_caps(non_garbage)
+
+    # Re-enforce garbage items stay trimmed
+    for item in items:
+        if item.get("id") in garbage_ids:
+            item["trimmed"] = True
 
     # 统计
     visible = [i for i in items if not i.get("trimmed", False)]

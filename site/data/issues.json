@@ -5,10 +5,10 @@
       "n": 1,
       "dow": "MON",
       "title": "Mythos 震撼发布，DeepSeek 首轮外部融资",
-      "summary": "本期共 55 条 AI 资讯，来自 20 个数据源。头条：Anthropic Mythos 成年度最重磅发布，苹果公布新版 Siri 日期",
+      "summary": "本期共 56 条 AI 资讯，来自 22 个数据源。头条：Anthropic Mythos 成年度最重磅发布，苹果公布新版 Siri 日期",
       "headlines": [
         {
-          "title": "Anthropic 发布 Mythos — 2026 年最重要的 AI 公告",
+          "title": "Anthropic Mythos 成年度最重磅 AI 发布",
           "tag": "重大发布"
         },
         {
@@ -16,16 +16,16 @@
           "tag": "行业动态"
         },
         {
-          "title": "苹果公布新版 Siri 发布日期，深度整合 Apple Intelligence",
+          "title": "苹果公布新版 Siri 发布日期",
           "tag": "重大发布"
         },
         {
-          "title": "OpenAI 发布面向开发者的 Codex 和 Flex 处理工具",
+          "title": "Meta 推出 Muse Spark 迈向个人超级智能",
           "tag": "重大发布"
         },
         {
-          "title": "Claude Design 上线，快速创建视觉内容",
-          "tag": "工具发布"
+          "title": "OpenAI 发布 Codex 和 Flex 处理开发者工具",
+          "tag": "重大发布"
         }
       ],
       "top_items": [
@@ -36,16 +36,16 @@
           "category": "major-release"
         },
         {
+          "id": "item-71",
+          "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
+          "source_count": 2,
+          "category": "tools-release"
+        },
+        {
           "id": "item-0",
           "title": "$\\pi_{0.7}$：具有涌现能力的可控通用机器人基础模型",
           "source_count": 1,
           "category": "research-frontier"
-        },
-        {
-          "id": "item-1",
-          "title": "AI by AI 每周Top 5：2026年4月6日–12日",
-          "source_count": 1,
-          "category": "major-release"
         },
         {
           "id": "item-2",
@@ -60,17 +60,17 @@
           "category": "research-frontier"
         }
       ],
-      "item_count": 55,
-      "trimmed_count": 35,
-      "source_count": 20,
+      "item_count": 56,
+      "trimmed_count": 34,
+      "source_count": 22,
       "categories": {
         "major-release": 20,
-        "research-frontier": 10,
-        "industry-business": 19,
         "tools-release": 5,
+        "research-frontier": 10,
+        "industry-business": 20,
         "policy-regulation": 1
       },
-      "generated_at": "2026-04-20T15:05:42.241278+00:00"
+      "generated_at": "2026-04-20T15:15:24.567361+00:00"
     }
   ]
 }
