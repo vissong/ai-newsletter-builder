@@ -34,7 +34,7 @@
     "source_count": 2,
     "category": "tools-release",
     "id": "item-70",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
@@ -51,7 +51,7 @@
     "source_count": 2,
     "category": "tools-release",
     "id": "item-71",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "$\\pi_{0.7}$：具有涌现能力的可控通用机器人基础模型",
@@ -443,7 +443,7 @@
     ],
     "category": "industry-business",
     "id": "item-21",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "AI Coding，终究是大厂的-36氪",
@@ -466,7 +466,7 @@
     "title": "AI世界模型：它们是什么以及为何值得关注",
     "url": "https://www.forbes.com/sites/nishatalagala/2026/04/19/ai-world-models-what-are-they-and-why-should-you-care/",
     "published_at": "2026-04-19T21:02:32+00:00",
-    "summary": "AMI Labs（Yann LeCun的公司）为世界模型研究融资超十亿美元",
+    "summary": "AMI Labs（Yann LeCun 创办的公司）为世界模型研究融资超十亿美元，AI 世界模型正成为 AI 领域的重要研究方向",
     "language": "en",
     "fetched_at": "2026-04-20T13:38:18.981350+00:00",
     "recent": true,
@@ -807,7 +807,7 @@
     "trimmed": true
   },
   {
-    "title": "SAM-L：通过LLM监督增强的Segment Anything Model",
+    "title": "SAM-L：通过大语言模型监督增强的分割一切模型",
     "url": "https://aihub.org/",
     "summary": "利用LLM监督增强SAM模型以提升分割性能",
     "source": "ai-hub-today",
@@ -819,7 +819,7 @@
       "ai-hub-today"
     ],
     "category": "industry-business",
-    "title_original": "AI Hub",
+    "title_original": "SAM-L：通过LLM监督增强的Segment Anything Model",
     "summary_original": "Welcome to our monthly digest, where you can catch up with AI research, events and news from the month past.",
     "id": "item-43",
     "trimmed": false
