@@ -139,7 +139,7 @@
     "title_original": "Anthropic April 10 2026 Announcement: Custom Chips, CoreWeave ...",
     "summary_original": "| Date | Announcement | Details | |---|---|---| | April 7 | Project Glasswing | Cybersecurity consortium with AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, NVIDIA, Palo Alto Networks | | April 7 | Claude Mythos Preview | Gated frontier model for defensive security research; found thousands of unknown vulnerabilities in major OS and browser codebases | | April 7 | Google/Broadcom TPU Deal | 3.5 gigawatts of next-gen TPU capacity secured starting 2027 | | April 7 | $30B Revenue Run Rate | Tripled from $9B at end of 2025; over 1,000 enterprise customers each spending $1M+ annually | | April 7 | $380B Valuation | Series G funding round closed | | April 8 | Claude Managed Agents | Public beta with sandboxing, built-in tools, and the `ant` CLI | | April 8 | Service Outage | Second consecutive day of connectivity issues affecting Claude users | | April 9 | Claude Cowork GA | Generally available on macOS and Windows in Claude Desktop with analytics API and role-based access | | April 10 | Custom Chip Exploration | Reuters reported Anthropic is in preliminary stages of evaluating in-house chip design | | April 10 | CoreWeave Multi-Year Deal | GPU cloud deal for Claude production workloads on Nvidia hardware in U.S. data centers |.",
     "id": "item-4",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "Anthropic推出Claude Design，用于快速创建视觉内容",
@@ -968,7 +968,7 @@
     "title_original": "AI Digest - April 17, 2026",
     "summary_original": "The latest AI Digest captures a rapidly evolving landscape where powerful foundation models are reshaping finance, cybersecurity,",
     "id": "item-51",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "苹果在WWDC 2026上发布的所有内容",
@@ -1143,7 +1143,7 @@
     "source_count": 1,
     "id": "item-61",
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "If a press release comes out from each of the major labs, which one do you feel …",
     "summary_original": "[Nan Yu @thenanyu · likes:0 rt:0] If a press release comes out from each of the major labs, which one do you feel would have the shortest distance between what they said and what they believe?"
   },
@@ -1463,7 +1463,7 @@
     ],
     "category": "major-release",
     "id": "item-82",
-    "trimmed": true
+    "trimmed": false
   },
   {
     "title": "Beyond Single-Model Optimization: Preserving Plasticity in Continual Reinforcement Learning",

@@ -200,9 +200,28 @@ def is_garbage(item: dict, run_date: str):
             return "homepage URL"
 
     # 2. URL contains a date older than run_date - 2 days
-    url_date_match = re.search(r'/(\d{4})/(\d{2})/(\d{2})/', url)
-    if url_date_match:
-        url_date = f"{url_date_match.group(1)}-{url_date_match.group(2)}-{url_date_match.group(3)}"
+    #    Handles: /2026/04/13/, april-10-2026, 2026-04-10, etc.
+    MONTH_MAP = {
+        "january": "01", "february": "02", "march": "03", "april": "04",
+        "may": "05", "june": "06", "july": "07", "august": "08",
+        "september": "09", "october": "10", "november": "11", "december": "12",
+    }
+    url_date = None
+    # Pattern 1: /YYYY/MM/DD/
+    m = re.search(r'/(\d{4})/(\d{2})/(\d{2})/', url)
+    if m:
+        url_date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    # Pattern 2: month-DD-YYYY (e.g., april-10-2026)
+    if not url_date:
+        m = re.search(r'(?:^|[/-])(' + '|'.join(MONTH_MAP) + r')[/-](\d{1,2})[/-](\d{4})(?:$|[/-])', url.lower())
+        if m:
+            url_date = f"{m.group(3)}-{MONTH_MAP[m.group(1)]}-{int(m.group(2)):02d}"
+    # Pattern 3: YYYY-MM-DD in URL path
+    if not url_date:
+        m = re.search(r'(\d{4})-(\d{2})-(\d{2})', url)
+        if m:
+            url_date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    if url_date:
         try:
             ud = datetime.strptime(url_date, "%Y-%m-%d")
             rd = datetime.strptime(run_date, "%Y-%m-%d")
