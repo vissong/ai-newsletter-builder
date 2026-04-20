@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>AI Newsletter</title>
-  <meta name="description" content="AI Newsletter">
+  <title>词元长街</title>
+  <meta name="description" content="词元长街">
   <link rel="stylesheet" href="../assets/style.css">
-  <link rel="alternate" type="application/rss+xml" title="AI Newsletter RSS" href="../feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="词元长街 RSS" href="../feed.xml">
 </head>
 <body>
 <main class="paper">
@@ -26,7 +26,7 @@
   <!-- ====== MASTHEAD ====== -->
   <header class="masthead">
     <div class="kicker">A Daily Digest of Artificial Intelligence Research &amp; Systems</div>
-    <h1><span class="cn"><a href="../" style="color:inherit">AI Newsletter</a></span></h1>
+    <h1><span class="cn"><a href="../" style="color:inherit">词元长街</a></span></h1>
     <div class="en">Token Street &middot; Est. MMXXVI</div>
     <div class="meta-strip">
       <span class="l" id="issue-date">载入中……</span>
@@ -63,7 +63,8 @@
   <!-- ====== FOOTER ====== -->
   <footer class="site-footer">
     <div class="colophon">
-      <span class="brand"><a href="../" style="color:inherit">AI Newsletter</a></span>
+      <span class="brand"><a href="../" style="color:inherit">词元长街</a></span>
+      一份为 AI 从业者与爱好者编纂的日报。多源聚合、去重分类，每日更新。聚焦论文、系统、产业动向。
     </div>
     <div>
       <h5>栏目</h5>
@@ -76,15 +77,26 @@
       </ul>
     </div>
     <div>
+      <h5>数据源</h5>
+      <ul>
+        <li>腾讯新闻 AI 频道</li>
+        <li>TechCrunch · VentureBeat</li>
+        <li>OpenAI · Anthropic</li>
+        <li>ai-bot.cn · ai-hub-today</li>
+        <li>36氪 AI 频道</li>
+      </ul>
+    </div>
+    <div>
       <h5>关于</h5>
       <ul>
-        <li><a href="../feed.xml">RSS Feed</a></li>
-        <li><a href="../">返回首页</a></li>
+        <li><a href="#">关于本刊</a></li>
+        <li><a href="#">数据来源</a></li>
+        <li><a href="../data/issues.json">issues.json</a></li>
       </ul>
     </div>
     <div class="bottom">
-      <span>Powered by ai-newsletter-builder</span>
-      <span>Set in Noto Serif SC &amp; Playfair Display</span>
+      <span>&copy; MMXXVI TOKEN STREET — 每日 AI 资讯精选</span>
+      <span>Set in Noto Serif SC &amp; Playfair Display · Powered by ai-newsletter-builder</span>
     </div>
   </footer>
 
@@ -108,7 +120,7 @@
     return;
   }
 
-  document.title = 'AI Newsletter \u00B7 ' + date;
+  document.title = '词元长街 \u00B7 ' + date;
 
   function escHtml(s) {
     var d = document.createElement('div');

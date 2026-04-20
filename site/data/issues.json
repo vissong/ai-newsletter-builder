@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "date": "2026-04-20",
+      "title": "Claude Design 亮相、Opus 4.7 登顶，Mythos 走进白宫",
+      "item_count": 90,
+      "source_count": 17,
+      "categories": {
+        "major-release": 20,
+        "industry-business": 20,
+        "research-frontier": 10,
+        "tools-release": 20,
+        "policy-regulation": 20
+      },
+      "top_items": [
+        {
+          "title": "Anthropic推出Claude Design：AI原生视觉设计协作平台",
+          "id": "anthropic推出claude-design-ai原生视觉设计协作平台-bbfcda98",
+          "category": "major-release",
+          "source_count": 2
+        },
+        {
+          "title": "自我进化 AI 模型引发关注",
+          "id": "self-improving-ai-model-has-people-talking-for-good-reason-n-d74ca6e1",
+          "category": "research-frontier",
+          "source_count": 2
+        },
+        {
+          "title": "蛋白质工程突破：三天内生成超千万数据点，大幅加速 AI 训练",
+          "id": "this-protein-engineering-breakthrough-generates-over-10m-dat-f4691d21",
+          "category": "research-frontier",
+          "source_count": 2
+        },
+        {
+          "title": "阿里开源Qwen3.6-35B-A3B稀疏MoE模型",
+          "id": "阿里开源qwen3-6-35b-a3b稀疏moe模型-76108f2b",
+          "category": "tools-release",
+          "source_count": 2
+        },
+        {
+          "title": "网络安全公司的价值将大幅提升",
+          "id": "cybersecurity-companies-are-going-to-be-worth-a-lot-the-pace-d9479ea3",
+          "category": "industry-business",
+          "source_count": 1
+        }
+      ],
+      "summary": "今日重点：Anthropic推出Claude Design：、大量关键软件更新即将到来，别忽视——源自 Anth、Salesforce 推出 Headless 36",
+      "n": 1,
+      "dow": "SUN",
+      "generated_at": "2026-04-20T10:01:47.143388+00:00",
+      "headlines": [
+        {
+          "title": "Anthropic 三线齐发：Claude Design 进军设计、Opus 4.7 夺回性能王座",
+          "tag": "重大发布 · 2 源报道"
+        },
+        {
+          "title": "Mythos 秘密入驻白宫与 NSA，AI 国家安全博弈升级",
+          "tag": "政策监管"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-04-20T10:01:47.143388+00:00"
+}

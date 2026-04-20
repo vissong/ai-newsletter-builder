@@ -1,0 +1,19 @@
+name: gmail-ai-newsletter
+type: script
+enabled: true
+language: en
+priority: 1
+time_window_hours: 48
+recent_hours: 24
+timeout_seconds: 60
+
+script: fetch.py
+runtime: python3
+
+extract:
+  item_limit: 30
+  follow_articles: false
+
+requires_cli: gog
+auth_hint: "run `gog auth login` once to authorize Gmail access"
+gmail_query: "newer_than:2d label:AI-Newsletter"

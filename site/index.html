@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>AI Newsletter — </title>
-  <meta name="description" content="AI Newsletter — ">
+  <title>词元长街 — 每日 AI 资讯精选</title>
+  <meta name="description" content="词元长街 — 每日 AI 资讯精选">
   <link rel="stylesheet" href="assets/style.css">
-  <link rel="alternate" type="application/rss+xml" title="AI Newsletter RSS" href="feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="词元长街 RSS" href="feed.xml">
 </head>
 <body>
 <main class="paper">
@@ -19,7 +19,7 @@
       <span id="topbar-issue">VOL. I</span>
     </div>
     <div class="right">
-      <span>归档 · RSS</span>
+      <span>归档 · <a href="feed.xml" style="color:inherit">RSS</a></span>
       <span id="clock">— : —</span>
     </div>
   </div>
@@ -27,7 +27,7 @@
   <!-- ====== MASTHEAD ====== -->
   <header class="masthead">
     <div class="kicker">A Daily Digest of Artificial Intelligence Research &amp; Systems</div>
-    <h1><span class="cn">AI Newsletter</span></h1>
+    <h1><span class="cn">词元长街</span></h1>
     <div class="en">Token Street &middot; Est. MMXXVI</div>
     <div class="meta-strip">
       <span class="l">北京 · 旧金山 · 深圳</span>
@@ -47,9 +47,8 @@
     <aside class="aside">
       <h4>今日数字 · IN NUMBERS</h4>
       <ul id="feat-numbers"></ul>
-      <h4>头条 · TOP STORY</h4>
-      <p id="feat-quote" style="font-family:var(--serif);font-size:14px;line-height:1.6;color:var(--ink);font-style:italic;margin:0"></p>
-      <p id="feat-quote-attr" style="margin:6px 0 0;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-mute)"></p>
+      <h4>头条 · HEADLINES</h4>
+      <div id="feat-headlines"></div>
     </aside>
   </section>
 
@@ -82,8 +81,8 @@
   <!-- ====== FOOTER ====== -->
   <footer class="site-footer">
     <div class="colophon">
-      <span class="brand">AI Newsletter</span>
-      
+      <span class="brand">词元长街</span>
+      一份为 AI 从业者与爱好者编纂的日报。多源聚合、去重分类，每日更新。聚焦论文、系统、产业动向。
     </div>
     <div>
       <h5>栏目</h5>
@@ -96,15 +95,26 @@
       </ul>
     </div>
     <div>
+      <h5>数据源</h5>
+      <ul>
+        <li>腾讯新闻 AI 频道</li>
+        <li>TechCrunch · VentureBeat</li>
+        <li>OpenAI · Anthropic</li>
+        <li>ai-bot.cn · ai-hub-today</li>
+        <li>36氪 AI 频道</li>
+      </ul>
+    </div>
+    <div>
       <h5>关于</h5>
       <ul>
-        <li><a href="feed.xml">RSS Feed</a></li>
+        <li><a href="#">关于本刊</a></li>
+        <li><a href="#">数据来源</a></li>
         <li><a href="data/issues.json">issues.json</a></li>
       </ul>
     </div>
     <div class="bottom">
-      <span>Powered by ai-newsletter-builder</span>
-      <span>Set in Noto Serif SC &amp; Playfair Display</span>
+      <span>&copy; MMXXVI TOKEN STREET — 每日 AI 资讯精选</span>
+      <span>Set in Noto Serif SC &amp; Playfair Display · Powered by ai-newsletter-builder</span>
     </div>
   </footer>
 
@@ -177,9 +187,16 @@
     }).join('');
     document.getElementById('feat-numbers').innerHTML = nums;
 
-    if (it.quote) {
-      document.getElementById('feat-quote').textContent = '\u201C' + it.quote + '\u201D';
-      document.getElementById('feat-quote-attr').textContent = '\u2014\u2014 ' + it.date;
+    var headlinesEl = document.getElementById('feat-headlines');
+    var headlines = it.headlines || [];
+    if (headlines.length) {
+      headlinesEl.innerHTML = headlines.map(function(h, i) {
+        return '<p style="font-family:var(--serif);font-size:14px;line-height:1.6;color:var(--ink);margin:' + (i ? '12px 0 0' : '0') + '">' +
+          '<span style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--ink-mute);margin-right:6px">' + String(i+1).padStart(2,'0') + '</span>' +
+          h.title +
+          '</p>' +
+          '<p style="margin:4px 0 0;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-mute)">' + (h.tag || '') + '</p>';
+      }).join('');
     }
 
     sec.style.display = '';

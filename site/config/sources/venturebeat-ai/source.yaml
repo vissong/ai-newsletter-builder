@@ -1,0 +1,17 @@
+name: venturebeat-ai
+type: script
+enabled: true
+language: en
+priority: 2
+time_window_hours: 96
+recent_hours: 24
+timeout_seconds: 60
+
+script: fetch.py
+runtime: python3
+requires_capability: real_browser
+runtime_hint: ~/.browser-use-env/bin/python3
+
+extract:
+  item_limit: 15
+  follow_articles: false

@@ -1,0 +1,20 @@
+name: huggingface-blog
+type: script
+enabled: true
+language: en
+priority: 2
+time_window_hours: 168
+recent_hours: 24
+timeout_seconds: 30
+
+script: fetch_rss.py
+runtime: python3
+
+args:
+  url: "https://huggingface.co/blog/feed.xml"
+  time_window_hours: "{{time_window_hours}}"
+  item_limit: "10"
+  language: "en"
+
+extract:
+  follow_articles: true

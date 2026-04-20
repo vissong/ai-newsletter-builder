@@ -1,0 +1,19 @@
+name: search-36kr-ai
+type: script
+enabled: true
+language: zh
+priority: 2
+time_window_hours: 48
+recent_hours: 24
+timeout_seconds: 30
+
+script: fetch.py
+runtime: python3
+
+requires_cli: tvly
+auth_hint: "curl -fsSL https://cli.tavily.com/install.sh | bash && tvly login"
+
+extract:
+  item_limit: 15
+  follow_articles: false
+  exclude_keywords: ["广告", "推广", "赞助", "ETF", "股票", "基金"]
