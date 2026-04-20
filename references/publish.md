@@ -130,7 +130,7 @@ Run through before the first push:
 - [ ] `site/issues/` has at least one dated file.
 - [ ] `site/data/issues.json` has entries matching the HTML files.
 - [ ] `site/config/design.md` and `site/assets/style.css` both exist.
-- [ ] No secrets in `site/config/` — sources.yaml should reference auth via CLIs (like `gog auth`), not hard-code tokens.
+- [ ] No secrets in `site/config/` — source folders should reference auth via CLIs (like `gog auth`), not hard-code tokens.
 - [ ] `.gitignore` excludes `site/data/raw/` if raw collections shouldn't be published (recommended: raw can be large and contains full-article caches).
 
 Offer to draft a minimal `.gitignore` if the user doesn't have one.

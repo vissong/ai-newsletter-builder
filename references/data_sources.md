@@ -1,28 +1,37 @@
 # Data Sources
 
-Complete catalog of built-in data sources and fetch instructions per type. Source definitions live in `site/config/sources.yaml`. The schema and add-source flow are in `add_source_flow.md`.
+Complete catalog of built-in data sources and fetch instructions per type. Each source is a folder under `site/config/sources/<name>/` containing a `source.yaml` config and either a `fetch.py` script or a `prompt.md` extraction prompt. The full schema and extension guide are in `source_extension_guide.md`.
 
-## sources.yaml schema
+## Folder-based source system
 
-```yaml
-# Top-level site config can be in site.yaml; sources.yaml is just the list.
-sources:
-  - name: techcrunch-ai           # required, lowercase-dashed, used as filename key
-    type: web                      # email | web | search | cli
-    enabled: true                  # default true
-    language: en                   # hint for summarization, not strict
-    priority: 1                    # 1 (primary) .. 3 (niche). Used to pick highlights.
-    # type-specific fields below...
-    url: https://techcrunch.com/category/artificial-intelligence/
-    extract:
-      list_selector: article        # optional, CSS selector hint for the reader
-      item_limit: 15
-      time_window_hours: 48         # keep items within last N hours; default 48
-      recent_hours: 24              # mark items in last N hours as `recent: true`; default 24
-      timeout_seconds: 30           # per-source fetch timeout; default 30, max 120
-      exclude_selectors: [".ad", ".sponsored", ".advert"]   # CSS selectors stripped before parsing
-      exclude_keywords: ["广告", "推广", "sponsored", "promoted", "赞助"]  # drop items whose title/summary contains any
+Sources are auto-discovered by scanning `site/config/sources/`. Each subfolder is one source:
+
 ```
+site/config/sources/
+  techcrunch-ai/
+    source.yaml      # metadata, type, priority, language, extract options
+    prompt.md        # (type: prompt) LLM extraction instructions
+  follow-builders/
+    source.yaml
+    fetch.py         # (type: script) executable that outputs JSON to stdout
+```
+
+**Two source types:**
+
+| Type | Mechanism | Output |
+|------|-----------|--------|
+| `script` | Runs `fetch.py` which prints a JSON array to stdout | Structured JSON items |
+| `prompt` | LLM reads the URL/content and follows `prompt.md` instructions to extract items | Structured JSON items |
+
+- **Auto-discovery**: the pipeline scans `site/config/sources/` at collection time. Any folder with a valid `source.yaml` is included (unless `enabled: false`).
+- **Naming**: folder name = source name (lowercase-dashed). Keep it stable — it's the key in dedup history and output filenames.
+- See `templates/sources/` for ready-to-copy source folder templates.
+
+### Shared RSS script
+
+All RSS-feed sources use a single shared script: `scripts/fetch_rss.py`. Each RSS source folder contains only a `source.yaml` that references this script via `script: fetch_rss.py` and passes the feed URL through `args.url`. The script supports RSS 2.0 and Atom formats, filters by `time_window_hours`, and caps output at `item_limit`. No external dependencies — stdlib only.
+
+For RSS sources where the feed description is too short for a good summary (< 50 words), set `follow_articles: true` in `source.yaml` so the collector does a follow-up LLM pass to fetch full articles.
 
 ### Freshness defaults
 
@@ -39,13 +48,11 @@ Aggregator sites (`ai-bot.cn`, `36kr`, some industry trackers) sprinkle paid pla
 
 Record dropped ads in `collect.log` as `<source>: N items fetched, M dropped as ads`. This prevents silent over-filtering — if a source's ad-filter suddenly removes everything, you want to notice.
 
-Keep `name` stable — it's the filename key under `data/raw/<date>/<name>.md` and the key inside each item's `sources` array. Renaming breaks the dedup history.
-
 ## Fetch strategy: RSS-first, web scraping as fallback
 
-For every `web` source, **prefer RSS if one exists**. RSS is more reliable, cheaper to parse, and returns structured metadata (pubDate, author, categories). Only fall back to web scraping when:
+For every `prompt`-type web source, **prefer RSS if one exists**. RSS is more reliable, cheaper to parse, and returns structured metadata (pubDate, author, categories). Only fall back to web scraping when:
 
-1. The source has no RSS feed (❌ in the catalog table), OR
+1. The source has no RSS feed (marked in the catalog table), OR
 2. The RSS feed is stale — latest item is older than `time_window_hours * 2` (e.g. synced-review's feed was last updated in 2025-08), OR
 3. The RSS feed returns empty content for 2+ consecutive runs on weekdays (not weekends — arXiv is empty on weekends by design)
 
@@ -58,9 +65,9 @@ anthropic-news: no rss, web scrape (tier-2)
 
 This log makes it easy to spot sources that need attention without silently producing empty results.
 
-## Type: `web`
+## Type: `prompt`
 
-Fetch a page (index or article) and extract a list of items. Use the **tiered fallback chain** — try each tier in order, escalate only when the current tier returns empty content, a 403/429, or unreadable HTML:
+Prompt-based sources use an LLM to fetch a page and extract structured items. The `prompt.md` file in the source folder contains extraction instructions. Use the **tiered fallback chain** — try each tier in order, escalate only when the current tier returns empty content, a 403/429, or unreadable HTML:
 
 | Tier | Tool | When to use |
 |---|---|---|
@@ -75,57 +82,19 @@ WebFetch → https://r.jina.ai/https://venturebeat.com/category/ai/
 ```
 Jina converts the page to clean Markdown, bypasses most anti-scraping measures, and works with standard HTTP. Use it whenever direct fetching returns empty, blocked, or unparseable content.
 
-Per-source fields:
+If `follow_articles: true` in `source.yaml`, a second pass pulls the full article so the summary is grounded (not just the headline). Cap to top 10 followed articles per source per day to keep cost sane.
 
-```yaml
-type: web
-url: https://example.com/ai
-extract:
-  item_limit: 15                  # stop after N items
-  time_window_hours: 48           # drop items older than this
-  list_selector: null             # optional CSS/xpath hint; many readers will infer
-  follow_articles: true           # if true, also fetch each item's URL for summary
-```
+## Type: `script`
 
-If `follow_articles: true`, a second pass pulls the full article so the summary is grounded (not just the headline). Cap to top 10 followed articles per source per day to keep cost sane.
+Script-based sources run `fetch.py` which outputs a JSON array to stdout. Use this for anything that needs custom logic — CLI tools, API clients, git-tracked feeds, custom aggregators.
 
-## Type: `search`
-
-Run a web search query. Prefer in this order:
-
-1. `tavily-search` skill — LLM-optimized results, best snippets.
-2. `web-search` skill — ranked results with freshness filter.
-3. Built-in `WebSearch`.
-
-```yaml
-type: search
-query: "AI model release after:{{yesterday}}"
-extract:
-  provider_hint: tavily           # optional, force a provider
-  result_limit: 20
-  follow_articles: true           # fetch each result page for summary
-  blocked_domains: [reddit.com]
-```
-
-`{{yesterday}}` and `{{today}}` are resolved at collection time (ISO date, local tz). Add one search per topic you care about — don't combine multiple intents into one query or the model can't tell what to keep.
+Before running `fetch.py`, verify any required binaries are available (declared in `source.yaml` under `check.binary`). If missing, halt and show `check.install_hint`.
 
 ## Type: `email`
 
 Email sources depend on an external CLI. Before running, verify the CLI is installed (`which <cmd>`). If missing, halt this source with a clear message like: *"Gmail source `my-gmail` requires the `gog` CLI. Install from https://gogcli.sh/ and run `gog auth login`, then re-run the collection."* — do NOT silently skip.
 
 ### Built-in: Gmail via `gog`
-
-```yaml
-type: email
-provider: gmail
-cli: gog                           # must resolve in PATH
-auth_hint: "run `gog auth login` once"
-query: 'newer_than:2d label:ai-newsletter'   # Gmail search syntax
-extract:
-  max_messages: 30
-  include_body: true
-  strip_quoted: true               # drop > quoted replies
-```
 
 Collection pattern (pseudocode):
 
@@ -134,7 +103,7 @@ gog gmail search --query "<query>" --limit <max_messages> --json
   → list of message IDs
 for id in ids:
   gog gmail get <id> --format markdown
-  → write item block to data/raw/<date>/<name>.md
+  → extract items and output as JSON
 ```
 
 Email items usually already contain curated links. Treat each email as one or more items — if a newsletter email contains several distinct stories, split them into separate items so merge/dedup across newsletters works.
@@ -146,7 +115,7 @@ Add new providers by dropping in a different `cli`. Each one should expose "sear
 - Outlook: no first-class CLI yet — recommend `himalaya` or IMAP fallback.
 - Apple Mail / IMAP: use `himalaya` with an account configured.
 
-Document the install step in the source's `auth_hint` so the add-source flow can surface it.
+Document the install step in the source's `check.install_hint` so the add-source flow can surface it.
 
 ## Type: `git-json` — follow-builders (AI KOC/KOL content)
 
@@ -159,24 +128,6 @@ A special built-in source backed by the GitHub repo `zarazhangrui/follow-builder
 | `feed-podcasts.json` | Podcast episodes with transcripts | `follow-builders-podcasts` |
 
 **Change detection**: `scripts/fetch_follow_builders.py` stores SHA-256 hashes of each file in `site/data/sources/follow-builders/.hashes.json`. On each run it `git pull`s then compares hashes — only changed files are processed. If nothing changed, the script exits cleanly with 0 items (not an error).
-
-**YAML config** (add to `sources.yaml` during init — enabled by default):
-
-```yaml
-- name: follow-builders
-  type: cli
-  enabled: true
-  language: en
-  priority: 1
-  command: >
-    python scripts/fetch_follow_builders.py
-    --cache-dir site/data/sources/follow-builders
-    --output site/data/raw/{{date}}/follow-builders.md
-    --recent-hours 24
-  check:
-    binary: git
-    install_hint: "git must be installed and available in PATH"
-```
 
 **JSON schemas** (for reference):
 
@@ -226,76 +177,38 @@ A special built-in source backed by the GitHub repo `zarazhangrui/follow-builder
 - Transcripts can be long; the script caps summaries at 400 chars; set `follow_articles: false` (not applicable here — content is inline).
 - Use `--force` flag to reprocess all files regardless of hash (useful after schema changes).
 
-## Type: `cli`
-
-Arbitrary command whose stdout is the content. Use this for anything that isn't email/web/search — RSS tools, paper-scraping scripts, custom aggregators, feed readers.
-
-```yaml
-type: cli
-command: "rsstail -u https://arxiv.org/rss/cs.AI -n 20 -p"
-parser: rsstail                    # informational; see parsers below
-check:
-  binary: rsstail
-  install_hint: "brew install rsstail"
-extract:
-  item_limit: 20
-```
-
-Before running `command`, verify `check.binary` is available. If not, halt and show `install_hint`.
-
-Built-in parsers (just hints to the model — each one tells you how to split stdout into items):
-
-- `rsstail` — blank lines between items, fields prefixed with `Title:`, `Link:`, `Pub.date:`, `Description:`.
-- `jsonl` — one item per line, JSON object with `title`/`url`/`summary`/`published_at`.
-- `raw` — split stdout on `extract.separator` (default `\n---\n`).
-- `tencent-news-cli` — numbered list output from `tencent-news-cli`. Items start with `<N>.` on a new line. Fields per item: `标题:`, `摘要:`, `来源:` (optional), `发布时间:` (optional), `链接:`. Block ends at next `<N+1>.` or EOF.
-
-If no parser matches, tell the user and ask them to pick one or provide a regex.
-
 ## Built-in source catalog (seed)
 
-Imported from the repo's existing `daily-ai-news` skill. During `scripts/init_site.py`, offer these as a checklist. Not everything has to be enabled — default to the starred ones.
+During `scripts/init_site.py`, offer these as a checklist. Not everything has to be enabled — default to the starred ones.
 
-### Git-tracked JSON feed (default ★★)
+See `templates/sources/` for ready-to-copy source folder templates.
 
-| name              | repo                                          | priority | ★  |
-| ----------------- | --------------------------------------------- | -------- | -- |
-| follow-builders   | github.com/zarazhangrui/follow-builders       | 1        | ★★ |
+### Git-tracked JSON feed (default)
 
-This source is **enabled by default** — always include it during `init`. It requires `git` in PATH. See the `Type: git-json` section above for full YAML and schema.
+| name | repo | priority | 推荐类型 | ★ |
+|------|------|----------|----------|---|
+| follow-builders | github.com/zarazhangrui/follow-builders | 1 | `script` | ★★ |
+
+This source is **enabled by default** — always include it during `init`. It requires `git` in PATH. See the `Type: git-json` section above for full details.
 
 ### Web sources (news)
 
-| name                         | url                                                                         | rss? | priority | ★ |
-| ---------------------------- | --------------------------------------------------------------------------- | ---- | -------- | - |
-| venturebeat-ai               | https://venturebeat.com/category/ai/feed                                    | ✅   | 1        | ★ |
-| techcrunch-ai                | https://techcrunch.com/category/artificial-intelligence/feed/               | ✅   | 1        | ★ |
-| theverge-ai                  | https://www.theverge.com/ai-artificial-intelligence                         | ❌   | 1        |   |
-| mit-tech-review-ai           | https://www.technologyreview.com/topic/artificial-intelligence/feed/        | ✅   | 1        |   |
-| 36kr-ai                      | https://36kr.com/search/articles/AI                                         | ❌   | 1        | ★ |
-| ai-bot-daily-news            | https://ai-bot.cn/daily-ai-news/                                            | ❌   | 1        | ★ |
-| ai-bot-tools                 | https://ai-bot.cn/ai-tools/                                                 | ❌   | 2        | ★ |
-| artificial-intelligence-news | https://artificialintelligence-news.com/feed/                               | ✅   | 2        |   |
-| ai-hub-today                 | https://ai.hubtoday.app/                                                    | ❌   | 2        | ★ |
-| synced-review                | https://syncedreview.com/feed/                                              | ✅   | 2        |   |
+| name | url | rss? | priority | 推荐类型 | ★ |
+|------|-----|------|----------|----------|---|
+| venturebeat-ai | https://venturebeat.com/category/ai/feed | ✅ | 1 | `script` | ★ |
+| techcrunch-ai | https://techcrunch.com/category/artificial-intelligence/feed/ | ✅ | 1 | `script` | ★ |
+| theverge-ai | https://www.theverge.com/ai-artificial-intelligence | ❌ | 1 | `prompt` | |
+| mit-tech-review-ai | https://www.technologyreview.com/topic/artificial-intelligence/feed/ | ✅ | 1 | `script` | |
+| 36kr-ai | https://36kr.com/search/articles/AI | ❌ | 1 | `prompt` | ★ |
+| ai-bot-daily-news | https://ai-bot.cn/daily-ai-news/ | ❌ | 1 | `prompt` | ★ |
+| ai-bot-tools | https://ai-bot.cn/ai-tools/ | ❌ | 2 | `prompt` | ★ |
+| artificial-intelligence-news | https://artificialintelligence-news.com/feed/ | ✅ | 2 | `script` | |
+| ai-hub-today | https://ai.hubtoday.app/ | ❌ | 2 | `prompt` | ★ |
+| synced-review | https://syncedreview.com/feed/ | ✅ | 2 | `script` | |
 
 **Note on `venturebeat-ai`**: RSS feed at `/category/ai/feed` returns 80–120 word paragraph excerpts with author and category metadata — good enough to summarize without `follow_articles`. pubDate is accurate. Set `item_limit: 10` and `time_window_hours: 24`.
 
-**Note on `techcrunch-ai`**: Use the RSS feed URL (`/feed/`) — it returns 200 directly without anti-bot friction that often forces Tier 3 (Jina). The feed contains 23 items updated hourly, with `dc:creator`, `category` tags, and `pubDate`. Description fields are short excerpts (~25-30 words); always set `follow_articles: true` to fetch full text for summaries. Recommended YAML:
-
-```yaml
-- name: techcrunch-ai
-  type: web
-  enabled: true
-  language: en
-  priority: 1
-  url: https://techcrunch.com/category/artificial-intelligence/feed/
-  extract:
-    item_limit: 15
-    time_window_hours: 24
-    follow_articles: true
-    follow_limit: 10
-```
+**Note on `techcrunch-ai`**: Use the RSS feed URL (`/feed/`) — it returns 200 directly without anti-bot friction that often forces Tier 3 (Jina). The feed contains 23 items updated hourly, with `dc:creator`, `category` tags, and `pubDate`. Description fields are short excerpts (~25-30 words); always set `follow_articles: true` to fetch full text for summaries.
 
 **Note on `mit-tech-review-ai`**: RSS feed at `/topic/artificial-intelligence/feed/` returns 50–70 word excerpts with author and category. **Sponsored content appears in the feed** — add `exclude_keywords: ["Sponsored"]` to filter it. pubDate accurate.
 
@@ -307,46 +220,18 @@ This source is **enabled by default** — always include it during `init`. It re
 
 **Note on `ai-hub-today`**: prefer the date-pinned URL `https://ai.hubtoday.app/YYYY-MM/YYYY-MM-DD` (e.g. `https://ai.hubtoday.app/2026-04/2026-04-18`) over the root. The root shows whatever the site's front page is; the date URL is the actual daily digest, already pre-curated 10–20 items. When configuring, use a template string: `url: "https://ai.hubtoday.app/{{year-month}}/{{date}}"` — the collector substitutes at fetch time.
 
-**Note on `ai-bot.cn`**: aggregator site with both organic entries and promoted/ad placements. Always configure `exclude_selectors` + `exclude_keywords` (see §Ad / promotion filtering above). Recommended YAML for this pair:
-
-```yaml
-- name: ai-bot-daily-news
-  type: web
-  enabled: true
-  language: zh
-  priority: 1
-  url: https://ai-bot.cn/daily-ai-news/
-  extract:
-    item_limit: 20
-    time_window_hours: 48
-    exclude_selectors: [".ad", ".sponsored", ".advert", "[class*=promo]", "[class*=推广]"]
-    exclude_keywords: ["广告", "推广", "赞助", "sponsored", "AD"]
-
-- name: ai-bot-tools
-  type: web
-  enabled: true
-  language: zh
-  priority: 2
-  url: https://ai-bot.cn/ai-tools/
-  extract:
-    item_limit: 15
-    time_window_hours: 168   # tools directory; entries are mostly static, widen window
-    exclude_selectors: [".ad", ".sponsored", ".advert", "[class*=promo]", "[class*=推广]"]
-    exclude_keywords: ["广告", "推广", "赞助", "sponsored", "AD"]
-```
-
-`ai-bot-daily-news` maps naturally to news items; `ai-bot-tools` almost always categorizes as `tools-release` — these entries are product/tool listings, not time-sensitive news. When merging, treat `tools-release` items from this source as lower-priority (let dedup collapse them against actual launches from primary sources like company blogs).
+**Note on `ai-bot.cn`**: aggregator site with both organic entries and promoted/ad placements. Always configure `exclude_selectors` + `exclude_keywords` (see Ad / promotion filtering above). `ai-bot-daily-news` maps naturally to news items; `ai-bot-tools` almost always categorizes as `tools-release` — these entries are product/tool listings, not time-sensitive news. When merging, treat `tools-release` items from this source as lower-priority (let dedup collapse them against actual launches from primary sources like company blogs).
 
 ### Web sources (company blogs)
 
-| name            | url                                           | rss? | priority | ★ |
-| --------------- | --------------------------------------------- | ---- | -------- | - |
-| openai-blog     | https://openai.com/blog/rss.xml               | ✅   | 1        | ★ |
-| anthropic-news  | https://www.anthropic.com/news                | ❌   | 1        | ★ |
-| google-ai-blog  | https://blog.google/technology/ai/rss/        | ✅   | 1        |   |
-| deepmind-blog   | https://deepmind.google/discover/blog/feed/   | ✅   | 1        |   |
-| microsoft-ai    | https://blogs.microsoft.com/ai/               | ❌   | 2        |   |
-| meta-ai-blog    | https://ai.meta.com/blog/                     | ❌   | 2        |   |
+| name | url | rss? | priority | 推荐类型 | ★ |
+|------|-----|------|----------|----------|---|
+| openai-blog | https://openai.com/blog/rss.xml | ✅ | 1 | `script` | ★ |
+| anthropic-news | https://www.anthropic.com/news | ❌ | 1 | `prompt` | ★ |
+| google-ai-blog | https://blog.google/technology/ai/rss/ | ✅ | 1 | `script` | |
+| deepmind-blog | https://deepmind.google/discover/blog/feed/ | ✅ | 1 | `script` | |
+| microsoft-ai | https://blogs.microsoft.com/ai/ | ❌ | 2 | `prompt` | |
+| meta-ai-blog | https://ai.meta.com/blog/ | ❌ | 2 | `prompt` | |
 
 **Note on `openai-blog`**: RSS at `/blog/rss.xml` returns ~130-character short excerpts with category tags (Product/Research). Must use `follow_articles: true` to get full content. 940 items total; use `item_limit: 10` and `time_window_hours: 168` (company blogs publish infrequently).
 
@@ -358,13 +243,13 @@ This source is **enabled by default** — always include it during `init`. It re
 
 ### Research sources
 
-| name             | url                                     | rss? | priority |
-| ---------------- | --------------------------------------- | ---- | -------- |
-| arxiv-cs-ai      | https://arxiv.org/rss/cs.AI             | ✅   | 2        |
-| arxiv-cs-lg      | https://arxiv.org/rss/cs.LG             | ✅   | 2        |
-| arxiv-cs-cl      | https://arxiv.org/rss/cs.CL             | ✅   | 2        |
-| huggingface-blog | https://huggingface.co/blog/feed.xml    | ✅   | 2        |
-| papers-with-code | https://paperswithcode.com/             | ❌   | 3        |
+| name | url | rss? | priority | 推荐类型 |
+|------|-----|------|----------|----------|
+| arxiv-cs-ai | https://arxiv.org/rss/cs.AI | ✅ | 2 | `script` |
+| arxiv-cs-lg | https://arxiv.org/rss/cs.LG | ✅ | 2 | `script` |
+| arxiv-cs-cl | https://arxiv.org/rss/cs.CL | ✅ | 2 | `script` |
+| huggingface-blog | https://huggingface.co/blog/feed.xml | ✅ | 2 | `script` |
+| papers-with-code | https://paperswithcode.com/ | ❌ | 3 | `prompt` |
 
 arXiv has three separate recent-listings relevant to AI: `cs.AI` (general AI), `cs.LG` (machine learning), `cs.CL` (computation & language — LLMs/NLP). The three overlap significantly in content but each surfaces items the others miss. Enable all three when you want broad research coverage; the `research-frontier` cap of 10 will keep it manageable. If budget-conscious, `cs.AI` alone is usually enough.
 
@@ -376,11 +261,11 @@ arXiv has three separate recent-listings relevant to AI: `cs.AI` (general AI), `
 
 ### Chinese social / content platforms (login- or JS-heavy, opt-in)
 
-| name              | url                                                               | priority | requires capability |
-| ----------------- | ----------------------------------------------------------------- | -------- | ------------------- |
-| weixin-sogou      | https://weixin.sogou.com/weixin?type=2&query=AI                   | 2        | —                   |
-| weibo-ai-hot      | https://s.weibo.com/weibo?q=AI&sort=hot&timescope=custom:24h      | 3        | `real_browser`      |
-| douyin-ai-hot     | https://www.douyin.com/search/AI?sort_type=1                      | 3        | `real_browser`      |
+| name | url | priority | 推荐类型 | requires capability |
+|------|-----|----------|----------|---------------------|
+| weixin-sogou | https://weixin.sogou.com/weixin?type=2&query=AI | 2 | `prompt` | — |
+| weibo-ai-hot | https://s.weibo.com/weibo?q=AI&sort=hot&timescope=custom:24h | 3 | `prompt` | `real_browser` |
+| douyin-ai-hot | https://www.douyin.com/search/AI?sort_type=1 | 3 | `prompt` | `real_browser` |
 
 These sources are **opt-in** because they require heavier tooling than a simple `WebFetch`:
 
@@ -394,11 +279,11 @@ These sources are **opt-in** because they require heavier tooling than a simple 
 
 Sources declare what they need via `requires_capability` (a capability token). The collector then picks ANY locally-available tool that advertises that capability. This keeps source definitions portable across environments — don't hard-code a specific skill name.
 
-| Capability       | What it means                                                                 | Tools that satisfy it (any one is enough)                                            |
-| ---------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| `real_browser`   | CDP-capable real browser: executes JS, holds cookies, can follow login flows. | `browser-use` skill; `web-access` skill; Playwright/Puppeteer via MCP; any CDP-bridge tool. |
-| `authenticated`  | Must carry user-specific auth (cookies, tokens) to return meaningful content. | All `real_browser` tools that the user has logged in once; or a cookie-injection MCP.|
-| `search_api`     | Structured search API with ranking + snippets.                                | `tavily-search` skill; `web-search` skill; built-in `WebSearch`.                     |
+| Capability | What it means | Tools that satisfy it (any one is enough) |
+|------------|---------------|-------------------------------------------|
+| `real_browser` | CDP-capable real browser: executes JS, holds cookies, can follow login flows. | `browser-use` skill; `web-access` skill; Playwright/Puppeteer via MCP; any CDP-bridge tool. |
+| `authenticated` | Must carry user-specific auth (cookies, tokens) to return meaningful content. | All `real_browser` tools that the user has logged in once; or a cookie-injection MCP. |
+| `search_api` | Structured search API with ranking + snippets. | `tavily-search` skill; `web-search` skill; built-in `WebSearch`. |
 
 When the collector starts, detect which of these are available in the current session:
 
@@ -409,116 +294,62 @@ When the collector starts, detect which of these are available in the current se
 
 `weixin-sogou` has no `requires_capability` because plain `WebFetch` usually suffices. If Sogou starts rejecting all fetches at scale, a user can add `requires_capability: real_browser` and the collector will re-route.
 
-Recommended YAML for the three:
-
-```yaml
-- name: weixin-sogou
-  type: web
-  enabled: true              # WebFetch works well enough in practice
-  language: zh
-  priority: 2
-  url: https://weixin.sogou.com/weixin?type=2&query=AI
-  extract:
-    item_limit: 15
-    time_window_hours: 48
-    exclude_keywords: ["广告", "推广", "赞助"]
-    preferred_accounts:      # informational only; renderer can highlight these
-      - 机器之心
-      - 新智元
-      - 量子位
-      - 智东西
-      - 雷锋网
-      - 36氪
-
-- name: weibo-ai-hot
-  type: web
-  enabled: false             # opt-in; signal:noise is moderate at best
-  language: zh
-  priority: 3
-  url: https://s.weibo.com/weibo?q=AI&sort=hot&timescope=custom:24h
-  requires_capability: real_browser
-  extract:
-    item_limit: 8
-    time_window_hours: 24
-    exclude_keywords: ["广告", "推广", "转发抽奖", "福利"]
-
-- name: douyin-ai-hot
-  type: web
-  enabled: false             # opt-in; low signal for most newsletters
-  language: zh
-  priority: 3
-  url: https://www.douyin.com/search/AI?sort_type=1
-  requires_capability: real_browser
-  extract:
-    item_limit: 6
-    time_window_hours: 24
-    exclude_keywords: ["广告", "推广", "赞助"]
-```
-
 ### Search sources (generated)
 
 Default queries (users can add/remove freely):
 
-| name                  | query                                                                 |
-| --------------------- | --------------------------------------------------------------------- |
-| search-major-release  | `"AI model release" OR "launches" OR "announces" after:{{yesterday}}` |
-| search-funding        | `"AI startup" (funding OR Series OR raises) after:{{yesterday}}`      |
-| search-research       | `"AI paper" OR "machine learning breakthrough" after:{{yesterday}}`   |
-| search-policy         | `AI (regulation OR policy OR bill OR law) after:{{yesterday}}`        |
-| search-36kr-ai        | `site:36kr.com AI after:{{yesterday}}` (中文，辅助 36kr-ai 页面抓取)   |
-| search-weixin-ai      | `site:mp.weixin.qq.com AI after:{{yesterday}}` (备用，直达公众号文章) |
+| name | query | 推荐类型 |
+|------|-------|----------|
+| search-major-release | `"AI model release" OR "launches" OR "announces" after:{{yesterday}}` | `prompt` |
+| search-funding | `"AI startup" (funding OR Series OR raises) after:{{yesterday}}` | `prompt` |
+| search-research | `"AI paper" OR "machine learning breakthrough" after:{{yesterday}}` | `prompt` |
+| search-policy | `AI (regulation OR policy OR bill OR law) after:{{yesterday}}` | `prompt` |
+| search-36kr-ai | `site:36kr.com AI after:{{yesterday}}` (中文，辅助 36kr-ai 页面抓取) | `prompt` |
+| search-weixin-ai | `site:mp.weixin.qq.com AI after:{{yesterday}}` (备用，直达公众号文章) | `prompt` |
+
+`{{yesterday}}` and `{{today}}` are resolved at collection time (ISO date, local tz). Add one search per topic you care about — don't combine multiple intents into one query or the model can't tell what to keep.
 
 ### Email example (opt-in)
 
-**Privacy note.** The built-in catalog does NOT preset any Gmail source — it's off by default and never auto-enabled. Users who want it must explicitly add their own entry per the add-source flow. No email address ever lands in `sources.yaml`: authentication lives in the external CLI (`gog`'s own config), not in the project. The `query` field uses labels or sender-name filters, so the project config stays publishable. If you publish the site to GitHub Pages, also add `site/data/raw/**/gmail-*.md` to `.gitignore` — the raw bodies can contain tracking tokens and unsubscribe links unique to the user.
+**Privacy note.** The built-in catalog does NOT preset any Gmail source — it's off by default and never auto-enabled. Users who want it must explicitly add their own entry per the add-source flow. No email address ever lands in source config: authentication lives in the external CLI (`gog`'s own config), not in the project. The `query` field uses labels or sender-name filters, so the project config stays publishable. If you publish the site to GitHub Pages, also add `site/data/raw/**/gmail-*.md` to `.gitignore` — the raw bodies can contain tracking tokens and unsubscribe links unique to the user.
 
-```yaml
-- name: gmail-ai-newsletter
-  type: email
-  provider: gmail
-  cli: gog
-  query: "newer_than:1d label:ai-newsletter"
-  # — label-based queries are safest; they don't embed the user's address.
-  # — if you want to filter by sender, prefer placeholder form
-  #   (e.g. `from:<sender-display-name>`) over pasting a real address.
-  extract:
-    max_messages: 30
-    include_body: true
-    strip_quoted: true
-    timeout_seconds: 60
-    exclude_keywords: ["广告", "sponsored", "unsubscribe to stop"]
-```
+| name | type | 推荐类型 |
+|------|------|----------|
+| gmail-ai-newsletter | email | `prompt` |
 
-### CLI example (opt-in)
+### CLI sources (opt-in)
 
-```yaml
-- name: arxiv-rss
-  type: cli
-  command: "rsstail -u https://arxiv.org/rss/cs.AI -n 15 -p"
-  parser: rsstail
-  check:
-    binary: rsstail
-    install_hint: "brew install rsstail"
-```
+| name | command example | 推荐类型 |
+|------|----------------|----------|
+| arxiv-rss | `rsstail -u https://arxiv.org/rss/cs.AI -n 15 -p` | `script` |
 
-### Tencent News CLI (built-in ★)
+Built-in parsers (just hints to the model — each one tells you how to split stdout into items):
+
+- `rsstail` — blank lines between items, fields prefixed with `Title:`, `Link:`, `Pub.date:`, `Description:`.
+- `jsonl` — one item per line, JSON object with `title`/`url`/`summary`/`published_at`.
+- `raw` — split stdout on `extract.separator` (default `\n---\n`).
+- `tencent-news-cli` — numbered list output from `tencent-news-cli`. Items start with `<N>.` on a new line. Fields per item: `标题:`, `摘要:`, `来源:` (optional), `发布时间:` (optional), `链接:`. Block ends at next `<N+1>.` or EOF.
+
+If no parser matches, tell the user and ask them to pick one or provide a regex.
+
+### Tencent News CLI (built-in)
 
 `tencent-news-cli` is a purpose-built CLI for querying Tencent News. It supports hot-trend rankings, keyword search, and daily briefings, with structured text output using the `tencent-news-cli` parser.
 
 **Installation**: `https://news.qq.com/exchange?scene=appkey` — requires an API key set via `tencent-news-cli apikey-set <key>`.
 
-| name                    | command                                                                          | priority | ★ |
-| ----------------------- | -------------------------------------------------------------------------------- | -------- | - |
-| tencent-news-ai-search  | `tencent-news-cli search "AI 大模型" --limit 20`                                  | 1        | ★ |
-| tencent-news-ai-agent   | `tencent-news-cli search "AI 智能体 Agent" --limit 15`                            | 1        | ★ |
-| tencent-news-ai-funding | `tencent-news-cli search "人工智能 融资" --limit 15`                               | 2        | ★ |
-| tencent-news-ai-policy  | `tencent-news-cli search "AI 政策 法规" --limit 15` *(time_window_hours: 72)*     | 2        | ★ |
-| tencent-news-hot        | `tencent-news-cli hot --limit 20` *(通用热榜，噪音高，需 include_keywords 后处理)* | 3        |   |
+| name | command | priority | 推荐类型 | ★ |
+|------|---------|----------|----------|---|
+| tencent-news-ai-search | `tencent-news-cli search "AI 大模型" --limit 20` | 1 | `script` | ★ |
+| tencent-news-ai-agent | `tencent-news-cli search "AI 智能体 Agent" --limit 15` | 1 | `script` | ★ |
+| tencent-news-ai-funding | `tencent-news-cli search "人工智能 融资" --limit 15` | 2 | `script` | ★ |
+| tencent-news-ai-policy | `tencent-news-cli search "AI 政策 法规" --limit 15` *(time_window_hours: 72)* | 2 | `script` | ★ |
+| tencent-news-hot | `tencent-news-cli hot --limit 20` *(通用热榜，噪音高，需 include_keywords 后处理)* | 3 | `script` | |
 
-All four ★ sources use the `search` sub-command with distinct topic coverage:
+All four starred sources use the `search` sub-command with distinct topic coverage:
 
 | Source | 覆盖的 newsletter 类别 | 典型命中 |
-|---|---|---|
+|--------|----------------------|----------|
 | `ai-search` ("AI 大模型") | major-release / research-frontier | 大模型发布、基准测试突破 |
 | `ai-agent` ("AI 智能体 Agent") | tools-release / major-release | Agent 框架发布、agentic 产品 |
 | `ai-funding` ("人工智能 融资") | industry-business | 融资轮次、并购、估值 |
@@ -530,58 +361,10 @@ The four queries have intentional topic overlap at the margins (e.g. a large fun
 
 **Why "AI 政策 法规" with `time_window_hours: 72`?** Policy documents and regulatory announcements don't publish every day; a tighter 48h window would miss many of them. 72h keeps a reasonable window without pulling in old content.
 
-Recommended YAML for the search source:
-
-```yaml
-- name: tencent-news-ai-search
-  type: cli
-  enabled: true
-  language: zh
-  priority: 1
-  command: "tencent-news-cli search \"AI 大模型\" --limit 20 --caller ai-newsletter-builder"
-  parser: tencent-news-cli
-  check:
-    binary: tencent-news-cli
-    install_hint: "install from https://news.qq.com/exchange?scene=appkey then: tencent-news-cli apikey-set <your-key>"
-  extract:
-    item_limit: 20
-    time_window_hours: 48
-    exclude_keywords: ["ETF", "涨停", "跌停", "涨超", "跌超", "股票", "基金", "大盘", "行情"]
-```
-
-The `exclude_keywords` list filters out stock-market and financial-product entries that frequently appear in AI-tagged news but have no newsletter value. Extend it per taste.
+The `exclude_keywords` list filters out stock-market and financial-product entries that frequently appear in AI-tagged news but have no newsletter value: `["ETF", "涨停", "跌停", "涨超", "跌超", "股票", "基金", "大盘", "行情"]`. Extend it per taste.
 
 The `--caller` flag is recommended (identifies the client to Tencent News analytics); use your site name.
 
 ## Language hint
 
-Set `language: zh` or `language: en` per source. Used only as a hint when summarizing — the site's output language is configured separately in `site.yaml` (`output_language: zh` or `en`). It's fine to have zh sources in an en-output site and vice versa; the model translates during the summarization step.
-
-## What to write to the raw file
-
-Each source's collector writes `data/raw/<date>/<name>.md`. Use this exact structure — the merge step relies on the field order:
-
-```markdown
-# Source: <name>
-Collected at: 2026-04-18T08:02:33Z
-Tool: tavily-search / web-access / webReader / gog / ...
-Item count: 12
-
----
-
-## <Item 1 title>
-- url: https://...
-- source: <name>
-- published_at: 2026-04-18T04:15:00Z
-- fetched_at: 2026-04-18T08:02:33Z
-- language: en
-
-<2–4 sentence factual summary in the source's language. No editorial framing.>
-
----
-
-## <Item 2 title>
-...
-```
-
-Keep summaries factual and short at this stage — editorial voice is applied during rendering, not collection. Keeping them short also makes dedup/merge cheaper.
+Set `language: zh` or `language: en` per source in `source.yaml`. Used only as a hint when summarizing — the site's output language is configured separately in `site.yaml` (`output_language: zh` or `en`). It's fine to have zh sources in an en-output site and vice versa; the model translates during the summarization step.

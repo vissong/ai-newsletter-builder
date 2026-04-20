@@ -4,7 +4,7 @@ Details of merge → categorize → render. The high-level flow is in SKILL.md; 
 
 ## Inputs and outputs
 
-**Input:** all `site/data/raw/<date>/<source>.md` files for the target date.
+**Input:** all `site/data/raw/<date>/<source>.json` files for the target date.
 
 **Outputs:**
 - `site/data/raw/<date>/merged.json` — canonical, deduplicated, categorized item list for that date.
@@ -13,7 +13,11 @@ Details of merge → categorize → render. The high-level flow is in SKILL.md; 
 
 ## Step 1: Load and normalize
 
-Parse every `data/raw/<date>/<source>.md` into a flat list. Each parsed item must have:
+Load every `data/raw/<date>/<source>.json` into a flat list. Each file is a JSON array of items.
+
+For backward compatibility, also check for `.md` files (old format). If a `.md` file exists but no `.json`, parse the Markdown item blocks (## title + metadata + summary) using the legacy parser.
+
+Each parsed item (from either format) must have:
 
 ```
 title, summary, url, published_at, fetched_at, language, source

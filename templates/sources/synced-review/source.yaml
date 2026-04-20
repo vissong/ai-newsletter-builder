@@ -1,0 +1,20 @@
+name: synced-review
+type: script
+enabled: false
+language: en
+priority: 3
+time_window_hours: 720
+recent_hours: 24
+timeout_seconds: 30
+
+script: fetch_rss.py
+runtime: python3
+
+args:
+  url: "https://syncedreview.com/feed/"
+  time_window_hours: "{{time_window_hours}}"
+  item_limit: "10"
+  language: "en"
+
+extract:
+  follow_articles: false

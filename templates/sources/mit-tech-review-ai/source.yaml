@@ -1,0 +1,21 @@
+name: mit-tech-review-ai
+type: script
+enabled: true
+language: en
+priority: 1
+time_window_hours: 96
+recent_hours: 24
+timeout_seconds: 30
+
+script: fetch_rss.py
+runtime: python3
+
+args:
+  url: "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+  time_window_hours: "{{time_window_hours}}"
+  item_limit: "10"
+  language: "en"
+
+extract:
+  follow_articles: false
+  exclude_keywords: ["Sponsored"]
