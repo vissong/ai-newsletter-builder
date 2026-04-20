@@ -6,32 +6,60 @@
       "dow": "MON",
       "title": "Opus 4.7 重夺王座，Sequoia 70 亿押注 AI",
       "headlines": [
-        "Anthropic 发布 Claude Opus 4.7 重回最强通用 LLM 宝座，OpenAI 推出生命科学模型 GPT-Rosalind",
-        "红杉资本募集 70 亿美元史上最大基金，Slash 完成 C 轮跻身独角兽"
+        {
+          "title": "Gemini 3.1 Flash TTS：新一代富有表现力的 AI 语音模型",
+          "tag": "工具发布"
+        },
+        {
+          "title": "15个AI智能体和应用开发平台，零代码构建AI应用 | AI工具集",
+          "tag": "工具发布"
+        },
+        {
+          "title": "即梦AI - 字节跳动推出的一站式AI创作平台",
+          "tag": "重大发布"
+        },
+        {
+          "title": "大厂ALL IN AI烧钱不止，硬件持续涨价，字节利润暴跌超70%",
+          "tag": "行业动态"
+        },
+        {
+          "title": "OpenAI 首席科学家谈持续学习、代码之外的强化学习与未来对齐方向",
+          "tag": "研究前沿"
+        }
       ],
       "item_count": 90,
       "trimmed_count": 180,
       "source_count": 22,
       "top_items": [
         {
-          "id": "item-3",
-          "title": "即梦AI - 字节跳动推出的一站式AI创作平台"
-        },
-        {
-          "id": "item-4",
-          "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集"
-        },
-        {
-          "id": "item-5",
-          "title": "AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全"
-        },
-        {
           "id": "item-1",
-          "title": "Gemini 3.1 Flash TTS：新一代富有表现力的 AI 语音模型"
+          "title": "Gemini 3.1 Flash TTS：新一代富有表现力的 AI 语音模型",
+          "source_count": 2,
+          "category": "tools-release"
         },
         {
           "id": "item-2",
-          "title": "15个AI智能体和应用开发平台，零代码构建AI应用 | AI工具集"
+          "title": "15个AI智能体和应用开发平台，零代码构建AI应用 | AI工具集",
+          "source_count": 2,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-3",
+          "title": "即梦AI - 字节跳动推出的一站式AI创作平台",
+          "source_count": 2,
+          "category": "major-release"
+        },
+        {
+          "id": "item-4",
+          "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
+          "source_count": 2,
+          "category": "major-release"
+        },
+        {
+          "id": "item-5",
+          "title": "AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全",
+          "source_count": 2,
+          "category": "major-release"
         }
       ],
       "categories": {
@@ -41,7 +69,8 @@
         "tools-release": 20,
         "policy-regulation": 20
       },
-      "generated_at": "2026-04-20T13:45:18.294059+00:00"
+      "generated_at": "2026-04-20T13:45:18.294059+00:00",
+      "summary": "本期共 90 条 AI 资讯，来自 22 个数据源。头条：Gemini 3.1 Flash TTS：新一代富有表现力的 AI 语音模型"
     }
   ]
 }
