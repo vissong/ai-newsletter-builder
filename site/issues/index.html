@@ -1,4 +1,4 @@
-<!-- layout: newspaper-editorial -->
+<!-- layout: newspaper-editorial · three-column -->
 <!doctype html>
 <html lang="zh-CN">
 <head>
@@ -12,46 +12,60 @@
 <body>
 <main class="paper paper--issue">
 
-  <!-- ====== TOP BAR ====== -->
-  <div class="topbar">
-    <div class="left">
-      <span><span class="dot"></span><a href="../" style="color:inherit">首页</a></span>
-      <span id="topbar-issue">载入中……</span>
-    </div>
-    <div class="right">
-      <span id="topbar-date">— : —</span>
-    </div>
-  </div>
-
   <!-- ====== MASTHEAD ====== -->
-  <header class="masthead">
-    <div class="kicker">A Daily Digest of Artificial Intelligence Research &amp; Systems</div>
-    <h1><span class="cn"><a href="../" style="color:inherit">词元长街</a></span></h1>
-    <div class="en">Token Street &middot; Est. MMXXVI</div>
-    <div class="meta-strip">
-      <span class="l" id="issue-date">载入中……</span>
-      <span class="c" id="issue-stats">载入中……</span>
-      <span class="r" id="issue-sources">载入中……</span>
+  <header class="issue-masthead">
+    <!-- Top bar -->
+    <div class="im-topbar">
+      <a href="../" class="im-topbar-home">← 首页</a>
+      <div class="im-topbar-brand">
+        <span class="im-brand-cn">词元长街</span> · <span class="im-brand-en">Token Street</span>
+      </div>
+      <div class="im-topbar-issue" id="im-issue-label">第 — 期 · —</div>
     </div>
+
+    <!-- Category tags -->
+    <div class="im-cats">
+      重大发布 / 行业动态 / 研究前沿 / 工具发布 / 政策监管
+    </div>
+
+    <!-- Main headline -->
+    <h1 class="im-headline" id="im-headline">载入中……</h1>
+
+    <!-- Summary -->
+    <p class="im-summary" id="im-summary"></p>
+
+    <!-- Byline bar -->
+    <div class="im-byline" id="im-byline">载入中……</div>
   </header>
 
-  <!-- ====== HIGHLIGHTS (由 JS 填充) ====== -->
-  <section class="highlights-block" id="highlights" style="display:none">
-    <div>
-      <div class="hl-title">今日要闻 · HIGHLIGHTS</div>
-      <h2 id="hl-headline"></h2>
-      <p class="dek" id="hl-summary" style="font-size:16px;line-height:1.6;color:var(--ink-soft);max-width:56ch"></p>
-    </div>
-    <aside class="stats-aside">
-      <h4>栏目分布 · BY CATEGORY</h4>
-      <ul id="stats-cats"></ul>
-      <h4>热门来源 · TOP SOURCES</h4>
-      <ul id="stats-sources"></ul>
-    </aside>
-  </section>
+  <!-- ====== THREE-COLUMN BODY ====== -->
+  <div class="issue-body">
 
-  <!-- ====== CATEGORIES (由 JS 填充) ====== -->
-  <div id="categories"></div>
+    <!-- Left sidebar -->
+    <aside class="issue-sidebar-left">
+      <div class="sidebar-section">
+        <h4 class="sidebar-heading">目录 · TOC</h4>
+        <ul class="toc-list" id="toc-list"></ul>
+      </div>
+      <hr class="sidebar-rule">
+      <div class="sidebar-section">
+        <h4 class="sidebar-heading">本期统计 · STATS</h4>
+        <ul class="stats-list" id="stats-list"></ul>
+      </div>
+    </aside>
+
+    <!-- Center content -->
+    <div class="issue-content" id="categories"></div>
+
+    <!-- Right sidebar -->
+    <aside class="issue-sidebar-right">
+      <div class="sidebar-section">
+        <h4 class="sidebar-heading">数据源 · SOURCES</h4>
+        <ul class="sources-list" id="sources-list"></ul>
+      </div>
+    </aside>
+
+  </div>
 
   <!-- ====== NAVIGATION ====== -->
   <nav class="issue-nav" id="issue-nav" style="display:none">
@@ -137,37 +151,91 @@
     } catch (e) { return iso; }
   }
 
-  function renderHighlights(items) {
-    var sec = document.getElementById('highlights');
-    var top = items.filter(function(it) { return it.source_count > 1; })
-                   .sort(function(a, b) { return (b.source_count||1) - (a.source_count||1); });
-    if (!top.length) top = items.slice(0, 1);
-    if (!top.length) return;
+  function renderMasthead(currentIssue, activeItems, totalSources, date, dow, dowZh) {
+    var issueN = currentIssue ? currentIssue.n : '';
+    var title = (currentIssue && currentIssue.title) ? currentIssue.title : date;
+    var summary = (currentIssue && currentIssue.summary) ? currentIssue.summary : '';
 
-    document.getElementById('hl-headline').textContent = top[0].title;
-    document.getElementById('hl-summary').textContent = top[0].summary || '';
+    // Top bar
+    document.getElementById('im-issue-label').textContent =
+      (issueN ? '\u7B2C ' + String(issueN).padStart(3, '0') + ' \u671F' : '') + ' \u00B7 ' + date;
 
-    var catCounts = {};
+    // Headline
+    document.getElementById('im-headline').textContent = title;
+
+    // Summary
+    document.getElementById('im-summary').textContent = summary;
+
+    // Byline
+    var sourceCount = Object.keys(totalSources).length;
+    document.getElementById('im-byline').textContent =
+      '\u5171 ' + activeItems.length + ' \u6761 \u00B7 ' +
+      '\u6765\u81EA ' + sourceCount + ' \u4E2A\u6570\u636E\u6E90 \u00B7 ' +
+      '5 \u5927\u680F\u76EE \u00B7 ' +
+      date + ' ' + (dowZh[dow] || dow);
+  }
+
+  function renderLeftSidebar(grouped, activeItems, totalSources) {
+    // TOC
+    var tocHtml = '';
+    CAT_ORDER.forEach(function(slug, i) {
+      var list = grouped[slug];
+      var count = list ? list.length : 0;
+      if (!count) return;
+      var meta = CAT_META[slug];
+      tocHtml += '<li class="toc-item">' +
+        '<a href="#cat-' + slug + '" class="toc-link">' +
+          '<span class="toc-num">' + String(i + 1).padStart(2, '0') + '</span>' +
+          '<span class="toc-name">' + meta.zh + '</span>' +
+          '<span class="toc-count">(' + count + ')</span>' +
+        '</a></li>';
+    });
+    document.getElementById('toc-list').innerHTML = tocHtml;
+
+    // Stats
+    var sourceCount = Object.keys(totalSources).length;
+    var multiCount = activeItems.filter(function(it) { return (it.source_count || 1) > 1; }).length;
+    var catCount = CAT_ORDER.filter(function(slug) { return grouped[slug] && grouped[slug].length; }).length;
+    var statsHtml =
+      '<li class="stat-item"><span class="stat-label">\u6761\u76EE</span><span class="stat-value">' + activeItems.length + '\u6761</span></li>' +
+      '<li class="stat-item"><span class="stat-label">\u6765\u6E90</span><span class="stat-value">' + sourceCount + '\u4E2A</span></li>' +
+      '<li class="stat-item"><span class="stat-label">\u680F\u76EE</span><span class="stat-value">' + catCount + '\u4E2A</span></li>' +
+      '<li class="stat-item"><span class="stat-label">\u591A\u6E90\u62A5\u9053</span><span class="stat-value">' + multiCount + '\u6761</span></li>';
+    document.getElementById('stats-list').innerHTML = statsHtml;
+
+    // Smooth scroll for TOC links
+    document.querySelectorAll('.toc-link').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        var target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
+
+  function renderRightSidebar(activeItems) {
     var srcCounts = {};
-    items.forEach(function(it) {
-      if (it.trimmed) return;
-      var cat = it.category || 'uncategorized';
-      catCounts[cat] = (catCounts[cat] || 0) + 1;
+    activeItems.forEach(function(it) {
       (it.sources || []).forEach(function(s) { srcCounts[s] = (srcCounts[s] || 0) + 1; });
     });
 
-    document.getElementById('stats-cats').innerHTML = CAT_ORDER.map(function(slug, i) {
-      var cnt = catCounts[slug] || 0;
-      if (!cnt) return '';
-      return '<li><span class="n">' + String(i+1).padStart(2,'0') + '</span><span>' + CAT_META[slug].zh + '</span><span class="v">' + cnt + ' \u6761</span></li>';
-    }).join('');
+    var sorted = Object.entries(srcCounts).sort(function(a, b) { return b[1] - a[1]; });
+    var maxCount = sorted.length ? sorted[0][1] : 1;
 
-    var topSources = Object.entries(srcCounts).sort(function(a,b) { return b[1]-a[1]; }).slice(0, 5);
-    document.getElementById('stats-sources').innerHTML = topSources.map(function(entry, i) {
-      return '<li><span class="n">' + String(i+1).padStart(2,'0') + '</span><span>' + entry[0] + '</span><span class="v">' + entry[1] + '</span></li>';
-    }).join('');
-
-    sec.style.display = '';
+    var html = '';
+    sorted.forEach(function(entry) {
+      var name = entry[0];
+      var count = entry[1];
+      var pct = Math.round((count / maxCount) * 100);
+      html += '<li class="source-item">' +
+        '<div class="source-row">' +
+          '<span class="source-name">' + escHtml(name) + '</span>' +
+          '<span class="source-count">' + count + '</span>' +
+        '</div>' +
+        '<div class="source-bar"><div class="source-bar-fill" style="width:' + pct + '%"></div></div>' +
+      '</li>';
+    });
+    document.getElementById('sources-list').innerHTML = html;
   }
 
   function renderCategories(items) {
@@ -185,7 +253,7 @@
       if (!list || !list.length) return;
       var meta = CAT_META[slug] || { zh: slug, en: slug };
 
-      html += '<div class="cat-head">' +
+      html += '<div class="cat-head" id="cat-' + slug + '">' +
         '<div><span class="cat-name">' + meta.zh + '</span><span class="cat-en"> ' + meta.en + '</span></div>' +
         '<span class="cat-count">' + list.length + ' ITEMS</span>' +
       '</div>';
@@ -195,7 +263,7 @@
         var multi = (it.source_count || 1) > 1;
         html += '<li class="article' + (multi ? ' multi-source' : '') + '" id="' + (it.id || '') + '">' +
           '<div class="art-num">' +
-            '<span class="art-n">' + String(idx+1).padStart(2,'0') + '</span>' +
+            '<span class="art-n">' + String(idx + 1).padStart(2, '0') + '</span>' +
             (multi ? '<span class="badge badge-hot">' + it.source_count + '\u6E90</span>' : '') +
           '</div>' +
           '<div>' +
@@ -223,6 +291,7 @@
     });
 
     document.getElementById('categories').innerHTML = html || '<div class="empty">\u672C\u671F\u6682\u65E0\u5185\u5BB9\u3002</div>';
+    return grouped;
   }
 
   function renderNav(issues, currentDate) {
@@ -231,10 +300,10 @@
     var nav = document.getElementById('issue-nav');
 
     if (idx > 0) {
-      document.getElementById('nav-prev').innerHTML = '<a href="?date=' + sorted[idx-1].date + '">\u2190 ' + sorted[idx-1].date + '</a>';
+      document.getElementById('nav-prev').innerHTML = '<a href="?date=' + sorted[idx - 1].date + '">\u2190 ' + sorted[idx - 1].date + '</a>';
     }
     if (idx >= 0 && idx < sorted.length - 1) {
-      document.getElementById('nav-next').innerHTML = '<a href="?date=' + sorted[idx+1].date + '">' + sorted[idx+1].date + ' \u2192</a>';
+      document.getElementById('nav-next').innerHTML = '<a href="?date=' + sorted[idx + 1].date + '">' + sorted[idx + 1].date + ' \u2192</a>';
     }
     nav.style.display = '';
   }
@@ -259,22 +328,25 @@
     });
 
     var d = new Date(date + 'T00:00:00');
-    var dows = ['SUN','MON','TUE','WED','THU','FRI','SAT'];
+    var dows = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
     var dow = dows[d.getDay()];
-    var dowZh = {SUN:'\u5468\u65E5',MON:'\u5468\u4E00',TUE:'\u5468\u4E8C',WED:'\u5468\u4E09',THU:'\u5468\u56DB',FRI:'\u5468\u4E94',SAT:'\u5468\u516D'};
+    var dowZh = { SUN: '\u5468\u65E5', MON: '\u5468\u4E00', TUE: '\u5468\u4E8C', WED: '\u5468\u4E09', THU: '\u5468\u56DB', FRI: '\u5468\u4E94', SAT: '\u5468\u516D' };
 
     var currentIssue = issues.find(function(it) { return it.date === date; });
-    var issueN = currentIssue ? currentIssue.n : '';
 
-    document.getElementById('topbar-issue').textContent = issueN ? 'ISSUE ' + String(issueN).padStart(3,'0') : date;
-    document.getElementById('topbar-date').textContent = date + ' ' + dow;
-    document.getElementById('issue-date').textContent = date + ' \u00B7 ' + dow + ' \u00B7 ' + (dowZh[dow]||dow);
-    document.getElementById('issue-stats').textContent = '\u5171 ' + activeItems.length + ' \u6761';
-    document.getElementById('issue-sources').textContent = '\u6765\u81EA ' + Object.keys(totalSources).length + ' \u4E2A\u6570\u636E\u6E90';
+    // 1. Render masthead
+    renderMasthead(currentIssue, activeItems, totalSources, date, dow, dowZh);
 
-    renderHighlights(activeItems);
-    renderCategories(items);
+    // 2. Render center content (returns grouped data)
+    var grouped = renderCategories(items);
 
+    // 3. Render left sidebar (TOC + stats)
+    renderLeftSidebar(grouped, activeItems, totalSources);
+
+    // 4. Render right sidebar (sources)
+    renderRightSidebar(activeItems);
+
+    // 5. Render navigation
     if (issues.length) renderNav(issues, date);
 
   }).catch(function(err) {

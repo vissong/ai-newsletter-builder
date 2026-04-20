@@ -811,10 +811,293 @@ footer.site-footer li a:hover { color: var(--accent); }
 }
 
 /* ─── Issue Page — tighter column ────────────────────────────────────────── */
-.paper--issue { max-width: 920px; }
-.paper--issue .article { grid-template-columns: 56px 1fr; gap: 20px; }
+.paper--issue .article { grid-template-columns: 56px 1fr; }
 .paper--issue .article .art-num .art-n { font-size: 22px; }
-.paper--issue .highlights-block { grid-template-columns: 1.6fr 1fr; }
+
+/* ─── Issue Masthead ────────────────────────────────────────────────────── */
+.paper--issue .issue-masthead {
+  margin-bottom: 32px;
+}
+
+.paper--issue .im-topbar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--ink);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .06em;
+  color: var(--ink-soft);
+}
+
+.paper--issue .im-topbar-home {
+  color: var(--ink-soft);
+  text-decoration: none;
+  justify-self: start;
+}
+
+.paper--issue .im-topbar-home:hover { color: var(--accent); }
+
+.paper--issue .im-topbar-brand {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.paper--issue .im-brand-cn {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: .08em;
+  color: var(--ink);
+}
+
+.paper--issue .im-brand-en {
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.paper--issue .im-topbar-issue {
+  justify-self: end;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.paper--issue .im-cats {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+  padding: 20px 0 16px;
+}
+
+.paper--issue .im-headline {
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: .01em;
+  margin: 0 0 18px;
+}
+
+.paper--issue .im-summary {
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--ink-soft);
+  max-width: 64ch;
+  margin: 0 auto 24px;
+}
+
+.paper--issue .im-byline {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+}
+
+/* ─── Issue Body — Three-Column Grid ───────────────────────────────────── */
+.paper--issue .issue-body {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  gap: 40px;
+  align-items: start;
+}
+
+/* ─── Left Sidebar ─────────────────────────────────────────────────────── */
+.paper--issue .issue-sidebar-left {
+  position: sticky;
+  top: 28px;
+  align-self: start;
+}
+
+.paper--issue .sidebar-heading {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.paper--issue .sidebar-rule {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 18px 0;
+}
+
+.paper--issue .toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paper--issue .toc-item {
+  padding: 4px 0;
+}
+
+.paper--issue .toc-link {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  line-height: 1.6;
+  transition: color .15s;
+}
+
+.paper--issue .toc-link:hover {
+  color: var(--accent);
+}
+
+.paper--issue .toc-num {
+  color: var(--accent-ink);
+  flex: 0 0 auto;
+}
+
+.paper--issue .toc-name {
+  flex: 1;
+}
+
+.paper--issue .toc-count {
+  color: var(--ink-mute);
+  flex: 0 0 auto;
+}
+
+.paper--issue .stats-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paper--issue .stat-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink-soft);
+  padding: 4px 0;
+  line-height: 1.6;
+}
+
+.paper--issue .stat-value {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+/* ─── Center Content ───────────────────────────────────────────────────── */
+.paper--issue .issue-content {
+  min-width: 0;
+}
+
+/* ─── Right Sidebar ────────────────────────────────────────────────────── */
+.paper--issue .issue-sidebar-right {
+  position: sticky;
+  top: 28px;
+  align-self: start;
+}
+
+.paper--issue .sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paper--issue .source-item {
+  padding: 3px 0 6px;
+}
+
+.paper--issue .source-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.5;
+  gap: 6px;
+}
+
+.paper--issue .source-name {
+  color: var(--ink-soft);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.paper--issue .source-count {
+  color: var(--ink);
+  font-weight: 500;
+  flex: 0 0 auto;
+}
+
+.paper--issue .source-bar {
+  height: 3px;
+  background: var(--rule);
+  margin-top: 3px;
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.paper--issue .source-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 1px;
+  transition: width .3s ease;
+}
+
+/* ─── Issue Page Responsive Overrides ──────────────────────────────────── */
+@media (max-width: 1080px) {
+  .paper--issue .issue-body {
+    grid-template-columns: 180px 1fr;
+    gap: 28px;
+  }
+  .paper--issue .issue-sidebar-right {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .paper--issue .issue-body {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .paper--issue .issue-sidebar-left,
+  .paper--issue .issue-sidebar-right {
+    display: none;
+  }
+  .paper--issue .im-topbar {
+    grid-template-columns: auto 1fr auto;
+    font-size: 10px;
+    gap: 8px;
+  }
+  .paper--issue .im-headline {
+    font-size: clamp(28px, 5vw, 48px);
+  }
+  .paper--issue .im-summary {
+    font-size: 16px;
+  }
+  .paper--issue .im-cats {
+    font-size: 9px;
+    letter-spacing: .14em;
+  }
+}
 
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
