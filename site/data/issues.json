@@ -4,64 +4,65 @@
       "date": "2026-04-20",
       "n": 1,
       "dow": "MON",
-      "title": "Opus 4.7 重夺王座，Sequoia 70 亿押注 AI",
+      "title": "AI日报｜OpenAI发布面向开发者的新工具，包括Codex",
+      "summary": "本期共 90 条 AI 资讯，来自 24 个数据源。头条：OpenAI发布面向开发者的新工具，包括Codex和Flex处理",
       "headlines": [
         {
-          "title": "Gemini 3.1 Flash TTS：新一代富有表现力的 AI 语音模型",
-          "tag": "工具发布"
+          "title": "OpenAI发布面向开发者的新工具，包括Codex和Flex处理",
+          "tag": "研究前沿"
         },
         {
-          "title": "15个AI智能体和应用开发平台，零代码构建AI应用 | AI工具集",
-          "tag": "工具发布"
+          "title": "AI工具集官网| 1000+ AI工具集合，国内外AI工具集导航大全",
+          "tag": "政策监管"
         },
         {
-          "title": "即梦AI - 字节跳动推出的一站式AI创作平台",
+          "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
+          "tag": "政策监管"
+        },
+        {
+          "title": "$\\pi_{0.7}$：具有涌现能力的可控通用机器人基础模型",
           "tag": "重大发布"
         },
         {
-          "title": "大厂ALL IN AI烧钱不止，硬件持续涨价，字节利润暴跌超70%",
-          "tag": "行业动态"
+          "title": "AI by AI 每周Top 5：2026年4月6日–12日",
+          "tag": "重大发布"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-40",
+          "title": "OpenAI发布面向开发者的新工具，包括Codex和Flex处理",
+          "source_count": 2,
+          "category": "research-frontier"
         },
         {
-          "title": "OpenAI 首席科学家谈持续学习、代码之外的强化学习与未来对齐方向",
-          "tag": "研究前沿"
+          "id": "item-70",
+          "title": "AI工具集官网| 1000+ AI工具集合，国内外AI工具集导航大全",
+          "source_count": 2,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-71",
+          "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
+          "source_count": 2,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-0",
+          "title": "$\\pi_{0.7}$：具有涌现能力的可控通用机器人基础模型",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-1",
+          "title": "AI by AI 每周Top 5：2026年4月6日–12日",
+          "source_count": 1,
+          "category": "major-release"
         }
       ],
       "item_count": 90,
-      "trimmed_count": 180,
-      "source_count": 22,
-      "top_items": [
-        {
-          "id": "item-1",
-          "title": "Gemini 3.1 Flash TTS：新一代富有表现力的 AI 语音模型",
-          "source_count": 2,
-          "category": "tools-release"
-        },
-        {
-          "id": "item-2",
-          "title": "15个AI智能体和应用开发平台，零代码构建AI应用 | AI工具集",
-          "source_count": 2,
-          "category": "tools-release"
-        },
-        {
-          "id": "item-3",
-          "title": "即梦AI - 字节跳动推出的一站式AI创作平台",
-          "source_count": 2,
-          "category": "major-release"
-        },
-        {
-          "id": "item-4",
-          "title": "每日AI资讯、热点、动态、融资、产品发布 - AI工具集",
-          "source_count": 2,
-          "category": "major-release"
-        },
-        {
-          "id": "item-5",
-          "title": "AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全",
-          "source_count": 2,
-          "category": "major-release"
-        }
-      ],
+      "trimmed_count": 90,
+      "source_count": 24,
       "categories": {
         "major-release": 20,
         "industry-business": 20,
@@ -69,8 +70,7 @@
         "tools-release": 20,
         "policy-regulation": 20
       },
-      "generated_at": "2026-04-20T13:45:18.294059+00:00",
-      "summary": "本期共 90 条 AI 资讯，来自 22 个数据源。头条：Gemini 3.1 Flash TTS：新一代富有表现力的 AI 语音模型"
+      "generated_at": "2026-04-20T14:33:35.140604+00:00"
     }
   ]
 }
