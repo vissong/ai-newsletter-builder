@@ -103,7 +103,7 @@
     "source_count": 1,
     "id": "item-2",
     "category": "industry-business",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "Aletheia：基于梯度引导的层选择实现跨架构高效LoRA微调",
@@ -514,7 +514,7 @@
     "source_count": 1,
     "id": "item-25",
     "category": "industry-business",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "Adobe为营销AI未来押下最大赌注",
@@ -549,7 +549,7 @@
     "source_count": 1,
     "id": "item-27",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "A股三大股指涨跌互现：商业航天概念活跃，两市成交近2.6万亿元",
     "summary_original": "A股三大股指4月20日开盘涨跌互现。早盘冲高回落，创指一度转跌。午后快速回落后，尾盘略有回暖。从盘面上看，商业航天、光纤、液冷服务器、稀有金属、AI应用、光伏、特高压、消费电子概念股活跃；锂电池、创新药题材走弱，地产、煤炭板块回调。至收盘，上证综指涨0.76%，报4082.13点；深证成指涨0.55%，报14966.75点；创业板指跌0.02%，报3677.58点。Wind统计显示，两市及北交所共3421家上涨，1890家下跌，平盘有185家。两市成交25788亿元，较前一交易日的24256亿元增加1532亿元。其中，沪市成交10846亿元，比上一交易日10135亿元增加711亿元，深市成交1"
   },
@@ -567,7 +567,7 @@
     "source_count": 1,
     "id": "item-28",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "A股异动丨AI应用股集体上涨，中文在线涨超5%，DeepSeek据报启动首轮外部融资",
     "summary_original": "A股市场AI应用股集体上涨，其中，青木科技涨11%，三人行、魅视科技10CM涨停，蓝色光标涨超9%，润达医疗涨超7%，中控技术、法本信息、中文在线、浙文互联涨超5%，值得买、海康威视、引力传媒、昆仑万维、流金科技、乐心医疗涨超4%，易点天下、壹网壹创、视源股份、神州数码、浩云科技、掌阅科技、世纪天鸿、志晟信息涨超3%。..."
   },
@@ -640,7 +640,7 @@
     "source_count": 1,
     "id": "item-32",
     "category": "policy-regulation",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "IMF称财政吃紧已成全球性问题，而AI或许是唯一出路",
     "summary_original": "2026年4月15日，在华盛顿举行的2026年IMF与世界银行春季会议期间，IMF财政事务部主任罗德里戈·巴尔德斯出席《财政监测报告》发布会并发言。图片来源：Kent NISHIMURA / AFP via Getty Images美国高达39万亿美元的国债，早已成为美国政坛被反复踢来踢去的“政治皮球”——在预算谈判中被反复提起，在国会听证会上被频频引用..."
   },
@@ -748,7 +748,7 @@
     "source_count": 1,
     "id": "item-38",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "人工智能早参｜“投不进去”？DeepSeek首轮外部融资引热议",
     "summary_original": "4月17日，创业板人工智能ETF（159279）上涨3.46%，换手率达24.63%，交投活跃。成分股方面，新易盛涨超8%、天孚通信涨超6%、中际旭创涨超5%。与此同时，科创芯片ETF华安（588290）上涨0.88%，港股通恒生科技ETF（520840）下跌0.49%。美股三大指数上周五集体收涨，纳指涨1.52%，为连续13个交易日上涨续创新高，创下2013年以来..."
   },
@@ -766,7 +766,7 @@
     "source_count": 1,
     "id": "item-39",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "人工智能类ETF上周领涨，机构看好弹性资产丨ETF基金周报",
     "summary_original": "一、证券市场回顾南财金融终端数据显示，上周(4月13日-4月17日,下同)，上证综指周内上涨1.64%，收于4051.43点，最高4058.6点；深证成指周内上涨4.02%，收于14885.42点，最高14916.39点；创业板指周内上涨6.65%，收于3678.29点，最高3685.1点。在全球市场中，主要指数均上涨。纳斯达克综指上涨6.84%，道琼斯工业指数上涨3.1..."
   },
@@ -874,7 +874,7 @@
     "source_count": 1,
     "id": "item-46",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "AI大家说 | AI落地的实践分享：从大模型盈利到新工作方式",
     "summary_original": "要点速览· 本文分享了两位企业实践者的自述，深入理解他们的具体探索，为更多企业提供AI落地思路的借鉴。· 智谱高级副总裁吴玮杰表示，大模型盈利关键在于结合自身资源禀赋选择合适的商业模式（订阅、API、项目制或AI原生应用），并对市场需求保持敏锐感知、快速迭代。· 钉钉副总裁贾伟表示，AI 不是替代人的工具，而是..."
   },
@@ -892,7 +892,7 @@
     "source_count": 1,
     "id": "item-47",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "AI大模型吞噬软件路径推演",
     "summary_original": "2023年AI爆发以来，绝大部分人都没敢如此设想，大模型有一天可能会吞噬一切——软件、互联网、工作机会；而对比鲜明的是，AI原厂年化收入ARR呈现指数级上升趋势。图：海外AI原厂年化收入快速增长资料来源：epoch.ai今年以来，软件行业成为市场对“被吞噬”担忧的焦点领域，美股软件ETF（IGV 指数）年初至今跌幅已达 24%。由...\n   发布时间: 2026-04-17 08:13:44\n   链接: https://view.inews.qq.com/a/20260417A020J500?scene=news-skill\n\n14. 标题：大华股份：员工持股计划首增AI大模型收入目标 未"
   },
@@ -1092,7 +1092,7 @@
     "source_count": 1,
     "id": "item-58",
     "category": "tools-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Cursor升级AI Agent能力，编程工具竞争进入「自动化开发」阶段",
     "summary_original": "AIPress.com.cn报道4月20日消息，初创公司 Cursor 宣布对其AI Agent进行重大升级，以应对来自 OpenAI、Anthropic 及 Microsoft 等竞争对手的压力。此次更新的核心在于提升AI代理的“自主执行能力”。据介绍，新一代代理不仅可以生成和修改代码，还能够对自身改动进行测试，并通过视频、日志及截图记录执行过程，从而增强开..."
   },

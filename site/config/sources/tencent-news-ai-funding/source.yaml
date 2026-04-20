@@ -1,18 +1,25 @@
-name: tencent-news-ai-funding
-type: script
-enabled: true
-language: zh
-priority: 2
-time_window_hours: 24
-recent_hours: 24
-timeout_seconds: 30
-
-script: fetch.sh
-runtime: bash
-
 check:
   binary: tencent-news-cli
-  install_hint: "Install from https://news.qq.com/exchange?scene=appkey and run: tencent-news-cli apikey-set <key>"
-
+  install_hint: 'Install from https://news.qq.com/exchange?scene=appkey and run: tencent-news-cli
+    apikey-set <key>'
+enabled: false
 extract:
-  exclude_keywords: ["ETF", "涨停", "跌停", "涨超", "跌超", "股票", "基金", "大盘", "行情"]
+  exclude_keywords:
+  - ETF
+  - 涨停
+  - 跌停
+  - 涨超
+  - 跌超
+  - 股票
+  - 基金
+  - 大盘
+  - 行情
+language: zh
+name: tencent-news-ai-funding
+priority: 2
+recent_hours: 24
+runtime: bash
+script: fetch.sh
+time_window_hours: 24
+timeout_seconds: 30
+type: script

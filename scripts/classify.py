@@ -177,6 +177,13 @@ def trim_by_caps(items: list) -> list:
 
 # ─── 垃圾/过期数据检测 ───
 
+# Blocked sources — always trimmed
+BLOCKED_SOURCES = {
+    "tencent-news-hot", "tencent-news-ai-search", "tencent-news-ai-agent",
+    "tencent-news-ai-funding", "tencent-news-ai-policy",
+}
+
+
 # Homepage/index URLs that are not real articles
 HOMEPAGE_PATTERNS = [
     re.compile(r'https?://[^/]+/?$'),
@@ -193,6 +200,11 @@ def is_garbage(item: dict, run_date: str):
     url = item.get("url", "")
     title = item.get("title", "")
     summary = item.get("summary", "")
+
+    # 0. Blocked sources
+    source = item.get("source", "")
+    if source in BLOCKED_SOURCES:
+        return f"blocked source: {source}"
 
     # 1. Homepage URLs
     for pat in HOMEPAGE_PATTERNS:

@@ -5,7 +5,7 @@
       "n": 1,
       "dow": "MON",
       "title": "Mythos 震撼发布，DeepSeek 首轮外部融资",
-      "summary": "本期共 56 条 AI 资讯，来自 22 个数据源。头条：Anthropic Mythos 成年度最重磅发布，苹果公布新版 Siri 日期",
+      "summary": "本期共 46 条 AI 资讯，来自 17 个数据源。头条：Anthropic Mythos 成年度最重磅发布，苹果公布新版 Siri 日期",
       "headlines": [
         {
           "title": "Anthropic Mythos 成年度最重磅 AI 发布",
@@ -48,29 +48,28 @@
           "category": "research-frontier"
         },
         {
-          "id": "item-2",
-          "title": "AI大模型周报：腾讯阿里同日发布世界模型，云服务三巨头全面涨价",
-          "source_count": 1,
-          "category": "industry-business"
-        },
-        {
           "id": "item-3",
           "title": "Aletheia：基于梯度引导的层选择实现跨架构高效LoRA微调",
           "source_count": 1,
           "category": "research-frontier"
+        },
+        {
+          "id": "item-6",
+          "title": "人类与大语言模型交互中的拟人化与信任",
+          "source_count": 1,
+          "category": "research-frontier"
         }
       ],
-      "item_count": 56,
-      "trimmed_count": 34,
-      "source_count": 22,
+      "item_count": 46,
+      "trimmed_count": 44,
+      "source_count": 17,
       "categories": {
         "major-release": 20,
-        "tools-release": 5,
+        "tools-release": 4,
         "research-frontier": 10,
-        "industry-business": 20,
-        "policy-regulation": 1
+        "industry-business": 12
       },
-      "generated_at": "2026-04-20T15:23:11.196027+00:00"
+      "generated_at": "2026-04-20T15:26:50.333905+00:00"
     }
   ]
 }
