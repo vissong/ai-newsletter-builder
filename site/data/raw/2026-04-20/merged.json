@@ -17,7 +17,7 @@
     "title_original": "Researchers Use Quantum Computer to Improve AI Predictions - CNET",
     "summary_original": "# Researchers Use Quantum Computer to Improve AI Predictions. A quantum computer assists an AI model with calculations that would take weeks to figure out with a normal computer. The research team from University College London, who published their findings\") on Friday in the journal Science Advances, say that one day, quantum computers could help AI models make fast, accurate predictions across a",
     "id": "item-40",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "AI工具集官网| 1000+ AI工具集合，国内外AI工具集导航大全",
@@ -604,7 +604,7 @@
     "source_count": 1,
     "id": "item-30",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Exclusive | Adobe Unveils Agents for Businesses Amid Threat of AI Disruption - WSJ",
     "summary_original": "https://www.wsj.com/cio-journal/adobe-unveils-agents-for-businesses-amid-threat-of-ai-disruption-d3cf479c. Software maker Adobe has to prove that tools like its new AI agent platform can help it get ahead of the AI-native competition.Justin Sullivan/Getty Images. Adobe is releasing a set of AI agents that aim to help corporate customers automate digital marketing and other functions, the latest mo"
   },
@@ -695,7 +695,7 @@
     "source_count": 1,
     "id": "item-35",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "San Francisco tests whether AI can run a retail store - Axios",
     "summary_original": "# We visited San Francisco's AI-run store so you don't have to. **The big picture:** This Anthropic-backed, first-of-its-kind retail experiment is part store and part social experiment, designed to test whether an AI model can run a business. * Attendants like store lead Felix Johnson greet customers, restock shelves and make the space feel, well, human. **But Andon Market** isn't really about sel"
   },
@@ -929,7 +929,7 @@
     "source_count": 1,
     "id": "item-49",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Anthropic Mythos 引发大量关键软件安全更新",
     "summary_original": "Anthropic 最新最强大的 AI 模型 Mythos 催生了新一波关键安全补丁，用户不应忽视这些更新。"
   },
@@ -1233,7 +1233,7 @@
     "source_count": 1,
     "id": "item-66",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Open Source AI Is Moving From Sideshow To Strategy - Forbes",
     "summary_original": "Image 19: Open source AI icons depict accessibility, collaboration, and community support. So while closed AI models from commercial vendors still lead the pack, the performance floor for what these open source models can do is getting much higher and the stack around open models getting good enough to competitively perform real work. ## Open Source AI Is Now A Full Stack Story. An open weight mod"
   },
