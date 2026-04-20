@@ -24,7 +24,8 @@ from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parent.parent  # .../ai-newsletter-builder
 BUILTIN_DESIGNS = SKILL_DIR / "designs"
-SOURCE_TEMPLATES = SKILL_DIR / "templates" / "sources"
+TEMPLATES = SKILL_DIR / "templates"
+SOURCE_TEMPLATES = TEMPLATES / "sources"
 
 
 def slurp(path: Path) -> str:
@@ -357,6 +358,19 @@ a {{ color: var(--color-accent); }}
     issues_json = site / "data" / "issues.json"
     if not issues_json.exists():
         issues_json.write_text(json.dumps({"issues": [], "generated_at": datetime.now(timezone.utc).isoformat()}, indent=2), encoding="utf-8")
+
+    # Copy SPA shell templates (index + issue page)
+    title = args.title
+    subtitle = "每日 AI 资讯精选"
+    for src_name, dest_rel in [("index.html", "index.html"), ("issue.html", "issues/index.html")]:
+        src = TEMPLATES / src_name
+        dest = site / dest_rel
+        if not dest.exists() and src.exists():
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            content = src.read_text(encoding="utf-8")
+            content = content.replace("{{ title }}", title).replace("{{ subtitle }}", subtitle)
+            dest.write_text(content, encoding="utf-8")
+            print(f"  template copied: {dest_rel}")
 
     # README
     readme = site / "README.md"
