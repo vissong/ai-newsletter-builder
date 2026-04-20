@@ -37,11 +37,13 @@ HASH_FILE = ".hashes.json"
 # ---------------------------------------------------------------------------
 
 def git_clone(repo_url: str, dest: Path) -> None:
-    subprocess.run(["git", "clone", "--depth=1", repo_url, str(dest)], check=True)
+    subprocess.run(["git", "clone", "--depth=1", repo_url, str(dest)],
+                   check=True, stdout=subprocess.DEVNULL)
 
 
 def git_pull(repo_dir: Path) -> None:
-    subprocess.run(["git", "-C", str(repo_dir), "pull", "--ff-only"], check=True)
+    subprocess.run(["git", "-C", str(repo_dir), "pull", "--ff-only"],
+                   check=True, stdout=subprocess.DEVNULL)
 
 
 def ensure_repo(cache_dir: Path) -> None:

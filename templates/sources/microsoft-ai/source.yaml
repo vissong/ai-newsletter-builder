@@ -1,6 +1,6 @@
 name: microsoft-ai
 type: prompt
-enabled: true
+enabled: false
 language: en
 priority: 2
 time_window_hours: 168

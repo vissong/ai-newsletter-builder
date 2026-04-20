@@ -22,9 +22,10 @@ for m in re.finditer(
 ):
     title = m.group(1).strip()
     summary = m.group(2).strip()[:300]
+    published_at = m.group(4).strip()
     url = m.group(5).strip()
     if title and url:
-        items.append({'title': title, 'url': url, 'summary': summary, 'language': 'zh'})
+        items.append({'title': title, 'url': url, 'published_at': published_at, 'summary': summary, 'language': 'zh'})
 
 json.dump(items, sys.stdout, ensure_ascii=False, indent=2)
 " <<< "$RAW"
