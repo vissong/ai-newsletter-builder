@@ -244,6 +244,20 @@ When merging:
 
 `source_count > 1` is a strong signal of importance — surface it in the rendered page (e.g. "Reported by N sources").
 
+## Phase 3.5: Translate to output language
+
+After merging, translate all items to the site's `output_language` (from `site/config/site.yaml`). This ensures every item renders consistently in the target language regardless of its original source language.
+
+**When `output_language: zh`:**
+- Items with `language: en` (or any non-zh language): translate `title` and `summary` to Chinese. Keep the original `url` intact. Store the original English title in `title_original` for reference.
+- Items already in Chinese: no change.
+- Translation should be natural and idiomatic, not word-for-word. Proper nouns (model names, company names, product names) keep their original form — e.g. "Claude Opus 4.7" stays as-is, "OpenAI" stays as-is.
+
+**When `output_language: en`:**
+- Mirror the above: translate zh items to English.
+
+This step runs on the full `merged.json` before categorization (Phase 4). It can be done in a single batch pass.
+
 ## Phase 4: Categorization
 
 Assign each item to exactly one of these five categories. Names are fixed — don't invent new ones; downstream templates depend on these slugs.
@@ -260,9 +274,19 @@ Ambiguous items: pick the category that matches the *primary* news hook, not the
 
 Write the category back into each item in `merged.json`. Then sort within each category by `source_count` desc, then `published_at` desc.
 
-### Cap on `research-frontier` — keep at most 10
+### Per-category caps
 
-Research sources (arxiv, papers-with-code, HuggingFace research posts, MIT Tech Review analysis) flood this category on any given day and push the rest of the issue off the page. After sorting, **trim `research-frontier` to the top 10** by importance. All other categories stay uncapped.
+To keep daily issues readable, apply per-category caps after sorting. Excess items are trimmed, not deleted.
+
+| Category            | Max visible | Reason                                              |
+| ------------------- | ----------- | --------------------------------------------------- |
+| `research-frontier` | 10          | arXiv alone can flood 90+ items/day                 |
+| `major-release`     | 20          | Prevent noise from minor version bumps              |
+| `industry-business` | 20          | High volume from search + tencent-news sources      |
+| `tools-release`     | 20          | follow-builders + open-source sources produce many  |
+| `policy-regulation` | 20          | Keeps balance with other categories                 |
+
+Research sources (arxiv, papers-with-code, HuggingFace research posts, MIT Tech Review analysis) flood this category on any given day and push the rest of the issue off the page. After sorting, **trim `research-frontier` to the top 10** by importance. Other categories trim to **20** each.
 
 Importance ranking, applied in order — each tie-breaker runs only when the previous one didn't resolve:
 
@@ -289,7 +313,7 @@ For a date `<YYYY-MM-DD>`:
    ```json
    {
      "date": "2026-04-18",
-     "title": "AI Newsletter · 2026-04-18",
+     "title": "Mythos 走进白宫，Claude Design 挑战 Figma",
      "item_count": 23,
      "source_count": 8,
      "categories": {
@@ -310,13 +334,49 @@ For a date `<YYYY-MM-DD>`:
    }
    ```
 
+   ### Issue title — 每期标题
+
+   `title` 必须是**当期独有的编辑标题**，不能用模板化的 `站点名 · 日期` 格式。好的标题像新闻头版标题一样，概括当天最重要的 1–2 个事件，让读者一眼知道这期的看点。
+
+   生成规则：
+   1. 从 `top_items`（`source_count` 最高的条目）和 `major-release` 分类中提取当天最有新闻价值的 1–2 条。
+   2. 用一句话概括，不超过 30 个中文字符（或 60 个英文字符）。
+   3. 可以用顿号或逗号连接两个关键词，但不要堆砌。
+   4. 不要包含日期——日期已有 `date` 字段。
+   5. 不要包含站点名——那是站点层面的信息，不是期刊层面的。
+
+   示例：
+   - ✅ `"Mythos 走进白宫，Claude Design 挑战 Figma"`
+   - ✅ `"GPT-5 发布，开源大模型性能首次追平闭源"`
+   - ✅ `"欧盟 AI 法案正式生效"`
+   - ❌ `"AI Newsletter · 2026-04-18"`（模板化）
+   - ❌ `"2026年4月18日 AI 日报"`（含日期）
+
    Fields used by the SPA homepage:
    - `date` — sort key and URL parameter (`issues/?date=2026-04-18`)
    - `categories` — object mapping slug → count (used for filter chips and stats)
    - `source_count` — total unique data sources
    - `top_items` — 3–5 entries for homepage teasers (include `id` for anchor links)
+   - `headlines` — exactly 2 editorial headlines (see below)
    - `n` — issue number (1-based, ascending)
    - `dow` — day-of-week abbreviation (`SUN`..`SAT`)
+
+   ### Headlines — 首页头条
+
+   每期在 `issues.json` 中生成 `headlines` 数组，包含 **2 条**编辑式头条，展示在首页"最新一期"区域的右侧。头条不是简单复制 `top_items` 的标题——它们是对当天最重要事件的**提炼和再表达**。
+
+   ```json
+   "headlines": [
+     {"title": "Anthropic 三线齐发：Claude Design 进军设计、Opus 4.7 夺回性能王座", "tag": "重大发布 · 2 源报道"},
+     {"title": "Mythos 秘密入驻白宫与 NSA，AI 国家安全博弈升级", "tag": "政策监管"}
+   ]
+   ```
+
+   生成规则：
+   1. 从当天所有可见条目中选出**最有新闻价值的 2 个主题**（不限于同一分类）。优先选 `source_count` 高的、跨分类影响大的事件。
+   2. 每条头条是一句**完整的、有信息量的中文短句**（15–30 字），而非单纯的标题复制。要让读者不看正文也能抓住核心。
+   3. `tag` 字段标注分类名称，如果 `source_count > 1` 则附加 `· N 源报道`。
+   4. 两条头条应覆盖**不同的分类或主题方向**，避免同质化。
 
 ## Phase 6: Ensure SPA shells are in place
 
