@@ -36,6 +36,15 @@ uv pip install --python ~/.browser-use-env/bin/python3 browser-use playwright
 
 The collector resolves `real_browser` at runtime: if `~/.browser-use-env/bin/python3` exists, script sources that need Playwright will use it; otherwise the source is skipped with a clear error in `collect.log`.
 
+### Optional: Tavily Search CLI (tvly)
+
+Search-type sources (`search-major-release`, `search-funding`, etc.) use the Tavily CLI instead of the built-in `WebSearch` API, which requires a Claude official subscription. Install once:
+```bash
+curl -fsSL https://cli.tavily.com/install.sh | bash && tvly login
+```
+
+Sources that depend on `tvly` declare `requires_cli: tvly` in their `source.yaml`. The collector checks this before running the fetch script.
+
 ## Architecture
 
 **Entry point:** `SKILL.md` — the full skill specification (triggers, phases, rules). This is what Claude Code loads when the skill activates.

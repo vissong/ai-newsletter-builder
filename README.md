@@ -133,6 +133,79 @@ Requires `gog` CLI: [`https://gogcli.sh`](https://gogcli.sh). Run `gog auth logi
   url: https://s.weibo.com/weibo?q=AI&sort=hot&timescope=custom:24h
 ```
 
+### Adding a new data source
+
+The fastest way：直接告诉 Claude：
+
+> "给我的 AI 日报加一个 Hacker News 数据源"
+
+Claude 会自动走引导流程（`references/add_source_flow.md`），帮你完成下面所有步骤。
+
+如果需要手动添加，流程如下：
+
+**1. 选类型**
+
+| 类型 | 文件夹内容 | 适用场景 |
+|------|-----------|---------|
+| `script` | `source.yaml` + `fetch.py` | 有 CLI 工具、RSS、稳定 API、固定格式输出 |
+| `prompt` | `source.yaml` + `prompt.md` | 网页结构不固定，需要 LLM 理解并提取 |
+
+**2. 创建源文件夹**
+
+```bash
+mkdir -p site/config/sources/<name>/
+```
+
+**3. 编写配置**
+
+`source.yaml` 最小模板：
+
+```yaml
+name: my-source          # 小写、dash 分隔
+type: script             # script 或 prompt
+enabled: true
+language: en             # en / zh
+priority: 2              # 1=核心 2=常规 3=补充
+time_window_hours: 48    # 保留多久内的文章
+recent_hours: 24         # 24h 内标记 recent: true
+timeout_seconds: 30
+```
+
+script 类型额外字段：
+```yaml
+script: fetch.py
+runtime: python3         # python3 / bash / node
+```
+
+prompt 类型不需要额外字段，配套 `prompt.md` 即可。
+
+**4. 编写数据获取逻辑**
+
+- **script 类型**：`fetch.py` 输出 JSON 数组到 stdout，每条 `{title, url, summary, published_at, language}`
+- **prompt 类型**：`prompt.md` 分三部分 — `## Fetch`（怎么抓）、`## Extract`（提取什么字段）、`## Edge Cases`（异常处理）
+
+**5. 试跑验证**（必须）
+
+```bash
+# script 类型
+python3 site/config/sources/my-source/fetch.py | python3 -m json.tool | head -20
+
+# prompt 类型：让 Claude 执行 prompt.md 中的指令，确认能提取到数据
+```
+
+验证通过后源才算就绪。未通过试跑的源会在正式收集时静默失败。
+
+**需要真实浏览器的源**
+
+如果目标网站有反爬或 JS 渲染（如 VentureBeat、The Verge、36Kr），在 `source.yaml` 中添加：
+
+```yaml
+requires_capability: real_browser
+runtime_hint: ~/.browser-use-env/bin/python3
+```
+
+需要预先安装 browser-use 环境，参见 `CLAUDE.md` 中的 "Optional: browser-use" 段落。
+
 ---
 
 ## Design systems

@@ -99,7 +99,41 @@ If not, walk the user through setup:
 
    Ship-in-the-box DESIGN.md sets live under `designs/<name>/` (currently `figma/`, `cohere/`). Users can also drop their own `DESIGN.md` into a new folder, or fetch one from [getdesign.md](https://getdesign.md) — see `references/design_md_guide.md` §Fetching.
 3. **Seed data sources.** Show the built-in source catalog (see `references/data_sources.md`) and ask which to enable. Let the user add their own in the same step (see next phase).
-4. **Run** `scripts/init_site.py --dir <cwd>/site --design <name-or-path> [--seed-sources follow-builders,...]` to create the directory skeleton, copy the design into `site/config/design/`, and seed source folders under `site/config/sources/`. The script detects whether `--design` resolves to a single `.md` or a directory with `DESIGN.md`:
+4. **Check optional dependencies.** Based on the sources the user chose, check whether external tools are needed and guide installation:
+
+   **Tavily CLI (`tvly`)** — required by all `search-*` sources. Check:
+   ```bash
+   which tvly || echo "not installed"
+   ```
+   If missing, guide the user:
+   > Search 类数据源需要 Tavily CLI。安装：
+   > ```
+   > curl -fsSL https://cli.tavily.com/install.sh | bash && tvly login
+   > ```
+   > 免费版每月 1000 次搜索，足够日常使用。安装完成后告诉我继续。
+
+   **browser-use (Playwright)** — required by sources with `requires_capability: real_browser` (e.g. `venturebeat-ai`, `theverge-ai`, `36kr-ai`). Check:
+   ```bash
+   test -x ~/.browser-use-env/bin/python3 && echo "ok" || echo "not installed"
+   ```
+   If missing, guide the user:
+   > 部分数据源需要 headless 浏览器抓取（反爬/JS 渲染站点）。安装：
+   > ```
+   > uv venv ~/.browser-use-env --python 3.13
+   > uv pip install --python ~/.browser-use-env/bin/python3 browser-use playwright
+   > ~/.browser-use-env/bin/python3 -m playwright install chromium
+   > ```
+   > 安装完成后告诉我继续。
+
+   **gog CLI** — required by `gmail-ai-newsletter`. Check:
+   ```bash
+   which gog || echo "not installed"
+   ```
+   If missing, guide the user to install from [gogcli.sh](https://gogcli.sh) and run `gog auth login`.
+
+   Skip any dependency check if the user didn't select sources that need it. Don't block init for optional dependencies — just warn and note which sources will be skipped at collection time.
+
+5. **Run** `scripts/init_site.py --dir <cwd>/site --design <name-or-path> [--seed-sources follow-builders,...]` to create the directory skeleton, copy the design into `site/config/design/`, and seed source folders under `site/config/sources/`. The script detects whether `--design` resolves to a single `.md` or a directory with `DESIGN.md`:
    - Single `.md` → templated CSS gen (fast, built-in).
    - Directory with `DESIGN.md` → script writes a minimal placeholder CSS and **you must then read `DESIGN.md` yourself and write `site/assets/style.css`** following `references/design_md_guide.md`. Don't skip this — the placeholder is ugly by design, to force a proper pass.
 

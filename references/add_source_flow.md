@@ -137,16 +137,26 @@ For `script` type:
 ```yaml
 name: <name>
 type: script
-runtime: python3  # or bash, node
-args:
-  - "--date"
-  - "{{today}}"
-dependencies:
-  - binary: rsstail
-    install_hint: "brew install rsstail"
-language: en
-priority: 2
 enabled: true
+language: en             # en / zh
+priority: 2              # 1=核心 2=常规 3=补充
+time_window_hours: 48    # 保留多久内的文章（公司博客建议 168）
+recent_hours: 24         # 24h 内标记 recent: true
+timeout_seconds: 30
+
+script: fetch.py
+runtime: python3         # python3 / bash / node
+
+# 如果脚本依赖外部二进制
+requires_cli: tencent-news-cli
+# 如果需要真实浏览器环境（反爬/JS渲染站点）
+requires_capability: real_browser
+runtime_hint: ~/.browser-use-env/bin/python3
+
+extract:
+  item_limit: 15
+  follow_articles: false
+  exclude_keywords: ["广告", "推广"]  # 可选
 ```
 
 For `prompt` type:

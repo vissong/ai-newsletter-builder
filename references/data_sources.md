@@ -294,20 +294,24 @@ When the collector starts, detect which of these are available in the current se
 
 `weixin-sogou` has no `requires_capability` because plain `WebFetch` usually suffices. If Sogou starts rejecting all fetches at scale, a user can add `requires_capability: real_browser` and the collector will re-route.
 
-### Search sources (generated)
+### Search sources (Tavily CLI)
 
-Default queries (users can add/remove freely):
+All 6 search sources use `tvly` CLI (Tavily Search) instead of the built-in `WebSearch` API, which requires a Claude official subscription. Each source is a `script` type with a standalone `fetch.py` that calls `tvly search` and outputs JSON to stdout.
 
-| name | query | 推荐类型 |
-|------|-------|----------|
-| search-major-release | `"AI model release" OR "launches" OR "announces" after:{{yesterday}}` | `prompt` |
-| search-funding | `"AI startup" (funding OR Series OR raises) after:{{yesterday}}` | `prompt` |
-| search-research | `"AI paper" OR "machine learning breakthrough" after:{{yesterday}}` | `prompt` |
-| search-policy | `AI (regulation OR policy OR bill OR law) after:{{yesterday}}` | `prompt` |
-| search-36kr-ai | `site:36kr.com AI after:{{yesterday}}` (中文，辅助 36kr-ai 页面抓取) | `prompt` |
-| search-weixin-ai | `site:mp.weixin.qq.com AI after:{{yesterday}}` (备用，直达公众号文章) | `prompt` |
+**Dependency:** `tvly` CLI must be installed and authenticated. Install: `curl -fsSL https://cli.tavily.com/install.sh | bash && tvly login`
 
-`{{yesterday}}` and `{{today}}` are resolved at collection time (ISO date, local tz). Add one search per topic you care about — don't combine multiple intents into one query or the model can't tell what to keep.
+| name | query | type | time_window | ★ |
+|------|-------|------|-------------|---|
+| search-major-release | `"AI model release" OR "AI launches" OR "AI announces"` | `script` | 48h | ★ |
+| search-funding | `"AI startup" funding OR "Series" OR raises` | `script` | 96h | ★ |
+| search-research | `"AI paper" OR "machine learning breakthrough" OR "AI research"` | `script` | 96h | ★ |
+| search-policy | `AI regulation OR policy OR bill OR law` | `script` | 48h | ★ |
+| search-36kr-ai | `AI 大模型 人工智能` (domain: 36kr.com) | `script` | 48h | ★ |
+| search-weixin-ai | `AI 人工智能 大模型` (domain: mp.weixin.qq.com) | `script` | 48h | ★ |
+
+`search-funding` and `search-research` use 96h windows because funding/research news publishes primarily on weekdays; a 48h window misses Friday articles on Sunday collection runs. The Chinese sources (`search-36kr-ai`, `search-weixin-ai`) use `--include-domains` to restrict results to their target platforms, with `exclude_keywords` filtering out ads and financial promotions.
+
+Each `fetch.py` uses `--time-range day` (or `week`) and `--topic news` for recency, then applies `time_window_hours` filtering locally on `published_date`. Add one search per topic you care about — don't combine multiple intents into one query or the model can't tell what to keep.
 
 ### Email example (opt-in)
 
