@@ -20,6 +20,7 @@ CAT_CAPS = {
     "research-frontier": 10,
     "tools-release": 20,
     "policy-regulation": 20,
+    "kol-posts": 15,
 }
 
 # ─── 来源 → 固定分类映射（优先级最高）───
@@ -31,7 +32,7 @@ SOURCE_CATEGORY = {
     # 行业动态：融资/商业/科技媒体
     "tencent-news-ai-funding": "industry-business",
     "search-funding": "industry-business",
-    "follow-builders": "industry-business",
+    "follow-builders": "kol-posts",
     "36kr-ai": "industry-business",
     "search-36kr-ai": "industry-business",
     "tencent-news-hot": "industry-business",
@@ -304,7 +305,7 @@ def main():
     print(f"总条目: {len(items)}")
     print(f"visible: {len(visible)}, trimmed: {len(trimmed)}")
     print("栏目分布 (visible):")
-    for cat in ["major-release", "industry-business", "research-frontier", "tools-release", "policy-regulation"]:
+    for cat in ["major-release", "industry-business", "research-frontier", "tools-release", "policy-regulation", "kol-posts"]:
         print(f"  {cat}: {cats.get(cat, 0)}")
 
     # 写回
