@@ -1,6 +1,6 @@
 name: search-major-release
 type: script
-enabled: true
+enabled: false
 language: en
 priority: 1
 time_window_hours: 48

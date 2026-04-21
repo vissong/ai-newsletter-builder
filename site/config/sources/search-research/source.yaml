@@ -1,6 +1,6 @@
 name: search-research
 type: script
-enabled: true
+enabled: false
 language: en
 priority: 2
 time_window_hours: 96

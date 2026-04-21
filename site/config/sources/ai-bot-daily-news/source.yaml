@@ -1,6 +1,6 @@
 name: ai-bot-daily-news
 type: prompt
-enabled: true
+enabled: false
 language: zh
 priority: 1
 time_window_hours: 48

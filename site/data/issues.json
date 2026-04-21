@@ -4,80 +4,69 @@
       "date": "2026-04-21",
       "n": 2,
       "dow": "TUE",
-      "title": "Anthropic获亚马逊50亿加码，AI编程代理重塑应用商店",
-      "summary": "本期共 61 条 AI 资讯，来自 20 个数据源。头条：Anthropic获亚马逊50亿美元追加投资，总额达130亿美元；白宫授权联邦机构使用Claude Mythos；编程代理推动App Store应用发布量同比增长60%。",
+      "title": "Kimi K2.6 跨源刷屏，arXiv 研究前沿同步上新",
+      "summary": "当开源模型第一次追上旗舰闭源的那个黄昏，下一代 Opus 刚好落地；而研究者在论文里悄悄说——推理从不在文字里。习惯追赶的人，今天学着接受被追上的那一刻。",
       "headlines": [
         {
-          "title": "Anthropic获亚马逊50亿美元投资，承诺1000亿美元云支出回报",
-          "tag": "重大发布"
+          "title": "Moonshot Kimi K2.6 更新，开源旗舰追上 Opus 4.6",
+          "tag": "重大发布 · 2 源报道"
         },
         {
-          "title": "很多企业不是不会用AI，而是还不配用AI",
-          "tag": "行业动态"
-        },
-        {
-          "title": "新浪人工智能热点小时报丨2026年04月20日15时",
-          "tag": "工具发布"
-        },
-        {
-          "title": "DeepER-Med：通过智能体AI推进医学深度循证研究",
-          "tag": "前沿研究"
-        },
-        {
-          "title": "特朗普抢先管制州级AI法规的运动遭各州与国会抵制",
-          "tag": "政策法规"
+          "title": "arXiv 今日研究：LLM 推理是潜变量而非思维链、Agent 蒸馏的安全隐患",
+          "tag": "研究前沿"
         }
       ],
       "top_items": [
         {
-          "id": "item-ad8b96a4",
-          "title": "Anthropic获亚马逊50亿美元投资，承诺1000亿美元云支出回报",
+          "id": "item-0",
+          "title": "Moonshot Kimi K2.6 更新：全球领先的开源模型追平 Opus 4.6",
           "source_count": 2,
           "category": "major-release"
         },
         {
-          "id": "item-df3cead8",
-          "title": "很多企业不是不会用AI，而是还不配用AI",
+          "id": "item-1",
+          "title": "Gemini in Chrome 再扩 7 国：日韩印尼越南等加入",
           "source_count": 1,
-          "category": "industry-business"
+          "category": "major-release"
         },
         {
-          "id": "item-42c45002",
-          "title": "新浪人工智能热点小时报丨2026年04月20日15时",
+          "id": "item-2",
+          "title": "Claude Opus 4.7 发布：Anthropic 迄今最强模型",
           "source_count": 1,
-          "category": "tools-release"
+          "category": "major-release"
         },
         {
-          "id": "item-19fa435f",
-          "title": "DeepER-Med：通过智能体AI推进医学深度循证研究",
+          "id": "item-9",
+          "title": "SaFeR-Steer：用合成自举与反馈动力学进化多轮 MLLM",
           "source_count": 1,
           "category": "research-frontier"
         },
         {
-          "id": "item-e39bea20",
-          "title": "特朗普抢先管制州级AI法规的运动遭各州与国会抵制",
+          "id": "item-11",
+          "title": "LLM 的推理过程是潜变量，不是思维链",
           "source_count": 1,
-          "category": "policy-regulation"
+          "category": "research-frontier"
         }
       ],
-      "item_count": 61,
-      "trimmed_count": 128,
-      "source_count": 20,
+      "item_count": 39,
+      "trimmed_count": 76,
+      "source_count": 9,
       "categories": {
-        "major-release": 18,
-        "industry-business": 20,
-        "tools-release": 10,
+        "major-release": 3,
+        "industry-business": 6,
         "research-frontier": 10,
-        "policy-regulation": 3
+        "tools-release": 10,
+        "policy-regulation": 0,
+        "kol-posts": 10
       },
-      "generated_at": "2026-04-21T02:10:14.377140+00:00"
+      "generated_at": "2026-04-21T09:51:30.345221+00:00"
     },
     {
       "date": "2026-04-20",
       "n": 1,
       "dow": "MON",
       "title": "NSA 已用上 Mythos，Muse Spark 迈向超级智能",
-      "summary": "本期共 37 条 AI 资讯，来自 15 个数据源。头条：报道称 NSA 已使用 Anthropic Mythos，Meta 推出 Muse Spark",
+      "summary": "Mythos 走进白宫，Muse Spark 走向「个人超级智能」——同一天里，AI 既成了国家工具，也成了个体延伸。两端都在加速，而中间的秩序还没来得及写下。",
       "headlines": [
         {
           "title": "苹果公布 iPhone 新版 Siri 发布日期",

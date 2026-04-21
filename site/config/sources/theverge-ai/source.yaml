@@ -3,7 +3,7 @@ type: script
 enabled: true
 language: en
 priority: 2
-time_window_hours: 48
+time_window_hours: 24
 recent_hours: 24
 timeout_seconds: 60
 

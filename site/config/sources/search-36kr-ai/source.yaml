@@ -1,6 +1,6 @@
 name: search-36kr-ai
 type: script
-enabled: true
+enabled: false
 language: zh
 priority: 2
 time_window_hours: 48

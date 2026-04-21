@@ -14,7 +14,7 @@ From the page content, extract each blog post:
 - published_at: the publication date (convert to ISO-8601)
 - summary: the excerpt shown on the listing page; if too short, follow the article URL for a 2-4 sentence summary
 
-**Time filter**: only keep items published within the last **168 hours** (7 days). Mark items from the last **24 hours** as `recent: true`. Discard anything older than 168h.
+**Time filter**: only keep items published within the last **24 hours**. Mark them as `recent: true`. Discard anything older than 24h. Meta AI blog publishes 1-3 posts per week, so most days this source returns 0 items — that's expected.
 
 ## Edge Cases
 

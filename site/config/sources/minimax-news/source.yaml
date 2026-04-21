@@ -1,11 +1,11 @@
-name: anthropic-news
+name: minimax-news
 type: prompt
 enabled: true
 language: en
-priority: 1
+priority: 2
 time_window_hours: 24
 recent_hours: 24
-timeout_seconds: 30
+timeout_seconds: 45
 
 fetch_method: web
 
