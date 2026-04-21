@@ -2338,5 +2338,229 @@
     "source": "follow-builders",
     "category": "kol-posts",
     "recent": true
+  },
+  {
+    "id": "item-115",
+    "title": "Google Antigravity AI 智能体管理器爆出沙盒逃逸漏洞，可致远程代码执行",
+    "title_original": "Vuln in Google’s Antigravity AI agent manager could escape sandbox, give attackers remote code execution - CyberScoop",
+    "summary": "Pillar Security 研究人员披露，Google Antigravity（AI 开发者工具）即便在最高安全等级下，其沙盒和受限网络仍可被提示词注入绕过。攻击者可借此在用户系统上实现远程代码执行，触及文件系统敏感资源。",
+    "summary_original": "# Vuln in Google’s Antigravity AI agent manager could escape sandbox, give attackers remote code execution. Google’s highest security setting for its agents runs command operations through a sandbox and throttles network access, but is still vulnerable to prompt injection. This week, researchers at Pillar Security disclosed a vulnerability in Antigravity, an AI-powered developer tool for filesyste",
+    "url": "https://cyberscoop.com/google-antigravity-pillar-security-agent-sandbox-escape-remote-code-execution/",
+    "alt_urls": [
+      "https://news.defcros.com/vulnerability-in-googles-antigravity-ai-agent-manager-raises-security-concerns/",
+      "https://www.csoonline.com/article/4161382/prompt-injection-turned-googles-antigravity-file-search-into-rce.html"
+    ],
+    "sources": [
+      "search-ai-security"
+    ],
+    "source_count": 1,
+    "published_at": "2026-04-20T21:17:31+00:00",
+    "fetched_at": "2026-04-21T13:58:28.822478+00:00",
+    "language": "zh",
+    "source": "search-ai-security",
+    "category": "policy-regulation",
+    "recent": true
+  },
+  {
+    "id": "item-116",
+    "title": "黑客一年来试图利用已停产 TP-Link 路由器漏洞均告失败",
+    "title_original": "Hackers Fail to Exploit Flaw in Discontinued TP-Link Routers - SecurityWeek",
+    "summary": "Palo Alto Networks 报告指出，攻击者一年来持续尝试利用已停产 TP-Link 路由器中的 CVE 漏洞但均未得手。CISA 去年 6 月已把该漏洞纳入 KEV 目录，并敦促联邦机构停用相关 EoL/EoS 产品。",
+    "summary_original": "**Hackers have been targeting a vulnerability in discontinued TP-Link routers for a year, so far failing to successfully exploit it, Palo Alto Networks reports.**. In June last year, the US cybersecurity agency CISA added the bug to its Known Exploited Vulnerabilities (KEV) catalog, warning that it affects end-of-life (EoL) and end-of-service (EoS) products, and urging federal agencies to disconti",
+    "url": "https://www.securityweek.com/hackers-fail-to-exploit-flaw-in-discontinued-tp-link-routers/",
+    "alt_urls": [],
+    "sources": [
+      "search-ai-security"
+    ],
+    "source_count": 1,
+    "published_at": "2026-04-20T07:50:01+00:00",
+    "fetched_at": "2026-04-21T13:58:28.822478+00:00",
+    "language": "zh",
+    "source": "search-ai-security",
+    "category": "policy-regulation"
+  },
+  {
+    "id": "item-117",
+    "title": "AI推动全球实体经济新演进 - 新华网",
+    "title_original": "AI推动全球实体经济新演进 - 新华网",
+    "summary": "随着大模型、多模态感知、数字孪生等技术的突破，人工智能的发展正在推动其从单点突破走向全链条嵌入。AI不再是辅助插件，而是贯穿生产、流通、消费全流程的神经网络，依托",
+    "summary_original": "随着大模型、多模态感知、数字孪生等技术的突破，人工智能的发展正在推动其从单点突破走向全链条嵌入。AI不再是辅助插件，而是贯穿生产、流通、消费全流程的神经网络，依托",
+    "url": "http://www.news.cn/liangzi/20260416/f803dc60b4be47ee976c1b05001f41dd/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-118",
+    "title": "新闻分析丨AI模型“克劳德神话”为何引发网络安全担忧 - 新华网",
+    "title_original": "新闻分析丨AI模型“克劳德神话”为何引发网络安全担忧 - 新华网",
+    "summary": "美国人工智能（AI）企业Anthropic日前披露，该公司研发的最新大模型“克劳德神话（Claude Mythos）”能够自主识别主流软件系统中大量此前未被发现的安全漏洞，并能开发出相应攻击",
+    "summary_original": "美国人工智能（AI）企业Anthropic日前披露，该公司研发的最新大模型“克劳德神话（Claude Mythos）”能够自主识别主流软件系统中大量此前未被发现的安全漏洞，并能开发出相应攻击",
+    "url": "https://www.news.cn/world/20260415/32d43564f9d14844b788147f52645a37/c.html",
+    "alt_urls": [
+      "https://app.xinhuanet.com/news/article.html?articleId=2026041532d43564f9d14844b788147f52645a37"
+    ],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-119",
+    "title": "中美人工智能模型性能差距“基本消除” - 新华网",
+    "title_original": "中美人工智能模型性能差距“基本消除” - 新华网",
+    "summary": "自2025年初以来，中美两国的人工智能模型在性能排名上已多次交替领跑。2025年2月，DeepSeek-R1模型曾短暂追平当时美国最顶尖的模型；截至2026年3月，Anthropic公司的顶尖",
+    "summary_original": "自2025年初以来，中美两国的人工智能模型在性能排名上已多次交替领跑。2025年2月，DeepSeek-R1模型曾短暂追平当时美国最顶尖的模型；截至2026年3月，Anthropic公司的顶尖",
+    "url": "http://www.news.cn/liangzi/20260421/7b36f830b0e947bf9a898896b1289af3/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-120",
+    "title": "刷手机有多累？现在AI能算出来了 - 新华网",
+    "title_original": "刷手机有多累？现在AI能算出来了 - 新华网",
+    "summary": "芬兰和德国研究人员最新开发出一款人工智能（AI）模型，可模拟人们使用智能手机时的肌肉骨骼系统负荷，分析怎么操作手机更省劲儿。 芬兰阿尔托大学近日发布新闻公报说",
+    "summary_original": "芬兰和德国研究人员最新开发出一款人工智能（AI）模型，可模拟人们使用智能手机时的肌肉骨骼系统负荷，分析怎么操作手机更省劲儿。 芬兰阿尔托大学近日发布新闻公报说",
+    "url": "https://www.news.cn/tech/20260416/d4d28957a6864140a300a66700c4ae3d/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-121",
+    "title": "人工智能时代如何构建我们的阅读“大模型” - 新华网",
+    "title_original": "人工智能时代如何构建我们的阅读“大模型” - 新华网",
+    "summary": "今天，AI（人工智能）以其即时、海量、交互的特性，极大地拓宽了人们获取信息的广度。从“一书在手”到“一屏万卷”，人工智能时代的阅读有哪些新变化？为了守住我们的内核",
+    "summary_original": "今天，AI（人工智能）以其即时、海量、交互的特性，极大地拓宽了人们获取信息的广度。从“一书在手”到“一屏万卷”，人工智能时代的阅读有哪些新变化？为了守住我们的内核",
+    "url": "https://www.news.cn/politics/20260420/c3e411b65fd64b47befd52e35feaa5ea/c.html",
+    "alt_urls": [
+      "https://app.xinhuanet.com/news/article.html?articleId=202604202bbb218a5b44470fb8b8164d74518146"
+    ],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-122",
+    "title": "中国人工智能发展优势明显 - 新华网",
+    "title_original": "中国人工智能发展优势明显 - 新华网",
+    "summary": "中国当前的目标是依托大量高效的开源大模型，打造“词元经济”，并大力推动AI在现实场景中的应用。 电商巨头阿里巴巴正在投资开源大模型，这类模型可供开发者免费下载并修改。",
+    "summary_original": "中国当前的目标是依托大量高效的开源大模型，打造“词元经济”，并大力推动AI在现实场景中的应用。 电商巨头阿里巴巴正在投资开源大模型，这类模型可供开发者免费下载并修改。",
+    "url": "http://www.news.cn/liangzi/20260420/2229b68da2364032832eadb0de12b4e2/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-123",
+    "title": "140万亿日均词元调用量带来的便利与考验 - 新华网",
+    "title_original": "140万亿日均词元调用量带来的便利与考验 - 新华网",
+    "summary": "词元是大模型处理信息的最小信息单元——每一次和人工智能的交互对话，每一次利用人工智能生成内容，都是一次调用。 在这一从千亿级到百万亿级的跨越式增长的背后，不仅是人工",
+    "summary_original": "词元是大模型处理信息的最小信息单元——每一次和人工智能的交互对话，每一次利用人工智能生成内容，都是一次调用。 在这一从千亿级到百万亿级的跨越式增长的背后，不仅是人工",
+    "url": "http://www.news.cn/government/20260420/e5ec921e00a5408dabe154ac86d3dc25/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-124",
+    "title": "美国斯坦福大学发布《2026年AI指数报告》 - 新华网",
+    "title_original": "美国斯坦福大学发布《2026年AI指数报告》 - 新华网",
+    "summary": "最引人关注的发现之一，是中美两国在AI模型性能上的差距已几乎消失。 报告指出，自2025年初以来，两国模型已多次交替登顶性能榜单。过去一年来，这一差距虽",
+    "summary_original": "最引人关注的发现之一，是中美两国在AI模型性能上的差距已几乎消失。 报告指出，自2025年初以来，两国模型已多次交替登顶性能榜单。过去一年来，这一差距虽",
+    "url": "http://www.news.cn/liangzi/20260417/1d935fe6f2f04c9cb07afe3a38e76db1/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-125",
+    "title": "AI大模型重塑港口运营生态，西井科技发布WellCrane6.0智能理货新品",
+    "title_original": "AI大模型重塑港口运营生态，西井科技发布WellCrane6.0智能理货新品",
+    "summary": "WellCrane6.0的“超级大脑”WellVLM大模型，专为港口复杂作业环境研发，突破了传统计算机视觉依赖人工预设几何规则的局限。系统不再依赖角点、边缘等人工特征规则，而是实现了",
+    "summary_original": "WellCrane6.0的“超级大脑”WellVLM大模型，专为港口复杂作业环境研发，突破了传统计算机视觉依赖人工预设几何规则的局限。系统不再依赖角点、边缘等人工特征规则，而是实现了",
+    "url": "http://sh.news.cn/20260417/bceee1ae75c14012901c560f8887d1e3/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
+  },
+  {
+    "id": "item-126",
+    "title": "AI新模型拉响网络安全攻防警报 - 新华网",
+    "title_original": "AI新模型拉响网络安全攻防警报 - 新华网",
+    "summary": "Mythos并非专项“安全模型”，而是通用大语言模型，其能力实现“代际”跃升，源于逻辑推理与智能体自主决策的全面进化。在人类指令下，该模型能针对主流操作系统与浏览器，自主挖掘",
+    "summary_original": "Mythos并非专项“安全模型”，而是通用大语言模型，其能力实现“代际”跃升，源于逻辑推理与智能体自主决策的全面进化。在人类指令下，该模型能针对主流操作系统与浏览器，自主挖掘",
+    "url": "http://www.news.cn/liangzi/20260420/53e1c8eb903942ccbe27bd2e5ffab934/c.html",
+    "alt_urls": [],
+    "sources": [
+      "search-xinhua-ai"
+    ],
+    "source_count": 1,
+    "published_at": "",
+    "fetched_at": "2026-04-21T13:58:31.079427+00:00",
+    "language": "zh",
+    "source": "search-xinhua-ai",
+    "category": "industry-business"
   }
 ]

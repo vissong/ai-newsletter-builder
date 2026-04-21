@@ -296,7 +296,7 @@ When the collector starts, detect which of these are available in the current se
 
 ### Search sources (Tavily CLI)
 
-All 6 search sources use `tvly` CLI (Tavily Search) instead of the built-in `WebSearch` API, which requires a Claude official subscription. Each source is a `script` type with a standalone `fetch.py` that calls `tvly search` and outputs JSON to stdout.
+All 10 search sources use `tvly` CLI (Tavily Search) instead of the built-in `WebSearch` API, which requires a Claude official subscription. Each source is a `script` type with a standalone `fetch.py` that calls `tvly search` and outputs JSON to stdout.
 
 **Dependency:** `tvly` CLI must be installed and authenticated. Install: `curl -fsSL https://cli.tavily.com/install.sh | bash && tvly login`
 
@@ -306,10 +306,20 @@ All 6 search sources use `tvly` CLI (Tavily Search) instead of the built-in `Web
 | search-funding | `"AI startup" funding OR "Series" OR raises` | `script` | 96h | ★ |
 | search-research | `"AI paper" OR "machine learning breakthrough" OR "AI research"` | `script` | 96h | ★ |
 | search-policy | `AI regulation OR policy OR bill OR law` | `script` | 48h | ★ |
+| search-ai-security | `"AI security" OR "AI vulnerability" OR "prompt injection" OR "LLM exploit"` | `script` | 72h | ★ |
 | search-36kr-ai | `AI 大模型 人工智能` (domain: 36kr.com) | `script` | 48h | ★ |
 | search-weixin-ai | `AI 人工智能 大模型` (domain: mp.weixin.qq.com) | `script` | 48h | ★ |
+| search-xinhua-ai | `人工智能 AI 大模型` (domain: xinhuanet.com, news.cn) | `script` | 72h | ★ |
+| search-reuters-ai | `AI artificial intelligence` (domain: reuters.com) | `script` | 48h | |
+| search-bloomberg-ai | `AI artificial intelligence` (domain: bloomberg.com) | `script` | 48h | |
 
-`search-funding` and `search-research` use 96h windows because funding/research news publishes primarily on weekdays; a 48h window misses Friday articles on Sunday collection runs. The Chinese sources (`search-36kr-ai`, `search-weixin-ai`) use `--include-domains` to restrict results to their target platforms, with `exclude_keywords` filtering out ads and financial promotions.
+`search-funding` and `search-research` use 96h windows because funding/research news publishes primarily on weekdays; a 48h window misses Friday articles on Sunday collection runs. The Chinese sources (`search-36kr-ai`, `search-weixin-ai`, `search-xinhua-ai`) use `--include-domains` to restrict results to their target platforms, with `exclude_keywords` filtering out ads and financial promotions.
+
+**Note on `search-ai-security`**: Open search (no domain restriction). Uses a 72h window because AI-security incident reporting often lags 1-2 days behind disclosure. `exclude_keywords` filters out sponsored webinars and vendor white papers that pollute the results. Pairs well with primary company/CVE disclosures; expect 3-8 substantive items per run.
+
+**Note on `search-xinhua-ai`**: Chinese state media (Xinhua). Covers both xinhuanet.com and news.cn (both Xinhua properties). Useful for official policy statements, state-level AI initiatives, and regulatory announcements. 72h window because state-media publication cadence is less frequent than commercial outlets.
+
+**Note on `search-reuters-ai` / `search-bloomberg-ai`**: English-language mainstream financial/business media. Both are paywalled sites — Tavily returns headlines + short excerpts only (≤200 chars), which is enough for a daily brief but not deep summaries. Disabled by default because major funding/release stories are already covered by `search-major-release` / `search-funding`; enable when you want stronger Western-media representation or market/finance angles specifically. Bloomberg tends to return fewer results than Reuters due to heavier paywall shielding.
 
 Each `fetch.py` uses `--time-range day` (or `week`) and `--topic news` for recency, then applies `time_window_hours` filtering locally on `published_date`. Add one search per topic you care about — don't combine multiple intents into one query or the model can't tell what to keep.
 
