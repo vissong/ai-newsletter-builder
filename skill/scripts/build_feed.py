@@ -31,6 +31,7 @@ CATEGORY_LABELS = {
     "research-frontier": ("研究前沿",          "Research Frontier"),
     "tools-release":     ("工具发布",          "Tools & Developer Releases"),
     "policy-regulation": ("政策监管",          "Policy & Regulation"),
+    "kol-posts":         ("KOL 发布",          "KOL Posts"),
 }
 
 # Ordered display sequence
@@ -40,6 +41,7 @@ CATEGORY_ORDER = [
     "tools-release",
     "research-frontier",
     "policy-regulation",
+    "kol-posts",
 ]
 
 

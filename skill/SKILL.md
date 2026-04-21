@@ -65,8 +65,11 @@ Collect   (concurrent across sources)
 Merge     (dedup + cross-source fusion)
   └─ one item can have multiple sources; track source_count
       ↓
-Categorize (5 fixed buckets)
-  └─ 重大发布 / 行业动态及商业价值 / 研究前沿 / 工具发布 / 政策监管
+Cross-day dedupe (against prior 3 days)
+  └─ drop items that already appeared in a recent issue
+      ↓
+Categorize (6 fixed buckets)
+  └─ 重大发布 / 行业动态及商业价值 / 研究前沿 / 工具发布 / 政策监管 / KOL 发布
       ↓
 Manifest
   └─ append/update entry in site/data/issues.json
@@ -244,6 +247,26 @@ When merging:
 
 `source_count > 1` is a strong signal of importance — surface it in the rendered page (e.g. "Reported by N sources").
 
+## Phase 3.2: Cross-day deduplication
+
+Daily issues drift into "yesterday's news on repeat" fast: a Twitter post indexed at 23:59 on day N-1 shows up again at 00:01 on day N, the same company blog gets covered by three aggregators on consecutive days, etc. Before categorization, remove any item that already appeared in a recent prior issue.
+
+Run after Phase 3 merge, before Phase 3.5 translate:
+
+```bash
+python3 scripts/dedupe_across_days.py --site site --date <YYYY-MM-DD> --lookback 3
+```
+
+Matching rules (same as intra-day Phase 3, but applied across days):
+1. Same canonical URL (tracking params stripped) or any `alt_urls` overlap.
+2. Normalized title equality, or Levenshtein distance ≤ 4 on zh or original title.
+
+Lookback window: **3 days by default**. Raise it only for slow-moving weekly digests; lowering it below 2 defeats the purpose.
+
+Items removed here are **dropped**, not trimmed. The rationale is different from Phase 4 caps: a cap is about page real estate (readers may still want to see what didn't fit), but a cross-day duplicate has zero information value — they already saw it yesterday. Keeping it would just make the issue feel stale.
+
+Record the removals to `collect.log` or surface them in the end-of-run summary so the user can spot over-aggressive matches.
+
 ## Phase 3.5: Translate to output language
 
 After merging, translate all items to the site's `output_language` (from `site/config/site.yaml`). This ensures every item renders consistently in the target language regardless of its original source language.
@@ -327,7 +350,7 @@ For a date `<YYYY-MM-DD>`:
        {"title": "...", "id": "...", "category": "major-release", "source_count": 4},
        {"title": "...", "id": "...", "category": "research-frontier", "source_count": 2}
      ],
-     "summary": "今日重点：…（2–3 句）",
+     "summary": "…（2–3 句 · 文学化 · 见下方规则）",
      "n": 1,
      "dow": "FRI",
      "generated_at": "2026-04-18T08:30:00Z"
@@ -351,6 +374,32 @@ For a date `<YYYY-MM-DD>`:
    - ✅ `"欧盟 AI 法案正式生效"`
    - ❌ `"AI Newsletter · 2026-04-18"`（模板化）
    - ❌ `"2026年4月18日 AI 日报"`（含日期）
+
+   ### Issue summary — 每期摘要（文学化）
+
+   `summary` 必须是一段**富有哲学味道的文学化句子**，而非生硬的「共 N 条资讯 / 来自 M 个数据源」式统计播报。它应该让读者在扫到首页那一瞬，先被情绪或观察抓住，再去翻条目。
+
+   生成规则：
+
+   1. **不要**以数量/源数开头，或把「本期共 N 条、来自 M 源（已跨日去重）」当成 summary——这些统计已经有 `item_count` / `source_count` / `categories` 字段承载，不要在 summary 里重复陈述。
+   2. **要**从当期头条（`top_items` / `headlines`）中提炼 1-2 个核心张力或主题，用 **2-3 句**中文短句表达，总长约 40-80 字。不要堆罗列。
+   3. 语调：观察者 + 思辨，不是宣传者；允许反问、对照、典故、意象。避免口号、避免营销体。
+   4. 可用**今日命题**的方式落笔——把当天最值得停下来想一想的那个点抛出来，而不是「发生了什么」的流水账。
+   5. 中文本体；专有名词（模型名、公司名）保留原形。不加 emoji。
+
+   示例（✅ 文学化）：
+
+   - `"当开源模型第一次追上旗舰闭源的当天，Anthropic 端出了下一代 Opus；两条曲线在同一个黄昏里交错——人们习惯了追赶的故事，却还不习惯被追上。"`
+   - `"模型越可靠，人类越懒得复核——今日的研究前沿把这一矛盾写进了标题；而街上的讨论，还在纠结应该把哪一个 Agent 当作日常。"`
+   - `"监管进门那一刻，技术仍在加速；今日新闻像一条错位的时间线——合规与发布各走各的节奏，而读者处在两者之间。"`
+
+   示例（❌ 不要）：
+
+   - `"本期共 39 条 AI 资讯，来自 9 个数据源（已跨日去重）。"`（统计播报，重复字段）
+   - `"今日重点：Kimi K2.6 发布，Claude Opus 4.7 登场，Anthropic 再获亚马逊 50 亿投资。"`（流水账头条拼接）
+   - `"AI 行业继续高速发展，各大公司纷纷推出新产品。"`（空洞宣传体）
+
+   注意：summary 是**编辑视角的一句话**，它的价值是让读者愿意点进来；一旦退化成字段统计或流水账，就失去了存在意义——那些信息本就在别处。
 
    Fields used by the SPA homepage:
    - `date` — sort key and URL parameter (`issues/?date=2026-04-18`)
