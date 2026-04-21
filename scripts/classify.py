@@ -39,6 +39,7 @@ SOURCE_CATEGORY = {
     # 政策监管：政策类
     "tencent-news-ai-policy": "policy-regulation",
     "search-policy": "policy-regulation",
+    "search-ai-security": "policy-regulation",
     # 工具发布：工具集/产品
     "ai-bot-daily-news": "tools-release",
     "ai-bot-tools": "tools-release",
@@ -128,6 +129,7 @@ def classify_item(item: dict) -> str:
         "gmail-ai-newsletter": "industry-business",
         "search-research": "research-frontier",
         "search-weixin-ai": "industry-business",
+        "search-xinhua-ai": "industry-business",
         "weixin-sogou": "industry-business",
     }
     if source in source_defaults:
