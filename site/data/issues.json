@@ -1,6 +1,78 @@
 {
   "issues": [
     {
+      "date": "2026-04-21",
+      "n": 2,
+      "dow": "TUE",
+      "title": "Anthropic获亚马逊50亿加码，AI编程代理重塑应用商店",
+      "summary": "本期共 61 条 AI 资讯，来自 20 个数据源。头条：Anthropic获亚马逊50亿美元追加投资，总额达130亿美元；白宫授权联邦机构使用Claude Mythos；编程代理推动App Store应用发布量同比增长60%。",
+      "headlines": [
+        {
+          "title": "Anthropic获亚马逊50亿美元投资，承诺1000亿美元云支出回报",
+          "tag": "重大发布"
+        },
+        {
+          "title": "很多企业不是不会用AI，而是还不配用AI",
+          "tag": "行业动态"
+        },
+        {
+          "title": "新浪人工智能热点小时报丨2026年04月20日15时",
+          "tag": "工具发布"
+        },
+        {
+          "title": "DeepER-Med：通过智能体AI推进医学深度循证研究",
+          "tag": "前沿研究"
+        },
+        {
+          "title": "特朗普抢先管制州级AI法规的运动遭各州与国会抵制",
+          "tag": "政策法规"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-ad8b96a4",
+          "title": "Anthropic获亚马逊50亿美元投资，承诺1000亿美元云支出回报",
+          "source_count": 2,
+          "category": "major-release"
+        },
+        {
+          "id": "item-df3cead8",
+          "title": "很多企业不是不会用AI，而是还不配用AI",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-42c45002",
+          "title": "新浪人工智能热点小时报丨2026年04月20日15时",
+          "source_count": 1,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-19fa435f",
+          "title": "DeepER-Med：通过智能体AI推进医学深度循证研究",
+          "source_count": 1,
+          "category": "research-frontier"
+        },
+        {
+          "id": "item-e39bea20",
+          "title": "特朗普抢先管制州级AI法规的运动遭各州与国会抵制",
+          "source_count": 1,
+          "category": "policy-regulation"
+        }
+      ],
+      "item_count": 61,
+      "trimmed_count": 128,
+      "source_count": 20,
+      "categories": {
+        "major-release": 18,
+        "industry-business": 20,
+        "tools-release": 10,
+        "research-frontier": 10,
+        "policy-regulation": 3
+      },
+      "generated_at": "2026-04-21T02:10:14.377140+00:00"
+    },
+    {
       "date": "2026-04-20",
       "n": 1,
       "dow": "MON",
