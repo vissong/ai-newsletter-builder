@@ -1144,3 +1144,72 @@ footer.site-footer li a:hover { color: var(--accent); }
 @media (max-width: 540px) {
   footer.site-footer { grid-template-columns: 1fr; }
 }
+
+/* ─── Mobile Fixes (≤900px) — higher-specificity overrides ──────────────── */
+@media (max-width: 900px) {
+  .paper--issue { padding: 16px 16px 80px; }
+
+  .paper--issue .article {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 18px 0;
+  }
+  .paper--issue .article .art-num { display: none; }
+  .paper--issue .article.multi-source {
+    margin-left: 0;
+    padding-left: 12px;
+  }
+
+  .paper--issue .article h3 {
+    font-size: 18px;
+    line-height: 1.3;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+  .paper--issue .article h3 a { word-break: normal; }
+  .paper--issue .article .art-dek {
+    font-size: 14px;
+    line-height: 1.55;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+  .paper--issue .article .art-eyebrow {
+    font-size: 9px;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+  .paper--issue .article .art-eyebrow::before { width: 8px; }
+
+  .paper--issue .cat-head {
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+  .paper--issue .cat-head .cat-count { font-size: 9px; }
+
+  .paper--issue .article .art-meta {
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    font-size: 9px;
+  }
+  .paper--issue .article .art-meta .sep { display: none; }
+  .paper--issue .article .alt-urls li {
+    word-break: break-all;
+    font-size: 11px;
+  }
+
+  .paper--issue .im-topbar-brand { font-size: 11px; }
+  .paper--issue .im-topbar-issue,
+  .paper--issue .im-topbar-home { font-size: 10px; }
+}
+
+@media (max-width: 540px) {
+  .paper--issue { padding: 12px 14px 60px; }
+  .paper--issue .article h3 { font-size: 17px; }
+  .paper--issue .article .art-dek { font-size: 13.5px; }
+  .paper--issue .im-topbar {
+    grid-template-columns: auto auto;
+    row-gap: 4px;
+  }
+  .paper--issue .im-topbar-brand { grid-column: 1 / -1; text-align: left; }
+  .paper--issue .im-topbar-issue { justify-self: end; }
+}
