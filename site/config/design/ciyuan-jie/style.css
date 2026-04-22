@@ -802,13 +802,17 @@ footer.site-footer li a:hover { color: var(--accent); }
   padding-top: 14px;
   border-top: 1px solid var(--rule);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 8px 20px;
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--ink-mute);
 }
+.bottom > span { flex: 0 1 auto; }
+.bottom > span:nth-child(2) { text-align: center; }
 
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {

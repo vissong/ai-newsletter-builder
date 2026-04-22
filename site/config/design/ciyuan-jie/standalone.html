@@ -810,13 +810,17 @@ footer.site-footer li a:hover { color: var(--accent); }
   padding-top: 14px;
   border-top: 1px solid var(--rule);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 8px 20px;
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--ink-mute);
 }
+.bottom > span { flex: 0 1 auto; }
+.bottom > span:nth-child(2) { text-align: center; }
 
 /* ─── Responsive ─────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
@@ -956,6 +960,7 @@ footer.site-footer li a:hover { color: var(--accent); }
     </div>
     <div class="bottom">
       <span>© MMXXVI Token Street &mdash; 每日 AI 资讯精选</span>
+      <span>主理人 &middot; 微信公众号「偶然思考」</span>
       <span>Set in Noto Serif SC &amp; Playfair Display &middot; Powered by ai-newsletter-builder</span>
     </div>
   </footer>
