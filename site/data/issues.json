@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-04-22",
+      "n": 3,
+      "dow": "WED",
+      "title": "Anthropic 豪赌算力，SpaceX 天价押注代码编辑器",
+      "summary": "千亿美元与五吉瓦算力砸向同一张赌桌，Anthropic 和 Amazon 用电力为尺丈量智能的疆域；而在桌子另一端，SpaceX 为一款代码编辑器标价六百亿——人们开始用火箭的计价方式衡量写代码的工具。",
+      "headlines": [
+        {
+          "title": "Anthropic 与 Amazon 扩大合作，算力容量将达 5 吉瓦",
+          "tag": "重大发布"
+        },
+        {
+          "title": "SpaceX 正与 Cursor 合作，并持有 600 亿美元收购该公司的期权",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Meta 将记录员工键盘输入用于训练 AI 模型",
+          "tag": "行业动态"
+        },
+        {
+          "title": "未授权团体获取了 Anthropic 独家网络安全工具 Mythos 的访问权限",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Kimi K2.6 技术博客：推进开源代码能力",
+          "tag": "工具发布"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-0",
+          "title": "Anthropic 与 Amazon 扩大合作，算力容量将达 5 吉瓦",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-86",
+          "title": "SpaceX 正与 Cursor 合作，并持有 600 亿美元收购该公司的期权",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-84",
+          "title": "Meta 将记录员工键盘输入用于训练 AI 模型",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-85",
+          "title": "未授权团体获取了 Anthropic 独家网络安全工具 Mythos 的访问权限",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-69",
+          "title": "Kimi K2.6 技术博客：推进开源代码能力",
+          "source_count": 1,
+          "category": "tools-release"
+        }
+      ],
+      "item_count": 45,
+      "trimmed_count": 57,
+      "source_count": 11,
+      "categories": {
+        "major-release": 2,
+        "industry-business": 20,
+        "research-frontier": 10,
+        "tools-release": 2,
+        "policy-regulation": 1,
+        "kol-posts": 10
+      },
+      "generated_at": "2026-04-22T02:13:27.196190+00:00"
+    },
+    {
       "date": "2026-04-21",
       "n": 2,
       "dow": "TUE",

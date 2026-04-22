@@ -20,3 +20,10 @@ __pycache__/
 
 # Local overrides
 site/config/*.local.yaml
+.agents/
+.claude/
+skills/
+skills-lock.json
+collect_all.py
+phase3_merge.py
+translate_batch.json
