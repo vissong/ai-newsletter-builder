@@ -7,14 +7,20 @@
     "source": "anthropic-news",
     "fetched_at": "2026-04-22T02:05:54.406547+00:00",
     "sources": [
-      "anthropic-news"
+      "anthropic-news",
+      "hn-best"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "id": "item-0",
     "category": "major-release",
-    "trimmed": false,
     "title_original": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of compute capacity",
-    "summary_original": "Anthropic announced a major expansion of its partnership with Amazon, committing over $100 billion to AWS over the next 10 years. Amazon will invest up to $25 billion in Anthropic, providing up to 5GW of new computing capacity using Trainium2 through Trainium4 custom chips."
+    "summary_original": "Anthropic announced a major expansion of its partnership with Amazon, committing over $100 billion to AWS over the next 10 years. Amazon will invest up to $25 billion in Anthropic, providing up to 5GW of new computing capacity using Trainium2 through Trainium4 custom chips.",
+    "alt_urls": [
+      "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=47848276",
+    "hn_score": 269,
+    "hn_comments": 280
   },
   {
     "title": "治理智能体企业：企业系统中 AI 智能体管理的治理成熟度模型",
@@ -30,9 +36,10 @@
     "source_count": 1,
     "id": "item-1",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
-    "summary_original": "arXiv:2604.16338v1 Announce Type: new Abstract: The rapid adoption of agentic AI in enterprise business operations--autonomous systems capable of planning, reasoning, and executing multi-step workflows--has created an urgent governance crisis. Organizations face uncontrolled agent sprawl: the proliferation of redundant, ungoverned, and conflicting AI agents across business functions. Industry surveys report that only 21% of enterprises have mature governance models for autonomous agents, while 40% of agentic AI projects are projected to fail by 2027 due to inadequate governance and risk controls. Despite growing acknowledgment of this challenge, academic literature lacks a formal, empirically validated governance maturity model connecting governance capability to measurable business outcomes. This paper introduces the Agentic AI Governance Maturity Model (AAGMM), a five-level framework spanning 12 governance domains, grounded in NIST AI RMF and ISO/IEC 42001 standards. We additionally propose a novel taxonomy of agent sprawl patterns--functional duplication, shadow agents, orphaned agents, permission creep, and unmonitored delegation chains--each linked to quantifiable business cost models. The framework is validated through 750 simulation runs across five enterprise scenarios and five governance maturity levels, measuring business outcomes including cost containment, risk incident rates, operational efficiency, and decision quality. Results demonstrate statistically significant differences (p 2.0) between all governance maturity levels, with Level 4-5 organizations achieving 94.3% lower sprawl indices, 96.4% fewer risk incidents, and 32.6% higher effective task completion rates compared to Level 1. The AAGMM provides practitioners with an actionable roadmap for governing autonomous AI agents while maximizing business returns."
+    "summary_original": "arXiv:2604.16338v1 Announce Type: new Abstract: The rapid adoption of agentic AI in enterprise business operations--autonomous systems capable of planning, reasoning, and executing multi-step workflows--has created an urgent governance crisis. Organizations face uncontrolled agent sprawl: the proliferation of redundant, ungoverned, and conflicting AI agents across business functions. Industry surveys report that only 21% of enterprises have mature governance models for autonomous agents, while 40% of agentic AI projects are projected to fail by 2027 due to inadequate governance and risk controls. Despite growing acknowledgment of this challenge, academic literature lacks a formal, empirically validated governance maturity model connecting governance capability to measurable business outcomes. This paper introduces the Agentic AI Governance Maturity Model (AAGMM), a five-level framework spanning 12 governance domains, grounded in NIST AI RMF and ISO/IEC 42001 standards. We additionally propose a novel taxonomy of agent sprawl patterns--functional duplication, shadow agents, orphaned agents, permission creep, and unmonitored delegation chains--each linked to quantifiable business cost models. The framework is validated through 750 simulation runs across five enterprise scenarios and five governance maturity levels, measuring business outcomes including cost containment, risk incident rates, operational efficiency, and decision quality. Results demonstrate statistically significant differences (p 2.0) between all governance maturity levels, with Level 4-5 organizations achieving 94.3% lower sprawl indices, 96.4% fewer risk incidents, and 32.6% higher effective task completion rates compared to Level 1. The AAGMM provides practitioners with an actionable roadmap for governing autonomous AI agents while maximizing business returns.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "语义共识：面向企业 AI 智能体的流程感知冲突检测与解决",
@@ -48,9 +55,10 @@
     "source_count": 1,
     "id": "item-2",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
-    "summary_original": "arXiv:2604.16339v1 Announce Type: new Abstract: Multi-agent large language model (LLM) systems are rapidly emerging as the dominant architecture for enterprise AI automation, yet production deployments exhibit failure rates between 41% and 86.7%, with nearly 79% of failures originating from specification and coordination issues rather than model capability limitations. This paper identifies Semantic Intent Divergence--the phenomenon whereby cooperating LLM agents develop inconsistent interpretations of shared objectives due to siloed context and absent process models--as a primary yet formally unaddressed root cause of multi-agent failure in enterprise settings. We propose the Semantic Consensus Framework (SCF), a process-aware middleware comprising six components: a Process Context Layer for shared operational semantics, a Semantic Intent Graph for formal intent representation, a Conflict Detection Engine for real-time identification of contradictory, contention-based, and causally invalid intent combinations, a Consensus Resolution Protocol using a policy--authority--temporal hierarchy, a Drift Monitor for detecting gradual semantic divergence, and a Process-Aware Governance Integration layer for organizational policy enforcement. Evaluation across 600 runs spanning three multi-agent frameworks (AutoGen, CrewAI, LangGraph) and four enterprise scenarios demonstrates that SCF is the only approach to achieve 100% workflow completion--compared to 25.1% for the next-best baseline--while detecting 65.2% of semantic conflicts with 27.9% precision and providing complete governance audit trails. The framework is protocol-agnostic and compatible with MCP and A2A communication standards."
+    "summary_original": "arXiv:2604.16339v1 Announce Type: new Abstract: Multi-agent large language model (LLM) systems are rapidly emerging as the dominant architecture for enterprise AI automation, yet production deployments exhibit failure rates between 41% and 86.7%, with nearly 79% of failures originating from specification and coordination issues rather than model capability limitations. This paper identifies Semantic Intent Divergence--the phenomenon whereby cooperating LLM agents develop inconsistent interpretations of shared objectives due to siloed context and absent process models--as a primary yet formally unaddressed root cause of multi-agent failure in enterprise settings. We propose the Semantic Consensus Framework (SCF), a process-aware middleware comprising six components: a Process Context Layer for shared operational semantics, a Semantic Intent Graph for formal intent representation, a Conflict Detection Engine for real-time identification of contradictory, contention-based, and causally invalid intent combinations, a Consensus Resolution Protocol using a policy--authority--temporal hierarchy, a Drift Monitor for detecting gradual semantic divergence, and a Process-Aware Governance Integration layer for organizational policy enforcement. Evaluation across 600 runs spanning three multi-agent frameworks (AutoGen, CrewAI, LangGraph) and four enterprise scenarios demonstrates that SCF is the only approach to achieve 100% workflow completion--compared to 25.1% for the next-best baseline--while detecting 65.2% of semantic conflicts with 27.9% precision and providing complete governance audit trails. The framework is protocol-agnostic and compatible with MCP and A2A communication standards.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "计算诠释学：评估生成式 AI 作为一种文化技术",
@@ -66,9 +74,10 @@
     "source_count": 1,
     "id": "item-3",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Computational Hermeneutics: Evaluating generative AI as a cultural technology",
-    "summary_original": "arXiv:2604.16403v1 Announce Type: new Abstract: Generative AI systems are increasingly recognized as cultural technologies, yet current evaluation frameworks often treat culture as a variable to be measured rather than fundamental to the system's operation. Drawing on hermeneutic theory from the humanities, we argue that GenAI systems function as \"context machines\" that must inherently address three interpretive challenges: situatedness (meaning only emerges in context), plurality (multiple valid interpretations coexist), and ambiguity (interpretations naturally conflict). We present computational hermeneutics as an emerging framework offering an interpretive account of what GenAI systems do, and how they might do it better. We offer three principles for hermeneutic evaluation -- that benchmarks should be iterative, not one-off; include people, not just machines; and measure cultural context, not just model output. This perspective offers a nascent paradigm for designing and evaluating contemporary AI systems: shifting from standardized questions about accuracy to contextual ones about meaning."
+    "summary_original": "arXiv:2604.16403v1 Announce Type: new Abstract: Generative AI systems are increasingly recognized as cultural technologies, yet current evaluation frameworks often treat culture as a variable to be measured rather than fundamental to the system's operation. Drawing on hermeneutic theory from the humanities, we argue that GenAI systems function as \"context machines\" that must inherently address three interpretive challenges: situatedness (meaning only emerges in context), plurality (multiple valid interpretations coexist), and ambiguity (interpretations naturally conflict). We present computational hermeneutics as an emerging framework offering an interpretive account of what GenAI systems do, and how they might do it better. We offer three principles for hermeneutic evaluation -- that benchmarks should be iterative, not one-off; include people, not just machines; and measure cultural context, not just model output. This perspective offers a nascent paradigm for designing and evaluating contemporary AI systems: shifting from standardized questions about accuracy to contextual ones about meaning.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "异构自博弈实现逼真高速公路交通仿真",
@@ -84,9 +93,10 @@
     "source_count": 1,
     "id": "item-4",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Heterogeneous Self-Play for Realistic Highway Traffic Simulation",
-    "summary_original": "arXiv:2604.16406v1 Announce Type: new Abstract: Realistic highway simulation is critical for scalable safety evaluation of autonomous vehicles, particularly for interactions that are too rare to study from logged data alone. Yet highway traffic generation remains challenging because it requires broad coverage across speeds and maneuvers, controllable generation of rare safety-critical scenarios, and behavioral credibility in multi-agent interactions. We present PHASE, Policy for Heterogeneous Agent Self-play on Expressway, a context-aware self-play framework that addresses these three requirements through explicit per-agent conditioning for controllability, synthetic scenario generation for broad highway coverage, and closed-loop multi-agent training for realistic interaction dynamics. PHASE further supports different vehicle profiles, for example, passenger cars and articulated trailer trucks, within a single policy via vehicle-aware dynamics and context-conditioned actions, and stabilizes self-play with early termination of unrecoverable states, at-fault collision attribution, highway-aware reward shaping, coupled curricula, and robust policy optimization. Despite being trained only on synthetic data, PHASE transfers zero-shot to 512 unseen high-interaction real scenarios in exiD, achieving a 96.3% success rate and reducing ADE/FDE from 6.57/12.07 m to 2.44/5.25 m relative to a prior self-play baseline. In a learned trajectory embedding space, it also improves behavioral realism over IDM, reducing Frechet trajectory distance by 13.1% and energy distance by 20.2%. These results show that synthetic self-play can provide a scalable route to controllable and realistic highway scenario generation without direct imitation of expert logs."
+    "summary_original": "arXiv:2604.16406v1 Announce Type: new Abstract: Realistic highway simulation is critical for scalable safety evaluation of autonomous vehicles, particularly for interactions that are too rare to study from logged data alone. Yet highway traffic generation remains challenging because it requires broad coverage across speeds and maneuvers, controllable generation of rare safety-critical scenarios, and behavioral credibility in multi-agent interactions. We present PHASE, Policy for Heterogeneous Agent Self-play on Expressway, a context-aware self-play framework that addresses these three requirements through explicit per-agent conditioning for controllability, synthetic scenario generation for broad highway coverage, and closed-loop multi-agent training for realistic interaction dynamics. PHASE further supports different vehicle profiles, for example, passenger cars and articulated trailer trucks, within a single policy via vehicle-aware dynamics and context-conditioned actions, and stabilizes self-play with early termination of unrecoverable states, at-fault collision attribution, highway-aware reward shaping, coupled curricula, and robust policy optimization. Despite being trained only on synthetic data, PHASE transfers zero-shot to 512 unseen high-interaction real scenarios in exiD, achieving a 96.3% success rate and reducing ADE/FDE from 6.57/12.07 m to 2.44/5.25 m relative to a prior self-play baseline. In a learned trajectory embedding space, it also improves behavioral realism over IDM, reducing Frechet trajectory distance by 13.1% and energy distance by 20.2%. These results show that synthetic self-play can provide a scalable route to controllable and realistic highway scenario generation without direct imitation of expert logs.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "支持充分性：信念仲裁中的后果敏感压缩",
@@ -102,9 +112,10 @@
     "source_count": 1,
     "id": "item-5",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Support Sufficiency as Consequence-Sensitive Compression in Belief Arbitration",
-    "summary_original": "arXiv:2604.16434v1 Announce Type: new Abstract: When a system commits to a hypothesis, much of the evidential structure behind that commitment is lost to compression. Standard accounts assume that selected content and scalar confidence suffice for downstream control. This paper argues that they do not, and that determining what must survive compression is itself a consequence-sensitive problem. We develop a recurrent arbitration architecture in which active constraint fields jointly determine a hypothesis geometry over candidates. Rather than carrying that geometry forward in full, the system compresses it into a support-aware control state whose resolution is regulated by current consequence geometry, arbitration memory, and resource constraints. A bounded objective formalizes the tradeoff. Too little retained support collapses policy-relevant distinctions, producing controllers that select content adequately while misrouting verification, abstention, and recovery. Too much retained support fragments learning across overly fine contexts, degrading adaptation even as discrimination improves. These failure modes yield ordered controller predictions confirmed by a minimal repeated-interaction simulation. Adaptive controllers that regulate support resolution outperform all fixed-resolution controllers in cumulative utility. Agile adaptive control outperforms sluggish adaptive control. Fixed high-resolution control achieves the best commitment accuracy but still trails adaptive controllers because resource cost and learning fragmentation offset the gains from richer retention. Support sufficiency should be understood not as a static representational threshold, but as a dynamic compression criterion. Robust arbitration depends on preserving the smallest support structure adequate for policy under the current consequence landscape, and on regulating that structure as conditions change across repeated cycles of inference and action."
+    "summary_original": "arXiv:2604.16434v1 Announce Type: new Abstract: When a system commits to a hypothesis, much of the evidential structure behind that commitment is lost to compression. Standard accounts assume that selected content and scalar confidence suffice for downstream control. This paper argues that they do not, and that determining what must survive compression is itself a consequence-sensitive problem. We develop a recurrent arbitration architecture in which active constraint fields jointly determine a hypothesis geometry over candidates. Rather than carrying that geometry forward in full, the system compresses it into a support-aware control state whose resolution is regulated by current consequence geometry, arbitration memory, and resource constraints. A bounded objective formalizes the tradeoff. Too little retained support collapses policy-relevant distinctions, producing controllers that select content adequately while misrouting verification, abstention, and recovery. Too much retained support fragments learning across overly fine contexts, degrading adaptation even as discrimination improves. These failure modes yield ordered controller predictions confirmed by a minimal repeated-interaction simulation. Adaptive controllers that regulate support resolution outperform all fixed-resolution controllers in cumulative utility. Agile adaptive control outperforms sluggish adaptive control. Fixed high-resolution control achieves the best commitment accuracy but still trails adaptive controllers because resource cost and learning fragmentation offset the gains from richer retention. Support sufficiency should be understood not as a static representational threshold, but as a dynamic compression criterion. Robust arbitration depends on preserving the smallest support structure adequate for policy under the current consequence landscape, and on regulating that structure as conditions change across repeated cycles of inference and action.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "医疗 AI 用于自动化还是资源配置？一个交易成本经济学框架",
@@ -120,9 +131,10 @@
     "source_count": 1,
     "id": "item-6",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Healthcare AI for Automation or Allocation? A Transaction Cost Economics Framework",
-    "summary_original": "arXiv:2604.16465v1 Announce Type: new Abstract: Healthcare productivity is shaped not only by clinical complexity but by the costs of coordinating work under uncertainty. Transaction-cost economics offers a theory of these coordination frictions, yet has rarely been operationalised at task level across health occupations. Using task statements and frequency weights from the O*NET occupational database, we characterised healthcare work at task granularity and coded each unique task using a constrained large language model into one dominant transaction-cost category (information search, decision and bargaining, monitoring and enforcement, or adaptation and coordination) together with an overall transaction-cost intensity score. Aggregating to the occupation level, clinician roles exhibited substantially higher transaction-cost intensity than non-clinician roles, driven primarily by greater burdens of information search and decision-related coordination, while dispersion of transaction costs within occupations did not differ. These findings demonstrate systematic heterogeneity in the nature of coordination work across healthcare roles and suggest that the opportunities for digital and AI interventions are unevenly distributed, shaped less by technical task complexity than by underlying coordination structure."
+    "summary_original": "arXiv:2604.16465v1 Announce Type: new Abstract: Healthcare productivity is shaped not only by clinical complexity but by the costs of coordinating work under uncertainty. Transaction-cost economics offers a theory of these coordination frictions, yet has rarely been operationalised at task level across health occupations. Using task statements and frequency weights from the O*NET occupational database, we characterised healthcare work at task granularity and coded each unique task using a constrained large language model into one dominant transaction-cost category (information search, decision and bargaining, monitoring and enforcement, or adaptation and coordination) together with an overall transaction-cost intensity score. Aggregating to the occupation level, clinician roles exhibited substantially higher transaction-cost intensity than non-clinician roles, driven primarily by greater burdens of information search and decision-related coordination, while dispersion of transaction costs within occupations did not differ. These findings demonstrate systematic heterogeneity in the nature of coordination work across healthcare roles and suggest that the opportunities for digital and AI interventions are unevenly distributed, shaped less by technical task complexity than by underlying coordination structure.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "面向推理任务的智能体框架：一项实证研究",
@@ -138,9 +150,10 @@
     "source_count": 1,
     "id": "item-7",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Agentic Frameworks for Reasoning Tasks: An Empirical Study",
-    "summary_original": "arXiv:2604.16646v1 Announce Type: new Abstract: Recent advances in agentic frameworks have enabled AI agents to perform complex reasoning and decision-making. However, evidence comparing their reasoning performance, efficiency, and practical suitability remains limited. To address this gap, we empirically evaluate 22 widely used agentic frameworks across three reasoning benchmarks: BBH, GSM8K, and ARC. The frameworks were selected from 1,200 GitHub repositories collected between January 2023 and July 2025 and organized into a taxonomy based on architectural design. We evaluated them under a unified setting, measuring reasoning accuracy, execution time, computational cost, and cross-benchmark consistency. Our results show that 19 of the 22 frameworks completed all three benchmarks. Among these, 12 showed stable performance, with mean accuracy of 74.6-75.9%, execution time of 4-6 seconds per task, and cost of 0.14-0.18 cents per task. Poorer results were mainly caused by orchestration problems rather than reasoning limits. For example, Camel failed to complete BBH after 11 days because of uncontrolled context growth, while Upsonic consumed USD 1,434 in one day because repeated extraction failures triggered costly retries. AutoGen and Mastra also exhausted API quotas through iterative interactions that increased prompt length without improving results. We also found a sharp drop in mathematical reasoning. Mean accuracy on GSM8K was 44.35%, compared with 89.80% on BBH and 89.56% on ARC. Overall, this study provides the first large-scale empirical comparison of agentic frameworks for reasoning-intensive software engineering tasks and shows that framework selection should prioritize orchestration quality, especially memory control, failure handling, and cost management."
+    "summary_original": "arXiv:2604.16646v1 Announce Type: new Abstract: Recent advances in agentic frameworks have enabled AI agents to perform complex reasoning and decision-making. However, evidence comparing their reasoning performance, efficiency, and practical suitability remains limited. To address this gap, we empirically evaluate 22 widely used agentic frameworks across three reasoning benchmarks: BBH, GSM8K, and ARC. The frameworks were selected from 1,200 GitHub repositories collected between January 2023 and July 2025 and organized into a taxonomy based on architectural design. We evaluated them under a unified setting, measuring reasoning accuracy, execution time, computational cost, and cross-benchmark consistency. Our results show that 19 of the 22 frameworks completed all three benchmarks. Among these, 12 showed stable performance, with mean accuracy of 74.6-75.9%, execution time of 4-6 seconds per task, and cost of 0.14-0.18 cents per task. Poorer results were mainly caused by orchestration problems rather than reasoning limits. For example, Camel failed to complete BBH after 11 days because of uncontrolled context growth, while Upsonic consumed USD 1,434 in one day because repeated extraction failures triggered costly retries. AutoGen and Mastra also exhausted API quotas through iterative interactions that increased prompt length without improving results. We also found a sharp drop in mathematical reasoning. Mean accuracy on GSM8K was 44.35%, compared with 89.80% on BBH and 89.56% on ARC. Overall, this study provides the first large-scale empirical comparison of agentic frameworks for reasoning-intensive software engineering tasks and shows that framework selection should prioritize orchestration quality, especially memory control, failure handling, and cost management.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "从归入到可满足性：LLM 辅助的主动学习用于 OWL 本体调试",
@@ -156,9 +169,10 @@
     "source_count": 1,
     "id": "item-8",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "From Subsumption to Satisfiability: LLM-Assisted Active Learning for OWL Ontologies",
-    "summary_original": "arXiv:2604.16672v1 Announce Type: new Abstract: In active learning, membership queries (MQs) allow a learner to pose questions to a teacher, such as ''Is every apple a fruit?'', to which the teacher responds correctly with yes or no. These MQs can be viewed as subsumption tests with respect to the target ontology. Inspired by the standard reduction of subsumption to satisfiability in description logics, we reformulate each candidate axiom into its corresponding counter-concept and verbalise it in controlled natural language before presenting it to Large Language Models (LLMs). We introduce LLMs as a third component that provides real-world examples approximating an instance of the counter-concept. This design property ensures that only Type II errors may occur in ontology modelling; in the worst case, these errors merely delay the construction process without introducing inconsistencies. Experimental results on 13 commercial LLMs show that recall, corresponding to Type II errors in our framework, remains stable across several well-established ontologies."
+    "summary_original": "arXiv:2604.16672v1 Announce Type: new Abstract: In active learning, membership queries (MQs) allow a learner to pose questions to a teacher, such as ''Is every apple a fruit?'', to which the teacher responds correctly with yes or no. These MQs can be viewed as subsumption tests with respect to the target ontology. Inspired by the standard reduction of subsumption to satisfiability in description logics, we reformulate each candidate axiom into its corresponding counter-concept and verbalise it in controlled natural language before presenting it to Large Language Models (LLMs). We introduce LLMs as a third component that provides real-world examples approximating an instance of the counter-concept. This design property ensures that only Type II errors may occur in ontology modelling; in the worst case, these errors merely delay the construction process without introducing inconsistencies. Experimental results on 13 commercial LLMs show that recall, corresponding to Type II errors in our framework, remains stable across several well-established ontologies.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "智能体驱动的风险感知集合式工程设计",
@@ -174,9 +188,10 @@
     "source_count": 1,
     "id": "item-9",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "Agentic Risk-Aware Set-Based Engineering Design",
-    "summary_original": "arXiv:2604.16687v1 Announce Type: new Abstract: This paper introduces a multi-agent framework guided by Large Language Models (LLMs) to assist in the early stages of engineering design, a phase often characterized by vast parameter spaces and inherent uncertainty. Operating under a human-in-the-loop paradigm and demonstrated on the canonical problem of aerodynamic airfoil design, the framework employs a team of specialized agents: a Coding Assistant, a Design Agent, a Systems Engineering Agent, and an Analyst Agent - all coordinated by a human Manager. Integrated within a set-based design philosophy, the process begins with a collaborative phase where the Manager and Coding Assistant develop a suite of validated tools, after which the agents execute a structured workflow to systematically explore and prune a large set of initial design candidates. A key contribution of this work is the explicit integration of formal risk management, employing the Conditional Value-at-Risk (CVaR) as a quantitative metric to filter designs that exhibit a high probability of failing to meet performance requirements, specifically the target coefficient of lift. The framework automates labor-intensive initial exploration through a global sensitivity analysis conducted by the Analyst agent, which generates actionable heuristics to guide the other agents. The process culminates by presenting the human Manager with a curated final set of promising design candidates, augmented with high-fidelity Computational Fluid Dynamics (CFD) simulations. This approach effectively leverages AI to handle high-volume analytical tasks, thereby enhancing the decision-making capability of the human expert in selecting the final, risk-assessed design."
+    "summary_original": "arXiv:2604.16687v1 Announce Type: new Abstract: This paper introduces a multi-agent framework guided by Large Language Models (LLMs) to assist in the early stages of engineering design, a phase often characterized by vast parameter spaces and inherent uncertainty. Operating under a human-in-the-loop paradigm and demonstrated on the canonical problem of aerodynamic airfoil design, the framework employs a team of specialized agents: a Coding Assistant, a Design Agent, a Systems Engineering Agent, and an Analyst Agent - all coordinated by a human Manager. Integrated within a set-based design philosophy, the process begins with a collaborative phase where the Manager and Coding Assistant develop a suite of validated tools, after which the agents execute a structured workflow to systematically explore and prune a large set of initial design candidates. A key contribution of this work is the explicit integration of formal risk management, employing the Conditional Value-at-Risk (CVaR) as a quantitative metric to filter designs that exhibit a high probability of failing to meet performance requirements, specifically the target coefficient of lift. The framework automates labor-intensive initial exploration through a global sensitivity analysis conducted by the Analyst agent, which generates actionable heuristics to guide the other agents. The process culminates by presenting the human Manager with a curated final set of promising design candidates, augmented with high-fidelity Computational Fluid Dynamics (CFD) simulations. This approach effectively leverages AI to handle high-volume analytical tasks, thereby enhancing the decision-making capability of the human expert in selecting the final, risk-assessed design.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "查询通道：基于掩码解释方法的信息论极限",
@@ -192,9 +207,10 @@
     "source_count": 1,
     "id": "item-10",
     "category": "research-frontier",
-    "trimmed": false,
     "title_original": "The Query Channel: Information-Theoretic Limits of Masking-Based Explanations",
-    "summary_original": "arXiv:2604.16689v1 Announce Type: new Abstract: Masking-based post-hoc explanation methods, such as KernelSHAP and LIME, estimate local feature importance by querying a black-box model under randomized perturbations. This paper formulates this procedure as communication over a query channel, where the latent explanation acts as a message and each masked evaluation is a channel use. Within this framework, the complexity of the explanation is captured by the entropy of the hypothesis class, while the query interface supplies information at a rate determined by an identification capacity per query. We derive a strong converse showing that, if the explanation rate exceeds this capacity, the probability of exact recovery necessarily converges to one in error for any sequence of explainers and decoders. We also prove an achievability result establishing that a sparse maximum-likelihood decoder attains reliable recovery when the rate lies below capacity. A Monte Carlo estimator of mutual information yields a non-asymptotic query benchmark that we use to compare optimal decoding with Lasso- and OLS-based procedures that mirror LIME and KernelSHAP. Experiments reveal a range of query budgets where information theory permits reliable explanations but standard convex surrogates still fail. Finally, we interpret super-pixel resolution and tokenization for neural language models as a source-coding choice that sets the entropy of the explanation and show how Gaussian noise and nonlinear curvature degrade the query channel, induce waterfall and error-floor behavior, and render high-resolution explanations unattainable."
+    "summary_original": "arXiv:2604.16689v1 Announce Type: new Abstract: Masking-based post-hoc explanation methods, such as KernelSHAP and LIME, estimate local feature importance by querying a black-box model under randomized perturbations. This paper formulates this procedure as communication over a query channel, where the latent explanation acts as a message and each masked evaluation is a channel use. Within this framework, the complexity of the explanation is captured by the entropy of the hypothesis class, while the query interface supplies information at a rate determined by an identification capacity per query. We derive a strong converse showing that, if the explanation rate exceeds this capacity, the probability of exact recovery necessarily converges to one in error for any sequence of explainers and decoders. We also prove an achievability result establishing that a sparse maximum-likelihood decoder attains reliable recovery when the rate lies below capacity. A Monte Carlo estimator of mutual information yields a non-asymptotic query benchmark that we use to compare optimal decoding with Lasso- and OLS-based procedures that mirror LIME and KernelSHAP. Experiments reveal a range of query budgets where information theory permits reliable explanations but standard convex surrogates still fail. Finally, we interpret super-pixel resolution and tokenization for neural language models as a source-coding choice that sets the entropy of the explanation and show how Gaussian noise and nonlinear curvature degrade the query channel, induce waterfall and error-floor behavior, and render high-resolution explanations unattainable.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "RankGuide: Tensor-Rank-Guided Routing and Steering for Efficient Reasoning",
@@ -210,7 +226,8 @@
     "source_count": 1,
     "id": "item-11",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "Evaluating Tool-Using Language Agents: Judge Reliability, Propagation Cascades, and Runtime Mitigation in AgentProp-Bench",
@@ -225,8 +242,7 @@
     ],
     "source_count": 1,
     "id": "item-12",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "Debate as Reward: A Multi-Agent Reward System for Scientific Ideation via RL Post-Training",
@@ -241,8 +257,7 @@
     ],
     "source_count": 1,
     "id": "item-13",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "When Agents Go Quiet: Output Generation Capacity and Format-Cost Separation for LLM Document Synthesis",
@@ -258,7 +273,8 @@
     "source_count": 1,
     "id": "item-14",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "CT Open: An Open-Access, Uncontaminated, Live Platform for the Open Challenge of Clinical Trial Outcome Prediction",
@@ -273,8 +289,7 @@
     ],
     "source_count": 1,
     "id": "item-15",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "Why Training-Free Token Reduction Collapses: The Inherent Instability of Pairwise Scoring Signals",
@@ -290,7 +305,8 @@
     "source_count": 1,
     "id": "item-16",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "Don't Start What You Can't Finish: A Counterfactual Audit of Support-State Triage in LLM Agents",
@@ -305,8 +321,7 @@
     ],
     "source_count": 1,
     "id": "item-17",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "Know When to Trust the Skill: Delayed Appraisal and Epistemic Vigilance for Single-Agent LLMs",
@@ -322,7 +337,8 @@
     "source_count": 1,
     "id": "item-18",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "Machine individuality: Separating genuine idiosyncrasy from response bias in large language models",
@@ -338,7 +354,8 @@
     "source_count": 1,
     "id": "item-19",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "SAVE: A Generalizable Framework for Multi-Condition Single-Cell Generation with Gene Block Attention",
@@ -354,7 +371,8 @@
     "source_count": 1,
     "id": "item-20",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "Introspection Adapters: Training LLMs to Report Their Learned Behaviors",
@@ -369,8 +387,7 @@
     ],
     "source_count": 1,
     "id": "item-21",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "PersonalHomeBench: Evaluating Agents in Personalized Smart Homes",
@@ -386,7 +403,8 @@
     "source_count": 1,
     "id": "item-22",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "The CTLNet for Shanghai Composite Index Prediction",
@@ -402,7 +420,8 @@
     "source_count": 1,
     "id": "item-23",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "GAMMA-Net: Adaptive Long-Horizon Traffic Spatio-Temporal Forecasting Model based on Interleaved Graph Attention and Multi-Axis Mamba",
@@ -417,8 +436,7 @@
     ],
     "source_count": 1,
     "id": "item-24",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "GRAIL: Autonomous Concept Grounding for Neuro-Symbolic Reinforcement Learning",
@@ -433,8 +451,7 @@
     ],
     "source_count": 1,
     "id": "item-25",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "Step-GRPO: Internalizing Dynamic Early Exit for Efficient Reasoning",
@@ -450,7 +467,8 @@
     "source_count": 1,
     "id": "item-26",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "Beyond Text-Dominance: Understanding Modality Preference of Omni-modal Large Language Models",
@@ -465,8 +483,7 @@
     ],
     "source_count": 1,
     "id": "item-27",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution",
@@ -482,7 +499,8 @@
     "source_count": 1,
     "id": "item-28",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "The Cognitive Penalty: Ablating System 1 and System 2 Reasoning in Edge-Native SLMs for Decentralized Consensus",
@@ -498,7 +516,8 @@
     "source_count": 1,
     "id": "item-29",
     "category": "research-frontier",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for research-frontier"
   },
   {
     "title": "ClimAgent: LLM as Agents for Autonomous Open-ended Climate Science Analysis",
@@ -513,8 +532,7 @@
     ],
     "source_count": 1,
     "id": "item-30",
-    "category": "research-frontier",
-    "trimmed": true
+    "category": "research-frontier"
   },
   {
     "title": "把 Sky 还给我们",
@@ -530,9 +548,10 @@
     "source_count": 1,
     "id": "item-31",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "give us back Sky\n\nhttps://t.co/YIjHaa0jMR",
-    "summary_original": "[Swyx @swyx · likes:3 rt:0] give us back Sky\n\nhttps://t.co/YIjHaa0jMR"
+    "summary_original": "[Swyx @swyx · likes:3 rt:0] give us back Sky\n\nhttps://t.co/YIjHaa0jMR",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Codex 收购 @skybysoftware 可能是 OpenAI 最划算的交易之一",
@@ -548,7 +567,6 @@
     "source_count": 1,
     "id": "item-32",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "the Codex x @skybysoftware acquisition may have been one of the best @openai dea…",
     "summary_original": "[Swyx @swyx · likes:93 rt:4] the Codex x @skybysoftware acquisition may have been one of the best @openai deals made in the last year.\n\nI've been waiting for \"real\" computer use since @romainhuet demoed the ChatGPT App with 4o Vision at AIEWF 2024... and only now it's really, actually rolling out in a usable fashion."
   },
@@ -566,7 +584,6 @@
     "source_count": 1,
     "id": "item-33",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "and @dexhorthy is quoting Z/L continuum in AIE Miami!!\n\nhttps://t.co/0KdjCJfZ8a\n…",
     "summary_original": "[Swyx @swyx · likes:30 rt:2] and @dexhorthy is quoting Z/L continuum in AIE Miami!!\n\nhttps://t.co/0KdjCJfZ8a\n\nidea catching on @altryne https://t.co/O2Q4OImv1k"
   },
@@ -584,9 +601,10 @@
     "source_count": 1,
     "id": "item-34",
     "category": "kol-posts",
-    "trimmed": true,
     "title_original": "Welcome back Ben! Can’t wait to see what you build! https://t.co/qWkdBgrksp",
-    "summary_original": "[Josh Woodward @joshwoodward · likes:138 rt:5] Welcome back Ben! Can’t wait to see what you build! https://t.co/qWkdBgrksp"
+    "summary_original": "[Josh Woodward @joshwoodward · likes:138 rt:5] Welcome back Ben! Can’t wait to see what you build! https://t.co/qWkdBgrksp",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "唯一比用智能体写代码更爽的事，就是用智能体做设计",
@@ -602,9 +620,10 @@
     "source_count": 1,
     "id": "item-35",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "The only thing more fun than coding with agents is designing with agents",
-    "summary_original": "[Peter Yang @petergyang · likes:40 rt:1] The only thing more fun than coding with agents is designing with agents"
+    "summary_original": "[Peter Yang @petergyang · likes:40 rt:1] The only thing more fun than coding with agents is designing with agents",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "感觉 Codex 在前端设计方面的短板，只要配合好的设计参考就能轻松补上",
@@ -620,9 +639,10 @@
     "source_count": 1,
     "id": "item-36",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "I feel like Codex's gap in frontend design skills can be easily made up if you u…",
-    "summary_original": "[Peter Yang @petergyang · likes:41 rt:0] I feel like Codex's gap in frontend design skills can be easily made up if you use an AI design tool.\n\nMy favorite is @tomkrcha's Pencil"
+    "summary_original": "[Peter Yang @petergyang · likes:41 rt:0] I feel like Codex's gap in frontend design skills can be easily made up if you use an AI design tool.\n\nMy favorite is @tomkrcha's Pencil",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "越是创新的公司，越没有什么「2026 路线图」",
@@ -638,9 +658,10 @@
     "source_count": 1,
     "id": "item-37",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "The more innovative the company the less of a \"2026 roadmap\" it actually has. ht…",
-    "summary_original": "[Peter Yang @petergyang · likes:12 rt:1] The more innovative the company the less of a \"2026 roadmap\" it actually has. https://t.co/LR4ObKvt97"
+    "summary_original": "[Peter Yang @petergyang · likes:12 rt:1] The more innovative the company the less of a \"2026 roadmap\" it actually has. https://t.co/LR4ObKvt97",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Venmo 到底什么时候才能关掉那个让我看到两个朋友互相转账的功能啊",
@@ -656,9 +677,10 @@
     "source_count": 1,
     "id": "item-38",
     "category": "kol-posts",
-    "trimmed": true,
     "title_original": "When is Venmo gonna finally turn off that feature that lets me see when two of m…",
-    "summary_original": "[Nan Yu @thenanyu · likes:21 rt:0] When is Venmo gonna finally turn off that feature that lets me see when two of my mutual friends are hooking up?"
+    "summary_original": "[Nan Yu @thenanyu · likes:21 rt:0] When is Venmo gonna finally turn off that feature that lets me see when two of my mutual friends are hooking up?",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Fairuz 是 Kanye 新专辑的主角",
@@ -674,7 +696,6 @@
     "source_count": 1,
     "id": "item-39",
     "category": "kol-posts",
-    "trimmed": true,
     "title_original": "Fairuz is the star of Kanye’s new album https://t.co/u8oIL4wEG3",
     "summary_original": "[Amjad Masad @amasad · likes:134 rt:4] Fairuz is the star of Kanye’s new album https://t.co/u8oIL4wEG3"
   },
@@ -692,9 +713,10 @@
     "source_count": 1,
     "id": "item-40",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "I’m so encouraged by the way our team and industry peers have shown up to protec…",
-    "summary_original": "[Guillermo Rauch @rauchg · likes:647 rt:33] I’m so encouraged by the way our team and industry peers have shown up to protect the internet.\n\nWe’ve now shipped over 20 product improvements across Dashboard and CLI to help your security posture.\n\nEasier to set up MFA, audit your Environment Variables, Activity logs and more https://t.co/5Qi2NEvUhw"
+    "summary_original": "[Guillermo Rauch @rauchg · likes:647 rt:33] I’m so encouraged by the way our team and industry peers have shown up to protect the internet.\n\nWe’ve now shipped over 20 product improvements across Dashboard and CLI to help your security posture.\n\nEasier to set up MFA, audit your Environment Variables, Activity logs and more https://t.co/5Qi2NEvUhw",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "收到很多关于这次事故详情的提问，我们正在全力撰写完整的事后复盘报告",
@@ -710,9 +732,10 @@
     "source_count": 1,
     "id": "item-41",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "Getting lots of questions about how to learn more about the incident. We're acti…",
-    "summary_original": "[Guillermo Rauch @rauchg · likes:38 rt:4] Getting lots of questions about how to learn more about the incident. We're actively maintaining the security bulletin. That's the source.\n\nThe bulletin includes security best practices to take out of an abundance of caution. To reiterate, we directly contacted all Vercel customers that we believe to be impacted by the IOC shared in the bulletin.\n\nOne misconception we've seen that I need to call out. Deletion (e.g.: of an env var, project, account…) does not imply Rotation. Rotating keys means *invalidating* the previous value with the vendor/service you're using, and getting a new one. Do that.\n\ni.e.: if you only delete the resource on the Vercel side, the associated key can \"live on\" with the other provider, and be mis-used\nhttps://t.co/VJfx1ODUM8"
+    "summary_original": "[Guillermo Rauch @rauchg · likes:38 rt:4] Getting lots of questions about how to learn more about the incident. We're actively maintaining the security bulletin. That's the source.\n\nThe bulletin includes security best practices to take out of an abundance of caution. To reiterate, we directly contacted all Vercel customers that we believe to be impacted by the IOC shared in the bulletin.\n\nOne misconception we've seen that I need to call out. Deletion (e.g.: of an env var, project, account…) does not imply Rotation. Rotating keys means *invalidating* the previous value with the vendor/service you're using, and getting a new one. Do that.\n\ni.e.: if you only delete the resource on the Vercel side, the associated key can \"live on\" with the other provider, and be mis-used\nhttps://t.co/VJfx1ODUM8",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Jack 的 Young Money 博客对大学时期刚开始接触个人理财的我影响很大",
@@ -728,7 +751,6 @@
     "source_count": 1,
     "id": "item-42",
     "category": "kol-posts",
-    "trimmed": true,
     "title_original": "Jack's young money blog had a big impact on me when I was in college and navigat…",
     "summary_original": "[Alex Albert @alexalbert__ · likes:93 rt:1] Jack's young money blog had a big impact on me when I was in college and navigating what I wanted to do post-grad. \n\nIf you are in your teens/20s and trying to figure out how to think about life, this book will offer you some good ideas. https://t.co/8Z1rpUzd36"
   },
@@ -746,9 +768,10 @@
     "source_count": 1,
     "id": "item-43",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "The jump from working with a chatbot to having an agent that actually helps auto…",
-    "summary_original": "[Aaron Levie @levie · likes:499 rt:59] The jump from working with a chatbot to having an agent that actually helps automate a process requires a real amount of work. \n\nMost companies will need to have dedicated people that are responsible for bringing automation to their teams, instead of leaving this up to every individual employee. Partly because the work is more technical than we imagine today, and partly because it’s just hard to do this as a side project.\n\nThe job spec is to map out new workflows with agents, implement new systems to deploy agents, make sure the agent has all the right (up to date) context to work with, wiring up internal systems to connect to the agents, creating evals for the agents, figuring out where the human is in the loop, managing the system when there are new upgrades, helping with the change management of the existing business process, and so on.\n\nThese jobs may come from IT or engineering, or live directly in the business function itself. They’ll be called different things depending on the company, and in some sense it’s the future of software engineering that you’ll see a huge growth of in non-tech companies.\n\nMost companies will have to be hiring for this now or in the future, and it’s another example of the kind of new jobs that will be created in AI."
+    "summary_original": "[Aaron Levie @levie · likes:499 rt:59] The jump from working with a chatbot to having an agent that actually helps automate a process requires a real amount of work. \n\nMost companies will need to have dedicated people that are responsible for bringing automation to their teams, instead of leaving this up to every individual employee. Partly because the work is more technical than we imagine today, and partly because it’s just hard to do this as a side project.\n\nThe job spec is to map out new workflows with agents, implement new systems to deploy agents, make sure the agent has all the right (up to date) context to work with, wiring up internal systems to connect to the agents, creating evals for the agents, figuring out where the human is in the loop, managing the system when there are new upgrades, helping with the change management of the existing business process, and so on.\n\nThese jobs may come from IT or engineering, or live directly in the business function itself. They’ll be called different things depending on the company, and in some sense it’s the future of software engineering that you’ll see a huge growth of in non-tech companies.\n\nMost companies will have to be hiring for this now or in the future, and it’s another example of the kind of new jobs that will be created in AI.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "就喜欢这种从零开始的感觉",
@@ -764,9 +787,10 @@
     "source_count": 1,
     "id": "item-44",
     "category": "kol-posts",
-    "trimmed": true,
     "title_original": "we love a clean start https://t.co/QgFKXyZZEI",
-    "summary_original": "[Ryo Lu @ryolu_ · likes:185 rt:2] we love a clean start https://t.co/QgFKXyZZEI"
+    "summary_original": "[Ryo Lu @ryolu_ · likes:185 rt:2] we love a clean start https://t.co/QgFKXyZZEI",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "这些人都应该去 Y Combinator 创业",
@@ -782,9 +806,10 @@
     "source_count": 1,
     "id": "item-45",
     "category": "kol-posts",
-    "trimmed": false,
     "title_original": "All of these people need to start startups at Y Combinator https://t.co/RY70TxT5…",
-    "summary_original": "[Garry Tan @garrytan · likes:116 rt:0] All of these people need to start startups at Y Combinator https://t.co/RY70TxT5US"
+    "summary_original": "[Garry Tan @garrytan · likes:116 rt:0] All of these people need to start startups at Y Combinator https://t.co/RY70TxT5US",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "I wrote my friend @chrysb a quick note on how to implement GBrain style migratio…",
@@ -799,8 +824,7 @@
     ],
     "source_count": 1,
     "id": "item-46",
-    "category": "kol-posts",
-    "trimmed": true
+    "category": "kol-posts"
   },
   {
     "title": "Someone figured out my secret 👀 https://t.co/jWLX6F30GQ",
@@ -816,7 +840,8 @@
     "source_count": 1,
     "id": "item-47",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "One head-scratching idea that gets repeated endlessly: the new TAM for AI is the…",
@@ -832,7 +857,8 @@
     "source_count": 1,
     "id": "item-48",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Agents speak HTML as their native language\n\nLet agents express themselves in the…",
@@ -847,8 +873,7 @@
     ],
     "source_count": 1,
     "id": "item-49",
-    "category": "kol-posts",
-    "trimmed": true
+    "category": "kol-posts"
   },
   {
     "title": "This is easily the best podcast episode I’ve heard this year..\n\nGenuine, kind, a…",
@@ -864,7 +889,8 @@
     "source_count": 1,
     "id": "item-50",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Every Indian in the US is T-3 hours away from their parents waking up, reading t…",
@@ -879,8 +905,7 @@
     ],
     "source_count": 1,
     "id": "item-51",
-    "category": "kol-posts",
-    "trimmed": true
+    "category": "kol-posts"
   },
   {
     "title": "🗃️ wacli 0.6.0 is out!\n\nBig security + reliability sweep for WhatsApp CLI.    Ha…",
@@ -896,7 +921,8 @@
     "source_count": 1,
     "id": "item-52",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "🧭 gog 0.13 is out!\n\nGmail forwarding with notes + attachments, autoreplies, full…",
@@ -912,7 +938,8 @@
     "source_count": 1,
     "id": "item-53",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Kudos to the folks from Tencent for working with us and providing evals to impro…",
@@ -928,7 +955,8 @@
     "source_count": 1,
     "id": "item-54",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "media is cool again! https://t.co/bf7HSf4G8n",
@@ -944,7 +972,8 @@
     "source_count": 1,
     "id": "item-55",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "two agents are better than one",
@@ -960,7 +989,8 @@
     "source_count": 1,
     "id": "item-56",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Opus 4.7 does good code reviews",
@@ -976,7 +1006,8 @@
     "source_count": 1,
     "id": "item-57",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Tim Cook is a legend.\n\nI am very thankful for everything he has done and I am ve…",
@@ -992,7 +1023,8 @@
     "source_count": 1,
     "id": "item-58",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "The internal working name for this was \"telepathy\", and it feels like it. https:…",
@@ -1008,7 +1040,8 @@
     "source_count": 1,
     "id": "item-59",
     "category": "kol-posts",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 10 for kol-posts"
   },
   {
     "title": "Available now on all paid plans.\n\nUpdate or download the Claude app to try it in…",
@@ -1023,8 +1056,7 @@
     ],
     "source_count": 1,
     "id": "item-60",
-    "category": "kol-posts",
-    "trimmed": true
+    "category": "kol-posts"
   },
   {
     "title": "Everything you build is saved to the new Live Artifacts tab, with version histor…",
@@ -1039,8 +1071,7 @@
     ],
     "source_count": 1,
     "id": "item-61",
-    "category": "kol-posts",
-    "trimmed": true
+    "category": "kol-posts"
   },
   {
     "title": "In Cowork, Claude can now build live artifacts: dashboards and trackers connecte…",
@@ -1055,8 +1086,7 @@
     ],
     "source_count": 1,
     "id": "item-62",
-    "category": "kol-posts",
-    "trimmed": true
+    "category": "kol-posts"
   },
   {
     "title": "[AINews] OpenAI 发布 GPT-Image-2",
@@ -1069,14 +1099,20 @@
     "recent": true,
     "source": "gmail-ai-newsletter",
     "sources": [
-      "gmail-ai-newsletter"
+      "gmail-ai-newsletter",
+      "hn-best"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "id": "item-63",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "[AINews] OpenAI launches GPT-Image-2",
-    "summary_original": ""
+    "summary_original": "",
+    "alt_urls": [
+      "https://openai.com/index/introducing-chatgpt-images-2-0/"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=47852835",
+    "hn_score": 712,
+    "hn_comments": 548
   },
   {
     "title": "Mini-Vibe Check：Claude Design 还不是为设计师准备的——但快了",
@@ -1094,7 +1130,6 @@
     "source_count": 1,
     "id": "item-64",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Mini-Vibe Check: Claude Design Isn’t for Designers—Yet",
     "summary_original": "Plus: Vercel and Lovable’s security woes, and how to make your agent your watchdog"
   },
@@ -1114,7 +1149,6 @@
     "source_count": 1,
     "id": "item-65",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Introducing Monologue Notes: Record Every Meeting, Call, and Voice Memo",
     "summary_original": "On Every\n\r\n \r\n \n\r\n \n\r\n Introducing Monologue Notes: Record Every Meeting, Call, and Voice Memo\r\n \n\r\n \n\r\n Turn your recordings into searchable context for agents\r\n \n\r\n \n\r\n \nby Naveen Naidu\n\r\n \n\r\n \r\n \r\n Figma/Every illustration.\r\n \r\n \n\r\n\r\n \n\r\n \nTL;DR: Today we’re launching Monologue Notes, which turns your calls, meetings, and voice memos into transcripts your agents can use."
   },
@@ -1134,7 +1168,6 @@
     "source_count": 1,
     "id": "item-66",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "☕🤖 Tutorial: How To 10x Your Productivity With Claude Cowork (The Beginner's Guide)",
     "summary_original": ""
   },
@@ -1152,7 +1185,6 @@
     "source_count": 1,
     "id": "item-67",
     "category": "major-release",
-    "trimmed": false,
     "title_original": "3 new ways Ads Advisor is making Google Ads safer and faster",
     "summary_original": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account."
   },
@@ -1170,7 +1202,6 @@
     "source_count": 1,
     "id": "item-68",
     "category": "tools-release",
-    "trimmed": false,
     "title_original": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
     "summary_original": ""
   },
@@ -1182,14 +1213,18 @@
     "source": "kimi-blog",
     "fetched_at": "2026-04-22T02:05:54.406547+00:00",
     "sources": [
+      "hn-best",
       "kimi-blog"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "id": "item-69",
     "category": "tools-release",
-    "trimmed": false,
     "title_original": "Kimi K2.6 Tech Blog: Advancing Open-Source Coding",
-    "summary_original": "月之暗面正式发布并开源Kimi K2.6模型，具备SOTA级代码生成、长程任务执行和Agent Swarm协同能力。支持跨语言编程，代码生成准确率较K2.5提升12%，长上下文稳定性提升18%，工具调用成功率96.6%。万亿参数开源权重模型。"
+    "summary_original": "月之暗面正式发布并开源Kimi K2.6模型，具备SOTA级代码生成、长程任务执行和Agent Swarm协同能力。支持跨语言编程，代码生成准确率较K2.5提升12%，长上下文稳定性提升18%，工具调用成功率96.6%。万亿参数开源权重模型。",
+    "alt_urls": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47835735",
+    "hn_score": 697,
+    "hn_comments": 365
   },
   {
     "title": "当下 AI 领域最重要的 10 件事",
@@ -1205,9 +1240,10 @@
     "source_count": 1,
     "id": "item-70",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "10 Things That Matter in AI Right Now",
-    "summary_original": ""
+    "summary_original": "",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "LLM+ 时代",
@@ -1223,9 +1259,10 @@
     "source_count": 1,
     "id": "item-71",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "LLMs+",
-    "summary_original": "When ChatGPT launched as an experimental prototype in late 2022, OpenAI’s chatbot became an everyday everything app for hundreds of millions of people. LLMs like ChatGPT were the new future: The entire tech industry was consumed by the inferno, with companies racing to spin up rival products. The ashes of the old tech world still haven’t settled, but that hasn’t stopped people from asking what’s next. Spoiler alert: The next big thing after LLMs is more LLMs. But better. Let’s call them LLMs+. The challenge is to get LLMs to work through complex and multipart problems that would take humans days or weeks to solve. If they are going to help us tackle some of our hardest challenges (which is the stated aim of the top labs), then they need to be able to work by themselves for longer periods of time. To get there, a few things need to happen. First, LLMs must become more efficient and cheaper to run. Some of the biggest advances are on this front. One approach, called mixture-of-experts, splits an LLM up into smaller parts and gives each an expertise in a different type of task. That means only some parts of the model need to be switched on at a given time. Another way to make LLMs more efficient could be to ditch transformers—the type of neural network underpinning almost all of them today—in favor of diffusion models, an alternative type of neural network more typically used for image and video generation. There are more experimental approaches, too. Last year, the Chinese AI firm DeepSeek showed off a way to encode text in images , which cuts computation costs. Another crucial area of progress has to do with what’s known as an LLM’s context window. This is the amount of text (or video) that a model can take in at once, equivalent to its working memory. A couple of years ago, LLMs could process several thousand tokens (words or parts of words) in one go, or a few dozen pages of text. The latest models now have context windows up to a million tokens long—a whole stack of books. But the bigger the context window and the longer the task, the more likely models are to go off the rails or forget what they were doing. There are breakthroughs happening there, too. One recent paper by researchers at MIT CSAIL introduced what they call recursive LLMs . Instead of taking in a vast context window at once, recursive LLMs break their input up into chunks and send each chunk to a copy of itself, which in turn might break those chunks up again and send the results to even more copies. Multiple LLMs processing smaller pieces of information seem to be far more reliable for long, hard tasks. The result is an LLM, but not as we know it."
+    "summary_original": "When ChatGPT launched as an experimental prototype in late 2022, OpenAI’s chatbot became an everyday everything app for hundreds of millions of people. LLMs like ChatGPT were the new future: The entire tech industry was consumed by the inferno, with companies racing to spin up rival products. The ashes of the old tech world still haven’t settled, but that hasn’t stopped people from asking what’s next. Spoiler alert: The next big thing after LLMs is more LLMs. But better. Let’s call them LLMs+. The challenge is to get LLMs to work through complex and multipart problems that would take humans days or weeks to solve. If they are going to help us tackle some of our hardest challenges (which is the stated aim of the top labs), then they need to be able to work by themselves for longer periods of time. To get there, a few things need to happen. First, LLMs must become more efficient and cheaper to run. Some of the biggest advances are on this front. One approach, called mixture-of-experts, splits an LLM up into smaller parts and gives each an expertise in a different type of task. That means only some parts of the model need to be switched on at a given time. Another way to make LLMs more efficient could be to ditch transformers—the type of neural network underpinning almost all of them today—in favor of diffusion models, an alternative type of neural network more typically used for image and video generation. There are more experimental approaches, too. Last year, the Chinese AI firm DeepSeek showed off a way to encode text in images , which cuts computation costs. Another crucial area of progress has to do with what’s known as an LLM’s context window. This is the amount of text (or video) that a model can take in at once, equivalent to its working memory. A couple of years ago, LLMs could process several thousand tokens (words or parts of words) in one go, or a few dozen pages of text. The latest models now have context windows up to a million tokens long—a whole stack of books. But the bigger the context window and the longer the task, the more likely models are to go off the rails or forget what they were doing. There are breakthroughs happening there, too. One recent paper by researchers at MIT CSAIL introduced what they call recursive LLMs . Instead of taking in a vast context window at once, recursive LLMs break their input up into chunks and send each chunk to a copy of itself, which in turn might break those chunks up again and send the results to even more copies. Multiple LLMs processing smaller pieces of information seem to be far more reliable for long, hard tasks. The result is an LLM, but not as we know it.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "AI 驱动的超级诈骗",
@@ -1241,9 +1278,10 @@
     "source_count": 1,
     "id": "item-72",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Supercharged scams",
-    "summary_original": "When ChatGPT was released to the public in late 2022, it opened people’s eyes to how easily generative AI could churn out vast amounts of human-seeming text from simple prompts. This quickly caught the attention of criminals, who soon began using large language models to produce malicious emails —both the untargeted spam kind and more sophisticated, targeted attacks designed to steal money and sensitive information. Since then, cybercriminals have adopted AI tools to supercharge their operations . They’ve used the technology to do everything from composing phishing emails and creating hyperrealistic, convincing deepfake clips to tweaking malicious software (commonly known as malware) so it is harder to detect. They can also use AI to automate the search for vulnerabilities in networks and computer systems , quickly generate ransom notes, and analyze vast swathes of stolen data to pinpoint what’s most valuable. AI’s impact on hacking itself is not so clear-cut. But we do know that AI is lowering the barriers for would-be attackers, providing them with an ever-evolving arsenal of new capabilities, and making it faster, cheaper, and easier than ever before for them to try to infiltrate their targets. For example, scam centers across Southeast Asia are embracing inexpensive AI tools to quickly target greater numbers of potential victims and to swiftly switch to new locations, Interpol has warned. Similarly, the United Arab Emirates recently claimed to have foiled a series of shadowy AI-backed attacks on its vital sectors. And because these spammy, scattergun attacks can be pumped out at a colossal scale, they don’t need to be very sophisticated to have the desired effect—just lucky enough to get into a machine that happens to be undefended, or into the inbox of an unsuspecting victim at the right time. Many organizations are already struggling to cope with the sheer volume of cyberattacks targeting them. The problem is likely to get significantly worse as increasing numbers of criminals try their luck, and as the capabilities of publicly available generative AI systems continue to improve. Earlier this month, AI company Anthropic claimed that Mythos, a model it’s developed and is now testing, found thousands of critical vulnerabilities, including some in every major operating system and web browser. Anthropic says all of them have been patched, but it’s delaying the model’s release as a result of these new capabilities and set up a consortium of tech companies called Project Glasswing that it says will try to put these capabilities to work for defensive purposes in the meantime. Right now, cybersecurity researchers are optimistic that sloppier attacks can be thwarted through basic defenses, highlighting just how important it is to keep on top of software updates and stick to network security protocols. How well positioned we’ll be to ward off more sophisticated attacks in the future is much less clear. The good news is that AI is also being used to defend. Each day, Microsoft—just one of the many businesses keeping tabs on such threats—processes more than 100 trillion signals flagged by its AI systems as potentially malicious or suspicious. The company says that between April 2024 and April 2025, it managed to block $4 billion worth of scams and fraudulent transactions, many of which may have been aided by AI content. The same technology that makes such attacks possible could also be our best bet at keeping us safe in years to come."
+    "summary_original": "When ChatGPT was released to the public in late 2022, it opened people’s eyes to how easily generative AI could churn out vast amounts of human-seeming text from simple prompts. This quickly caught the attention of criminals, who soon began using large language models to produce malicious emails —both the untargeted spam kind and more sophisticated, targeted attacks designed to steal money and sensitive information. Since then, cybercriminals have adopted AI tools to supercharge their operations . They’ve used the technology to do everything from composing phishing emails and creating hyperrealistic, convincing deepfake clips to tweaking malicious software (commonly known as malware) so it is harder to detect. They can also use AI to automate the search for vulnerabilities in networks and computer systems , quickly generate ransom notes, and analyze vast swathes of stolen data to pinpoint what’s most valuable. AI’s impact on hacking itself is not so clear-cut. But we do know that AI is lowering the barriers for would-be attackers, providing them with an ever-evolving arsenal of new capabilities, and making it faster, cheaper, and easier than ever before for them to try to infiltrate their targets. For example, scam centers across Southeast Asia are embracing inexpensive AI tools to quickly target greater numbers of potential victims and to swiftly switch to new locations, Interpol has warned. Similarly, the United Arab Emirates recently claimed to have foiled a series of shadowy AI-backed attacks on its vital sectors. And because these spammy, scattergun attacks can be pumped out at a colossal scale, they don’t need to be very sophisticated to have the desired effect—just lucky enough to get into a machine that happens to be undefended, or into the inbox of an unsuspecting victim at the right time. Many organizations are already struggling to cope with the sheer volume of cyberattacks targeting them. The problem is likely to get significantly worse as increasing numbers of criminals try their luck, and as the capabilities of publicly available generative AI systems continue to improve. Earlier this month, AI company Anthropic claimed that Mythos, a model it’s developed and is now testing, found thousands of critical vulnerabilities, including some in every major operating system and web browser. Anthropic says all of them have been patched, but it’s delaying the model’s release as a result of these new capabilities and set up a consortium of tech companies called Project Glasswing that it says will try to put these capabilities to work for defensive purposes in the meantime. Right now, cybersecurity researchers are optimistic that sloppier attacks can be thwarted through basic defenses, highlighting just how important it is to keep on top of software updates and stick to network security protocols. How well positioned we’ll be to ward off more sophisticated attacks in the future is much less clear. The good news is that AI is also being used to defend. Each day, Microsoft—just one of the many businesses keeping tabs on such threats—processes more than 100 trillion signals flagged by its AI systems as potentially malicious or suspicious. The company says that between April 2024 and April 2025, it managed to block $4 billion worth of scams and fraudulent transactions, many of which may have been aided by AI content. The same technology that makes such attacks possible could also be our best bet at keeping us safe in years to come.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "世界模型",
@@ -1259,9 +1297,10 @@
     "source_count": 1,
     "id": "item-73",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "World models",
-    "summary_original": "AI systems have already gained impressive mastery over the digital world, but the physical world is still humanity’s domain. As it turns out, building an AI system that can compose a novel or code an app is far easier than developing one that can fold laundry or navigate a city street. To get there, many researchers believe, you need something called a world model. World models are not a new idea, but recent developments from Google DeepMind and Stanford professor Fei-Fei Li’s World Labs, as well as Yann LeCun’s splashy departure from Meta to form a world-model-focused startup, have brought them to the forefront of the AI discussion. OpenAI, too, is getting in on the action by reallocating resources from the shuttered Sora video app to “longer-term world simulation research.” Proponents like Li and LeCun argue that world models will allow researchers to overcome the well-known limitations of LLMs and realize AI’s promise for robotics. Definitions of the term “world model” vary, but they all center on the ways in which intelligent systems represent the external world. Some scientists would say that humans use our own mental world models to navigate our surroundings and guide our actions; somehow, our brains simulate our environments with enough fidelity to let us effectively predict what we will observe if we push a mug off the edge of a table or tell a friend our honest opinion, and those predictions help us decide what to do. LLMs might seem to do a good job of this already—they can certainly tell you what will happen if you knock a mug off a table. But research suggests that their “understanding” of the world is brittle. One study found that language models trained on a database of simulated New York City taxi trips can provide effective directions for how to navigate from one point in Manhattan to another—unless the model is forced to take occasional detours, in which case it fails completely. This result and others suggest that AI systems with a world model—in this case, an accurate mental map of New York City—could be far more robust and reliable than the flaky LLMs to which we have grown accustomed. Many researchers think that world models will prove essential to the future of robotics. Li, the World Labs founder, has written about how they could facilitate the development of robots that explore the deep sea and assist health-care providers, but for now, the applications are more modest. The makers of Pokémon Go, for instance, are using billions of images collected by the game’s players to build the first pieces of a world model that, they hope, could help guide delivery robots . Google DeepMind and World Labs are currently focusing their efforts on building models that can generate interactive, 3D virtual environments from a combination of text, images, and in the case of World Labs, video prompts. Such tools could be used to streamline the design of video games and immersive VR experiences, but compared with large language models, they seem to have a limited range of applications. The real breakthroughs are likely to come from integrating such systems into flexible, intelligent agents that can represent their environments, predict the consequences of their actions, and then decide what to do."
+    "summary_original": "AI systems have already gained impressive mastery over the digital world, but the physical world is still humanity’s domain. As it turns out, building an AI system that can compose a novel or code an app is far easier than developing one that can fold laundry or navigate a city street. To get there, many researchers believe, you need something called a world model. World models are not a new idea, but recent developments from Google DeepMind and Stanford professor Fei-Fei Li’s World Labs, as well as Yann LeCun’s splashy departure from Meta to form a world-model-focused startup, have brought them to the forefront of the AI discussion. OpenAI, too, is getting in on the action by reallocating resources from the shuttered Sora video app to “longer-term world simulation research.” Proponents like Li and LeCun argue that world models will allow researchers to overcome the well-known limitations of LLMs and realize AI’s promise for robotics. Definitions of the term “world model” vary, but they all center on the ways in which intelligent systems represent the external world. Some scientists would say that humans use our own mental world models to navigate our surroundings and guide our actions; somehow, our brains simulate our environments with enough fidelity to let us effectively predict what we will observe if we push a mug off the edge of a table or tell a friend our honest opinion, and those predictions help us decide what to do. LLMs might seem to do a good job of this already—they can certainly tell you what will happen if you knock a mug off a table. But research suggests that their “understanding” of the world is brittle. One study found that language models trained on a database of simulated New York City taxi trips can provide effective directions for how to navigate from one point in Manhattan to another—unless the model is forced to take occasional detours, in which case it fails completely. This result and others suggest that AI systems with a world model—in this case, an accurate mental map of New York City—could be far more robust and reliable than the flaky LLMs to which we have grown accustomed. Many researchers think that world models will prove essential to the future of robotics. Li, the World Labs founder, has written about how they could facilitate the development of robots that explore the deep sea and assist health-care providers, but for now, the applications are more modest. The makers of Pokémon Go, for instance, are using billions of images collected by the game’s players to build the first pieces of a world model that, they hope, could help guide delivery robots . Google DeepMind and World Labs are currently focusing their efforts on building models that can generate interactive, 3D virtual environments from a combination of text, images, and in the case of World Labs, video prompts. Such tools could be used to streamline the design of video games and immersive VR experiences, but compared with large language models, they seem to have a limited range of applications. The real breakthroughs are likely to come from integrating such systems into flexible, intelligent agents that can represent their environments, predict the consequences of their actions, and then decide what to do.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "武器化深度伪造",
@@ -1277,9 +1316,10 @@
     "source_count": 1,
     "id": "item-74",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Weaponized deepfakes",
-    "summary_original": "For years, experts have warned that deepfakes—AI-generated videos, images, or audio recordings of people doing or saying things they haven’t actually done in real life—could be deployed in malicious ways. These dangers are now here. Improvements in deepfake technology, and the widespread availability of easy-to-use and cheap (or free) generative models, have made it easier than ever for anyone to fake reality in a way that’s increasingly difficult to spot. We’re not just talking about AI slop , the often obviously fake content that has taken over the internet. Rather, weaponized deepfakes—from sexually explicit images to scam posts to political propaganda—may look startlingly real. There are already examples around the world of their inciting violence , trying to change minds (and maybe even votes ), and generally sowing mistrust . That’s why experts worry that weaponized deepfakes will further crater critical thinking skills, as well as our trust in institutions and each other. This has dire effects for society and governance—and, of course, for the people targeted. As with many other examples of technology’s harms, the human impacts will weigh disproportionately on women and marginalized groups; though the technology has evolved in the past few years, a 2023 study found that 98% of deepfakes were pornographic in nature, and 99% depicted women. Just take Grok. Since Elon Musk launched the “edit image” function of this AI chatbot late last year, users have created millions of sexualized images, including many of children and women; one report estimated that 81% of these Grok-produced images depicted women. Despite widespread criticism, xAI’s initial response was to limit the feature to paying members; it has since blocked the nudity feature in jurisdictions where it is illegal. There’s also been an explosion of political deepfakes. The Trump administration, for example, has regularly produced and shared AI-generated images and videos. Not all of them are even meant to look real, but others appear to be designed to sway public opinion and even humiliate the person depicted. In January, meanwhile, Texas attorney general Ken Paxton shared a video appearing to show his opponent in the Republican primary for a US Senate seat, Senator John Cornyn, dancing with Representative Jasmine Crockett, a contender for the Democratic nomination. But this never happened—a fact the ad did not disclose clearly. Suggested solutions include instituting new technical safeguards and detection methods at the big AI firms, encouraging users to take more protective actions, and crafting new legislation or applying existing regulatory frameworks, like copyright law, to the issue. But these all have limits. Technical solutions can be bypassed; for instance, bad actors can simply switch to open-source models built without safeguards. Getting people to change how they behave, such as by watermarking photos or posting less personal information online, is simply unrealistic. Stronger regulations require enforcement—and while President Trump has signed legislation that criminalizes deepfake porn, his administration continues to post other types of harmful deepfakes. In late January, for instance, the White House shared an altered image of a Minneapolis civil rights lawyer, darkening her skin and changing her facial expression from one of calm to exaggerated crying. The problem could get much worse—and soon. There are high-stakes midterm elections in the United States later this year, and the federal agencies that traditionally addressed elections-related information integrity have been weakened. So have many outside research groups dedicated to fact-checking and fighting election-related disinformation."
+    "summary_original": "For years, experts have warned that deepfakes—AI-generated videos, images, or audio recordings of people doing or saying things they haven’t actually done in real life—could be deployed in malicious ways. These dangers are now here. Improvements in deepfake technology, and the widespread availability of easy-to-use and cheap (or free) generative models, have made it easier than ever for anyone to fake reality in a way that’s increasingly difficult to spot. We’re not just talking about AI slop , the often obviously fake content that has taken over the internet. Rather, weaponized deepfakes—from sexually explicit images to scam posts to political propaganda—may look startlingly real. There are already examples around the world of their inciting violence , trying to change minds (and maybe even votes ), and generally sowing mistrust . That’s why experts worry that weaponized deepfakes will further crater critical thinking skills, as well as our trust in institutions and each other. This has dire effects for society and governance—and, of course, for the people targeted. As with many other examples of technology’s harms, the human impacts will weigh disproportionately on women and marginalized groups; though the technology has evolved in the past few years, a 2023 study found that 98% of deepfakes were pornographic in nature, and 99% depicted women. Just take Grok. Since Elon Musk launched the “edit image” function of this AI chatbot late last year, users have created millions of sexualized images, including many of children and women; one report estimated that 81% of these Grok-produced images depicted women. Despite widespread criticism, xAI’s initial response was to limit the feature to paying members; it has since blocked the nudity feature in jurisdictions where it is illegal. There’s also been an explosion of political deepfakes. The Trump administration, for example, has regularly produced and shared AI-generated images and videos. Not all of them are even meant to look real, but others appear to be designed to sway public opinion and even humiliate the person depicted. In January, meanwhile, Texas attorney general Ken Paxton shared a video appearing to show his opponent in the Republican primary for a US Senate seat, Senator John Cornyn, dancing with Representative Jasmine Crockett, a contender for the Democratic nomination. But this never happened—a fact the ad did not disclose clearly. Suggested solutions include instituting new technical safeguards and detection methods at the big AI firms, encouraging users to take more protective actions, and crafting new legislation or applying existing regulatory frameworks, like copyright law, to the issue. But these all have limits. Technical solutions can be bypassed; for instance, bad actors can simply switch to open-source models built without safeguards. Getting people to change how they behave, such as by watermarking photos or posting less personal information online, is simply unrealistic. Stronger regulations require enforcement—and while President Trump has signed legislation that criminalizes deepfake porn, his administration continues to post other types of harmful deepfakes. In late January, for instance, the White House shared an altered image of a Minneapolis civil rights lawyer, darkening her skin and changing her facial expression from one of calm to exaggerated crying. The problem could get much worse—and soon. There are high-stakes midterm elections in the United States later this year, and the federal agencies that traditionally addressed elections-related information integrity have been weakened. So have many outside research groups dedicated to fact-checking and fighting election-related disinformation.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Agent 编排",
@@ -1295,7 +1335,6 @@
     "source_count": 1,
     "id": "item-75",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Agent orchestration",
     "summary_original": "When people say AI will speed up drug development or fear that it will bring about mass layoffs, what they have in mind—whether they know it or not—are AI agents. ChatGPT made large language models a mass consumer product. But to change the world, AI needs to do more than just talk back: It needs to do stuff. And that’s where agents come in. Now, after much hype, the first bona fide multi-agent tools are starting to show their colors. OpenClaw—a personal AI assistant that you could talk to from your phone—got everyone’s attention. Beneath the buzz, OpenClaw had a limited set of tricks —and a saboteur’s approach to security . But it felt like the future. And so companies from Nvidia to Tencent have been quick to build their own safer, more reliable bots on top of OpenClaw’s open-source code. But the real power of agents comes when they can work as a team. Instead of lone-wolf bots carrying out single tasks, such as using a browser to make a restaurant reservation or sending you a summary of your inbox, new tools can yoke together multiple agents, give each of them a different job, and orchestrate their behaviors so that they all pull together to complete more complex tasks than an individual agent could do by itself. For example, Claude Code, released by Anthropic last year, lets you launch and coordinate several coding agents at once (some users have reported having as many as a couple of dozen subagents on the go), with different agents working on different parts of the code base at the same time. Agents can also be given specific roles: One writes code, another tests it, a third fixes bugs, and so on. Such tools promise to turn coders into project managers, letting them delegate and oversee many more tasks than they could cope with by themselves. But coding was just the start. The latest multi-agent tools are aimed at people who don’t need or don’t want to develop software. Desktop apps such as Anthropic’s Claude Cowork (which the firm claims to have built using Claude Code in just 10 days, instead of the several months such a project might otherwise have taken), OpenAI’s Codex, and Perplexity’s Computer are all pitched as general-purpose productivity tools for white-collar professionals. They let you hand off bespoke workflows to teams of agents that coordinate across a wide range of computer-based office tasks, from managing inboxes and inventory to handling customer complaints. And it’s not just office work. Multi-agent tools like Google DeepMind’s Co-Scientist let researchers use teams of AI agents to coordinate literature searches, generate and test hypotheses, design experiments, and more. Think of multi-agent systems as the new assembly lines. Henry Ford’s innovation upended entire industries last century. In theory, networks of AI agents could do to white-collar knowledge work what assembly lines did to manufacturing. That’s the vision, at least. Because this technology also comes with huge risks. It’s no secret that LLMs can be unpredictable. That’s an annoyance when chatbots are stuck inside their screen. When they start interacting more with the real world, it could be disastrous. Are we ready for agents to be let loose on our ubiquitous digital infrastructure, from health care to finance, social media to missile launchers?"
   },
@@ -1313,9 +1352,10 @@
     "source_count": 1,
     "id": "item-76",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Humanoid data",
-    "summary_original": "I was recently invited to join an app that would pay me cryptocurrency to film myself doing tasks like putting food into a bowl, microwaving it, and then taking it out. Another website suggested I try a new game in which I’d remotely control a robotic arm in Shenzhen, China, as it completed puzzles and tasks, to help improve the robot’s dexterity. What on earth is happening? Well, just as our words became training data for large language models, robotics companies are betting that data about the way we move will help them build more capable humanoid robots. They see humanoids—despite being trickier to train than simple robotic arms—as more easily slotting into the places where humans work today (and someday replacing them entirely). This new notion for how to train humanoids arguably began with the launch of ChatGPT in 2022. Large language models were able to generate text through exposure to massive amounts of training data—every word ever written that AI companies could find (or, some argue, steal). Roboticists wanted to apply these scaling laws to robotics but lacked an internet-size collection of data describing how we move. Put off by how difficult this would be to amass, companies used workarounds, like teaching robots to move in virtual simulations. However, simulations never perfectly model how things like friction or elasticity work in the real world, so the robots trained in them tended to (literally) stumble. Now companies building humanoid robots have decided that collecting real-world data, as cumbersome as it is, could yield a massive payoff. That’s where things got weird. Early efforts were quaint and academic. Labs collected hours and hours of data from people doing household tasks, like flipping waffles or cleaning their desks, while wearing cameras or handheld grippers. The data was shared openly. But as venture capital money poured into robotics—$6.1 billion in 2025 for humanoids alone—the race to create this training data has gotten more competitive, and more elaborate. There are now training centers in China where people wear exoskeletons and virtual-reality hardware while they do the same repetitive task, like wiping a table, hundreds of times per day. Gig workers in Nigeria, Argentina, and India are filming themselves doing chores at home . Earlier this year, I learned that a delivery company in the US had outfitted its employees with sensors that track their movements as they carry boxes, in part to study injuries but also with the goal of training robots that could replace them. All this points to a surreal future of work in which physical laborers increasingly become data collectors. But training robots on movement data we collect is still a complicated proposition. It’s not clear that it’s even possible to do it at the scale potentially needed to yield technical breakthroughs, let alone build a profitable business. What is the value of a clip of me opening my microwave? How many thousands of those moments would it take to teach a robot to cook dinner? Perhaps this’ll be the year we find out."
+    "summary_original": "I was recently invited to join an app that would pay me cryptocurrency to film myself doing tasks like putting food into a bowl, microwaving it, and then taking it out. Another website suggested I try a new game in which I’d remotely control a robotic arm in Shenzhen, China, as it completed puzzles and tasks, to help improve the robot’s dexterity. What on earth is happening? Well, just as our words became training data for large language models, robotics companies are betting that data about the way we move will help them build more capable humanoid robots. They see humanoids—despite being trickier to train than simple robotic arms—as more easily slotting into the places where humans work today (and someday replacing them entirely). This new notion for how to train humanoids arguably began with the launch of ChatGPT in 2022. Large language models were able to generate text through exposure to massive amounts of training data—every word ever written that AI companies could find (or, some argue, steal). Roboticists wanted to apply these scaling laws to robotics but lacked an internet-size collection of data describing how we move. Put off by how difficult this would be to amass, companies used workarounds, like teaching robots to move in virtual simulations. However, simulations never perfectly model how things like friction or elasticity work in the real world, so the robots trained in them tended to (literally) stumble. Now companies building humanoid robots have decided that collecting real-world data, as cumbersome as it is, could yield a massive payoff. That’s where things got weird. Early efforts were quaint and academic. Labs collected hours and hours of data from people doing household tasks, like flipping waffles or cleaning their desks, while wearing cameras or handheld grippers. The data was shared openly. But as venture capital money poured into robotics—$6.1 billion in 2025 for humanoids alone—the race to create this training data has gotten more competitive, and more elaborate. There are now training centers in China where people wear exoskeletons and virtual-reality hardware while they do the same repetitive task, like wiping a table, hundreds of times per day. Gig workers in Nigeria, Argentina, and India are filming themselves doing chores at home . Earlier this year, I learned that a delivery company in the US had outfitted its employees with sensors that track their movements as they carry boxes, in part to study injuries but also with the goal of training robots that could replace them. All this points to a surreal future of work in which physical laborers increasingly become data collectors. But training robots on movement data we collect is still a complicated proposition. It’s not clear that it’s even possible to do it at the scale potentially needed to yield technical breakthroughs, let alone build a profitable business. What is the value of a clip of me opening my microwave? How many thousands of those moments would it take to teach a robot to cook dinner? Perhaps this’ll be the year we find out.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "中国的开源押注",
@@ -1331,9 +1371,10 @@
     "source_count": 1,
     "id": "item-77",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "China’s open-source bet",
-    "summary_original": "Silicon Valley AI companies follow a familiar playbook: Keep the secret sauce behind an API, and charge for every drop. China’s leading AI labs are playing a different game: They ship models as downloadable “open-weight” packages. This lets developers adapt the models and run them on their own hardware to build products without negotiating a commercial relationship with a US gatekeeper. This strategy went mainstream after DeepSeek open-sourced its R1 reasoning model in January 2025. That model matched the performance of the best American systems, reportedly at a fraction of the cost. On raw capability, the gap between US and Chinese labs seemed to have suddenly narrowed. But China also won something subtler and stickier: goodwill with developers. Giving away what your rivals charge for has a way of doing that. China rode that momentum hard. A year after DeepSeek’s release, there’s now a cohort of Chinese open-source giants following the same blueprint, including Z.ai (formerly Zhipu), Moonshot, Alibaba’s Qwen, and MiniMax. They’re all racing to release more capable models, and they are closing in on US rivals at a pace few anticipated. That matters because AI hype is dying down, and companies are shifting focus from buzzy pilots to deployment and integration, where cheaper and more customizable tools tend to win. Chinese pricing means developers with limited budgets can experiment more, and open weights mean they can adapt models without asking for permission. A study by researchers at MIT and Hugging Face found that Chinese open-weight models accounted for 17.1% of global AI model downloads over the year ending in August 2025. That narrowly surpassed the US share of 15.86%—the first time China had led in this metric. And Hugging Face data from last month shows that Alibaba’s models, including its Qwen family, now have the most user-generated variants—more than models from Google and Meta combined. The open-source ideal, though, runs headlong into some hard realities. Chinese models carry the imprint of China’s content moderation regime and are trained to avoid outputs that conflict with government policy. And in February, Anthropic accused several Chinese labs of illicitly extracting capabilities from Claude through distillation, a process where you use one model’s outputs to train another. That’s a standard industry practice, but top US firms like OpenAI and Anthropic claim that Chinese companies have used fraudulent methods to do it. Despite pushback from the West, much of the Global South is embracing Chinese models, seeing open-source as a path to AI sovereignty. Singapore’s government-backed AI Singapore program chose Alibaba’s Qwen over Meta’s Llama to build its latest regional model on; last year, Malaysia announced that its sovereign AI ecosystem would run on DeepSeek. Meanwhile, founders from Nairobi to São Paulo to San Francisco are building on Chinese foundations. US tech CEOs believe the best models should stay proprietary, partly so they can recoup enormous training costs and partly out of concern that powerful frontier models could be weaponized. Chinese labs, for their part, are not purely idealistic: Open-source is not only free advertising but also a shrewd workaround. Without access to cutting-edge chips restricted by US export controls, releasing models openly accelerates the cycle of external feedback and contributions that compensates for constrained compute. The more developers build on your models, the stronger your ecosystem becomes, as Linux and Android have shown. That adoption naturally translates into API usage and revenue. Either way, open-source models have already made AI’s future more multipolar than Silicon Valley expected. And there’s no way of turning back."
+    "summary_original": "Silicon Valley AI companies follow a familiar playbook: Keep the secret sauce behind an API, and charge for every drop. China’s leading AI labs are playing a different game: They ship models as downloadable “open-weight” packages. This lets developers adapt the models and run them on their own hardware to build products without negotiating a commercial relationship with a US gatekeeper. This strategy went mainstream after DeepSeek open-sourced its R1 reasoning model in January 2025. That model matched the performance of the best American systems, reportedly at a fraction of the cost. On raw capability, the gap between US and Chinese labs seemed to have suddenly narrowed. But China also won something subtler and stickier: goodwill with developers. Giving away what your rivals charge for has a way of doing that. China rode that momentum hard. A year after DeepSeek’s release, there’s now a cohort of Chinese open-source giants following the same blueprint, including Z.ai (formerly Zhipu), Moonshot, Alibaba’s Qwen, and MiniMax. They’re all racing to release more capable models, and they are closing in on US rivals at a pace few anticipated. That matters because AI hype is dying down, and companies are shifting focus from buzzy pilots to deployment and integration, where cheaper and more customizable tools tend to win. Chinese pricing means developers with limited budgets can experiment more, and open weights mean they can adapt models without asking for permission. A study by researchers at MIT and Hugging Face found that Chinese open-weight models accounted for 17.1% of global AI model downloads over the year ending in August 2025. That narrowly surpassed the US share of 15.86%—the first time China had led in this metric. And Hugging Face data from last month shows that Alibaba’s models, including its Qwen family, now have the most user-generated variants—more than models from Google and Meta combined. The open-source ideal, though, runs headlong into some hard realities. Chinese models carry the imprint of China’s content moderation regime and are trained to avoid outputs that conflict with government policy. And in February, Anthropic accused several Chinese labs of illicitly extracting capabilities from Claude through distillation, a process where you use one model’s outputs to train another. That’s a standard industry practice, but top US firms like OpenAI and Anthropic claim that Chinese companies have used fraudulent methods to do it. Despite pushback from the West, much of the Global South is embracing Chinese models, seeing open-source as a path to AI sovereignty. Singapore’s government-backed AI Singapore program chose Alibaba’s Qwen over Meta’s Llama to build its latest regional model on; last year, Malaysia announced that its sovereign AI ecosystem would run on DeepSeek. Meanwhile, founders from Nairobi to São Paulo to San Francisco are building on Chinese foundations. US tech CEOs believe the best models should stay proprietary, partly so they can recoup enormous training costs and partly out of concern that powerful frontier models could be weaponized. Chinese labs, for their part, are not purely idealistic: Open-source is not only free advertising but also a shrewd workaround. Without access to cutting-edge chips restricted by US export controls, releasing models openly accelerates the cycle of external feedback and contributions that compensates for constrained compute. The more developers build on your models, the stronger your ecosystem becomes, as Linux and Android have shown. That adoption naturally translates into API usage and revenue. Either way, open-source models have already made AI’s future more multipolar than Silicon Valley expected. And there’s no way of turning back.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "人工科学家",
@@ -1349,9 +1390,10 @@
     "source_count": 1,
     "id": "item-78",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Artificial scientists",
-    "summary_original": "AI companies frequently invoke the possibility of AI-enabled scientific discovery as a justification for their existence: If the technology eventually cures cancer and solves climate change, then all the carbon emissions and slop videos will have been well worth it. Already, LLMs can assist scientists in all sorts of ways. They can point people to relevant studies in the literature, draft journal articles, and, of course, write code. But AI companies and academic researchers alike have a much more ambitious vision for AI co-scientists. They want to develop systems that can act as a full member of a scientific team or, even more ambitiously, initiate and carry out research projects with limited human guidance. Google DeepMind has invested heavily in scientific AI for years, and it paid off in 2024 when Demis Hassabis and John Jumper, the company’s CEO and director, won the Nobel Prize in chemistry for AlphaFold, a specialized system that can predict the three-dimensional structure of a protein. Now its competitors are working to catch up. In October 2025, OpenAI launched a team devoted to AI for science, and Anthropic announced several Claude features geared toward the biological sciences around the same time. OpenAI in particular has called building an autonomous researcher its “North Star.” It just announced GPT‑Rosalind, the first in a planned series of specialized scientific models. Google released its own AI co-scientist tool last February. Under the hood, many of these AI-for-science systems are in fact multiple specialized AI agents working in concert. Google’s co-scientist uses a supervisor agent, a generation agent, and a ranking agent, among several others, in order to generate potential hypotheses and research plans in response to a goal provided by a human scientist. More recently, researchers at Stanford’s AI for Science Lab, led by James Zou, devised a “virtual lab” made up of agents that took on the roles of specialists in different scientific fields. They found that their system could design new antibody fragments that bind to SARS-CoV-2, the virus that causes covid. Unlike human scientists, however, those teams of agents can’t yet go out and test their ideas in the lab. To overcome that limitation, some researchers are plugging LLMs into experiment-running robots. In February, OpenAI announced that it had connected GPT-5 directly with automated biological laboratories built by the company Ginkgo Bioworks so that the AI system could iteratively propose experiments and interpret the results with limited human involvement. This approach allowed the system to run a gargantuan number of experiments and create a recipe that reduced the cost of synthesizing a particular protein by 40%. AI-powered science seems like a win for frontier labs and for society at large. But research suggests it could have unintended consequences. A recent Nature study found that while individual scientists see professional advantages from adopting AI, science on the whole may suffer, because AI reduces the scope of what the scientific community investigates. That might be because AI is especially good at analyzing preexisting data sets and literature, so scientists who use it gravitate toward established topic areas where large-scale data is available. That could leave fewer scientists to study problems less amenable to AI. Integrating AI effectively into science is more than just a technical problem: Maintaining the vibrance and diversity of science in the AI era may require concerted effort from the scientific community."
+    "summary_original": "AI companies frequently invoke the possibility of AI-enabled scientific discovery as a justification for their existence: If the technology eventually cures cancer and solves climate change, then all the carbon emissions and slop videos will have been well worth it. Already, LLMs can assist scientists in all sorts of ways. They can point people to relevant studies in the literature, draft journal articles, and, of course, write code. But AI companies and academic researchers alike have a much more ambitious vision for AI co-scientists. They want to develop systems that can act as a full member of a scientific team or, even more ambitiously, initiate and carry out research projects with limited human guidance. Google DeepMind has invested heavily in scientific AI for years, and it paid off in 2024 when Demis Hassabis and John Jumper, the company’s CEO and director, won the Nobel Prize in chemistry for AlphaFold, a specialized system that can predict the three-dimensional structure of a protein. Now its competitors are working to catch up. In October 2025, OpenAI launched a team devoted to AI for science, and Anthropic announced several Claude features geared toward the biological sciences around the same time. OpenAI in particular has called building an autonomous researcher its “North Star.” It just announced GPT‑Rosalind, the first in a planned series of specialized scientific models. Google released its own AI co-scientist tool last February. Under the hood, many of these AI-for-science systems are in fact multiple specialized AI agents working in concert. Google’s co-scientist uses a supervisor agent, a generation agent, and a ranking agent, among several others, in order to generate potential hypotheses and research plans in response to a goal provided by a human scientist. More recently, researchers at Stanford’s AI for Science Lab, led by James Zou, devised a “virtual lab” made up of agents that took on the roles of specialists in different scientific fields. They found that their system could design new antibody fragments that bind to SARS-CoV-2, the virus that causes covid. Unlike human scientists, however, those teams of agents can’t yet go out and test their ideas in the lab. To overcome that limitation, some researchers are plugging LLMs into experiment-running robots. In February, OpenAI announced that it had connected GPT-5 directly with automated biological laboratories built by the company Ginkgo Bioworks so that the AI system could iteratively propose experiments and interpret the results with limited human involvement. This approach allowed the system to run a gargantuan number of experiments and create a recipe that reduced the cost of synthesizing a particular protein by 40%. AI-powered science seems like a win for frontier labs and for society at large. But research suggests it could have unintended consequences. A recent Nature study found that while individual scientists see professional advantages from adopting AI, science on the whole may suffer, because AI reduces the scope of what the scientific community investigates. That might be because AI is especially good at analyzing preexisting data sets and literature, so scientists who use it gravitate toward established topic areas where large-scale data is available. That could leave fewer scientists to study problems less amenable to AI. Integrating AI effectively into science is more than just a technical problem: Maintaining the vibrance and diversity of science in the AI era may require concerted effort from the scientific community.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "抵抗浪潮",
@@ -1367,9 +1409,10 @@
     "source_count": 1,
     "id": "item-79",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Resistance",
-    "summary_original": "Turns out not everyone wants to live in the future that AI companies are building. People from all walks of life are speaking out against rising electricity bills from data centers, disappearing jobs, chatbots’ impact on teen mental health, the military’s use of AI, and copyright infringement—among other concerns. This anti-AI movement is taking shape around the world. In February, hundreds of people marched past the London headquarters of OpenAI, Google DeepMind, and Meta in one of the largest protests against AI to date. And in the US in March, an unlikely coalition of MAGA Republicans, democratic socialists, labor activists, and church leaders signed a Pro-Human AI Declaration , articulating the principle that AI should serve humanity, not replace it. In March, the biggest flash point was the US military’s use of the technology. In the wake of OpenAI’s deal with the Pentagon earlier this year, users uninstalled ChatGPT in droves, while protesters chalked messages such as “What are the safeguards?” around OpenAI’s headquarters in San Francisco. In April, a Texas man allegedly threw a Molotov cocktail at the OpenAI CEO Sam Altman’s home in San Francisco and was found carrying an anti-AI diatribe . The backlash reflects deep anxieties. Last year, a Pew poll found that half of Americans are concerned about the increased use of AI in daily life, with many believing it will erode people’s ability to think creatively and form meaningful relationships. Another survey found that three-quarters of Americans worry AI could pose a threat to humanity . People have practical concerns, too. College graduates are having a harder time finding jobs. And a survey late last year indicated that even though AI is not yet generating substantial economic value, employers are preemptively laying off workers (though some argue that AI is just a convenient excuse for cost-cutting). In February, the financial technology company Block said it would lay off 40% of its staff. A few weeks later, the software company Atlassian announced plans to cut 1,600 employees. Employees are protesting these kinds of layoffs while labor unions mobilize for better worker protections. Parents are also sounding the alarm. Lawsuits alleging that chatbots drove teens to suicide or self-harm are piling up. In some cities, parents are signing petitions to demand a two-year moratorium on AI in schools. Some of the pushback is shaping policy. In New York and California , new rules have put safeguards on AI companionship bots. Meanwhile, artists are winning small battles to protect copyright laws. In March, the UK government backtracked on plans to let AI companies train AI models on copyrighted content without permission after fierce blowback from artists. But some of the sharpest resistance is coming from communities where data centers are built, fueled by concerns that these facilities are driving up utility bills , creating pollution , and consuming rural land . In the US, activists stalled $98 billion in data center development in the second quarter of 2025. In response, President Trump secured a pledge from AI company executives in March to cover the energy costs created by their data centers by building or buying from new power plants. People want to have a say in how AI transforms their future. And they’re starting to create small cracks in AI labs’ vision for the future."
+    "summary_original": "Turns out not everyone wants to live in the future that AI companies are building. People from all walks of life are speaking out against rising electricity bills from data centers, disappearing jobs, chatbots’ impact on teen mental health, the military’s use of AI, and copyright infringement—among other concerns. This anti-AI movement is taking shape around the world. In February, hundreds of people marched past the London headquarters of OpenAI, Google DeepMind, and Meta in one of the largest protests against AI to date. And in the US in March, an unlikely coalition of MAGA Republicans, democratic socialists, labor activists, and church leaders signed a Pro-Human AI Declaration , articulating the principle that AI should serve humanity, not replace it. In March, the biggest flash point was the US military’s use of the technology. In the wake of OpenAI’s deal with the Pentagon earlier this year, users uninstalled ChatGPT in droves, while protesters chalked messages such as “What are the safeguards?” around OpenAI’s headquarters in San Francisco. In April, a Texas man allegedly threw a Molotov cocktail at the OpenAI CEO Sam Altman’s home in San Francisco and was found carrying an anti-AI diatribe . The backlash reflects deep anxieties. Last year, a Pew poll found that half of Americans are concerned about the increased use of AI in daily life, with many believing it will erode people’s ability to think creatively and form meaningful relationships. Another survey found that three-quarters of Americans worry AI could pose a threat to humanity . People have practical concerns, too. College graduates are having a harder time finding jobs. And a survey late last year indicated that even though AI is not yet generating substantial economic value, employers are preemptively laying off workers (though some argue that AI is just a convenient excuse for cost-cutting). In February, the financial technology company Block said it would lay off 40% of its staff. A few weeks later, the software company Atlassian announced plans to cut 1,600 employees. Employees are protesting these kinds of layoffs while labor unions mobilize for better worker protections. Parents are also sounding the alarm. Lawsuits alleging that chatbots drove teens to suicide or self-harm are piling up. In some cities, parents are signing petitions to demand a two-year moratorium on AI in schools. Some of the pushback is shaping policy. In New York and California , new rules have put safeguards on AI companionship bots. Meanwhile, artists are winning small battles to protect copyright laws. In March, the UK government backtracked on plans to let AI companies train AI models on copyrighted content without permission after fierce blowback from artists. But some of the sharpest resistance is coming from communities where data centers are built, fueled by concerns that these facilities are driving up utility bills , creating pollution , and consuming rural land . In the US, activists stalled $98 billion in data center development in the second quarter of 2025. In response, President Trump secured a pledge from AI company executives in March to cover the energy costs created by their data centers by building or buying from new power plants. People want to have a say in how AI transforms their future. And they’re starting to create small cracks in AI labs’ vision for the future.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Google 修复 AI 工具 Antigravity 中的严重远程代码执行漏洞",
@@ -1386,7 +1429,6 @@
     "source_count": 1,
     "id": "item-80",
     "category": "policy-regulation",
-    "trimmed": false,
     "title_original": "Google Fixes Critical RCE Flaw in AI-Based Antigravity Tool - Dark Reading",
     "summary_original": "The prompt injection vulnerability in the agentic AI product for filesystem operations was a sanitization issue that allowed for sandbox escape and arbitrary code execution. Google has fixed a critical flaw in its agentic integrated developer environment (IDE) Antigravity that led to sandbox escape and remote code execution (RCE) after researchers created a proof of concept (PoC). Prompt injection"
   },
@@ -1404,7 +1446,8 @@
     "source_count": 1,
     "id": "item-81",
     "category": "industry-business",
-    "trimmed": false
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "算力跑得再快，审美力也要跑得赢",
@@ -1420,7 +1463,8 @@
     "source_count": 1,
     "id": "item-82",
     "category": "industry-business",
-    "trimmed": false
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "综述｜科技企业争相入局AI驱动新药研发",
@@ -1436,7 +1480,8 @@
     "source_count": 1,
     "id": "item-83",
     "category": "industry-business",
-    "trimmed": false
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Meta 将记录员工键盘输入用于训练 AI 模型",
@@ -1447,14 +1492,20 @@
     "source": "techcrunch-ai",
     "fetched_at": "2026-04-22T02:02:00.544371+00:00",
     "sources": [
+      "hn-best",
       "techcrunch-ai"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "id": "item-84",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Meta will record employees’ keystrokes and use it to train its AI models",
-    "summary_original": "Meta says that it has a new internal tool that is converting mouse movements and button clicks into data that can train its AI models."
+    "summary_original": "Meta says that it has a new internal tool that is converting mouse movements and button clicks into data that can train its AI models.",
+    "alt_urls": [
+      "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=47851948",
+    "hn_score": 482,
+    "hn_comments": 358
   },
   {
     "title": "未授权团体获取了 Anthropic 独家网络安全工具 Mythos 的访问权限",
@@ -1470,9 +1521,10 @@
     "source_count": 1,
     "id": "item-85",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims",
-    "summary_original": "Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted."
+    "summary_original": "Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.",
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "SpaceX 正与 Cursor 合作，并持有 600 亿美元收购该公司的期权",
@@ -1483,14 +1535,20 @@
     "source": "techcrunch-ai",
     "fetched_at": "2026-04-22T02:02:00.544371+00:00",
     "sources": [
+      "hn-best",
       "techcrunch-ai"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "id": "item-86",
     "category": "industry-business",
-    "trimmed": false,
     "title_original": "SpaceX is working with Cursor and has an option to buy the startup for $60 billion",
-    "summary_original": "Only Elon would do this before an IPO."
+    "summary_original": "Only Elon would do this before an IPO.",
+    "alt_urls": [
+      "https://twitter.com/spacex/status/2046713419978453374"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=47855293",
+    "hn_score": 514,
+    "hn_comments": 622
   },
   {
     "title": "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield",
@@ -1506,7 +1564,8 @@
     "source_count": 1,
     "id": "item-87",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "AI research lab NeoCognition lands $40M seed to build agents that learn like humans",
@@ -1522,7 +1581,8 @@
     "source_count": 1,
     "id": "item-88",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text",
@@ -1538,7 +1598,8 @@
     "source_count": 1,
     "id": "item-89",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’",
@@ -1554,7 +1615,8 @@
     "source_count": 1,
     "id": "item-90",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says",
@@ -1570,7 +1632,8 @@
     "source_count": 1,
     "id": "item-91",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs",
@@ -1585,8 +1648,7 @@
     ],
     "source_count": 1,
     "id": "item-92",
-    "category": "industry-business",
-    "trimmed": true
+    "category": "industry-business"
   },
   {
     "title": "Bond, a new social media platform, wants to use AI to help you kick your doomscrolling habit",
@@ -1602,7 +1664,8 @@
     "source_count": 1,
     "id": "item-93",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "YouTube expands its AI likeness detection technology to celebrities",
@@ -1618,7 +1681,8 @@
     "source_count": 1,
     "id": "item-94",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "GRAI believes AI can make music more social, not replace artists",
@@ -1634,7 +1698,8 @@
     "source_count": 1,
     "id": "item-95",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "OpenAI's updated image generator can now pull information from the web",
@@ -1649,7 +1714,8 @@
     "source_count": 1,
     "id": "item-96",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "John Ternus' first big problem is AI",
@@ -1664,7 +1730,8 @@
     "source_count": 1,
     "id": "item-97",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Celebrities will be able to find and request removal of AI deepfakes on YouTube",
@@ -1679,7 +1746,8 @@
     "source_count": 1,
     "id": "item-98",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
@@ -1694,7 +1762,8 @@
     "source_count": 1,
     "id": "item-99",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "Yelp is making its AI chatbot way more useful",
@@ -1709,7 +1778,8 @@
     "source_count": 1,
     "id": "item-100",
     "category": "industry-business",
-    "trimmed": true
+    "trimmed": true,
+    "trim_reason": "exceeds cap 20 for industry-business"
   },
   {
     "title": "AI backlash is coming for elections",
@@ -1723,7 +1793,428 @@
     ],
     "source_count": 1,
     "id": "item-101",
+    "category": "industry-business"
+  },
+  {
+    "id": "7da2f127df",
+    "title": "Qwen3.6-Max-Preview：更聪明、更敏锐，仍在进化",
+    "title_original": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+    "summary": "阿里通义千问团队发布 Qwen3.6-Max 预览版，模型能力进一步提升，持续迭代中。HN 讨论热度 694 分。",
+    "summary_original": "HN score: 694 · comments: 377 · by: mfiguiere",
+    "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T14:05:34+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "major-release",
+    "hn_url": "https://news.ycombinator.com/item?id=47834565",
+    "hn_score": 694,
+    "hn_comments": 377
+  },
+  {
+    "id": "87eef7e781",
+    "title": "Atlassian 默认开启用户数据采集用于训练 AI",
+    "title_original": "Atlassian enables default data collection to train AI",
+    "summary": "Atlassian 更新隐私设置，默认启用客户数据用于 AI 训练，引发企业用户对数据主权的广泛担忧。",
+    "summary_original": "HN score: 595 · comments: 130 · by: kevcampb",
+    "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T12:23:39+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "policy-regulation",
+    "hn_url": "https://news.ycombinator.com/item?id=47833247",
+    "hn_score": 595,
+    "hn_comments": 130
+  },
+  {
+    "id": "a3d345d430",
+    "title": "Claude Code 或将从 Anthropic Pro 订阅中移除",
+    "title_original": "Claude Code to be removed from Anthropic's Pro plan?",
+    "summary": "社交媒体流传消息称 Claude Code 将退出 Anthropic Pro 计划、仅保留在更高套餐中，用户对订阅价值的讨论激烈。",
+    "summary_original": "HN score: 501 · comments: 486 · by: JamesMcMinn",
+    "url": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+    "alt_urls": [
+      "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a"
+    ],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-21T21:03:04+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
     "category": "industry-business",
-    "trimmed": true
+    "hn_url": "https://news.ycombinator.com/item?id=47854477",
+    "hn_score": 501,
+    "hn_comments": 486
+  },
+  {
+    "id": "e53eb01238",
+    "title": "Anthropic 官方：允许通过 OpenClaw 等第三方 CLI 访问 Claude",
+    "title_original": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+    "summary": "Anthropic 更新政策，明确允许 OpenClaw 这类第三方 CLI 工具调用 Claude API，结束此前封禁期，社区反响积极。",
+    "summary_original": "HN score: 487 · comments: 278 · by: jmsflknr",
+    "url": "https://docs.openclaw.ai/providers/anthropic",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-21T03:43:03+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47844269",
+    "hn_score": 487,
+    "hn_comments": 278
+  },
+  {
+    "id": "22601ffb70",
+    "title": "NSA 无视黑名单，仍在使用 Anthropic 的 Mythos",
+    "title_original": "NSA is using Anthropic's Mythos despite blacklist",
+    "summary": "Axios 披露美国国家安全局仍在内部使用被列入观察名单的 Anthropic 网络安全模型 Mythos，引发政策与合规争议。",
+    "summary_original": "HN score: 479 · comments: 338 · by: Palmik",
+    "url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T10:00:35+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "policy-regulation",
+    "hn_url": "https://news.ycombinator.com/item?id=47832222",
+    "hn_score": 479,
+    "hn_comments": 338
+  },
+  {
+    "id": "b240924ed7",
+    "title": "GitHub Copilot 个人订阅计划调整",
+    "title_original": "Changes to GitHub Copilot individual plans",
+    "summary": "GitHub 宣布 Copilot 个人版订阅结构变化，功能分层与计费方式均有更新，开发者需重新评估订阅选项。",
+    "summary_original": "HN score: 404 · comments: 156 · by: zorrn",
+    "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T18:24:05+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47838508",
+    "hn_score": 404,
+    "hn_comments": 156
+  },
+  {
+    "id": "aa46eaab1f",
+    "title": "AI 反抗浪潮：值得讨论的近期反 AI 动向",
+    "title_original": "AI Resistance: some recent anti-AI stuff that’s worth discussing",
+    "summary": "博客作者梳理近期来自创作者、教育界、普通用户的反 AI 情绪与行动，探讨这股情绪背后的文化张力。",
+    "summary_original": "HN score: 379 · comments: 405 · by: speckx",
+    "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T20:19:13+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47839951",
+    "hn_score": 379,
+    "hn_comments": 405
+  },
+  {
+    "id": "52c3888074",
+    "title": "Deezer 称每日上传歌曲 44% 为 AI 生成",
+    "title_original": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
+    "summary": "流媒体平台 Deezer 披露其平台每日新增音乐约 44% 来自 AI 生成，版税分配与原创定义成为行业焦点。",
+    "summary_original": "HN score: 358 · comments: 384 · by: FiddlerClamp",
+    "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T15:41:02+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47835928",
+    "hn_score": 358,
+    "hn_comments": 384
+  },
+  {
+    "id": "fbab458f07",
+    "title": "Kimi Vendor Verifier：验证推理服务商输出的准确性",
+    "title_original": "Kimi vendor verifier – verify accuracy of inference providers",
+    "summary": "月之暗面发布开源工具 Kimi Vendor Verifier，用于核对第三方推理服务商是否如实运行 Kimi 模型、回答是否被降质。",
+    "summary_original": "HN score: 308 · comments: 32 · by: Alifatisk",
+    "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T18:39:53+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "tools-release",
+    "hn_url": "https://news.ycombinator.com/item?id=47838703",
+    "hn_score": 308,
+    "hn_comments": 32
+  },
+  {
+    "id": "cad73c1e57",
+    "title": "OpenClaw 糊弄不了我——我可是经历过 MS-DOS 的",
+    "title_original": "OpenClaw isn't fooling me. I remember MS-DOS",
+    "summary": "老派开发者借 MS-DOS 时代的类比，调侃 OpenClaw 生态对开放与自由的包装话术，并给出本地化部署 AI Agent 的实用路线。",
+    "summary_original": "HN score: 304 · comments: 327 · by: feigewalnuss",
+    "url": "https://www.flyingpenguin.com/build-an-openclaw-free-secure-always-on-local-ai-agent/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T07:49:48+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47831437",
+    "hn_score": 304,
+    "hn_comments": 327
+  },
+  {
+    "id": "92d8c0ad82",
+    "title": "OpenAI 广告合作方开始按 Prompt 相关性售卖 ChatGPT 广告位",
+    "title_original": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
+    "summary": "Adweek 披露 StackAdapt 内部材料，ChatGPT 的广告商可按用户提问的相关性竞价广告位，AI 对话广告进入商业化试水。",
+    "summary_original": "HN score: 300 · comments: 160 · by: jlark77777",
+    "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T21:20:52+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47840980",
+    "hn_score": 300,
+    "hn_comments": 160
+  },
+  {
+    "id": "ebe8ea3b94",
+    "title": "一个 Roblox 作弊工具加一个 AI 工具，拖垮了 Vercel 整个平台",
+    "title_original": "A Roblox cheat and one AI tool brought down Vercel's platform",
+    "summary": "事故复盘：一次 Roblox 作弊请求配合 AI 工具的异常行为触发级联故障，最终导致 Vercel 整站中断，成为 Agent 安全的经典案例。",
+    "summary_original": "HN score: 279 · comments: 157 · by: bishwasbh",
+    "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-21T04:12:12+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47844431",
+    "hn_score": 279,
+    "hn_comments": 157
+  },
+  {
+    "id": "ceeac7e456",
+    "title": "Show HN：GoModel——用 Go 写的开源 AI 网关",
+    "title_original": "Show HN: GoModel – an open-source AI gateway in Go",
+    "summary": "开发者开源了一个用 Go 实现的轻量级 AI 网关 GoModel，目标是替代基于 Python 的类似方案，提升吞吐与部署便捷性。",
+    "summary_original": "HN score: 172 · comments: 63 · by: santiago-pl",
+    "url": "https://github.com/ENTERPILOT/GOModel/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-21T14:11:53+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "tools-release",
+    "hn_url": "https://news.ycombinator.com/item?id=47849097",
+    "hn_score": 172,
+    "hn_comments": 63
+  },
+  {
+    "id": "8b0500d9e9",
+    "title": "在单张 RTX 3090 上跑出 207 tok/s 的 Qwen3.5-27B",
+    "title_original": "We got 207 tok/s with Qwen3.5-27B on an RTX 3090",
+    "summary": "Luce-Org 团队通过 lucebox-hub 栈的优化组合，将 27B 参数的 Qwen3.5 在单张 3090 上的推理速度推至 207 tok/s。",
+    "summary_original": "HN score: 165 · comments: 47 · by: GreenGames",
+    "url": "https://github.com/Luce-Org/lucebox-hub",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T18:46:22+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "tools-release",
+    "hn_url": "https://news.ycombinator.com/item?id=47838788",
+    "hn_score": 165,
+    "hn_comments": 47
+  },
+  {
+    "id": "5c93ac9ec6",
+    "title": "Soul Player C64：在 1 MHz 的 Commodore 64 上运行真实 Transformer",
+    "title_original": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
+    "summary": "开发者在 1 MHz 的 Commodore 64 上原汁原味地跑起一个完整 Transformer 模型，展示极端硬件条件下的推理可能性。",
+    "summary_original": "HN score: 147 · comments: 45 · by: adunk",
+    "url": "https://github.com/gizmo64k/soulplayer-c64",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T19:51:07+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "research-frontier",
+    "hn_url": "https://news.ycombinator.com/item?id=47839645",
+    "hn_score": 147,
+    "hn_comments": 45
+  },
+  {
+    "id": "9451d07ce7",
+    "title": "Show HN：Mediator.ai——用 Nash 议价与 LLM 系统化公平性",
+    "title_original": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+    "summary": "Mediator.ai 用博弈论中的 Nash 议价解配合 LLM，尝试把公平从直觉概念转化为可计算、可验证的机制。",
+    "summary_original": "HN score: 146 · comments: 74 · by: sanity",
+    "url": "https://mediator.ai/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T15:07:04+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "tools-release",
+    "hn_url": "https://news.ycombinator.com/item?id=47835411",
+    "hn_score": 146,
+    "hn_comments": 74
+  },
+  {
+    "id": "20f6e3aa25",
+    "title": "请少一点类人化的 AI Agent",
+    "title_original": "Less human AI agents, please",
+    "summary": "作者反思当下 AI Agent 追求像人的倾向，主张让工具更像工具——可靠、透明、可预测，而非模仿人类的不确定性。",
+    "summary_original": "HN score: 142 · comments: 152 · by: nialse",
+    "url": "https://nial.se/blog/less-human-ai-agents-please/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-21T06:58:08+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47845429",
+    "hn_score": 142,
+    "hn_comments": 152
+  },
+  {
+    "id": "7331c5d41a",
+    "title": "我分别 prompt 了 ChatGPT / Claude / Perplexity / Gemini，然后看了 Nginx 日志",
+    "title_original": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
+    "summary": "站长实地对比四大 AI 助手的爬虫与用户流量特征，从 Nginx 日志还原出 AI 搜索与引用行为的真实差异。",
+    "summary_original": "HN score: 135 · comments: 22 · by: startages",
+    "url": "https://surfacedby.com/blog/nginx-logs-ai-traffic-vs-referral-traffic",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T15:22:01+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47835646",
+    "hn_score": 135,
+    "hn_comments": 22
+  },
+  {
+    "id": "24e22a8d41",
+    "title": "Claude Design 让 Figma 的困境雪上加霜",
+    "title_original": "Figma's woes compound with Claude Design",
+    "summary": "分析文章指出 Claude Design 在设计师工作流上的切入正在侵蚀 Figma 的护城河，叠加其它因素使 Figma 处境更加艰难。",
+    "summary_original": "HN score: 121 · comments: 99 · by: martinald",
+    "url": "https://martinalderson.com/posts/figmas-woes-compound-with-claude-design/",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-20T10:26:35+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "industry-business",
+    "hn_url": "https://news.ycombinator.com/item?id=47832366",
+    "hn_score": 121,
+    "hn_comments": 99
+  },
+  {
+    "id": "55dc980735",
+    "title": "CrabTrap：面向生产 Agent 的 LLM-as-Judge HTTP 代理",
+    "title_original": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+    "summary": "Brex 开源 CrabTrap，用一个 LLM 扮演裁判拦截生产环境 Agent 的异常 HTTP 请求，为企业级 Agent 部署提供安全护栏。",
+    "summary_original": "HN score: 108 · comments: 36 · by: pedrofranceschi",
+    "url": "https://www.brex.com/crabtrap",
+    "alt_urls": [],
+    "sources": [
+      "hn-best"
+    ],
+    "source_count": 1,
+    "source": "hn-best",
+    "published_at": "2026-04-21T15:29:16+00:00",
+    "fetched_at": "2026-04-22T07:04:50+00:00",
+    "language": "zh",
+    "category": "tools-release",
+    "hn_url": "https://news.ycombinator.com/item?id=47850212",
+    "hn_score": 108,
+    "hn_comments": 36
   }
 ]

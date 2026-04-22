@@ -30,48 +30,48 @@
       ],
       "top_items": [
         {
-          "id": "item-0",
-          "title": "Anthropic 与 Amazon 扩大合作，算力容量将达 5 吉瓦",
-          "source_count": 1,
-          "category": "major-release"
-        },
-        {
-          "id": "item-86",
-          "title": "SpaceX 正与 Cursor 合作，并持有 600 亿美元收购该公司的期权",
-          "source_count": 1,
-          "category": "industry-business"
-        },
-        {
-          "id": "item-84",
-          "title": "Meta 将记录员工键盘输入用于训练 AI 模型",
-          "source_count": 1,
-          "category": "industry-business"
-        },
-        {
-          "id": "item-85",
-          "title": "未授权团体获取了 Anthropic 独家网络安全工具 Mythos 的访问权限",
-          "source_count": 1,
-          "category": "industry-business"
+          "id": "item-63",
+          "title": "[AINews] OpenAI 发布 GPT-Image-2",
+          "category": "industry-business",
+          "source_count": 2
         },
         {
           "id": "item-69",
           "title": "Kimi K2.6 技术博客：推进开源代码能力",
-          "source_count": 1,
-          "category": "tools-release"
+          "category": "tools-release",
+          "source_count": 2
+        },
+        {
+          "id": "item-86",
+          "title": "SpaceX 正与 Cursor 合作，并持有 600 亿美元收购该公司的期权",
+          "category": "industry-business",
+          "source_count": 2
+        },
+        {
+          "id": "item-0",
+          "title": "Anthropic 与 Amazon 扩大合作，算力容量将达 5 吉瓦",
+          "category": "major-release",
+          "source_count": 2
+        },
+        {
+          "id": "87eef7e781",
+          "title": "Atlassian 默认开启用户数据采集用于训练 AI",
+          "category": "policy-regulation",
+          "source_count": 1
         }
       ],
-      "item_count": 45,
-      "trimmed_count": 57,
-      "source_count": 11,
+      "item_count": 53,
+      "trimmed_count": 69,
+      "source_count": 12,
       "categories": {
-        "major-release": 2,
+        "major-release": 3,
         "industry-business": 20,
         "research-frontier": 10,
-        "tools-release": 2,
-        "policy-regulation": 1,
+        "tools-release": 7,
+        "policy-regulation": 3,
         "kol-posts": 10
       },
-      "generated_at": "2026-04-22T02:13:27.196190+00:00"
+      "generated_at": "2026-04-22T07:10:39+00:00"
     },
     {
       "date": "2026-04-21",

@@ -1,0 +1,15 @@
+name: hn-best
+type: prompt
+enabled: true
+language: en
+priority: 2
+time_window_hours: 72
+recent_hours: 24
+timeout_seconds: 90
+
+fetch_method: cli
+prompt: prompt.md
+
+extract:
+  item_limit: 30
+  min_score: 50
