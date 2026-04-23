@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-04-23",
+      "n": 4,
+      "dow": "THU",
+      "title": "六百亿美元的代码编辑器与失控的AI武器",
+      "summary": "当SpaceX用六百亿美元把一个代码编辑器变成太空梦的筹码时，Anthropic最危险的AI武器已经悄悄流入暗处——技术的力量越大，溢出的阴影也越长。",
+      "headlines": [
+        {
+          "title": "SpaceX如何以600亿美元收购要约抢先Cursor的20亿融资",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Anthropic最危险的AI模型落入了坏人之手",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Google称其75%的新代码由AI生成",
+          "tag": "行业动态"
+        },
+        {
+          "title": "ChatGPT推出工作区智能体",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Meta将追踪员工电脑操作以训练AI智能体",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-34",
+          "title": "SpaceX如何以600亿美元收购要约抢先Cursor的20亿融资",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-14",
+          "title": "Anthropic最危险的AI模型落入了坏人之手",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-2",
+          "title": "Google称其75%的新代码由AI生成",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-78",
+          "title": "ChatGPT推出工作区智能体",
+          "source_count": 2,
+          "category": "major-release"
+        },
+        {
+          "id": "item-12",
+          "title": "Meta将追踪员工电脑操作以训练AI智能体",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 88,
+      "trimmed_count": 148,
+      "source_count": 16,
+      "categories": {
+        "major-release": 19,
+        "industry-business": 20,
+        "research-frontier": 10,
+        "tools-release": 19,
+        "policy-regulation": 11,
+        "kol-posts": 9
+      },
+      "generated_at": "2026-04-23T02:11:19.160492+00:00"
+    },
+    {
       "date": "2026-04-22",
       "n": 3,
       "dow": "WED",
