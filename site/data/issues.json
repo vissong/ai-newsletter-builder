@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-04-24",
+      "n": 5,
+      "dow": "FRI",
+      "title": "GPT-5.5 刷新旗舰基线，供应链安全暗潮涌动",
+      "summary": "OpenAI 把 GPT-5.5 摆上台面的同一天，Bitwarden CLI 被供应链投毒——旗舰模型的进化速度终于追上了攻击面扩张的速度，而新加坡率先为智能体画下了治理红线。",
+      "headlines": [
+        {
+          "title": "OpenAI 发布 GPT-5.5，向 AGI 又迈进一步",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Anthropic 的 Claude 桌面应用暗中安装了未披露的原生消息组件",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Bitwarden CLI 在 Checkmarx 供应链攻击中遭到入侵",
+          "tag": "行业动态"
+        },
+        {
+          "title": "新加坡发布智能体 AI 的治理与安全指南",
+          "tag": "政策监管"
+        },
+        {
+          "title": "Sierra 收购 YC 支持的 AI 初创公司 Fragment",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-10",
+          "title": "计算机科学 2026年4月 - arXiv",
+          "source_count": 3,
+          "category": "research-frontier"
+        },
+        {
+          "id": "item-11",
+          "title": "计算机科学 2026年4月",
+          "source_count": 3,
+          "category": "research-frontier"
+        },
+        {
+          "id": "item-19",
+          "title": "2026年智谱AI发布GLM-5系列模型，上下文长度达百万 - 搜狐",
+          "source_count": 2,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-61",
+          "title": "GPT-5.5",
+          "source_count": 2,
+          "category": "major-release"
+        },
+        {
+          "id": "item-0",
+          "title": "2026年， 我使用最多的13款AI工具 - 知乎专栏",
+          "source_count": 1,
+          "category": "tools-release"
+        }
+      ],
+      "item_count": 82,
+      "trimmed_count": 33,
+      "source_count": 16,
+      "categories": {
+        "major-release": 19,
+        "industry-business": 14,
+        "research-frontier": 9,
+        "tools-release": 20,
+        "policy-regulation": 5,
+        "kol-posts": 15
+      },
+      "generated_at": "2026-04-24T02:10:34.780491+00:00"
+    },
+    {
       "date": "2026-04-23",
       "n": 4,
       "dow": "THU",
