@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-04-25",
+      "n": 6,
+      "dow": "SAT",
+      "title": "GPT-5.5 上线与20亿美元 AI 融资，开源与闭源的竞速加剧",
+      "summary": "当 GPT-5.5 在企业评测中交出令人侧目的成绩单时，另一边的融资记录也在同一天被刷新——二十亿美元的支票写给了一个还没说清楚自己要做什么的名字。与此同时，有人发现 AI 写的代码正在让生产环境着火，而诺贝尔奖得主站出来说：这辆车该装方向盘了。",
+      "headlines": [
+        {
+          "title": "GPT-5.5 正式上线，企业级评测准确率跃升10个百分点",
+          "tag": "重大发布"
+        },
+        {
+          "title": "AI 初创公司完成 20 亿美元融资，创 2026 年最大融资纪录",
+          "tag": "行业动态"
+        },
+        {
+          "title": "AI 生成的代码正在导致许多公司出现故障和安全问题",
+          "tag": "政策监管"
+        },
+        {
+          "title": "美国政客炒作「中国蒸馏」恐慌，中国科学家却在开放分享 AI 突破",
+          "tag": "KOL 发布"
+        },
+        {
+          "title": "Hugging Face 推出社区模型作为 GPT-4 的开源替代方案",
+          "tag": "工具发布"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-40",
+          "title": "GPT-5.5 上线了。Box 测试数周，企业知识工作准确率提升10个百分点",
+          "source_count": 1,
+          "category": "kol-posts"
+        },
+        {
+          "id": "item-97",
+          "title": "AI 初创公司完成 20 亿美元融资，创 2026 年最大融资纪录",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-8",
+          "title": "Anthropic 发布 Claude 5 及2026年全新 AI 驱动产品",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-92",
+          "title": "AI 生成的代码正在导致许多公司出现故障和安全问题",
+          "source_count": 1,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-35",
+          "title": "美国政客还在炒作「中国蒸馏」恐慌，中国科学家却在开放分享真正的 AI 突破",
+          "source_count": 1,
+          "category": "kol-posts"
+        }
+      ],
+      "item_count": 66,
+      "trimmed_count": 40,
+      "source_count": 22,
+      "categories": {
+        "tools-release": 10,
+        "major-release": 20,
+        "research-frontier": 5,
+        "policy-regulation": 6,
+        "industry-business": 11,
+        "kol-posts": 14
+      },
+      "generated_at": "2026-04-25T06:02:02.906691+00:00"
+    },
+    {
       "date": "2026-04-24",
       "n": 5,
       "dow": "FRI",
