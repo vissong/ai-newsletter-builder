@@ -48,27 +48,27 @@
           "category": "tools-release"
         },
         {
-          "id": "item-4",
-          "title": "2026年4月AI编程工具选型指南：先问自己一个问题，是搭项目还是写 ...",
-          "source_count": 1,
-          "category": "tools-release"
-        },
-        {
           "id": "item-10",
           "title": "人工智能 2026年4月",
           "source_count": 1,
           "category": "research-frontier"
+        },
+        {
+          "id": "item-68",
+          "title": "西方已经忘记了如何制造东西，现在又在忘记如何写代码",
+          "source_count": 1,
+          "category": "tools-release"
         }
       ],
-      "item_count": 53,
-      "trimmed_count": 118,
+      "item_count": 52,
+      "trimmed_count": 119,
       "source_count": 15,
       "categories": {
-        "industry-business": 8,
-        "tools-release": 14,
+        "tools-release": 13,
         "research-frontier": 7,
         "major-release": 7,
         "kol-posts": 15,
+        "industry-business": 8,
         "policy-regulation": 2
       },
       "generated_at": "2026-04-27T06:18:13.883208+00:00"
