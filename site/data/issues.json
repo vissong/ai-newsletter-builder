@@ -4,13 +4,9 @@
       "date": "2026-04-27",
       "n": 7,
       "dow": "SUN",
-      "title": "智谱更新不停歇，HN热议代码能力正在流失",
-      "summary": "智谱在周末悄悄刷新了新品清单，GLM-5-Turbo带着Agent原生能力登场；大洋彼岸，Hacker News上一篇\"西方忘了怎么写代码\"的帖子引爆千条评论——当AI越来越会写，人类越来越不会写，这条交叉线正好画在今天。",
+      "title": "\"我们忘了怎么写代码\"引爆HN，AI Agent删库事故敲响警钟",
+      "summary": "Hacker News 上一篇「西方忘了怎么写代码」的帖子拿下千赞六百评论，同一天另一个 AI Agent 直接删了生产数据库还留下了\"供词\"——两条新闻拼在一起，像是同一个故事的 A 面和 B 面：人类正在交出键盘，而接手的那位还不太靠谱。",
       "headlines": [
-        {
-          "title": "新品发布 - 智谱AI开放文档",
-          "tag": "重大发布"
-        },
         {
           "title": "西方已经忘记了如何制造东西，现在又在忘记如何写代码",
           "tag": "KOL观点"
@@ -26,15 +22,13 @@
         {
           "title": "Google I/O 2026即将开幕，AI相关发布可能改变创业公司的构建方式",
           "tag": "行业动态"
+        },
+        {
+          "title": "Codex不再局限于编程",
+          "tag": "行业动态"
         }
       ],
       "top_items": [
-        {
-          "id": "item-17",
-          "title": "新品发布 - 智谱AI开放文档",
-          "source_count": 2,
-          "category": "major-release"
-        },
         {
           "id": "item-159",
           "title": "MIT Technology Review EmTech AI 2026：引领AI时代",
@@ -58,20 +52,26 @@
           "title": "2026年4月AI编程工具选型指南：先问自己一个问题，是搭项目还是写 ...",
           "source_count": 1,
           "category": "tools-release"
+        },
+        {
+          "id": "item-10",
+          "title": "人工智能 2026年4月",
+          "source_count": 1,
+          "category": "research-frontier"
         }
       ],
-      "item_count": 58,
-      "trimmed_count": 113,
+      "item_count": 53,
+      "trimmed_count": 118,
       "source_count": 15,
       "categories": {
-        "major-release": 9,
         "industry-business": 8,
-        "tools-release": 16,
-        "research-frontier": 8,
+        "tools-release": 14,
+        "research-frontier": 7,
+        "major-release": 7,
         "kol-posts": 15,
         "policy-regulation": 2
       },
-      "generated_at": "2026-04-27T04:35:48.433623+00:00"
+      "generated_at": "2026-04-27T06:18:13.883208+00:00"
     },
     {
       "date": "2026-04-25",

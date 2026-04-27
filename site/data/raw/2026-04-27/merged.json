@@ -284,7 +284,7 @@
     "source_count": 2,
     "id": "item-17",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "牌桌被掀，中国模型换了一种赢法",
@@ -344,7 +344,7 @@
     ],
     "id": "item-21",
     "category": "research-frontier",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "智谱开源AutoGLM OpenClaw升级_新浪新闻",
@@ -404,7 +404,7 @@
     ],
     "id": "item-25",
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "智谱GLM-5发布时间：2026年推出 - U深搜",
@@ -449,7 +449,7 @@
     ],
     "id": "item-28",
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "GLM-5登顶全球开源第一，25分钟一镜到底搓出完整系统",
@@ -464,7 +464,7 @@
     ],
     "id": "item-29",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "2026年4月大模型开源策略突变：GLM坚持真开源，MiniMax转向“伪 ...",
