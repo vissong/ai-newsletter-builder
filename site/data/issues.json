@@ -1,6 +1,75 @@
 {
   "issues": [
     {
+      "date": "2026-04-27",
+      "n": 7,
+      "dow": "SUN",
+      "title": "智谱发新品、Anthropic调价，AI周末不打烊",
+      "summary": "当智谱悄悄更新了文档里的新品清单，Anthropic 同一天动了价格表——两件事本身不大，合在一起却暗示着一个新节拍：前沿实验室的发布周期正在从\"季度\"缩进\"周\"。与此同时，西方互联网上有人感叹'我们连怎么写代码都快忘了'，有人让七岁孩子用 Codex 养龙——两种焦虑，同一条时间线。",
+      "headlines": [
+        {
+          "title": "Anthropic 2026年 Claude 定价调整：对企业意味着什么",
+          "tag": "重大发布"
+        },
+        {
+          "title": "2026年第一季度 Claude 所有更新的完整指南（实测）",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Codex不再局限于编程",
+          "tag": "行业动态"
+        },
+        {
+          "title": "牌桌被掀，中国模型换了一种赢法",
+          "tag": "政策监管"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-17",
+          "title": "新品发布 - 智谱AI开放文档",
+          "source_count": 2,
+          "category": "major-release"
+        },
+        {
+          "id": "item-159",
+          "title": "MIT Technology Review EmTech AI 2026：引领AI时代",
+          "source_count": 2,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-0",
+          "title": "2026開工必備AI工具清單！學生族和社畜的福音來了9大神器搞定上課 ...",
+          "source_count": 1,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-1",
+          "title": "2026年AI工具生態系成形專業化、代理型AI主導未來趨勢 - Yahoo股市",
+          "source_count": 1,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-3",
+          "title": "2026最全AI工具白皮书！100+款神级AI应用，赶紧收藏",
+          "source_count": 1,
+          "category": "tools-release"
+        }
+      ],
+      "item_count": 79,
+      "trimmed_count": 92,
+      "source_count": 18,
+      "categories": {
+        "tools-release": 19,
+        "major-release": 20,
+        "research-frontier": 10,
+        "policy-regulation": 4,
+        "kol-posts": 15,
+        "industry-business": 11
+      },
+      "generated_at": "2026-04-27T03:59:35.798542+00:00"
+    },
+    {
       "date": "2026-04-25",
       "n": 6,
       "dow": "SAT",

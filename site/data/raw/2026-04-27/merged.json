@@ -1,0 +1,3031 @@
+[
+  {
+    "title": "2026開工必備AI工具清單！學生族和社畜的福音來了9大神器搞定上課 ...",
+    "url": "https://www.storm.mg/article/11105059",
+    "summary": "迎接2026年開工潮，不少上班族和學生已將「學會AI」列為年度目標。從寫Email、做簡報，到整理會議紀錄與消化海量資料，AI工具正快速改變工作節奏。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "ai-bot-tools",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-0",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "2026年AI工具生態系成形專業化、代理型AI主導未來趨勢 - Yahoo股市",
+    "url": "https://tw.stock.yahoo.com/news/2026%E5%B9%B4ai%E5%B7%A5%E5%85%B7%E7%94%9F%E6%85%8B%E7%B3%BB%E6%88%90%E5%BD%A2-%E5%B0%88%E6%A5%AD%E5%8C%96-%E4%BB%A3%E7%90%86%E5%9E%8Bai%E4%B8%BB%E5%B0%8E%E6%9C%AA%E4%BE%86%E8%B6%A8%E5%8B%A2-124259636.html",
+    "summary": "根據《BBN Times》報導，各領域的專業型AI工具表現已超越通用型工具。尤其「代理型」（agentic）AI工具的興起，更是2026年定義性的趨勢，這些工具能自主執行多",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "ai-bot-tools",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-1",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "2026年，建议每个人都学一下这6个AI工具#ai新星计划#抖音知识年终 ...",
+    "url": "https://post.smzdm.com/p/amor6mnd",
+    "summary": "在核心大模型领域，谷歌Gemini 3 Pro表现全能，堪称六边形战士。其原生动模态能力极为出色，能直接分析两小时的英文视频会议，生成中文摘要，甚至识别高管微表情进行情感分析，",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "ai-bot-tools",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-2",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "2026最全AI工具白皮书！100+款神级AI应用，赶紧收藏",
+    "url": "https://zhuanlan.zhihu.com/p/1992219922361755492",
+    "summary": "应用说明：最具“人性化”的AI，代码能力极强，且拥有超大上下文窗口，适合处理超长文档和书籍。 推荐指数：. 04. Midjourney. 访问地址：https://www.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "ai-bot-tools",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-3",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "2026年4月AI编程工具选型指南：先问自己一个问题，是搭项目还是写 ...",
+    "url": "https://aicoding.csdn.net/69d855580a2f6a37c59e2f79.html",
+    "summary": "# logo AI编程社区. ### AI编程社区. ### SoFlu软件机器人. SoFlu软件机器人  ·  2026-04-10 09:41:40 发布. AI编程工具越来越卷，Cursor 3.0、Claude Code Agent Teams、Gemini Code Assist免费入场——工具多到选不过来。但选错工具的本质原因，往往不是工具不够好，而是问错了问题。. 选工具之前，先问自己一个问题：**我现在是在\"搭项目\"，还是在\"写代码\"？**. | 写代码 | 日常开发中，怎么写得更准、更快？ | Cursor、Copilot |. | 复杂任务 | 多文件重构、Bug修复，怎么效率最高？ | Claude Code |. 程序员每天花最多时间的，其实不是\"写代码\"，而是**搭项目的开头**：确认需求、梳理接口、设计表结构、写样板代码……这些机械活占用大量时间，却几乎不产生业务价值。. 生成的代码不是片段，是**完整可运行的工程**：Controller、Service、DAO、Mapper全套分层结构，支持Spring Boot 6+、JDK 17。. | 版本迁移助手 | JDK 8→17、Spring Boot 2.x等企业级迁移 |. | VS Code用户，想要最强补全体验 | Cursor（$20/月） |. | JetBrains全家桶，企业采购 | GitHub Copilot（$10/月） |. | 预算有限，想先试试水 | Copilot（$10/月） |. ### 三、复杂任务：Claude Code. #### Agent Teams多Agent协作. | 预算有限想要完整功能 | Windsurf | $15 | Cascade Agent + 多模型切换 |. | 完全免费 + 多文件理解 | Gemini Code Assist | 免费 | Gemini 2.5 Pro驱动，Agent Mode with Auto Approve |. | AWS深度开发场景 | Amazon Q Developer | 免费（50次/月） | Lambda、API Gateway、DynamoDB等场景精准 |. 搭项目（最早阶段） → 飞算JavaAI（5步出完整工程） 日常开发写代码 → Cursor（补全体验最优） JetBrains重度用户 → GitHub Copilot（企业生态最强） 复杂多文件任务 → Claude Code（80.8%，效率最高） 预算有限入门 → Windsurf（$15）或 Copilot（$10） 完全免费 → Gemini Code Assist 国内场景 → Trae（字节，免费，中文友好）. * ·  我用 AtomCode 撸了一个 CSV/Excel 数据可视化面板，真实体验报告. 我用 AtomCode 撸了一个 CSV/Excel 数据可视化面板，真实体验报告. [avatar AI编程社区](https://aicoding.csdn.net/69e88df40a2f6a37c5a19117.html). [avatar AI编程社区](https://aicoding.csdn.net/69e224aa0a2f6a37c5a09f2a.html). [avatar AI编程社区](https://aicoding.csdn.net/69e2382254b52172bc6a94a3.html). ### SoFlu软件机器人.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "ai-bot-tools",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-4",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "Anthropic 2026年 Claude 定价调整：对企业意味着什么",
+    "url": "https://www.linkedin.com/pulse/anthropics-2026-claude-pricing-shift-what-means-navigating-ken-kondo-hppzc",
+    "summary": "Anthropic 宣布自2026年4月起对 Claude 定价模式进行重大调整，该公司不再提供优惠的固定费率方案。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "anthropic-news",
+    "source_count": 1,
+    "sources": [
+      "anthropic-news"
+    ],
+    "id": "item-5",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Anthropic's 2026 Claude Pricing Shift: What It Means for Enterprises ...",
+    "summary_original": "Anthropic announced a major evolution in its Claude pricing model effective April 2026. The company moved away from generous flat-rate"
+  },
+  {
+    "title": "Amazon and Anthropic announce new deal to provide up to 5 gigawatts of compute to Claude AI models",
+    "url": "https://www.cnbc.com/video/2026/04/20/amazon-and-anthropic-announce-new-deal-to-provide-up-to-5-gigawatts-of-compute-to-claude-ai-models.html",
+    "summary": "[Investing Club](/investingclub/subscribe?__source=investingclub|globalnav|join&tpcc=investingclub|globalnav|join). * [Subscribe](/investingclub/subscribe?__source=investingclub|dropdownnav&tpcc=investingclub|dropdownnav). [PRO](/application/pro?__source=pro|globalnav|join&tpcc=pro|globalnav|join). * [Subscribe](/application/pro/?__source=pro|dropdownnav&tpcc=pro|dropdownnav). [Investing Club](/investingclub/subscribe?__source=investingclub|globalnav|join&tpcc=investingclub|globalnav|join). [PRO](/application/pro?__source=pro|globalnav|join&tpcc=pro|globalnav|join). [Fast Money](https://www.cnbc.com/fastmoney/). VIDEO01:28](https://www.cnbc.com/video/2026/04/24/how-the-restaurant-group-behind-nycs-carbone-is-overcoming-young-people-shunning-alcohol.html). [How the restaurant group behind NYC's Carbone is overcoming young people shunning alcohol](https://www.cnbc.com/video/2026/04/24/how-the-restaurant-group-behind-nycs-carbone-is-overcoming-young-people-shunning-alcohol.html). VIDEO01:21](https://www.cnbc.com/video/2026/04/24/sen-warren-requests-clarification-from-u-s-attorney-pirro-on-if-she-will-reopen-powell-case.html). [Sen. Warren requests clarification from U.S. Attorney Pirro on if she will reopen Powell case](https://www.cnbc.com/video/2026/04/24/sen-warren-requests-clarification-from-u-s-attorney-pirro-on-if-she-will-reopen-powell-case.html). VIDEO01:17](https://www.cnbc.com/video/2026/04/24/iran-foreign-minister-says-no-meeting-is-planned-between-iran-and-u-s-in-pakistan.html). [Iran foreign minister says no meeting is planned between Iran and U.S. in Pakistan](https://www.cnbc.com/video/2026/04/24/iran-foreign-minister-says-no-meeting-is-planned-between-iran-and-u-s-in-pakistan.html). VIDEO04:37](https://www.cnbc.com/video/2026/04/24/fmr-fed-pres-richard-fisher-warsh-would-face-a-fog-on-uncertainty-as-fed-chair.html). Richard Fisher: Warsh would face a 'fog on uncertainty' as Fed Chair](https://www.cnbc.com/video/2026/04/24/fmr-fed-pres-richard-fisher-warsh-would-face-a-fog-on-uncertainty-as-fed-chair.html). VIDEO02:42](https://www.cnbc.com/video/2026/04/24/its-a-show-me-quarter-for-the-upcoming-megacap-tech-earnings-says-bakeravenues-king-lip.html). [It's a 'show me' quarter for the upcoming megacap tech earnings, says BakerAvenue's King Lip](https://www.cnbc.com/video/2026/04/24/its-a-show-me-quarter-for-the-upcoming-megacap-tech-earnings-says-bakeravenues-king-lip.html). VIDEO01:28](https://www.cnbc.com/video/2026/04/24/how-the-restaurant-group-behind-nycs-carbone-is-overcoming-young-people-shunning-alcohol.html). [How the restaurant group behind NYC's Carbone is overcoming young people shunning alcohol](https://www.cnbc.com/video/2026/04/24/how-the-restaurant-group-behind-nycs-carbone-is-overcoming-young-people-shunning-alcohol.html). VIDEO01:21](https://www.cnbc.com/video/2026/04/24/sen-warren-requests-clarification-from-u-s-attorney-pirro-on-if-she-will-reopen-powell-case.html). [Sen. Warren requests clarification from U.S. Attorney Pirro on if she will reopen Powell case](https://www.cnbc.com/video/2026/04/24/sen-warren-requests-clarification-from-u-s-attorney-pirro-on-if-she-will-reopen-powell-case.html). VIDEO01:17](https://www.cnbc.com/video/2026/04/24/iran-foreign-minister-says-no-meeting-is-planned-between-iran-and-u-s-in-pakistan.html). [Iran foreign minister says no meeting is planned between Iran and U.S. in Pakistan](https://www.cnbc.com/video/2026/04/24/iran-foreign-minister-says-no-meeting-is-planned-between-iran-and-u-s-in-pakistan.html). VIDEO04:37](https://www.cnbc.com/video/2026/04/24/fmr-fed-pres-richard-fisher-warsh-would-face-a-fog-on-uncertainty-as-fed-chair.html). Richard Fisher: Warsh would face a 'fog on uncertainty' as Fed Chair](https://www.cnbc.com/video/2026/04/24/fmr-fed-pres-richard-fisher-warsh-would-face-a-fog-on-uncertainty-as-fed-chair.html). VIDEO02:42](https://www.cnbc.com/video/2026/04/24/its-a-show-me-quarter-for-the-upcoming-megacap-tech-earnings-says-bakeravenues-king-lip.html). [It's a 'show me' quarter for the upcoming megacap tech earnings, says BakerAvenue's King Lip](https://www.cnbc.com/video/2026/04/24/its-a-show-me-quarter-for-the-upcoming-megacap-tech-earnings-says-bakeravenues-king-lip.html).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "anthropic-news",
+    "source_count": 1,
+    "sources": [
+      "anthropic-news"
+    ],
+    "id": "item-6",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "Anthropic's latest AI model could let hackers carry out attacks ... - CNN",
+    "url": "https://edition.cnn.com/2026/04/07/tech/anthropic-claude-mythos-preview-cybersecurity",
+    "summary": "Anthropic will make its new AI model available to some of the world's biggest cybersecurity and software firms in an effort to slow the arms",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "anthropic-news",
+    "source_count": 1,
+    "sources": [
+      "anthropic-news"
+    ],
+    "id": "item-7",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "Anthropic Claims Its New A.I. Model, Mythos, Is a Cybersecurity ...",
+    "url": "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html",
+    "summary": "Anthropic announced on Monday that its projected annual revenue had more than tripled in 2026, to more than $30 billion from $9 billion. The",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "anthropic-news",
+    "source_count": 1,
+    "sources": [
+      "anthropic-news"
+    ],
+    "id": "item-8",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "2026年第一季度 Claude 所有更新的完整指南（实测）",
+    "url": "https://aimaker.substack.com/p/anthropic-claude-updates-q1-2026-guide",
+    "summary": "Anthropic 目前的更新速度令人目不暇接。仅在过去三个月内，他们就发布了超过30项新功能，包括新模型、新特性等。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "anthropic-news",
+    "source_count": 1,
+    "sources": [
+      "anthropic-news"
+    ],
+    "id": "item-9",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "The Complete Guide to Every Claude Update in Q1 2026 (Tested by ...",
+    "summary_original": "The pace of Anthropic updates right now is so overwhelming. In the last three months alone, they've shipped over 30 new features. New model, new"
+  },
+  {
+    "title": "人工智能 2026年4月",
+    "url": "https://arxiv.org/list/cs.AI/current",
+    "summary": "arXiv cs.AI 2026年4月最新论文集合，涵盖多位作者的研究成果。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "arxiv-cs-ai",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-ai"
+    ],
+    "id": "item-10",
+    "category": "research-frontier",
+    "trimmed": false,
+    "title_original": "Artificial Intelligence Apr 2026",
+    "summary_original": "[Yuxing Lu](https://arxiv.org/search/cs?searchtype=author&query=Lu,+Y), [Yushuhong Lin](https://arxiv.org/search/cs?searchtype=author&query=Lin,+Y), [Jason Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+J). [Hy Dang](https://arxiv.org/search/cs?searchtype=author&query=Dang,+H), [Quang Dao](https://arxiv.org/search/cs?searchtype=author&query=Dao,+Q), [Meng Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+M). [Ha Na Cho](https://arxiv.org/search/cs?searchtype=author&query=Cho,+H+N). [Mark Dranias](https://arxiv.org/search/cs?searchtype=author&query=Dranias,+M), [Adam Whitley](https://arxiv.org/search/cs?searchtype=author&query=Whitley,+A). [Gaurav Rajesh Parikh](https://arxiv.org/search/cs?searchtype=author&query=Parikh,+G+R), [Angikar Ghosal](https://arxiv.org/search/cs?searchtype=author&query=Ghosal,+A). [Syed Eqbal Alam](https://arxiv.org/search/cs?searchtype=author&query=Alam,+S+E), [Zhan Shu](https://arxiv.org/search/cs?searchtype=author&query=Shu,+Z). [Borislav Mavrin](https://arxiv.org/search/cs?searchtype=author&query=Mavrin,+B). [Wei Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+W). [Jama Hussein Mohamud](https://arxiv.org/search/cs?searchtype=author&query=Mohamud,+J+H), [Drew Wagner](https://arxiv.org/search/cs?searchtype=author&query=Wagner,+D), [Mirco Ravanelli](https://arxiv.org/search/cs?searchtype=author&query=Ravanelli,+M). [HyunJoon Jung](https://arxiv.org/search/cs?searchtype=author&query=Jung,+H), [William Na](https://arxiv.org/search/cs?searchtype=author&query=Na,+W). [Harshee Jignesh Shah](https://arxiv.org/search/cs?searchtype=author&query=Shah,+H+J) (Independent Researcher). [Yao Qin](https://arxiv.org/search/cs?searchtype=author&query=Qin,+Y), [Yangyang Yan](https://arxiv.org/search/cs?searchtype=author&query=Yan,+Y), [Jinhua Pang](https://arxiv.org/search/cs?searchtype=author&query=Pang,+J), [Xiaoming Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X). [Thanh Luong Tuan](https://arxiv.org/search/cs?searchtype=author&query=Tuan,+T+L). [Rajkiran Panuganti](https://arxiv.org/search/cs?searchtype=author&query=Panuganti,+R). Roijers](https://arxiv.org/search/cs?searchtype=author&query=Roijers,+D+M). [Sha Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+S), [Naren Ramakrishnan](https://arxiv.org/search/cs?searchtype=author&query=Ramakrishnan,+N). [Zhou Hanlin](https://arxiv.org/search/cs?searchtype=author&query=Hanlin,+Z), [Chan Huah Yong](https://arxiv.org/search/cs?searchtype=author&query=Yong,+C+H). [Olav Laudy](https://arxiv.org/search/cs?searchtype=author&query=Laudy,+O). Payne](https://arxiv.org/search/cs?searchtype=author&query=Payne,+T+R), [Valentina Tamma](https://arxiv.org/search/cs?searchtype=author&query=Tamma,+V), [Jacopo de Berardinis](https://arxiv.org/search/cs?searchtype=author&query=de+Berardinis,+J). [Andrei Mantsivoda](https://arxiv.org/search/cs?searchtype=author&query=Mantsivoda,+A), [Darya Gavrilina](https://arxiv.org/search/cs?searchtype=author&query=Gavrilina,+D). [Matthias Mertens](https://arxiv.org/search/cs?searchtype=author&query=Mertens,+M), [Adam Kuzee](https://arxiv.org/search/cs?searchtype=author&query=Kuzee,+A), [Brittany S. [Fan Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+F), [Songheng Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+S), [Haewoon Kwak](https://arxiv.org/search/cs?searchtype=author&query=Kwak,+H), [Jisun An](https://arxiv.org/search/cs?searchtype=author&query=An,+J). [Zakariya Laouar](https://arxiv.org/search/cs?searchtype=author&query=Laouar,+Z), [Qi Heng Ho](https://arxiv.org/search/cs?searchtype=author&query=Ho,+Q+H), [Zachary Sunberg](https://arxiv.org/search/cs?searchtype=author&query=Sunberg,+Z). [Khalid Adnan Alsayed](https://arxiv.org/search/cs?searchtype=author&query=Alsayed,+K+A). Jacobson](https://arxiv.org/search/cs?searchtype=author&query=Jacobson,+M+J), [Daniel Xie](https://arxiv.org/search/cs?searchtype=author&query=Xie,+D), [Jackson Shen](https://arxiv.org/search/cs?searchtype=author&query=Shen,+J), [Adil Wazeer](https://arxiv.org/search/cs?searchtype=author&query=Wazeer,+A), [Haiyan Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Xinghang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X), [Yexiang Xue](https://arxiv.org/search/cs?searchtype=author&query=Xue,+Y). [Yakun Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Min Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+M), [Zeguan Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+Z), [Junyu Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+J), [Sitao Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+S), [Zhenwen Shao](https://arxiv.org/search/cs?searchtype=author&query=Shao,+Z). [Daniel Xie](https://arxiv.org/search/cs?searchtype=author&query=Xie,+D), [Maxwell J. Jacobson](https://arxiv.org/search/cs?searchtype=author&query=Jacobson,+M+J), [Adil Wazeer](https://arxiv.org/search/cs?searchtype=author&query=Wazeer,+A), [Haiyan Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Xinghang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X), [Yexiang Xue](https://arxiv.org/search/cs?searchtype=author&query=Xue,+Y). M. Rakibul Hasan Shawon](https://arxiv.org/search/cs?searchtype=author&query=Shawon,+S+M+R+H), [Hualiang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+H). [Prince Zizhuang Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+P+Z), [Shuli Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+S)."
+  },
+  {
+    "title": "AI Agent 论文精选列表（2026）——帮你筛选 arXiv 论文",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r3p8zk/curated_list_of_ai_agent_papers_2026_filtering/",
+    "summary": "精选来自 arXiv 的 AI Agent 论文。构建 AI Agent 的顶级研究论文，AI Agent 在日常生活中的创新应用。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "arxiv-cs-ai",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-ai"
+    ],
+    "id": "item-11",
+    "category": "research-frontier",
+    "trimmed": false,
+    "title_original": "Curated list of AI Agent papers (2026) — filtering arXiv so you don't ...",
+    "summary_original": "Curated list of AI agent papers from arXiv. Top AI research papers for building AI agents. Innovative uses of AI agents in daily life. Best AI"
+  },
+  {
+    "title": "NLP 中的大语言模型：演进、架构趋势与开放挑战",
+    "url": "https://link.springer.com/article/10.1186/s40537-026-01429-1",
+    "summary": "NLP 中的大语言模型：演进、架构趋势与开放挑战。综述论文，发表于2026年4月21日。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "arxiv-cs-cl",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-cl"
+    ],
+    "id": "item-12",
+    "category": "research-frontier",
+    "trimmed": false,
+    "title_original": "Large language models in NLP: evolution, architectural trends, and ...",
+    "summary_original": "Large language models in NLP: evolution, architectural trends, and open challenges. Survey; Open access; Published: 21 April 2026 ... language"
+  },
+  {
+    "title": "Diffusion NLP 论文 arXiv 合集",
+    "url": "https://github.com/bansky-cl/diffusion-nlp-paper-arxiv",
+    "summary": "日期、标题、标签、摘要、PDF、代码。2026-04-22，关于 Diffusion 语言模型在编程基准测试中的量化鲁棒性。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "arxiv-cs-cl",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-cl"
+    ],
+    "id": "item-13",
+    "category": "research-frontier",
+    "trimmed": false,
+    "title_original": "bansky-cl/diffusion-nlp-paper-arxiv - GitHub",
+    "summary_original": "Date, Title, label, Abstract, PDF, Code. 2026-04-22, On the Quantization Robustness of Diffusion Language Models in Coding Benchmarks, cs.LG, cs."
+  },
+  {
+    "title": "机器学习 2026年4月 - stat.ML - arXiv",
+    "url": "https://arxiv.org/list/stat.ML/current",
+    "summary": "arXiv stat.ML 2026年4月最新论文，涵盖机器学习、信息论、优化与控制、统计理论、计算金融等多个交叉学科。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "arxiv-cs-lg",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-lg"
+    ],
+    "id": "item-14",
+    "category": "research-frontier",
+    "trimmed": false,
+    "title_original": "Machine Learning Apr 2026 - stat.ML - arXiv",
+    "summary_original": "Jingyi Xie, Linjun Zhang, Sai Li. Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG). Subjects: Machine Learning (stat.ML); Information Theory (cs.IT); Machine Learning (cs.LG); Optimization and Control (math.OC); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Probability (math.PR); Statistics Theory (math.ST); Computational Finance (q-fin.CP). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Probability (math.PR). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Systems and Control (eess.SY); Optimization and Control (math.OC). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Optimization and Control (math.OC). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Optimization and Control (math.OC); Computation (stat.CO). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Econometrics (econ.EM); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Signal Processing (eess.SP). Subjects: Machine Learning (stat.ML); Information Theory (cs.IT); Machine Learning (cs.LG); Signal Processing (eess.SP); Applications (stat.AP). Subjects: Machine Learning (stat.ML); Information Theory (cs.IT); Machine Learning (cs.LG)."
+  },
+  {
+    "title": "arXiv 上传了200篇新的机器学习论文",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1sqi69n/d_it_seems_that_every_day_there_are_around_100/",
+    "summary": "关于机器学习研究现状的讨论，以及 AI Agent 论文精选合集（2026）。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "arxiv-cs-lg",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-lg"
+    ],
+    "id": "item-15",
+    "category": "research-frontier",
+    "trimmed": false,
+    "title_original": "200 new machine learning papers uploaded on Arxiv. - Reddit",
+    "summary_original": "[D] Some concerns about the current state of machine learning research ... Awesome repo of AI Agent papers (2026) - filtering arXiv so you don't"
+  },
+  {
+    "title": "大模型迭代加速：2026年4月已经发布/预期发布的AI大模型 - 知乎专栏",
+    "url": "https://zhuanlan.zhihu.com/p/2024418051664168470",
+    "summary": "Gemini 3系列已在2026年完成多次升级，3.1版本在推理能力上显著提升，同时Flash版本专注速度优化，适用于实时应用（如语音助手、交互Agent）。其多模态能力和长",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-16",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "新品发布 - 智谱AI开放文档",
+    "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+    "summary": "* Coding 能力大大增强，长程任务（Long Horizon Task）显著提升，支持一次任务中独立、持续工作长达 8 小时，实现从规划、执行到交付的完整闭环. * 综合能力全面对齐 Claude Opus 4.6，成为首个在综合能力上实现全面对齐的中国模型，并跻身全球开源模型前列. * 通过 multi-turn SFT、RL 与过程质量评估体系，进一步强化长任务中的稳定性、一致性与 tool use 能力. GLM-5V-Turbo 多模态 Coding 基座模型上线. * 兼顾视觉理解与 Coding 能力，在更小参数量下实现更优的性能表现，多模态任务处理更高效. * 多模态工具链进一步扩展，在文本工具基础上新增支持画框、截图、读网页（含图片识别）等多模态 Tools. * 在代码逻辑密度和系统工程能力上直接对标 Claude Opus 4.5. * 首次集成 DeepSeek Sparse Attention，在维持长文本效果无损的同时，提升 Token Efficiency. * 采用自研 CogViT 与 GLM-0.5B 的编码器-解码器设计，连接层实现高效跨模态对齐. * 基于数十亿图文对的 CLIP 预训练，具备强大的视觉语义与关键 Token 提取能力. GLM-4.7-Flash 免费模型上线. * 为 GLM-4.7 的免费版本，针对高频调用场景进行优化，显著降低使用门槛与成本. * Coding 能力全面提升，代码生成更稳、更完整，长代码与工程级场景下的一次性交付能力显著增强. * 可与 GLM-TTS 联动，通过音色 ID 进行批量生产. * 强化学习（GRPO）优化显著降低字错误率，并在开源评测中取得 SOTA 情感表达表现. * 20+ 主流多模态评测基准全面验证，均取得 SOTA 成绩. * 针对前端开发场景深度调优，支持“截图即代码”，大幅提升 GLM Coding Plan 的开发与调试效率. * 100B 级别开源视觉推理模型 SOTA，比 GLM-4.1V-Thinking “更大更强”. * 覆盖从视频理解、前端复刻、视觉定位、图像识别与推理，到复杂文档解析与 GUI Agent 等多场景的视觉任务. * 参数效率翻倍，API 价格仅为 Claude 的1/10，极速版速度超 100tokens/秒. * 实测 Agentic Coding 表现优异，支持一键兼容 Claude Code 框架. GLM-4.1V-Thinking 系列视觉推理模型上线. 🤖 **基座模型****GLM-4-Air-250414（高性价比版）**. **GLM-4-Flash-250414（免费版）**. 🧠 **推理模型****GLM-Z1-AirX（极速版）**. * 速度最快可达 200 tokens/秒（比常规快 8 倍）. * 价格仅为 DeepSeek-R1 的 1/30. 全系列 AI 搜索工具升级上线，覆盖 基础检索（Web Search API）、问答增强（Web Search in Chat）、搜索智能体（Search Agent） 三大服务。新增支持 bing、搜狗、夸克、Jina.ai 等主流搜索引擎，灵活切换。优化了意图识别和结果搜索的准确度。上新限时特惠. * **Web Search API：** 支持直接获取结构化搜索结果（标题/摘要/链接等），提供多搜索引擎支持（智谱自研/bing/搜狗/夸克/Jina AI）。. * **Chat Search：** 将 Web Search API 的搜索结果融入大模型，生成智能回答，并标注网页结果来源。. * **Search Agent：** 根据用户的 query，分析搜索意图，进行多个 query 拆解，将搜索结果融入大模型，提供全面、有深度的回答。.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "sources": [
+      "bigmodel-features",
+      "bigmodel-releases"
+    ],
+    "source_count": 2,
+    "id": "item-17",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "牌桌被掀，中国模型换了一种赢法",
+    "url": "https://m.36kr.com/p/3630818637186052",
+    "summary": "# 牌桌被掀，中国模型换了一种赢法. 2026年1月8日，中国AI大模型初创公司智谱，正式在港交所挂牌上市，成为“全球大模型第一股”。一天后，另一家模型公司MiniMax，也将紧随其后敲钟。. 2023年，这些AGI（通用人工智能）的理想主义者，快速被推至台前。伴随着高估值、高起点而来的，难免是最为严苛的审视和比较。比如2025年初，DeepSeek的异军突起，促使六小虎中的几家不得不迅速调整业务、裁撤团队，才度过了至暗时刻。. 在厚雪长坡的大模型领域，任何暂时的落后、误判，都会成为“德不配位”的佐证。即便在顺利IPO的当下，比起祝福，账上的亏损才更是人们的谈资。. 中国首个MoE（混合专家架构）大模型，出自智源“悟道”，首款爆款AI应用Kimi，来自月之暗面。. 后来，全球首个能操作手机的通用Agent，是智谱发布的AutoGLM，比后来的豆包手机早了整整14个月；现如今，全球首家IPO的大模型初创企业，也是来自中国的智谱。. 比起抠招股书上的亏损，如今对前沿创新型行业、对创业者们而言，更有价值的命题在于，分析这几家中国大模型创业公司如何在竞争残酷的大模型赛道呈现出强大的生命力，并如何一直在AI马拉松上领跑。. IPO，无论对于智谱和MiniMax，还是对于正在路上的科技创业者而言，都是一个乐观的信号——这意味着，创新者不会被时代轻易地抛弃。. ## **六小虎重夺荣耀**. 将时间倒回一年前，年初DeepSeek V3、R1的口碑爆发，让六小虎一度迎来口碑和市场份额的至暗时刻。. 创新的训练和推理架构，让DeepSeek一跃成为国际上知名度最高的中国大模型，为了同开源的DeepSeek争取市场声量，六小虎也不得不忍痛割去闭源的部分利润，快速跟进。. 于是，“失意”便成为了常态。脉脉数据显示，截至2025年7月，41.07%的六小虎员工，将自己的状态改成了“求职中”。. “基座模型的性能，就是模型厂商的竞争力。”DeepSeek的掀桌，让模型行业迅速拉齐了这一共识。其中，颇具火药味的一幕发生在2025年7月。为了争夺全球开源模型的SOTA的位置，各个玩家都使出了浑身解数。. 智谱的一名投资人告诉我们，DeepSeek之后的每一次模型迭代，智谱的员工都抱着“背水一战”的信念，将性能打磨到“最Sharp”。. 2025年7月28日发布的GLM-4.5，首发48小时内就一跃冲上Hugging Face的全球热门榜榜首。同年9月，GLM-4.5在权威模型竞技场ChatBot Arena及WebDev Arena全球排行榜中，还稳居全球前五。. GLM-4.5发布仅两个月后，智谱又交出了在Coding能力上与Anthropic、OpenAI并列第一的GLM-4.6；3个月后，在主流基准测试中，代码能力对齐Claude Sonnet 4.5的GLM-4.7，又紧接着开源。. 12月，在模型综合能力榜单Artificial Analysis中，GLM-4.7获得开源模型与国产模型双料榜首。. 今天，智谱创立发起人兼首席科学家唐杰发布内部信，宣布将很快推出GLM-5。信中表示，在智谱旗舰模型GLM-4.7发布后，其MaaS ARR年化收入从2000万增至超5亿，10个月获25倍增幅，与Anthropic指数级增长同频。. **另一个反转的事实是，一度被认为“受到DeepSeek毁灭性打击”的B端业务，反而在下半年成为了“确定的钱”。**. 即便一举动摇了B端市场，但DeepSeek的爆火，也变相完成了对企业客户的市场教育。线性资本董事总经理郑灿曾在媒体采访中直言：“DeepSeek的作用，尤其体现在市场教育方面，格外节省了成本。”. 与此同时，企业客户也意识到，**强调模型能力的同时，B端服务是一套强调模型厂商行业认知、服务能力的体系**。这意味着，理解企业的业务，为企业提供基于专业数据的定制化训练和部署服务是有门槛的。. 很快，一些B端客户发现了部署DeepSeek的弊端：幻觉多，在真正理解业务上有短板——半年后，市场对DeepSeek的追捧回归了理性。. 相对地，做大了的B端蛋糕，被那些具有成熟服务能力的模型厂商承接了下来。最具代表性的案例，是以大模型API调用为主要商业模式的智谱。全球大模型平台OpenReutor的数据显示，GLM-4.5和GLM-4.6自上线以来，调用量稳居全球前10，同时付费流量收入超过所有国产模型之和。. 更重要的是，**大模型在B端的商业化生态，也逐渐摆脱“专做政企市场”“脏活累活”的刻板标签，变得愈发成熟健康。**. 智谱高级副总裁吴玮杰在小红书表示：在智谱的客户群中，G端客户不到20%，互联网占比50%；同时，公司本地化的毛利率一直保持在60%以上，是传统公司均值的2倍，账期也远低于行业平均水平。. 在招股书中，我们或许只能看到，2025年上半年，来自本地化部署的收入占比高达84.8%。但招股书无法显示的一面是，随着GLM-4.5等一系列高性能模型的发布，API调用和订阅，已经逐渐代替本地化部署，成为智谱收入的第一增长曲线。. 据36氪了解，仅智谱MaaS开放平台（bigmodel.cn）中面向开发者的订阅产品GLM Coding，ARR在上线2个月内，就快速突破了1亿元。2025年全年，智谱MaaS同比增速超900%，幂次增长态势显著优于海外龙头同期表现。. ## **从“中国的OpenAI”转向“世界的中国模型”**. 一年前，以OpenAI为靶点的追赶，是一种常态。直到2024年末，AI资深从业者之间的共识，还是中国大模型与OpenAI差了将近6个月的时间。. 这也导致，OpenAI任何一次的模型更新和发布，都会引发中国AI创业者的“被吞噬恐慌”。OpenAI创始人兼CEO Sam Altman曾直言：任何试图在我们爆炸半径内建立的初创公司或产品，都会被碾压。. 今年开始，一个在模型领域悄然发生的转变是，成为“中国的OpenAI”或者“中国的Anthropic”，不再作为一种定位或目标，被中国厂商们频频提起。. 中国模型被世界看到，已经是确定性的事实。其中的主力军，不全然是资源优渥的大厂，而是几家“续航能力”一度不被看好的六小虎。. 海外的商业化表现，是中国模型被海外市场认可和接纳的侧面印证。在两家“六小虎”最近披露的招股书中可以看到，2025年截至9月30日，MiniMax的境外收入，占到了总收入的73.1%。. 受到美国出口管制的智谱，看似在海外最大的北美市场失去了入场机会。但出人意料的是，36氪获悉，智谱面向开发者的模型业务获得自全球184个国家的15万开发者每月付费。. 先来看一个美国开发者案例。2025年9月，一名来自美国的数据科学家Manpreet Singh发帖，控诉Anthropic旗下的Claude Code能力存在缺陷——早些时候，Anthropic官方也承认，由于推理堆栈的更新问题，Claude Opus 4.1和Opus 4的质量的确有所下降。. 但相对地，包含Claude Code使用权益的最低订阅价（Pro方案，不包含Opus 4.1的使用权益），也要每个月17美元（合人民币约120元）。. 最后，这名数据科学家转向使用智谱旗下的模型GLM-4.5。他在博客中提到，GLM-4.5的Coding性能接近Claude Sonnet 4，但API价格仅为后者的1/7，包含Coding功能的GLM Coding Plan，月费最低仅20元人民币，价格是Claude Code的1/6。. 智谱的模型GLM-4.6，这一年来出现在全球最大推理芯片公司Cerebras，主流AI平台Cline、Kilo、Vercel，以及AI Coding顶流工具Cursor和Windsurf的产品服务、基座模型中。. 月之暗面的Kimi-K2、MiniMax的模型，近期也上架了亚马逊云科技的模型服务平台Bedrock。此前，硅谷基金Social Capita的创始人Chamath Palihapitiya，就公然带头“倒戈”中国模型。将大量工作负载转向Kimi K2后，他评价：“K2的性能确实足够强，而且说实话，比OpenAI和Anthropic便宜太多了。”. 中国独立模型开发厂商的存在，为**全球客户提供多元化的模型选择、建立健康的商业生态，有至关重要的意义。**. 其中一个典型案例是，2025年初，智谱拿下了某“一带一路”国家的海外订单，价值千万美元。近期马来西亚宣布其国家级MaaS平台，基于智谱Z.ai的开源基础模型构建。知情人士曾告诉36氪，这些订单的性质，是“国家级主权大模型”的共建——出于国家数据安全的考量，第三方独立模型厂商，将承担愈发重要的角色。. “在美国或欧洲竞争对手之前，（智谱）将中国的系统和标准锁定在新兴市场。”这股独立力量的崛起，也引起了OpenAI的重视。2025年6月，OpenAI分析师发现，智谱在多个地区获得了政府的订单。他们评价：“智谱展示了一种负责任的、透明的、随时可审计的中国AI替代方案。”. 这意味着，中国大模型绝对不是“平替”。正如智谱高级副总裁吴玮杰所言：“中国开始输出主权大模型，替国家构建数字主权。”. ## **什么是大模型的长期主义？**. 彼时技术的黑箱、高昂的成本，都让大模型创业成为一场“绝命赌局”。美团联合创始人王慧文最早躬身入局大模型赛道时，曾对36氪“智能涌现”直言：“现在（AI领域）我觉得大家要同舟共济，别互相拆台。”“勇于踏上这条路的人我都鼓掌，上路的都是勇士。”. 两年的时间，沧海桑田。六小虎之中，已经有两家公司搁置了基座大模型的预训练，或聚焦业务，往医疗这一垂类领域发力，或开始转型，做各类行业解决方案。“活下去”，对大多数大模型创业公司而言，成为比“探索智力上限”更重要的命题。. 招股书显示，智谱和MiniMax，两家公司在过去三年里烧了近110亿元。其中，将近70%的支出用于模型研发。尤其是智谱，2024年研发投入高达21.95亿元，占当年总支出的约80%。. 曾有人将大模型之战，比喻为“看不到终点，也停不下来的征途”。毕竟，每个先进模型的领先窗口，往往只有几个月；而对于资源并不充沛的初创企业而言，每一次模型训练，都是燃烧在数万、数十万张算力卡上的赌局。. 但如今，行业中形成的共识是：**依然需要有人去做“难而正确”的事。**. 科技行业的残酷性在于，只有成功的一瞬会被铭记。但在这一瞬背后，创新者的投入是难以计量的。比如，在ChatGPT引爆科技圈的那个冬天之前，OpenAI已经蛰伏了近7年——前期GPT-1、GPT-2等“无名成果”的经验累积，才造就了GPT-3.5。. 再比如2025年初一鸣惊人的DeepSeek，如果没有此前团队在MLA、新MoE架构、self-play等技术上的一系列创新，就不会有V3和R1的突破——其中的投入，是梁文锋在访谈中隐隐透露的“与头部大厂匹配的人才薪资”“不设上限的算力额度”。. **这也意味着，AI领域的长期主义，是持续创新和投入的定力。**在玩家纷纷转型或退场的当下，留在牌桌上的大模型公司，都是勇士。. 平心而论，MiniMax和智谱披露的亏损，是AI发展仍处于早期的证明，也是创新所需代价的客观凭证。如果将110亿元，与未来大模型能撬动的千亿、万亿增强相比，显然是ROI极高的一笔投入。. 随着近一年来，腾讯、字节、阿里的持续高调入场，大模型初创公司面对的竞争愈发白热化。. 但市场仍然需要独立的第三方开发厂商。事实证明，如今AI领域重要的创新和发布，大多来自几家初创企业。无论是海外的OpenAI、Anthropic，还是DeepSeek和留在牌桌上的几家六小虎们——初创企业更为灵活的组织形态、不被业务惯性拖累的运行模式、更加中立，是大厂无可比拟的优势。. IPO对资金筹措的好处是显而易见的。比如，智谱此次IPO募资规模预计达43亿港元——募资的效率，远超面向一级市场的融资。. 当下，中国第一梯队的模型公司，即便技术能力已经达到与国际一流厂商掰手腕的水平，但估值和市场认知度，依然与之相差甚远。比如，法国AI模型公司Mistral AI的最新估值为140亿美元；IPO前，MiniMax的估值约42亿美元，智谱估值为243.8亿元（约35亿美元）。两者的估值之间，几乎有3-4倍的差距。. 上市的好处是显而易见的：智谱和MiniMax将有望获得更公允的价值评判，以及更广泛的国际影响力。IPO后，智谱的市值预计超过500亿港元，是此前估值的约2倍。与此同时，在厂商竞争力某种程度上也是人才竞争力的当下，IPO让初创公司，在国际上有了更响亮的人才号召力。. 本文由「晓曦」原创出品， 转载或内容合作请点击 转载说明 ；违规转载必究。. ### 最近内容. ### 下一篇.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-18",
+    "category": "policy-regulation",
+    "trimmed": false
+  },
+  {
+    "title": "GLM-5.1正式开放！智谱编程套餐全解析 - UniFuncs",
+    "url": "https://unifuncs.com/s/Dm5egcKj",
+    "summary": "* **性能表现** ：SWE-bench Verified 77.8分，开源SOTA118docs.bigmodeldocs.bigmodelGLM-5 - 智谱AI开放文档 概览 GLM-5 是智谱新一代的旗舰基座模型，面向 Agentic Engineering 打造，能够在复杂系统工程与长程 Agent 任务中提供可靠生产力。在 Coding 与 Agent 能力上，GLM-5 取得开源 SOTA 表现，在真实编程场景的使用体感逼近 Claude Opus 4.5，擅长复杂系统工程与长程 Agent 任务，是通用 Agent 助手的理. * 智谱AI官方微信公众号1mp.weixin.qqmp.weixin.qqGLM-5.1已面向所有Coding Plan用户开放 GLM-5.1已面向所有Coding Plan用户开放 在小说阅读器中沉浸阅读 GLM-5.1现已面向GLM Coding Plan全部用户(Lite/Pro/Max)开放。 ModelKey：GLM-5.1 预览时标签不可点 微信扫一扫关注该公众号 继续滑动看下一个 轻触阅读原文 智谱 向上滑动看下一个 微信扫一扫使用小程序 × 分析 微信扫一扫可打开此内容，使用完和@Zai\\_org推文2xxX 上的 Z.ai：“GLM-5.1 is available to ALL GLM Coding Plan users! | GLM-5.1面向Coding Plan用户开放 | **高** | 1mp.weixin.qqmp.weixin.qqGLM-5.1已面向所有Coding Plan用户开放 GLM-5.1已面向所有Coding Plan用户开放 在小说阅读器中沉浸阅读 GLM-5.1现已面向GLM Coding Plan全部用户(Lite/Pro/Max)开放。 ModelKey：GLM-5.1 预览时标签不可点 微信扫一扫关注该公众号 继续滑动看下一个 轻触阅读原文 智谱 向上滑动看下一个 微信扫一扫使用小程序 × 分析 微信扫一扫可打开此内容，使用完2xxX 上的 Z.ai：“GLM-5.1 is available to ALL GLM Coding Plan users! | GLM-5技术规格（744B/28.5T） | **高** | 117stcnstcn智谱发布新一代旗舰模型GLM-5发布时间：2026-02-12(1个月前) 08:30 作者：李志强 来源：证券时报网 智谱发布新一代旗舰模型GLM-5 智谱推出GLM-5，定位为最新一代旗舰级对话、编程与智能体模型，主攻复杂系统工程与长程Agent任务。 内部评估显示，GLM-5在编程开发场景中平均性能较上一代提升超20%，真实编程体验逼近Claude Opus 4.5水平。在BrowseComp、MCP-Atlas和τ2118docs.bigmodeldocs.bigmodelGLM-5 - 智谱AI开放文档 概览 GLM-5 是智谱新一代的旗舰基座模型，面向 Agentic Engineering 打造，能够在复杂系统工程与长程 Agent 任务中提供可靠生产力。在 Coding 与 Agent 能力上，GLM-5 取得开源 SOTA 表现，在真实编程场景的使用体感逼近 Claude Opus 4.5，擅长复杂系统工程与长程 Agent 任务，是通用 Agent 助手的理166zzGLM-5: From Vibe Coding to Agentic Engineering GLM-5: From Vibe Coding to Agentic Engineering 发布信息：2026-02-12(1个月前) · Research 核心发布内容 我们推出了面向复杂系统工程和长周期智能体任务的GLM-5。相较GLM-4.5，GLM-5参数量从355B（32B激活）提升至744B（40B激活），预训练数据量从23T tokens增至28.5T tokens，还 |.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-19",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "智谱为GLM Coding Plan 用户致歉并提出补偿方案【AI 早报2026-02 ...",
+    "url": "https://zhuanlan.zhihu.com/p/2008821683612574942",
+    "summary": "此次更新覆盖 gpt-image-1.5 、 chatgpt-image-latest 、 gpt-image-1 及 gpt-image-1-mini 四款模型。 开发者现可通过 该API 提交异步作业，单次任务上限达50,000 个。此外",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-20",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "功能更新 - 智谱AI开放文档",
+    "url": "https://docs.bigmodel.cn/cn/update/feature-updates",
+    "summary": "智谱AI开放文档 home pagelight logodark logo. # 功能更新. ## ​ 最新功能更新. Web Search API 和 API Search in Chat 本次更新新增多项实用参数，帮助您更精准地控制搜索行为，提升数据获取效率。**1.请求参数扩展**. 网络搜索 API 接口文档API Search in Chat 接口文档. * 支持范围：glm-4-air、glm-4-9b、glm-4-flash. * 训练计费：DPO 训练单价同该模型在对应训练方式下 SFT 监督微调训练定价.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-21",
+    "category": "research-frontier",
+    "trimmed": false
+  },
+  {
+    "title": "智谱开源AutoGLM OpenClaw升级_新浪新闻",
+    "url": "https://www.sina.cn/news/detail/5285053659615198.html",
+    "summary": "智谱宣布4月14日开源AutoGLM核心模型，OpenClaw发布v2026.4.1重磅更新，国产AI Agent生态迎来双重利好。 头条速递 1️⃣ 智谱AutoGLM即将开源智谱在中关村论坛",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-22",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "智谱GLM-5这次开源，让高级程序员也危险了... - QQ News",
+    "url": "https://news.qq.com/rain/a/20260212A0335D00",
+    "summary": "真的，2026年的AI比25年疯太多了。 最近我这个一天16个小时泡在AI里面的人，都有点追不上AI进化的速度。感觉每天",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-23",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "2026 GLM-Image API Complete Guide - UniFuncs 深度搜索",
+    "url": "https://unifuncs.com/s/9MH3mebr",
+    "summary": "**Sources** : Z.ai Official Documentation101docs.bigmodeldocs.bigmodelGLM-Image - 智谱AI开放文档 智谱AI GLM-Image 图像生成 API 文档 概览 GLM-Image 是智谱新旗舰图像生成模型，全程基于国产芯片完成训练，采用「自回归+扩散解码器」混合架构，兼顾全局指令理解与局部细节刻画，可解决海报、PPT、科普图等知识密集型场景生成难题。 - 价格：0.1 元 / 次 - 输入模态：文本（最大输入1000字符） - 输出模态：图像 - 多分辨率：支持 1:1、3:4、4:3102docs.zdocs.zGenerate Image - Overview - Z.AI DEVELOPER DOCUMENT 发布者：Z.AI DEVELOPER DOCUMENT 核心接口信息 接口地址 POST https://api.z.ai/api/paas/v4/images/generations 调用示例 ``` curl --request POST \\ --url https://api.z.ai/api/paas/v4/images/generations \\ --104zzGLM-Image: Auto-regressive for Dense-knowledge and High-fidelity Image Generation发布信息：2026-01-14(3个月前) · Research GLM-Image: Auto-regressive for Dense-knowledge and High-fidelity Image Generation GLM-Image是首个开源的工业级离散自回归图像生成模型。它采用结合自回归模块与扩散解码器的混合架构：自回归部分基于GLM-4-9B-0414开发并以其初始化，参105docs.zdocs.zGLM-Image - Overview - Z.AI DEVELOPER DOCUMENT 发布者：Z.AI 核心信息概览 基本介绍 GLM-Image是Z.AI推出的全新旗舰图像生成模型，属于“认知生成”技术范式的重要探索。 价格 $0.015 / image 输入输出与分辨率 - 输入模态：Text - 输出模态：Image，输出为图片URL，需通过URL下载图片 - 支持比例：1:1, 3:4, 4:3, 16:9等 - 推荐通用分辨率：, 302.ai Technical Analysis103mediummediumglmOpen-Source GLM-Image Test: Text Rendering Tops SOTA, Image Quality Remains Key Bottleneck | by 302.AI | Medium发布日期：Jan 22, 2026 作者：302.AI glmOpen-Source GLM-Image Test: Text Rendering Tops SOTA, Image Quality Remains Key Bottleneck On January 14, Zhipu AI and Huawei jointly open-sourced the new-generation, Independent Benchmarks155glmimageglmimageAI Image Generator Comparison 2026: GLMImage vs Midjourney vs DALL-E 3 vs FLUX.1 vs Stable Diffusion | Blog 发布信息 发布日期：Feb 10, 2026 发布团队：GLM-Image Team AI Image Generator Comparison 2026: GLMImage vs Midjourney vs DALL-E 3 vs FLUX.1 vs Stable Diffusion 核心结论 1.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-features",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-features"
+    ],
+    "id": "item-24",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "刚刚，智谱发布GLM-5-Turbo：Agent原生，龙虾增强 - 智源社区",
+    "url": "https://hub.baai.ac.cn/view/53161",
+    "summary": "智谱推出GLM-5-Turbo，专为OpenClaw龙虾场景深度优化的基座模型。针对通用大模型在复杂Agent任务中长链路易失速、工具调用与指令遵循能力不足等问题，",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-releases",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-releases"
+    ],
+    "id": "item-25",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "智谱GLM-5发布时间：2026年推出 - U深搜",
+    "url": "https://unifuncs.com/s/2YOLv7f9",
+    "summary": "GLM-5将通过进一步的Scaling和很多全新技术改、新浪港股98finance.sina.comfinance.sina.com智谱盘中拉升逾9% 宣布很快将推出新一代模型GLM-5|智谱\\_新浪财经\\_新浪网2026年01月08日(今天) 11:30 新浪港股 智谱宣布很快将推出新一代模型GLM-5 智谱今日（2026年1月8日）正式登陆港股市场 相关链接 智谱 拉升、太平洋科技99g.pconline.comg.pconline.com智谱AI上市首日公布2026年目标 将推出新一代GLM-5模型并探索全新架构-太平洋科技发布日期：2026-01-08 11:01 智谱AI上市首日公布2026年(今年)目标 将推出新一代GLM-5模型并探索全新架构 1月8日，智谱AI正式上市。清华大学计算机系教授、智谱创立发起人兼首席科学家唐杰发布内部信，宣布将很快推出新一代模型GLM-5，并明确2026年(今年)目标是成为国际领跑的大模型企业。 唐杰在信中提及，DeepSeek的出现给他带来警醒，并表示需要不断改进对AGI、和讯网133m.hexunm.hexun智谱：上市日宣布推GLM - 5，25年战略如期完成-和讯网发布时间：10:33 标题：智谱：上市日宣布推GLM - 5，25年战略如期完成-和讯网 1. 2026年智谱将聚焦三个技术方向： - GLM-5模型发布 - 全新的模型架构设计 - 具有更强泛化能力的RL 、IT之家141ithomeithome智谱港交所敲钟上市，首席科学家唐杰要求公司全面回归基础模型研究 - IT之家2026/1/8(今天) 10:54:39 来源：IT之家 智谱上市GLM-5发布 智谱在港交所主板挂牌上市，清华大学计算机系教授、智谱创立发起人兼首席科学家唐杰在内部信中提到，智谱很快将推出新一代模型 GLM-5。 唐杰在信中提到，智谱2025年如期完成了年初定下的战略，即4月发一个\"稳住阵脚\"的模型、年中发一个\"上牌桌\"的模型（成为 one of the best）、年底发一等多家媒体报道. 2026年智谱将聚焦三个技术方向： - GLM-5模型发布 - 全新的模型架构设计 - 具有更强泛化能力的RL 、IT之家141ithomeithome智谱港交所敲钟上市，首席科学家唐杰要求公司全面回归基础模型研究 - IT之家2026/1/8(今天) 10:54:39 来源：IT之家 智谱上市GLM-5发布 智谱在港交所主板挂牌上市，清华大学计算机系教授、智谱创立发起人兼首席科学家唐杰在内部信中提到，智谱很快将推出新一代模型 GLM-5。 唐杰在信中提到，智谱2025年如期完成了年初定下的战略，即4月发一个\"稳住阵脚\"的模型、年中发一个\"上牌桌\"的模型（成为 one of the best）、年底发一、36氪13236kr36kr刚刚智谱上市，大模型六小龙跑出第一个 IPO-36氪发布者：极客公园 | 发布日期：2026年01月08日(今天) 11:31 智谱上市GLM-5发布计划 1. GLM-5将通过进一步的Scaling和很多全新技术改、新浪港股98finance.sina.comfinance.sina.com智谱盘中拉升逾9% 宣布很快将推出新一代模型GLM-5|智谱\\_新浪财经\\_新浪网2026年01月08日(今天) 11:30 新浪港股 智谱宣布很快将推出新一代模型GLM-5 智谱今日（2026年1月8日）正式登陆港股市场 相关链接 智谱 拉升、太平洋科技99g.pconline.comg.pconline.com智谱AI上市首日公布2026年目标 将推出新一代GLM-5模型并探索全新架构-太平洋科技发布日期：2026-01-08 11:01 智谱AI上市首日公布2026年(今年)目标 将推出新一代GLM-5模型并探索全新架构 1月8日，智谱AI正式上市。清华大学计算机系教授、智谱创立发起人兼首席科学家唐杰发布内部信，宣布将很快推出新一代模型GLM-5，并明确2026年(今年)目标是成为国际领跑的大模型企业。 唐杰在信中提及，DeepSeek的出现给他带来警醒，并表示需要不断改进对AGI、和讯网133m.hexunm.hexun智谱：上市日宣布推GLM - 5，25年战略如期完成-和讯网发布时间：10:33 标题：智谱：上市日宣布推GLM - 5，25年战略如期完成-和讯网 1. GLM-5将通过进一步的Scaling和很多全新技术改101clscls智谱首席科学家唐杰：很快将推出新一代模型GLM-52026年01月08日(今天) 10:53:19 智谱首席科学家唐杰：很快将推出新一代模型GLM-5 《科创板日报》8日讯，《科创板日报》记者获悉，今日智谱上市当天，智谱创立发起人兼首席科学家唐杰发布内部信，宣布将很快推出GLM-5。此外，他还透露智谱新设前沿探索部门X-Lab，聚焦全新模型架构、认知范式研发与新项目孵化，覆盖软硬件领域；同时将扩大对外投资，拓展新赛道以推动行业生态共荣。（记者134cn.investingcn.investing港股异动 | 智谱(02513)盘中拉升逾9% 宣布很快将推出新一代模型 GLM-5 提供者 智通财经发布时间：2026-1-8(今天) 10:42 | 更新时间：2026-1-8(今天) 11:05 智谱宣布推出GLM-5 1. **宣布方式：** 清华大学计算机系教授、智谱创立发起人兼首席科学家唐杰发布内部信101clscls智谱首席科学家唐杰：很快将推出新一代模型GLM-52026年01月08日(今天) 10:53:19 智谱首席科学家唐杰：很快将推出新一代模型GLM-5 《科创板日报》8日讯，《科创板日报》记者获悉，今日智谱上市当天，智谱创立发起人兼首席科学家唐杰发布内部信，宣布将很快推出GLM-5。此外，他还透露智谱新设前沿探索部门X-Lab，聚焦全新模型架构、认知范式研发与新项目孵化，覆盖软硬件领域；同时将扩大对外投资，拓展新赛道以推动行业生态共荣。（记者141ithomeithome智谱港交所敲钟上市，首席科学家唐杰要求公司全面回归基础模型研究 - IT之家2026/1/8(今天) 10:54:39 来源：IT之家 智谱上市GLM-5发布 智谱在港交所主板挂牌上市，清华大学计算机系教授、智谱创立发起人兼首席科学家唐杰在内部信中提到，智谱很快将推出新一代模型 GLM-5。 唐杰在信中提到，智谱2025年如期完成了年初定下的战略，即4月发一个\"稳住阵脚\"的模型、年中发一个\"上牌桌\"的模型（成为 one of the best）、年底发一. **官方表述：** 所有媒体报道一致使用 **\"很快将推出GLM-5\"** 这一表述98finance.sina.comfinance.sina.com智谱盘中拉升逾9% 宣布很快将推出新一代模型GLM-5|智谱\\_新浪财经\\_新浪网2026年01月08日(今天) 11:30 新浪港股 智谱宣布很快将推出新一代模型GLM-5 智谱今日（2026年1月8日）正式登陆港股市场 相关链接 智谱 拉升101clscls智谱首席科学家唐杰：很快将推出新一代模型GLM-52026年01月08日(今天) 10:53:19 智谱首席科学家唐杰：很快将推出新一代模型GLM-5 《科创板日报》8日讯，《科创板日报》记者获悉，今日智谱上市当天，智谱创立发起人兼首席科学家唐杰发布内部信，宣布将很快推出GLM-5。此外，他还透露智谱新设前沿探索部门X-Lab，聚焦全新模型架构、认知范式研发与新项目孵化，覆盖软硬件领域；同时将扩大对外投资，拓展新赛道以推动行业生态共荣。（记者100finance.sina.comfinance.sina.comIPO首日，智谱创立发起人内部信曝光：明确2026年目标，提及梁文锋\\_新浪财经\\_新浪网2026年01月08日 10:36 新浪科技 IPO首日，智谱创立发起人内部信曝光：明确2026年(今年)目标，提及梁文锋 1. GLM-5的宣布消息成为股价上涨的重要催化剂之一98finance.sina.comfinance.sina.com智谱盘中拉升逾9% 宣布很快将推出新一代模型GLM-5|智谱\\_新浪财经\\_新浪网2026年01月08日(今天) 11:30 新浪港股 智谱宣布很快将推出新一代模型GLM-5 智谱今日（2026年1月8日）正式登陆港股市场 相关链接 智谱 拉升134cn.investingcn.investing港股异动 | 智谱(02513)盘中拉升逾9% 宣布很快将推出新一代模型 GLM-5 提供者 智通财经发布时间：2026-1-8(今天) 10:42 | 更新时间：2026-1-8(今天) 11:05 智谱宣布推出GLM-5 1.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-releases",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-releases"
+    ],
+    "id": "item-26",
+    "category": "research-frontier",
+    "trimmed": false
+  },
+  {
+    "title": "2026大模型架构概览（二）：GLM 5 & DSV3.2 - 知乎专栏",
+    "url": "https://zhuanlan.zhihu.com/p/2015756101291894133",
+    "summary": "GLM 5是智谱于2026年2月发布的大语言模型，采用自研的Slime框架进行训练。DeepSeek V3.2的实验版本于2025年9月发布，正式版则于同年12月推出，其核心工作围绕提升训练与",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-releases",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-releases"
+    ],
+    "id": "item-27",
+    "category": "research-frontier",
+    "trimmed": false
+  },
+  {
+    "title": "GLM-5 发布：从“写代码”到“写工程”的范式跃迁",
+    "url": "https://zhuanlan.zhihu.com/p/2005607157459067884",
+    "summary": "2026 年2 月11 日深夜，智谱AI 正式发布新一代旗舰模型GLM-5。这不是一次常规的版本迭代，而是一场针对Agentic Engineering 范式的系统性重构。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-releases",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-releases"
+    ],
+    "id": "item-28",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "GLM-5登顶全球开源第一，25分钟一镜到底搓出完整系统",
+    "url": "https://m.36kr.com/p/3679956803677833",
+    "summary": "2026年伊始，智谱GLM-5震撼空降，以「智能体工程」重塑游戏规则。用Claude七分之一的地板价，国产模型正面硬刚Opus 4.5！ 2月7日深夜，一个代号「Pony Alpha",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-releases",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-releases"
+    ],
+    "id": "item-29",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "2026年4月大模型开源策略突变：GLM坚持真开源，MiniMax转向“伪 ...",
+    "url": "https://post.smzdm.com/p/ak8p25m9/",
+    "summary": "2026年4月，大模型开源与闭源策略迎来关键转折：智谱AI持续开源GLM系列最新版本，Anthropic坚持“核心闭源、生态开源”路线，而MiniMax则在M2.7发布后悄然收",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "bigmodel-releases",
+    "source_count": 1,
+    "sources": [
+      "bigmodel-releases"
+    ],
+    "id": "item-30",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "2026年4月22日 AI 正从实验阶段迅速迈向现实应用",
+    "url": "https://www.facebook.com/decodedatascience/posts/april-22-2026ai-is-rapidly-evolving-beyond-experimentation-into-real-world-impac/930810596418186/",
+    "summary": "2026年4月22日，AI 正从实验阶段迅速迈向实际应用落地。从 OpenAI 推进自主 Agent 到 Google DeepMind 的最新研究。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "deepmind-blog",
+    "source_count": 1,
+    "sources": [
+      "deepmind-blog"
+    ],
+    "id": "item-31",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "April 22, 2026 AI is rapidly evolving beyond experimentation into real",
+    "summary_original": "April 22, 2026 AI is rapidly evolving beyond experimentation into real-world impact. From OpenAI advancing autonomous agents to Google DeepMind"
+  },
+  {
+    "title": "Google DeepMind 宣布2026年在英国设立新 AI 研究实验室",
+    "url": "https://www.computing.co.uk/news/2025/ai/google-deepmind-announces-uk-ai-research-lab",
+    "summary": "Google DeepMind 宣布将在英国建立首个自动化研究实验室，用于发现新材料。该实验室计划于明年启用，将利用 AI 和机器人技术开发新型超导材料。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "deepmind-blog",
+    "source_count": 1,
+    "sources": [
+      "deepmind-blog"
+    ],
+    "id": "item-32",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Google DeepMind announces new AI research lab for UK in 2026",
+    "summary_original": "# Google DeepMind announces new AI research lab for UK in 2026. **Google DeepMind has announced its first \"automated research lab\" in the UK to discover new materials. Google DeepMind plans to open the lab next year, and the facility will use AI and robotics to develop new superconductor materials which will, in turn, be used to develop better medical imaging technology and enhanced materials for semiconductors. The announcement forms what the government hopes will be the centrepiece of the relationship between Google and the UK, with British scientists gaining \"priority access\" to some of the world's most advanced AI tools under the partnership. The government statement is heavy on the possibilities of what this partnership may achieve, including clean energy, smarter public services and the safe use of AI in education, based on Gemini. DeepMind also said it will share its proprietary models and data with the UK AI Security Institute; a government agency set up in 2023 to test and evaluate AI systems."
+  },
+  {
+    "title": "Shakir Mohammed (Google DeepMind) 荣获2026年 AAAI 造福人类人工智能奖",
+    "url": "https://aaai.org/wp-content/uploads/2025/12/AI-to-Benefit-Humanity-2026-Press-Release.pdf",
+    "summary": "Shakir Mohammed 荣获2026年 AAAI 造福人类人工智能奖及25,000美元奖金，表彰其在保护、增强和改善人类生活方面的 AI 研究成果。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "deepmind-blog",
+    "source_count": 1,
+    "sources": [
+      "deepmind-blog"
+    ],
+    "id": "item-33",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "[PDF] Shakir Mohammed (Google Deepmind) wins 2026 AAAI Award for ...",
+    "summary_original": "Shakir Mohammed (Google Deepmind) wins 2026 AAAI Award for Artificial Intelligence for the Benefit of Humanity December 3, 2025 Since 2021, the AAAI Award for Artificial Intelligence for the Benefit of Humanity has recognized for the positive impacts of artificial intelligence to protect, enhance, and improve human life in meaningful ways with long-lived effects. This year, the AAAI Awards Committee is pleased to announce that the 2026 recipient of the award and $25,000 prize is awarded to Shakir Mohammed, for significant contributions to maximizing social benefit by empowering communities worldwide to learn, contribute, debate, and shape how AI is used. Dr. Shakir Mohamed is a world-leading researcher and innovator in AI whose career exemplifies a profound commitment to AI addressing global challenges and for broad societal benefit. The award will be presented at the conference for the Annual Association for the Advancement of Artificial Intelligence (AAAI) in February and is accompanied by a prize of $25,000 plus travel expenses to the conference."
+  },
+  {
+    "title": "顺便说一下，我们正在和 @hhua_ 筹备一些东西",
+    "url": "https://x.com/swyx/status/2048126046487322835",
+    "published_at": "2026-04-25T19:44:36.000Z",
+    "summary": "[Swyx @swyx] 我们正在和 @hhua_ 筹备一些东西（还没最终确定，但请留出 ICML Seoul 之后的时间）",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771361+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-34",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "btw we are cooking something with @hhua_ \n\n(not final yet but keep calendar open…",
+    "summary_original": "[Swyx @swyx · likes:48 rt:0] btw we are cooking something with @hhua_ \n\n(not final yet but keep calendar open after ICML in Seoul) https://t.co/uSUtTZeqmF https://t.co/3jNffEWsUG"
+  },
+  {
+    "title": "又一位工程师加入了'代码并不廉价'的阵营",
+    "url": "https://x.com/swyx/status/2048125100437000512",
+    "published_at": "2026-04-25T19:40:50.000Z",
+    "summary": "[Swyx @swyx] 又一位工程师加入了'代码并不廉价'的阵营",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771381+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-35",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "wow another engineer on the “code is not cheap” train\n\nhttps://t.co/yJDi7S1b0f",
+    "summary_original": "[Swyx @swyx · likes:6 rt:0] wow another engineer on the “code is not cheap” train\n\nhttps://t.co/yJDi7S1b0f"
+  },
+  {
+    "title": "在这个场景中，想想产品经理和工程师各自的想法，挺有意思的",
+    "url": "https://x.com/swyx/status/2047948378659754373",
+    "published_at": "2026-04-25T07:58:37.000Z",
+    "summary": "[Swyx @swyx] 在这个场景中，想想产品经理和工程师各自的想法，挺有意思的",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771382+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-36",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "fun to think about what the pm thinks vs what the engineer thinks in this scenar…",
+    "summary_original": "[Swyx @swyx · likes:44 rt:0] fun to think about what the pm thinks vs what the engineer thinks in this scenario"
+  },
+  {
+    "title": "如果你想知道下一代人对 AI 有什么期待，就让一个7岁小孩用 Codex 试试",
+    "url": "https://x.com/petergyang/status/2048220045726322934",
+    "published_at": "2026-04-26T01:58:07.000Z",
+    "summary": "[Peter Yang @petergyang] 如果你想知道下一代人对 AI 有什么期待，就让一个7岁小孩用 Codex 试试。'什么意思它不能立刻做出一个养龙游戏？我无聊了'",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771384+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-37",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "If you want to know what the next generation expects from AI just use Codex with…",
+    "summary_original": "[Peter Yang @petergyang · likes:65 rt:3] If you want to know what the next generation expects from AI just use Codex with a 7 year old.\n\n\"What do you mean it can't build a pet dragon raising game instantly? I'm bored\" https://t.co/M9wWoIGUtA"
+  },
+  {
+    "title": "有没有好的人工精选技能库，涵盖设计、编程、产品等领域",
+    "url": "https://x.com/petergyang/status/2048190683782201767",
+    "published_at": "2026-04-26T00:01:27.000Z",
+    "summary": "[Peter Yang @petergyang] 有没有好的人工精选技能库，涵盖设计、编程、产品等领域，而不是那种'这里有100个技能自己去筛选'的",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771385+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-38",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Are there good human-curated skill repos for design, coding, product, etc that's…",
+    "summary_original": "[Peter Yang @petergyang · likes:84 rt:3] Are there good human-curated skill repos for design, coding, product, etc that's not \"here's 100 skills you separate the slop yourself\""
+  },
+  {
+    "title": "我经常得让 Codex 帮我修 OpenClaw 的配置",
+    "url": "https://x.com/petergyang/status/2048136116474437869",
+    "published_at": "2026-04-25T20:24:37.000Z",
+    "summary": "[Peter Yang @petergyang] 我经常得让 Codex 帮我修 OpenClaw 的配置 🥲",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771385+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-39",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "I often have to get Codex to fix my OpenClaw set up 🥲",
+    "summary_original": "[Peter Yang @petergyang · likes:96 rt:0] I often have to get Codex to fix my OpenClaw set up 🥲"
+  },
+  {
+    "title": "美国西海岸从 Santa Cruz 往北的整片区域",
+    "url": "https://x.com/thenanyu/status/2048210021553405955",
+    "published_at": "2026-04-26T01:18:17.000Z",
+    "summary": "[Nan Yu @thenanyu] 美国西海岸从 Santa Cruz 往北的整片区域。SF、Marin、Seattle、Portland……要是我们多建些住房就好了",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771386+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-40",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "The entire West Coast of the United States from Santa Cruz on up. SF, Marin, Sea…",
+    "summary_original": "[Nan Yu @thenanyu · likes:13 rt:0] The entire West Coast of the United States from Santa Cruz on up. SF, Marin, Seattle, Portland…\n\nIf only we built housing so that people could actually live there https://t.co/k4eBM6IgcU"
+  },
+  {
+    "title": "站在技术采用最前沿的问题在于，你不得不不断改变做事方式",
+    "url": "https://x.com/thenanyu/status/2048172709075402787",
+    "published_at": "2026-04-25T22:50:01.000Z",
+    "summary": "[Nan Yu @thenanyu] 站在技术采用最前沿的问题在于，随着行业不断学习，你不得不不断改变做事方式。最佳位置是稍微落后几步。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771393+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-41",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "The problem with being on the very bleeding edge of adoption is you’re going to …",
+    "summary_original": "[Nan Yu @thenanyu · likes:55 rt:2] The problem with being on the very bleeding edge of adoption is you’re going to constantly be changing how you do things as the industry learns. \n\nThe sweet spot is just a couple steps behind. Whatever is relatively new, but survives all of the churn."
+  },
+  {
+    "title": "信不信由你，这其实是在说同一件事",
+    "url": "https://x.com/thenanyu/status/2048138965262201281",
+    "published_at": "2026-04-25T20:35:56.000Z",
+    "summary": "[Nan Yu @thenanyu] 信不信由你，这其实是在说同一件事",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771394+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-42",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "This is another way of saying the same thing, believe it or not \n\nhttps://t.co/m…",
+    "summary_original": "[Nan Yu @thenanyu · likes:2 rt:0] This is another way of saying the same thing, believe it or not \n\nhttps://t.co/mhISOTPiX4"
+  },
+  {
+    "title": "我从飞行模拟器中学到的是，当业余Cessna飞行员会有点无聊，但当业余战斗机飞行员会很有趣",
+    "url": "https://x.com/AmandaAskell/status/2048294481955631163",
+    "published_at": "2026-04-26T06:53:54.000Z",
+    "summary": "[Amanda Askell @AmandaAskell] 我从飞行模拟器中学到的是，当业余Cessna飞行员会有点无聊，但当业余战斗机飞行员会非常有趣。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771396+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-43",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "What I'm learning from flight simulators is that it would be a bit boring to be …",
+    "summary_original": "[Amanda Askell @AmandaAskell · likes:76 rt:3] What I'm learning from flight simulators is that it would be a bit boring to be an amateur cessna pilot but a lot of fun to be an amateur fighter jet pilot."
+  },
+  {
+    "title": "2000年代：每家公司都是互联网公司；2010年代：软件公司；2020年代：AI公司；2025+：网络安全公司",
+    "url": "https://x.com/amasad/status/2048265772775162078",
+    "published_at": "2026-04-26T04:59:49.000Z",
+    "summary": "[Amjad Masad @amasad] 2000年代：每家公司都是互联网公司。2010年代：每家公司都是软件公司。2020年代：每家公司都是AI公司。2025+：每家公司都是网络安全公司",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771396+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-44",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "2000s: every company is an internet company\n\n2010s: every company is a software …",
+    "summary_original": "[Amjad Masad @amasad · likes:369 rt:26] 2000s: every company is an internet company\n\n2010s: every company is a software company\n\n2020s: every company is an AI company\n\n2025+: every company is a cybersecurity company"
+  },
+  {
+    "title": "AI让你在几乎所有领域获得前所未有的杠杆效应",
+    "url": "https://x.com/levie/status/2048223146063609965",
+    "published_at": "2026-04-26T02:10:26.000Z",
+    "summary": "[Aaron Levie @levie] AI让你在几乎所有领域获得前所未有的杠杆效应。我们正处于一个独特的历史时刻，任何在某个领域拥有强烈进取心和核心技能的人，都可以打破许多传统的经验门槛。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771397+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-45",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Great read. AI lets you get tremendous leverage that wasn’t available before in …",
+    "summary_original": "[Aaron Levie @levie · likes:396 rt:40] Great read. AI lets you get tremendous leverage that wasn’t available before in almost any domain. \n\nThat means we’re at a unique moment in history where anyone with a high level of ambition and core skills in any area can overcome a lot of historical experience requirements for their role.\n\nThis can apply to anyone who’s junior or senior, but it’s pretty sweet that you can do far more than you could have accomplished as a newer employee than even a couple years ago. The people that take advantage of this will get ahead massively. \n\nAnd the companies that find this talent within or outside should put them in key positions to get as much out of them as possible. These people will seem strange and from the future, but they will help you figure out where things are going. Everyone company should be doing whatever they can to find them."
+  },
+  {
+    "title": "发布GBrain v0.22 - 大量搜索和检索修复以及新的评估系统",
+    "url": "https://x.com/garrytan/status/2048290087318773807",
+    "published_at": "2026-04-26T06:36:26.000Z",
+    "summary": "[Garry Tan @garrytan] 发布GBrain v0.22 - 大量搜索和检索修复，以及新的评估系统（gbrain-evals现已拆分为独立仓库）",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771398+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-46",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Releaseing GBrain v0.22 - lots of fixes to search and retireval and a new eval s…",
+    "summary_original": "[Garry Tan @garrytan · likes:41 rt:3] Releaseing GBrain v0.22 - lots of fixes to search and retireval and a new eval system (gbrain-evals is now a separate repo to prevent checkout bloat) https://t.co/qVAQjQeReV"
+  },
+  {
+    "title": "免费安装方法：进入Claude Code输入Install GStack",
+    "url": "https://x.com/garrytan/status/2048279121034101147",
+    "published_at": "2026-04-26T05:52:52.000Z",
+    "summary": "[Garry Tan @garrytan] 免费安装方法：进入Claude Code输入Install GStack，运行浏览器输入/open-gstack-browser",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771400+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-47",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "To install for free, Go to Claude Code and type Install GStack and to run the br…",
+    "summary_original": "[Garry Tan @garrytan · likes:14 rt:0] To install for free, Go to Claude Code and type Install GStack and to run the browser, type /open-gstack-browser\n\nhttps://t.co/VPvWDzUxms"
+  },
+  {
+    "title": "你是否想过在Claude Code旁边同时控制浏览器？GStack Browser让这成为可能",
+    "url": "https://x.com/garrytan/status/2048278995121094868",
+    "published_at": "2026-04-26T05:52:22.000Z",
+    "summary": "[Garry Tan @garrytan] 你是否想过在Claude Code旁边同时控制浏览器？现在通过/open-gstack-browser技能和GStack Browser就可以实现了",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771401+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-48",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Did you ever want to control your browser side-by-side with Claude Code? Now, wi…",
+    "summary_original": "[Garry Tan @garrytan · likes:111 rt:3] Did you ever want to control your browser side-by-side with Claude Code? Now, with /open-gstack-browser skill and GStack Browser, you can https://t.co/dT0dUd3MhF"
+  },
+  {
+    "title": "When I sit down at my computer and start typing, that's not the beginning of wri…",
+    "url": "https://x.com/zarazhangrui/status/2048101948826751429",
+    "published_at": "2026-04-25T18:08:51.000Z",
+    "summary": "[Zara Zhang @zarazhangrui · likes:75 rt:7] When I sit down at my computer and start typing, that's not the beginning of writing. It's the LAST step. 80% of the writing is already done. It just happened in my head.\n\n- Writing ≠ generating text\n- Building product ≠ writing PRDs\n- Designing ≠ making mockups\n- Engineering ≠ writing code",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771401+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-49",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "Every time I pass by my neighbors side door I get this visceral feeling this is …",
+    "url": "https://x.com/nikunj/status/2048107926012002461",
+    "published_at": "2026-04-25T18:32:36.000Z",
+    "summary": "[Nikunj Kothari @nikunj · likes:52 rt:0] Every time I pass by my neighbors side door I get this visceral feeling this is a portal to another universe.. https://t.co/wmLKvqlRnw",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771403+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-50",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "Brevity and clarity is what’s missing in most writing..\n\nI’ll go weeks without w…",
+    "url": "https://x.com/nikunj/status/2048056524845482131",
+    "published_at": "2026-04-25T15:08:21.000Z",
+    "summary": "[Nikunj Kothari @nikunj · likes:84 rt:1] Brevity and clarity is what’s missing in most writing..\n\nI’ll go weeks without writing something publicly because I feel like I’m putting the onus of my muddy thoughts on the reader. \n\nThe best writing is able to communicate cleanly the crux of the matter and share a thread that’s simmering but not explored fully. \n\nWriting is still easier since you can edit and reframe anytime. I’m in awe of folks who are able to speak clearly and on the spot on any topic. \n\nOne day I hope to get there 🤞",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771404+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-51",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "Summarize 📝0.14.0 is out.\n\nGPT-5.5 Fast mode via `--fast`, Reddit thread extract…",
+    "url": "https://x.com/steipete/status/2048275589224628677",
+    "published_at": "2026-04-26T05:38:50.000Z",
+    "summary": "[Peter Steinberger @steipete · likes:192 rt:12] Summarize 📝0.14.0 is out.\n\nGPT-5.5 Fast mode via `--fast`, Reddit thread extraction in the browser extension, local PDF `--extract`, and fixes for auto model config + Meta site compatibility. https://t.co/sbqbYupQ9Y",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771404+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-52",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "CodexBar 🎚️ 0.23 is out:\n\nMistral support, Claude Designs/Daily Routines usage, …",
+    "url": "https://x.com/steipete/status/2048252455817785357",
+    "published_at": "2026-04-26T04:06:54.000Z",
+    "summary": "[Peter Steinberger @steipete · likes:214 rt:13] CodexBar 🎚️ 0.23 is out:\n\nMistral support, Claude Designs/Daily Routines usage, Cursor Extra usage, GPT-5.5 pricing, cleaner widgets/menus, and a bunch of reliability fixes. https://t.co/X4FXCEmAFG",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771406+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-53",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "GitHub folks are amazing while we melt their servers. https://t.co/A4TFl16Jlr",
+    "url": "https://x.com/steipete/status/2048185940267380815",
+    "published_at": "2026-04-25T23:42:36.000Z",
+    "summary": "[Peter Steinberger @steipete · likes:381 rt:18] GitHub folks are amazing while we melt their servers. https://t.co/A4TFl16Jlr",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771407+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-54",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "what we observe is never the model itself, only the model exposed to our method …",
+    "url": "https://x.com/danshipper/status/2048026505461080076",
+    "published_at": "2026-04-25T13:09:04.000Z",
+    "summary": "[Dan Shipper @danshipper · likes:131 rt:6] what we observe is never the model itself, only the model exposed to our method of questioning",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771407+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-55",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "how can they write code so fast?! https://t.co/xjZACrnogB",
+    "url": "https://x.com/sama/status/2048165186482389253",
+    "published_at": "2026-04-25T22:20:08.000Z",
+    "summary": "[Sam Altman @sama · likes:2574 rt:61] how can they write code so fast?! https://t.co/xjZACrnogB",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771408+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-56",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "(and we will fix the former)",
+    "url": "https://x.com/sama/status/2048160448340767038",
+    "published_at": "2026-04-25T22:01:18.000Z",
+    "summary": "[Sam Altman @sama · likes:2312 rt:21] (and we will fix the former)",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771409+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-57",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "we still get looksmaxxed on frontend a little but we IQmog hard now",
+    "url": "https://x.com/sama/status/2048160404376105179",
+    "published_at": "2026-04-25T22:01:08.000Z",
+    "summary": "[Sam Altman @sama · likes:14293 rt:656] we still get looksmaxxed on frontend a little but we IQmog hard now",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-04-27T02:01:36.771410+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-58",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "Codex不再局限于编程",
+    "url": "https://every.to/emails/click/1e491f11bff4b3a41ec08c7cd71f9d9e573fd1f8b8a6d972e1964c551d158584/eyJzdWJqZWN0IjoiQ29kZXggTW92ZXMgQmV5b25kIENvZGluZyIsInBvc3RfaWQiOjQxMzMsInBvc3RfdHlwZSI6InBvc3QiLCJ1cmwiOiJodHRwczovL2V2ZXJ5LnRvLyIsInBvc2l0aW9uIjowfQ==",
+    "published_at": "2026-04-26T12:04:16+00:00",
+    "summary": "另外：我们的GPT-5.5基准测试、Monologue Notes，以及成为终端重度用户",
+    "source_detail": "Every <hello@every.to>",
+    "language": "en",
+    "fetched_at": "2026-04-27T02:01:34.820330+00:00",
+    "recent": true,
+    "source": "gmail-ai-newsletter",
+    "source_count": 1,
+    "sources": [
+      "gmail-ai-newsletter"
+    ],
+    "id": "item-59",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "Codex Moves Beyond Coding",
+    "summary_original": "Plus: Our GPT-5.5 benchmark, Monologue Notes, and becoming terminal-pilled"
+  },
+  {
+    "title": "AI每日动态 2026年4月25日：全球AI要闻",
+    "url": "https://medium.com/@stephen.stanley777/ai-daily-update-april-25-2026-bd7544cc2758",
+    "summary": "Google计划向AI公司Anthropic投资高达400亿美元，初始承诺100亿美元",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-60",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "AI Daily Update April-25-2026. Global AI highlights (last ~24 hours)",
+    "summary_original": "Google is planning to invest up to $40 billion in AI firm Anthropic, with an initial $10 billion commitment and further funding tied to"
+  },
+  {
+    "title": "Google Ai Blog April 2026 - Instagram",
+    "url": "https://www.instagram.com/popular/google-ai-blog-april-2026/",
+    "summary": "Google Ai Blog April 2026 · Google just made AI 8x faster with zero accuracy loss. TurboQuant compresses the KV cache · The Fastest Tech Adoption",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-61",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "Google Analytics资讯 | 2026年4月（创业公司版）",
+    "url": "https://blog.mean.ceo/google-analytics-news-april-2026/",
+    "summary": "Google Analytics重大新闻涉及2026年4月前的主要更新，重点包括AI驱动的自动化、跨设备追踪等。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-62",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Google Analytics News | April, 2026 (STARTUP EDITION)",
+    "summary_original": "The big Google Analytics news involves major updates by April 2026, focusing on AI-driven automation, cross-device tracking,"
+  },
+  {
+    "title": "Google I/O 2026即将开幕，AI相关发布可能改变创业公司的构建方式",
+    "url": "https://startupfortune.com/google-io-2026-is-about-to-happen-and-the-ai-announcements-could-change-how-startups-build/",
+    "summary": "Google I/O 2026即将开幕，将于5月19日以太平洋时间上午10点的主题演讲拉开序幕。预告了智能体编程、Gemini更新、多模态媒体生成和机器人演示。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-63",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Google I/O 2026 is about to happen and the AI announcements ...",
+    "summary_original": "# Google I/O 2026 is about to happen and the AI announcements could change how startups build. *Google I/O kicks off May 19 with a keynote at 10 a.m. PT, and developers are already dissecting the agenda for what could be Google’s strongest AI showcase since Gemini 1.5 , with agentic coding, Gemini updates, multimodal media generation, and robotics demos all explicitly teased, at a time when OpenAI, Anthropic, and Chinese labs are shipping frontier models at near-monthly cadence.*. Startups building AI developer tools need models that autonomously handle boilerplate, debug multi-step workflows, and integrate with IDEs. Google’s AICore Developer Preview already supports tool calling, structured output, system prompts, and thinking mode. **Also read:** Google DeepMind’s Ace robot becomes the first AI system to beat elite table tennis players in real matches • Young men are choosing AI girlfriends over real relationships and the consequences are only beginning • Alibaba’s Qwen3.6-27B beats a 397B model on coding benchmarks and runs on a single consumer GPU."
+  },
+  {
+    "title": "Google 2026年3月最新AI动态",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+    "summary": "Google 2026年3月AI动态汇总，涵盖Gemini模型、Gemini应用、NotebookLM等更新。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-64",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "The latest AI news we announced in March 2026 - Google Blog",
+    "summary_original": "[Skip to main content](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/#jump-content). [Share](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). [See all](https://blog.google/innovation-and-ai/products/ \"See all Products articles\"). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [How can I learn new AI skills?](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/#). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). 2.   [Innovation & AI](https://blog.google/innovation-and-ai/). 3.   [Technology](https://blog.google/innovation-and-ai/technology/). 4.   [AI](https://blog.google/innovation-and-ai/technology/ai/). [Share](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/). [Share](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/). [**We expanded Search Live globally to everywhere AI Mode is available**](https://blog.google/products-and-platforms/products/search/search-live-global-expansion/). We also made [Canvas in AI Mode available throughout the U.S](https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/). [**We introduced tools to help people switch to Gemini**](https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/). [**We released new AI features for your devices in the March Pixel Drop**](https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/). [**We announced new tools and partnerships to support your health at The Check Up 2026**](https://blog.google/innovation-and-ai/technology/health/google-health-check-up-2026/). *   [AI](https://blog.google/innovation-and-ai/technology/ai/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). Apr 24, 2026](https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/)."
+  },
+  {
+    "title": "Google Gemini资讯 | 2026年4月（创业公司版）",
+    "url": "https://blog.mean.ceo/google-gemini-news-april-2026/",
+    "summary": "面向创业者的Google Gemini最新动态，包括创业者应关注的要点、常见误区以及AI行业趋势信号。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-65",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Google Gemini News | April, 2026 (STARTUP EDITION)",
+    "summary_original": "[Toggle](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [Check out other fresh news that you might like:](https://blog.mean.ceo/google-gemini-news-april-2026/#Check_out_other_fresh_news_that_you_might_like). *   [Why Entrepreneurs Should Care](https://blog.mean.ceo/google-gemini-news-april-2026/#Why_Entrepreneurs_Should_Care). *   [Common Mistakes to Avoid](https://blog.mean.ceo/google-gemini-news-april-2026/#Common_Mistakes_to_Avoid). *   [What This Signals for the AI Landscape in 2026](https://blog.mean.ceo/google-gemini-news-april-2026/#What_This_Signals_for_the_AI_Landscape_in_2026). *   [People Also Ask:](https://blog.mean.ceo/google-gemini-news-april-2026/#People_Also_Ask). *   [Is Google Gemini free?](https://blog.mean.ceo/google-gemini-news-april-2026/#Is_Google_Gemini_free). *   [What is the Google Gemini app?](https://blog.mean.ceo/google-gemini-news-april-2026/#What_is_the_Google_Gemini_app). *   [FAQ on Google Gemini for Entrepreneurs and Startups](https://blog.mean.ceo/google-gemini-news-april-2026/#FAQ_on_Google_Gemini_for_Entrepreneurs_and_Startups). *   [How can Google Gemini help startups scale their productivity?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_can_Google_Gemini_help_startups_scale_their_productivity). *   [How does Gemini’s cross-platform import impact businesses already using AI tools like ChatGPT?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_does_Geminis_cross-platform_import_impact_businesses_already_using_AI_tools_like_ChatGPT). *   [How should startups ensure data privacy while using Personal Intelligence?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_should_startups_ensure_data_privacy_while_using_Personal_Intelligence). *   [How does Gemini improve lead management for startups?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_does_Gemini_improve_lead_management_for_startups). *   [What mistakes do small teams make while adopting AI tools like Gemini?](https://blog.mean.ceo/google-gemini-news-april-2026/#What_mistakes_do_small_teams_make_while_adopting_AI_tools_like_Gemini). *   [How does Personal Intelligence support business decision-making?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_does_Personal_Intelligence_support_business_decision-making). *   [What opportunities does Gemini’s AI personalization open for marketing automation?](https://blog.mean.ceo/google-gemini-news-april-2026/#What_opportunities_does_Geminis_AI_personalization_open_for_marketing_automation). *   [About the Author](https://blog.mean.ceo/google-gemini-news-april-2026/#About_the_Author). *   [Violetta Bonenkamp](https://blog.mean.ceo/google-gemini-news-april-2026/#Violetta_Bonenkamp). [Learn how AI empowers solopreneurs](https://blog.mean.ceo/google-gemini-news-march-2026/). *   [Twitter](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [Facebook](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [LinkedIn](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [YouTube](https://blog.mean.ceo/google-gemini-news-april-2026/#). [Privacy Policy](https://blog.mean.ceo/google-gemini-news-april-2026/#). [Terms and Conditions](https://blog.mean.ceo/google-gemini-news-april-2026/#)."
+  },
+  {
+    "title": "Google.org Impact Challenge：AI助力政府创新",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/global-impact-challenge-ai-government-2026/",
+    "summary": "Google.org推出全新Impact Challenge：AI助力政府创新。数据显示80%公务员认为AI正在赋能他们，但只有18%认为政府在有效使用AI。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-66",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "We’re announcing the new Google.org Impact Challenge: AI for Government Innovation.",
+    "summary_original": "We’re announcing the new Google.org Impact Challenge: AI for Government Innovation. [\"How can teachers and students use AI?\", \"What are the newest features in Chrome?\", \"How can I learn new AI skills?\"]. Government AI adoption isn't just a technical upgrade, it's a way to solve real world challenges and drive societal impact for communities. Yet new data reveals that while 80% of public servants say AI is empowering them, only 18% believe their governments are currently using AI effectively. To help close the gap between promise and practice, we’re launching a $30 million Google.org Impact Challenge: AI for Government Innovation. Selected organizations will receive funding and participate in a Google.org Accelerator, receiving engineering support, technical mentorship and Google infrastructure to scale their solutions. Applications are open until April 3, 2026 — apply now and join us in our goal to enable government innovation and transform how public services function for social good."
+  },
+  {
+    "title": "Google AI新动态 - Google I/O 2026",
+    "url": "https://io.google/2026/explore/pa-keynote-1",
+    "summary": "Google I/O 2026：Google AI最新进展概览。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "google-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-67",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "What's new in Google AI - Google I/O 2026",
+    "summary_original": "# Google I/O 2026: What's new in Google AI. [Skip to main content](https://io.google/2026/explore/pa-keynote-1#main-content). ![Image 1](https://io.google/2026/assets/images/hamburger.svg)![Image 2](https://io.google/2026/assets/images/hamburger-dark.svg)[![Image 3](https://io.google/2026/assets/images/Logo.svg)![Image 4](https://io.google/2026/assets/images/Logo-white.svg)![Image 5](https://io.google/2026/assets/images/Logo.svg)![Image 6](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/). [![Image 7](https://io.google/2026/assets/images/Logo.svg)![Image 8](https://io.google/2026/assets/images/Logo-white.svg)![Image 9](https://io.google/2026/assets/images/Logo.svg)![Image 10](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/)[Community](https://io.google/2026/community)[About](https://io.google/2026/about). ![Image 11](https://io.google/2026/assets/images/io26-session-hero-left.webp). # What's new in Google AI. May 19 | 3:30 pm - 4:15 pm PT. ![Image 12](https://io.google/2026/assets/images/io26-session-hero-right.webp). ## Overview. Explore Google's end-to-end AI stack. Learn about the latest model capabilities across multimodal, media generation, and robotics, and how to leverage them using Google’s infrastructure. Whether you are building intelligent agents, utilizing new vibe-coding tools, or tuning and serving open-source models, gain a clear understanding of the tools needed to build next-generation AI apps. ## Speakers. [![Image 13](https://io.google/2026/assets/images/Logo-white.svg)![Image 14](https://io.google/2026/assets/images/Logo.svg)![Image 15](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/)[I/O puzzle](https://io.google/2026/puzzle/)[Privacy & terms](https://policies.google.com/)[FAQ](https://io.google/2026/about)[Join user research](https://research.rallyuxr.com/recruit/cm20o1w2l00001ald8mja8tb8/form/cmo7hrqmi0si3i5mm0c6q5fk6/splash?ref=UXRZlqO2026113)[![Image 16](https://io.google/2026/assets/images/x-white.svg)![Image 17](https://io.google/2026/assets/images/x-white.svg)![Image 18](https://io.google/2026/assets/images/x.svg)](https://twitter.com/googledevs)[![Image 19](https://io.google/2026/assets/images/linkedIn-white.svg)![Image 20](https://io.google/2026/assets/images/linkedIn-white.svg)![Image 21](https://io.google/2026/assets/images/linkedIn.svg)](https://www.linkedin.com/showcase/googledevelopers/)[![Image 22](https://io.google/2026/assets/images/instagram-white.svg)![Image 23](https://io.google/2026/assets/images/instagram-white.svg)![Image 24](https://io.google/2026/assets/images/instagram.svg)](https://www.instagram.com/googlefordevs/)[![Image 25](https://io.google/2026/assets/images/tiktok-white.svg)![Image 26](https://io.google/2026/assets/images/tiktok-white.svg)![Image 27](https://io.google/2026/assets/images/tiktok.svg)](https://www.tiktok.com/@googlefordevs). ## New content is available."
+  },
+  {
+    "title": "西方已经忘记了如何制造东西，现在又在忘记如何写代码",
+    "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
+    "published_at": "2026-04-26T06:24:42+00:00",
+    "summary": "HN评分：1089 · 评论：770",
+    "language": "en",
+    "hn_id": 47907879,
+    "hn_url": "https://news.ycombinator.com/item?id=47907879",
+    "hn_score": 1089,
+    "hn_comments": 770,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863934+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-68",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "The West forgot how to make things, now it’s forgetting how to code",
+    "summary_original": "HN score: 1089 · comments: 770 · by: milkglass"
+  },
+  {
+    "title": "借助ChatGPT，一位业余爱好者解决了一个Erdős问题",
+    "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+    "published_at": "2026-04-25T17:40:38+00:00",
+    "summary": "HN评分：742 · 评论：521",
+    "language": "en",
+    "hn_id": 47903126,
+    "hn_url": "https://news.ycombinator.com/item?id=47903126",
+    "hn_score": 742,
+    "hn_comments": 521,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863945+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-69",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Amateur armed with ChatGPT solves an Erdős problem",
+    "summary_original": "HN score: 742 · comments: 521 · by: pr337h4m"
+  },
+  {
+    "title": "新款10 GbE USB网卡更凉、更小、更便宜",
+    "url": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/",
+    "published_at": "2026-04-25T05:56:12+00:00",
+    "summary": "HN评分：602 · 评论：362",
+    "language": "en",
+    "hn_id": 47899053,
+    "hn_url": "https://news.ycombinator.com/item?id=47899053",
+    "hn_score": 602,
+    "hn_comments": 362,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863947+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-70",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "New 10 GbE USB adapters are cooler, smaller, cheaper",
+    "summary_original": "HN score: 602 · comments: 362 · by: calcifer"
+  },
+  {
+    "title": "Asahi Linux进展：Linux 7.0",
+    "url": "https://asahilinux.org/2026/04/progress-report-7-0/",
+    "published_at": "2026-04-26T10:50:32+00:00",
+    "summary": "HN评分：592 · 评论：290",
+    "language": "en",
+    "hn_id": 47909226,
+    "hn_url": "https://news.ycombinator.com/item?id=47909226",
+    "hn_score": 592,
+    "hn_comments": 290,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863950+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-71",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Asahi Linux Progress Linux 7.0",
+    "summary_original": "HN score: 592 · comments: 290 · by: elisaado"
+  },
+  {
+    "title": "GoDaddy在没有任何文件证明的情况下将域名转给了陌生人",
+    "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+    "published_at": "2026-04-26T16:57:56+00:00",
+    "summary": "HN评分：548 · 评论：218",
+    "language": "en",
+    "hn_id": 47911780,
+    "hn_url": "https://news.ycombinator.com/item?id=47911780",
+    "hn_score": 548,
+    "hn_comments": 218,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863951+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-72",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "GoDaddy gave a domain to a stranger without any documentation",
+    "summary_original": "HN score: 548 · comments: 218 · by: jamesponddotco"
+  },
+  {
+    "title": "Tell HN：一个应用每天在我的iPhone上悄悄自动安装",
+    "url": "https://news.ycombinator.com/item?id=47906253",
+    "published_at": "2026-04-26T00:50:56+00:00",
+    "summary": "HN评分：534 · 评论：178",
+    "language": "en",
+    "hn_id": 47906253,
+    "hn_url": "https://news.ycombinator.com/item?id=47906253",
+    "hn_score": 534,
+    "hn_comments": 178,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863952+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-73",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Tell HN: An app is silently installing itself on my iPhone every day",
+    "summary_original": "HN score: 534 · comments: 178 · by: _-x-_"
+  },
+  {
+    "title": "Trump解雇NSF监督委员会",
+    "url": "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board",
+    "published_at": "2026-04-25T22:39:33+00:00",
+    "summary": "HN评分：498 · 评论：300",
+    "language": "en",
+    "hn_id": 47905283,
+    "hn_url": "https://news.ycombinator.com/item?id=47905283",
+    "hn_score": 498,
+    "hn_comments": 300,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863953+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-74",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Trump fires NSF's oversight board",
+    "summary_original": "HN score: 498 · comments: 300 · by: skullone"
+  },
+  {
+    "title": "USB速查表（2022）",
+    "url": "https://fabiensanglard.net/usbcheat/index.html",
+    "published_at": "2026-04-25T21:51:18+00:00",
+    "summary": "HN评分：487 · 评论：83",
+    "language": "en",
+    "hn_id": 47904876,
+    "hn_url": "https://news.ycombinator.com/item?id=47904876",
+    "hn_score": 487,
+    "hn_comments": 83,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863958+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-75",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "USB Cheat Sheet (2022)",
+    "summary_original": "HN score: 487 · comments: 83 · by: gwerbret"
+  },
+  {
+    "title": "一个AI智能体删除了我们的生产数据库，以下是它的'供词'",
+    "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+    "published_at": "2026-04-26T16:27:29+00:00",
+    "summary": "HN评分：454 · 评论：628",
+    "language": "en",
+    "hn_id": 47911524,
+    "hn_url": "https://news.ycombinator.com/item?id=47911524",
+    "hn_score": 454,
+    "hn_comments": 628,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863960+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-76",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "An AI agent deleted our production database. The agent's confession is below",
+    "summary_original": "HN score: 454 · comments: 628 · by: jeremyccrane"
+  },
+  {
+    "title": "为什么阿尔茨海默病的研究进展如此缓慢？",
+    "url": "https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/",
+    "published_at": "2026-04-26T00:12:47+00:00",
+    "summary": "HN评分：406 · 评论：286",
+    "language": "en",
+    "hn_id": 47905984,
+    "hn_url": "https://news.ycombinator.com/item?id=47905984",
+    "hn_score": 406,
+    "hn_comments": 286,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863963+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-77",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Why has there been so little progress on Alzheimer's disease?",
+    "summary_original": "HN score: 406 · comments: 286 · by: chiefalchemist"
+  },
+  {
+    "title": "我花3万美元买下了Friendster——这是我打算怎么做",
+    "url": "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d",
+    "published_at": "2026-04-26T20:41:06+00:00",
+    "summary": "HN评分：405 · 评论：230",
+    "language": "en",
+    "hn_id": 47914165,
+    "hn_url": "https://news.ycombinator.com/item?id=47914165",
+    "hn_score": 405,
+    "hn_comments": 230,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863964+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-78",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "I bought Friendster for $30k – Here's what I'm doing with it",
+    "summary_original": "HN score: 405 · comments: 230 · by: ca98am79"
+  },
+  {
+    "title": "Using coding assistance tools to revive projects you never were going to finish",
+    "url": "https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/",
+    "published_at": "2026-04-25T16:11:50+00:00",
+    "summary": "HN score: 352 · comments: 227 · by: speckx",
+    "language": "en",
+    "hn_id": 47902525,
+    "hn_url": "https://news.ycombinator.com/item?id=47902525",
+    "hn_score": 352,
+    "hn_comments": 227,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863965+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-79",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "EU Age Control: The trojan horse for digital IDs",
+    "url": "https://juraj.bednar.io/en/blog-en/2026/04/17/eu-age-control-the-trojan-horse-for-digital-ids/",
+    "published_at": "2026-04-26T03:44:28+00:00",
+    "summary": "HN score: 329 · comments: 183 · by: gasull",
+    "language": "en",
+    "hn_id": 47907130,
+    "hn_url": "https://news.ycombinator.com/item?id=47907130",
+    "hn_score": 329,
+    "hn_comments": 183,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863966+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-80",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "AI should elevate your thinking, not replace it",
+    "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+    "published_at": "2026-04-26T20:03:12+00:00",
+    "summary": "HN score: 283 · comments: 241 · by: koshyjohn",
+    "language": "en",
+    "hn_id": 47913650,
+    "hn_url": "https://news.ycombinator.com/item?id=47913650",
+    "hn_score": 283,
+    "hn_comments": 241,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863973+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-81",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Statecharts: hierarchical state machines",
+    "url": "https://statecharts.dev/",
+    "published_at": "2026-04-26T09:32:22+00:00",
+    "summary": "HN score: 280 · comments: 79 · by: sph",
+    "language": "en",
+    "hn_id": 47908833,
+    "hn_url": "https://news.ycombinator.com/item?id=47908833",
+    "hn_score": 280,
+    "hn_comments": 79,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863974+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-82",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
+    "url": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo",
+    "published_at": "2026-04-26T20:56:30+00:00",
+    "summary": "HN score: 253 · comments: 198 · by: berkeleyjunk",
+    "language": "en",
+    "hn_id": 47914350,
+    "hn_url": "https://news.ycombinator.com/item?id=47914350",
+    "hn_score": 253,
+    "hn_comments": 198,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863977+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-83",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "SWE-bench Verified no longer measures frontier coding capabilities",
+    "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+    "published_at": "2026-04-26T13:58:13+00:00",
+    "summary": "HN score: 250 · comments: 141 · by: kmdupree",
+    "language": "en",
+    "hn_id": 47910388,
+    "hn_url": "https://news.ycombinator.com/item?id=47910388",
+    "hn_score": 250,
+    "hn_comments": 141,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863978+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-84",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Niri 26.04: Scrollable-tiling Wayland compositor",
+    "url": "https://github.com/niri-wm/niri/releases/tag/v26.04",
+    "published_at": "2026-04-25T15:59:15+00:00",
+    "summary": "HN score: 241 · comments: 82 · by: nickjj",
+    "language": "en",
+    "hn_id": 47902416,
+    "hn_url": "https://news.ycombinator.com/item?id=47902416",
+    "hn_score": 241,
+    "hn_comments": 82,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863979+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-85",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Issue links now open in a popup",
+    "url": "https://github.com/orgs/community/discussions/192666",
+    "published_at": "2026-04-26T14:18:38+00:00",
+    "summary": "HN score: 229 · comments: 122 · by: luckman212",
+    "language": "en",
+    "hn_id": 47910546,
+    "hn_url": "https://news.ycombinator.com/item?id=47910546",
+    "hn_score": 229,
+    "hn_comments": 122,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863980+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-86",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Waymo says can't avoid bike lanes because riders want to be dropped off in them",
+    "url": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
+    "published_at": "2026-04-26T18:34:31+00:00",
+    "summary": "HN score: 207 · comments: 299 · by: randycupertino",
+    "language": "en",
+    "hn_id": 47912645,
+    "hn_url": "https://news.ycombinator.com/item?id=47912645",
+    "hn_score": 207,
+    "hn_comments": 299,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863981+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-87",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Turbo Vision 2.0 – a modern port",
+    "url": "https://github.com/magiblot/tvision",
+    "published_at": "2026-04-25T04:18:01+00:00",
+    "summary": "HN score: 201 · comments: 58 · by: andsoitis",
+    "language": "en",
+    "hn_id": 47898597,
+    "hn_url": "https://news.ycombinator.com/item?id=47898597",
+    "hn_score": 201,
+    "hn_comments": 58,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863982+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-88",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Clay PCB Tutorial",
+    "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+    "published_at": "2026-04-26T16:02:14+00:00",
+    "summary": "HN score: 194 · comments: 121 · by: j0r0b0",
+    "language": "en",
+    "hn_id": 47911350,
+    "hn_url": "https://news.ycombinator.com/item?id=47911350",
+    "hn_score": 194,
+    "hn_comments": 121,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863983+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-89",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Simulacrum of Knowledge Work",
+    "url": "https://blog.happyfellow.dev/simulacrum-of-knowledge-work/",
+    "published_at": "2026-04-25T17:20:34+00:00",
+    "summary": "HN score: 191 · comments: 79 · by: thehappyfellow",
+    "language": "en",
+    "hn_id": 47902987,
+    "hn_url": "https://news.ycombinator.com/item?id=47902987",
+    "hn_score": 191,
+    "hn_comments": 79,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863984+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-90",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Martin Galway's music source files from 1980's Commodore 64 games",
+    "url": "https://github.com/MartinGalway/C64_music",
+    "published_at": "2026-04-25T10:46:14+00:00",
+    "summary": "HN score: 191 · comments: 29 · by: ingve",
+    "language": "en",
+    "hn_id": 47900398,
+    "hn_url": "https://news.ycombinator.com/item?id=47900398",
+    "hn_score": 191,
+    "hn_comments": 29,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863984+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-91",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Discret 11, the French TV encryption of the 80s (2020)",
+    "url": "https://fabiensanglard.net/discret11/",
+    "published_at": "2026-04-25T11:10:41+00:00",
+    "summary": "HN score: 175 · comments: 32 · by: adunk",
+    "language": "en",
+    "hn_id": 47900478,
+    "hn_url": "https://news.ycombinator.com/item?id=47900478",
+    "hn_score": 175,
+    "hn_comments": 32,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863986+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-92",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "GnuPG – post-quantum crypto landing in mainline",
+    "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
+    "published_at": "2026-04-26T03:25:02+00:00",
+    "summary": "HN score: 163 · comments: 55 · by: zdkaster",
+    "language": "en",
+    "hn_id": 47907018,
+    "hn_url": "https://news.ycombinator.com/item?id=47907018",
+    "hn_score": 163,
+    "hn_comments": 55,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863986+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-93",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "The Super Nintendo Cartridges (2024)",
+    "url": "https://fabiensanglard.net/snes_carts/",
+    "published_at": "2026-04-26T00:38:01+00:00",
+    "summary": "HN score: 161 · comments: 24 · by: offbyone42",
+    "language": "en",
+    "hn_id": 47906161,
+    "hn_url": "https://news.ycombinator.com/item?id=47906161",
+    "hn_score": 161,
+    "hn_comments": 24,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863987+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-94",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Dillo Browser Release 3.3.0",
+    "url": "https://dillo-browser.org/release/3.3.0/",
+    "published_at": "2026-04-26T17:18:14+00:00",
+    "summary": "HN score: 158 · comments: 24 · by: rodarima",
+    "language": "en",
+    "hn_id": 47911977,
+    "hn_url": "https://news.ycombinator.com/item?id=47911977",
+    "hn_score": 158,
+    "hn_comments": 24,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863988+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-95",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "America's Geothermal Breakthrough",
+    "url": "https://oilprice.com/Alternative-Energy/Geothermal-Energy/Americas-Geothermal-Breakthrough-Could-Unlock-a-150-Gigawatt-Energy-Revolution.html",
+    "published_at": "2026-04-25T19:38:55+00:00",
+    "summary": "HN score: 157 · comments: 164 · by: sleepyguy",
+    "language": "en",
+    "hn_id": 47903945,
+    "hn_url": "https://news.ycombinator.com/item?id=47903945",
+    "hn_score": 157,
+    "hn_comments": 164,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863989+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-96",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Framework Laptop 13 Pro: Major Upgrades and Linux Front and Center",
+    "url": "https://boilingsteam.com/framework-laptop-13-pro-announced/",
+    "published_at": "2026-04-25T16:54:28+00:00",
+    "summary": "HN score: 154 · comments: 127 · by: ekianjo",
+    "language": "en",
+    "hn_id": 47902816,
+    "hn_url": "https://news.ycombinator.com/item?id=47902816",
+    "hn_score": 154,
+    "hn_comments": 127,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863990+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-97",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Fast16: High-precision software sabotage 5 years before Stuxnet",
+    "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
+    "published_at": "2026-04-26T20:18:37+00:00",
+    "summary": "HN score: 153 · comments: 43 · by: dd23",
+    "language": "en",
+    "hn_id": 47913855,
+    "hn_url": "https://news.ycombinator.com/item?id=47913855",
+    "hn_score": 153,
+    "hn_comments": 43,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863992+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-98",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Can you stop beans from making you gassy?",
+    "url": "https://www.seriouseats.com/how-to-reduce-bean-gas-tested-11883862",
+    "published_at": "2026-04-25T20:17:41+00:00",
+    "summary": "HN score: 152 · comments: 131 · by: jstrieb",
+    "language": "en",
+    "hn_id": 47904224,
+    "hn_url": "https://news.ycombinator.com/item?id=47904224",
+    "hn_score": 152,
+    "hn_comments": 131,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863993+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-99",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "A web-based RDP client built with Go WebAssembly and grdp",
+    "url": "https://github.com/nakagami/grdpwasm",
+    "published_at": "2026-04-25T10:59:29+00:00",
+    "summary": "HN score: 138 · comments: 47 · by: mariuz",
+    "language": "en",
+    "hn_id": 47900440,
+    "hn_url": "https://news.ycombinator.com/item?id=47900440",
+    "hn_score": 138,
+    "hn_comments": 47,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863994+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-100",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Iran caused more extensive damage to U.S. military bases than publicly known",
+    "url": "https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853",
+    "published_at": "2026-04-25T16:44:51+00:00",
+    "summary": "HN score: 135 · comments: 210 · by: hggh",
+    "language": "en",
+    "hn_id": 47902746,
+    "hn_url": "https://news.ycombinator.com/item?id=47902746",
+    "hn_score": 135,
+    "hn_comments": 210,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863995+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-101",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Colorado在年龄验证法案中新增开源豁免条款",
+    "url": "https://fosstodon.org/@carlrichell/116460505717380644",
+    "published_at": "2026-04-25T22:41:05+00:00",
+    "summary": "HN评分：131 · 评论：51",
+    "language": "en",
+    "hn_id": 47905304,
+    "hn_url": "https://news.ycombinator.com/item?id=47905304",
+    "hn_score": 131,
+    "hn_comments": 51,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863996+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-102",
+    "category": "research-frontier",
+    "trimmed": false,
+    "title_original": "Colorado Adds Open-Source Exemption to Age-Verification Bill",
+    "summary_original": "HN score: 131 · comments: 51 · by: terminalbraid"
+  },
+  {
+    "title": "Butterflies are in decline across North America, a look at the Western Monarch",
+    "url": "https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/",
+    "published_at": "2026-04-26T21:23:20+00:00",
+    "summary": "HN score: 130 · comments: 37 · by: 1659447091",
+    "language": "en",
+    "hn_id": 47914677,
+    "hn_url": "https://news.ycombinator.com/item?id=47914677",
+    "hn_score": 130,
+    "hn_comments": 37,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863997+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-103",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Mine, an IDE for Coalton and Common Lisp",
+    "url": "https://coalton-lang.github.io/mine/",
+    "published_at": "2026-04-25T17:47:02+00:00",
+    "summary": "HN score: 128 · comments: 53 · by: varjag",
+    "language": "en",
+    "hn_id": 47903173,
+    "hn_url": "https://news.ycombinator.com/item?id=47903173",
+    "hn_score": 128,
+    "hn_comments": 53,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863998+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-104",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Eden AI – European Alternative to OpenRouter",
+    "url": "https://www.edenai.co",
+    "published_at": "2026-04-26T08:18:09+00:00",
+    "summary": "HN score: 125 · comments: 66 · by: muzzy19",
+    "language": "en",
+    "hn_id": 47908433,
+    "hn_url": "https://news.ycombinator.com/item?id=47908433",
+    "hn_score": 125,
+    "hn_comments": 66,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863999+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-105",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "The 1944 Warsaw Uprising, in Color",
+    "url": "https://www.barwypowstania.pl/",
+    "published_at": "2026-04-26T19:44:35+00:00",
+    "summary": "HN score: 115 · comments: 44 · by: keiferski",
+    "language": "en",
+    "hn_id": 47913406,
+    "hn_url": "https://news.ycombinator.com/item?id=47913406",
+    "hn_score": 115,
+    "hn_comments": 44,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.863999+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-106",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "At least 10 people tied to sensitive US research have died or disappeared",
+    "url": "https://www.cnn.com/2026/04/21/us/deaths-disappearances-scientists-investigation",
+    "published_at": "2026-04-26T12:55:26+00:00",
+    "summary": "HN score: 114 · comments: 79 · by: acdanger",
+    "language": "en",
+    "hn_id": 47909942,
+    "hn_url": "https://news.ycombinator.com/item?id=47909942",
+    "hn_score": 114,
+    "hn_comments": 79,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864000+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-107",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "Show HN: Free textbook on engineering thermodynamics",
+    "url": "https://thermodynamicsbook.com/",
+    "published_at": "2026-04-26T15:17:34+00:00",
+    "summary": "HN score: 108 · comments: 29 · by: 2DcAf",
+    "language": "en",
+    "hn_id": 47911013,
+    "hn_url": "https://news.ycombinator.com/item?id=47911013",
+    "hn_score": 108,
+    "hn_comments": 29,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864005+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-108",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "The Visible Zorker: Zork 1",
+    "url": "https://eblong.com/infocom/visi/zork1/",
+    "published_at": "2026-04-26T16:42:19+00:00",
+    "summary": "HN score: 106 · comments: 19 · by: PLenz",
+    "language": "en",
+    "hn_id": 47911644,
+    "hn_url": "https://news.ycombinator.com/item?id=47911644",
+    "hn_score": 106,
+    "hn_comments": 19,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864005+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-109",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "AGPLv3§74 Empowers Users to Thwart Badgeware Like OnlyOffice",
+    "url": "https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/",
+    "published_at": "2026-04-26T05:06:58+00:00",
+    "summary": "HN score: 93 · comments: 23 · by: pabs3",
+    "language": "en",
+    "hn_id": 47907543,
+    "hn_url": "https://news.ycombinator.com/item?id=47907543",
+    "hn_score": 93,
+    "hn_comments": 23,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864006+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-110",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Have you tried Clean Architecture as foundation for your AI project?",
+    "url": "https://news.ycombinator.com/item?id=47913561",
+    "published_at": "2026-04-26T19:55:25+00:00",
+    "summary": "HN score: 92 · comments: 2 · by: esmelazy",
+    "language": "en",
+    "hn_id": 47913561,
+    "hn_url": "https://news.ycombinator.com/item?id=47913561",
+    "hn_score": 92,
+    "hn_comments": 2,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864007+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-111",
+    "category": "research-frontier",
+    "trimmed": true
+  },
+  {
+    "title": "If you stop hiring juniors, your senior engineers own you",
+    "url": "https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/",
+    "published_at": "2026-04-26T20:01:59+00:00",
+    "summary": "HN score: 91 · comments: 71 · by: milkglass",
+    "language": "en",
+    "hn_id": 47913641,
+    "hn_url": "https://news.ycombinator.com/item?id=47913641",
+    "hn_score": 91,
+    "hn_comments": 71,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864008+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-112",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Jumping into cold water can stop your heart",
+    "url": "https://jorgenmelau.substack.com/p/the-first-sixty-seconds",
+    "published_at": "2026-04-25T14:42:05+00:00",
+    "summary": "HN score: 90 · comments: 37 · by: fanf2",
+    "language": "en",
+    "hn_id": 47901884,
+    "hn_url": "https://news.ycombinator.com/item?id=47901884",
+    "hn_score": 90,
+    "hn_comments": 37,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864009+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-113",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Quirks of Human Anatomy",
+    "url": "https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm",
+    "published_at": "2026-04-25T04:31:14+00:00",
+    "summary": "HN score: 90 · comments: 57 · by: gurjeet",
+    "language": "en",
+    "hn_id": 47898660,
+    "hn_url": "https://news.ycombinator.com/item?id=47898660",
+    "hn_score": 90,
+    "hn_comments": 57,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864010+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-114",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Only one side will be the true successor to MS-DOS – Windows 2.x",
+    "url": "https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/",
+    "published_at": "2026-04-25T11:03:15+00:00",
+    "summary": "HN score: 85 · comments: 72 · by: keepamovin",
+    "language": "en",
+    "hn_id": 47900451,
+    "hn_url": "https://news.ycombinator.com/item?id=47900451",
+    "hn_score": 85,
+    "hn_comments": 72,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864011+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-115",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "Exposing Floating Point – Bartosz Ciechanowski (2019)",
+    "url": "https://ciechanow.ski/exposing-floating-point/",
+    "published_at": "2026-04-26T07:19:20+00:00",
+    "summary": "HN score: 81 · comments: 11 · by: subset",
+    "language": "en",
+    "hn_id": 47908139,
+    "hn_url": "https://news.ycombinator.com/item?id=47908139",
+    "hn_score": 81,
+    "hn_comments": 11,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864012+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-116",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Plants can sense the sound of rain, a new study finds",
+    "url": "https://news.mit.edu/2026/plants-can-sense-sound-rain-new-study-finds-0422",
+    "published_at": "2026-04-26T18:15:59+00:00",
+    "summary": "HN score: 78 · comments: 15 · by: paulpauper",
+    "language": "en",
+    "hn_id": 47912513,
+    "hn_url": "https://news.ycombinator.com/item?id=47912513",
+    "hn_score": 78,
+    "hn_comments": 15,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864012+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-117",
+    "category": "research-frontier",
+    "trimmed": true
+  },
+  {
+    "title": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
+    "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
+    "published_at": "2026-04-25T23:44:05+00:00",
+    "summary": "HN score: 77 · comments: 9 · by: mji",
+    "language": "en",
+    "hn_id": 47905768,
+    "hn_url": "https://news.ycombinator.com/item?id=47905768",
+    "hn_score": 77,
+    "hn_comments": 9,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864013+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-118",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Behind-the-Scenes of MacBook Neo Introduction Video",
+    "url": "https://www.youtube.com/shorts/y4DnsCzJTRQ",
+    "published_at": "2026-04-25T12:44:46+00:00",
+    "summary": "HN score: 75 · comments: 7 · by: 0xbg",
+    "language": "en",
+    "hn_id": 47901037,
+    "hn_url": "https://news.ycombinator.com/item?id=47901037",
+    "hn_score": 75,
+    "hn_comments": 7,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864014+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-119",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Two Athletes Break Sub-2-HR Marathon in Adizero Adios Pro Evo 3",
+    "url": "https://news.adidas.com/running/two-adidas-athletes-sabastian-sawe-and-yomif-kejelcha-break-the-sub-2-hour-marathon-barrier-in-the-r/s/d4be4eac-a3b8-47d5-835f-9cbd685638ca",
+    "published_at": "2026-04-26T21:04:39+00:00",
+    "summary": "HN score: 74 · comments: 1 · by: canucker2016",
+    "language": "en",
+    "hn_id": 47914438,
+    "hn_url": "https://news.ycombinator.com/item?id=47914438",
+    "hn_score": 74,
+    "hn_comments": 1,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864015+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-120",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Her life savings mysteriously disappeared after a systems glitch",
+    "url": "https://www.nytimes.com/2026/04/25/your-money/fidelity-investments-fraud-alert.html",
+    "published_at": "2026-04-25T23:32:18+00:00",
+    "summary": "HN score: 69 · comments: 57 · by: danso",
+    "language": "en",
+    "hn_id": 47905681,
+    "hn_url": "https://news.ycombinator.com/item?id=47905681",
+    "hn_score": 69,
+    "hn_comments": 57,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864015+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-121",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Show HN: Kloak, A secret manager that keeps K8s workload away from secrets",
+    "url": "https://getkloak.io/",
+    "published_at": "2026-04-25T19:03:01+00:00",
+    "summary": "HN score: 61 · comments: 52 · by: neo2006",
+    "language": "en",
+    "hn_id": 47903690,
+    "hn_url": "https://news.ycombinator.com/item?id=47903690",
+    "hn_score": 61,
+    "hn_comments": 52,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864017+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-122",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "What's missing in the 'agentic' story: a well-defined user agent role",
+    "url": "https://www.mnot.net/blog/2026/04/24/agents_as_collective_bargains",
+    "published_at": "2026-04-25T15:51:11+00:00",
+    "summary": "HN score: 60 · comments: 63 · by: ingve",
+    "language": "en",
+    "hn_id": 47902339,
+    "hn_url": "https://news.ycombinator.com/item?id=47902339",
+    "hn_score": 60,
+    "hn_comments": 63,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864018+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-123",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "Show HN: AI memory with biological decay (52% recall)",
+    "url": "https://github.com/sachitrafa/YourMemory",
+    "published_at": "2026-04-26T20:58:31+00:00",
+    "summary": "HN score: 59 · comments: 30 · by: SachitRafa",
+    "language": "en",
+    "hn_id": 47914367,
+    "hn_url": "https://news.ycombinator.com/item?id=47914367",
+    "hn_score": 59,
+    "hn_comments": 30,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864018+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-124",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+    "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+    "published_at": "2026-04-27T00:34:30+00:00",
+    "summary": "HN score: 56 · comments: 16 · by: donsupreme",
+    "language": "en",
+    "hn_id": 47916410,
+    "hn_url": "https://news.ycombinator.com/item?id=47916410",
+    "hn_score": 56,
+    "hn_comments": 16,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864019+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-125",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "AI Might Be Lying to Your Boss",
+    "url": "https://williamoconnell.me/blog/post/ai-ide/",
+    "published_at": "2026-04-25T20:19:53+00:00",
+    "summary": "HN score: 56 · comments: 6 · by: annjose",
+    "language": "en",
+    "hn_id": 47904252,
+    "hn_url": "https://news.ycombinator.com/item?id=47904252",
+    "hn_score": 56,
+    "hn_comments": 6,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864020+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-126",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "HEALPix",
+    "url": "https://en.wikipedia.org/wiki/HEALPix",
+    "published_at": "2026-04-25T13:11:18+00:00",
+    "summary": "HN score: 53 · comments: 8 · by: hyperific",
+    "language": "en",
+    "hn_id": 47901312,
+    "hn_url": "https://news.ycombinator.com/item?id=47901312",
+    "hn_score": 53,
+    "hn_comments": 8,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864021+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-127",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Oxford All Souls College General Examination (2025) [pdf]",
+    "url": "https://www.asc.ox.ac.uk/sites/default/files/2025-10/General%202025.pdf",
+    "published_at": "2026-04-25T04:36:27+00:00",
+    "summary": "HN score: 53 · comments: 50 · by: gregsadetsky",
+    "language": "en",
+    "hn_id": 47898680,
+    "hn_url": "https://news.ycombinator.com/item?id=47898680",
+    "hn_score": 53,
+    "hn_comments": 50,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864021+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-128",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Self-updating screenshots",
+    "url": "https://interblah.net/self-updating-screenshots",
+    "published_at": "2026-04-26T07:00:39+00:00",
+    "summary": "HN score: 52 · comments: 10 · by: bjhess",
+    "language": "en",
+    "hn_id": 47908051,
+    "hn_url": "https://news.ycombinator.com/item?id=47908051",
+    "hn_score": 52,
+    "hn_comments": 10,
+    "source": "hn-best",
+    "fetched_at": "2026-04-27T02:02:04.864022+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-129",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "The PR you would have opened yourself - Hugging Face",
+    "url": "https://huggingface.co/blog/transformers-to-mlx",
+    "summary": "In 2026, code agents started to actually work. What used to be auto-completion at the side of your editor turned into a system that one-shots",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "huggingface-blog",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-130",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super - Hugging Face",
+    "url": "https://huggingface.co/blog/nvidia/gemma4",
+    "summary": "Gemma 4 VLA Demo on Jetson Orin Nano Super. Enterprise + Article Published April 22, 2026.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "huggingface-blog",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-131",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Top Hugging Face Models for April 2026 | Tech AI Magazine - Magzter",
+    "url": "https://www.magzter.com/stories/technology/Tech-AI-Magazine/TOP-HUGGING-FACE-MODELS-FOR-APRIL-2026?srsltid=AfmBOoq3JPnftOOTV4RxYS_sATGrrbyL9JXFH6vnO4iHokJEJMWqJC1g",
+    "summary": "Introduction: Welcome to this month's edition of Tech AI Magazine! This story is from the April 2026 edition of Tech AI Magazine. Subscribe to Magzter GOLD to access thousands of curated premium stories, and 10,000+ magazines and newspapers. ## MORE STORIES FROM Tech AI Magazine. Introduction: Welcome to this month's edition of Tech AI Magazine! ## The Best AI Models to watch for in April 2026. Introduction: In the ever-evolving realm of e-commerce, artificial intelligence (AI) has emerged as a game-changer, revolutionizing how consumers interact with online marketplaces. ## Qualcomm Dragonwing Edge AI Processor Powers Real-Time Industrial AI at Scale. Qualcomm's Dragonwing family of edge Al processors continues to expand with the IQ8 and IQ9 series powering a wide range of industrial AI workloads in real-time. ## Can AI Help Me with That? At GTC 2026, NVIDIA introduced NemoClaw, an open-source software stack that unifies its Nemotron AI models with OpenClaw agent orchestration and the OpenShell runtime providing security and privacy guardrails.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "huggingface-blog",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-132",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "Top 10 Hugging Face Models in April 2026 | Tech AI Magazine",
+    "url": "https://www.techaimag.com/latest-hugging-face-models/top-10-hugging-face-models-in-april-2026",
+    "summary": "From helping your mobile device understand images and text better, to powering smart chatbots, automating tedious computer tasks, or even composing music, **multimodal AI models** are becoming more accessible and useful than ever. Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled is a remarkable **multimodal AI model** blend that understands both text and images. While many AI models require heavy computing resources, this model offers high-quality **edge device AI** multimodal understanding in a lightweight package. It’s like having a **AI-powered workflow automation assistant** that understands complex requests and carries them out seamlessly. This model redefines voice AI by enabling truly interactive conversations where interruptions, turn-taking, and voice personality feel natural. This AI model focuses on generating or analyzing personality traits based on user interactions in text form. c4ai-command-r-v01 is an AI-driven toolset aimed at automating secure workflows and decisions, prioritizing privacy and efficiency without requiring extensive retraining. While not a single model, Nova Act’s framework helps AI researchers and engineers improve systems that support cloud management, security, resource optimization, and enterprise automation.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "huggingface-blog",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-133",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "New AI Models April 2026: Anthropic Won't Ship Its Best ... - WhatLLM",
+    "url": "https://whatllm.org/blog/new-ai-models-april-2026",
+    "summary": "The same day, Zhipu AI open-sourced a model that beat GPT-5.4 on coding. 2.**Self-hosted AI becomes genuinely competitive.** GLM-5.1 (MIT), Gemma 4 (Apache 2.0), and Mistral Small 4 from March (Apache 2.0, 6.5B active params) mean that any company with GPU access can now run frontier-adjacent models without a single API call. | Best open-source coding model | GLM-5.1 | #1 on SWE-Bench Pro. MIT license. Key releases in the first week of April 2026: Google Gemma 4 family (four variants, Apache 2.0), Zhipu GLM-5.1 (744B MoE, MIT license) and GLM-5V-Turbo (multimodal coding), Alibaba Qwen 3.6-Plus (agentic coding, 1M context), PrismML Bonsai 8B (1-bit quantized), Microsoft MAI foundational models (speech, voice, image), and Anthropic Claude Mythos (gated preview). Google Gemma 4 is a family of open-source multimodal models released under Apache 2.0 in April 2026. https://whatllm.org/blog/new-ai-models-april-2026. **WhatLLM.org** helps you compare 100+ large language models across price, performance, speed, and quality using the[Artificial Analysis Intelligence Index](https://artificialanalysis.ai/).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "huggingface-blog",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-134",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "截至2026年4月15日，月之暗面（MoonshotAI）最新的官方声明如下",
+    "url": "https://caifuhao.eastmoney.com/news/20260415020749144927980",
+    "summary": "2026年04月15日 02:07     上海  返回 九安医疗吧>. 截至 2026年4月15日，月之暗面（Moonshot AI）最新的官方声明 如下： 1. 最新：防范假冒融资诈骗（4月14日） 发布时间：2026年4月14日晚核心内容： - 提醒投资者，市场上出现假冒“月之暗面”名义的不实融资信息。- 声明公司所有融资活动均由官方直接负责，非官方渠道的“投资份额”均为诈骗，风险极高。- 保留对伪造、擅自发布其股权交易信息的机构及个人追究法律责任的权利。 2. 此前：澄清Cursor“套壳”Kimi事件（3月21日） 发布时间：2026年3月21日核心内容： - 针对“Cursor编程工具疑似套壳Kimi K2.5”的质疑，官方正式澄清为授权商业合作。- Cursor 是通过 Fireworks AI 平台合法接入 Kimi 模型能力，并非盗用或“套壳”。- 感谢马斯克此前在社交媒体上的证实（“Yeah, it's Kimi 2.5”）。. **郑重声明：**用户在社区发表的所有信息将由本网站记录保存，仅代表作者个人观点，与本网站立场无关，不对您构成任何投资建议，据此操作风险自担。**请勿相信代客理财、免费荐股和炒股培训等宣传内容，远离非法证券活动。请勿添加发言用户的手机号码、公众号、微博、微信及QQ等信息，谨防上当受骗！**. 郑重声明：东方财富网发布此信息的目的在于传播更多信息，与本站立场无关。东方财富网不保证该信息（包括但不限于文字、视频、音频、数据及图表）全部或者部分内容的准确性、真实性、完整性、有效性、及时性、原创性等。相关信息并未经过本网站证实，不对您构成任何投资建议，据此操作，风险自担。. 信息网络传播视听节目许可证：0908328号 经营证券期货业务许可证编号：913101046312860336 违法和不良信息举报:021-61278686 举报邮箱：jubao@eastmoney.com. 沪ICP证:沪B2-20070217 网站备案号:沪ICP备05006054号-11  沪公网安备 31010402000120号 版权所有:东方财富网 意见与建议:4000300059/952500. 关于我们 可持续发展 广告服务 供应商平台 联系我们 诚聘英才 法律声明 隐私保护 征稿启事 友情链接.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "kimi-blog",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-135",
+    "category": "policy-regulation",
+    "trimmed": false
+  },
+  {
+    "title": "2026年4月最新四大模型横评：Kimi K2.6 vs Claude Opus 4.7 vs GPT-5.5 ...",
+    "url": "https://www.cnblogs.com/qiniushanghai/p/19925673",
+    "summary": "# 同周发布四大旗舰，差距到底有多大？Kimi K2.6 / Claude Opus 4.7 / GPT-5.5 / DeepSeek V4 深度横评. | 规格 | Kimi K2.6 | Claude Opus 4.7 | GPT-5.5 | DeepSeek V4-Pro |. | 能力 | Kimi K2.6 | Claude Opus 4.7 | GPT-5.5 | DeepSeek V4-Pro |. | 代码 Agent（性价比） | **Kimi K2.6** | DeepSeek V4-Pro | SWE-Bench 65.8% + $0.037/任务 |. | 个人开发者日常 | **DeepSeek V4-Flash** | Kimi K2.6 | $0.14/M 输入，几乎免费 |. 2026 年 4 月第三周是过去两年 AI 模型竞争最激烈的一周：月之暗面推出 Kimi K2.6（延伸 K2 系列 262K 上下文），Anthropic 发布 Claude Opus 4.7（强化 extended thinking），OpenAI 发布 GPT-5.5（首发于 Codex 和 ChatGPT），深度求索发布 DeepSeek V4 系列（全新架构，1M 上下文）。这一密集发布节奏反映了 AI 旗舰模型已进入月级迭代周期，同时也是 2026 年 Agent 化浪潮下\"算力→成本→能力\"三角博弈的集中体现。. 取决于核心需求：① 高频调用/成本优先 → DeepSeek V4-Flash（$0.14/M，最便宜）；② 中文+代码兼顾 → Kimi K2.6（$0.60/M，SWE-Bench 65.8%）；③ 长文档/RAG → DeepSeek V4-Pro（1M 上下文唯一选项）；④ 追求最高质量推理 → Claude Opus 4.7（extended thinking，API 稳定可用）；⑤ 等 GPT-5.5 API 上线后再评估定价。. **同周发布的四大旗舰模型，选型核心是\"你愿意为更强的能力多付多少钱\"。** 从 DeepSeek V4-Flash 的 $42/天（1万任务）到 GPT-5.5 的约 $7,000/天，相差 166 倍的成本背后是真实但有限的能力差距。绝对能力排名：GPT-5.5 ≈ Claude Opus 4.7 > DeepSeek V4-Pro > Kimi K2.6 > DeepSeek V4-Flash；性价比排名几乎相反。建议策略：用七牛云 AI API 同一个 Key A/B 测试自己的核心 prompt，而非依赖别人的 benchmark。.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "kimi-blog",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-136",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "月之暗面Kimi发布并开源Kimi K2.6模型，AI ASIC定制需求加速爆发，高弹性科创创业人工智能ETF景顺(159142)有望受益_腾讯新闻",
+    "url": "https://news.qq.com/rain/a/20260421A031GF00",
+    "summary": "# 月之暗面Kimi发布并开源Kimi K2.6模型，AI ASIC定制需求加速爆发，高弹性科创创业人工智能ETF景顺(159142)有望受益. 2026-04-21 10:49发布于北京界面新闻官方账号. 最新消息，月之暗面Kimi发布并开源Kimi K2.6模型，通用Agent、代码、视觉理解等综合能力全面提升，在多个基准测试优于或持平GPT-5.4、Claude Opus 4.6和Gemini 3.1 Pro等闭源模型。. 近期，AI ASIC定制需求加速爆发，推理应用市场渗透带动CSP超6500亿美元Capex涌入超大规模数据中心，资金大量流向定制芯片以解决高成本通电问题；博通FY26Q1定制AI ASIC收入翻倍，Marvell持续上修数据中心市场空间，数据中心正成为半导体IP增长的核心引擎。. 华创证券指出，AI产业重心已转向“推理应用”，推理集群数量预计达百万级别，叠加Chiplet复用IP新产业模式兴起，高效能处理器与接口IP复用需求显著强化，全球IP市场规模正加速迈向百亿美元大关。. 科创创业人工智能ETF景顺（159142）紧密跟踪中证科创创业人工智能指数，涨跌停限制20%，弹性十足。指数成股份汇聚【科创板+创业板】AI产业链核心标的，精准覆盖AI上游算力芯片与光模块、中游大模型与云计算、下游产业应用全链条；按照申万二级行业分类，半导体+通信设备+软件开发配置占比超65%。. 数据显示，截至2026年3月31日，中证科创创业人工智能指数(932456)前十大权重股分别为新易盛、澜起科技、中际旭创、寒武纪、芯原股份、润泽科技、金山办公、协创数据、昆仑万维、北京君正，前十大权重股合计占比61.37%。（注：相关个股仅为指数成分股展示，不作为个股推荐。）. 以上数据来源：Wind，公开信息，截至2026/4/20。风险提示：市场有风险，投资需谨慎！.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "kimi-blog",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-137",
+    "category": "major-release",
+    "trimmed": true
+  },
+  {
+    "title": "Moonshot AI Launches New Model With Improved Coding and ...",
+    "url": "https://www.caixinglobal.com/2026-04-21/moonshot-ai-launches-new-model-with-improved-coding-and-agent-capabilities-102436476.html",
+    "summary": "# Moonshot AI Launches New Model With Improved Coding and Agent Capabilities. Chinese artificial intelligence startup Moonshot AI has launched an open-source large model that it claims rivals top foreign competitors like OpenAI’s GPT-5.4 in coding and agent-based tasks. Moonshot AI Gets More Into Agents With New Model. * Moonshot AI launched open-source Kimi K2.6, rivaling GPT-5.4 in coding and agent tasks. :   Moonshot AI, a Chinese startup, launched the open-source Kimi K2.6 model, rivaling GPT-5.4 in coding and agent tasks. :   Moonshot AI claims its open-source Kimi K2.6 model rivals OpenAI's GPT-5.4 in coding and agent-based tasks, matching or outperforming it on benchmarks like SWE-Bench Pro and DeepSearchQA. :   Moonshot AI's K2.6 model matched or outperformed Anthropic’s Claude Opus 4.6 on benchmarks like SWE-Bench Pro (software engineering) and DeepSearchQA (AI agent research). :   Moonshot AI's K2.6 model matched or outperformed Google’s Gemini 3.1 Pro on benchmarks like SWE-Bench Pro (software engineering) and DeepSearchQA (AI agents’ deep web research).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "kimi-blog",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-138",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "Parikshit Pruthi's Post - LinkedIn",
+    "url": "https://www.linkedin.com/posts/parikshitpruthi_ai-is-moving-faster-than-ever-heres-the-activity-7453031327735451649-qq1j",
+    "summary": "Moonshot AI released Kimi K2.6 on April 21, 2026, topping open-source charts at 58.6% on SWE-Bench Pro. It runs locally (e.g., on Mac via",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "kimi-blog",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-139",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Moonshot AI Releases Kimi K2.6 Open-Source Coding Model with ...",
+    "url": "https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/",
+    "summary": "*   [Earnings](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/#). *   [Calendars](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/#). *   [Data Feeds](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/#). [](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/). *   Supports 300 concurrent sub-agents across 4,000 steps for tasks like generating 100 resumes or building landing pages.[1](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/# \"Click to view source\"). *   Older kimi-k2 series models to be discontinued on May 25, 2026.[3](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/# \"Click to view source\"). ![Image 2: Moonshot AI Releases Kimi K2.6 Open-Source Coding Model with Autonomous Multi-Day Task Execution](https://mlq.ai/media/news_images/moonshot-kimi.png). Kimi K2.6's benchmark leadership on SWE-Bench Pro highlights its edge in real-world software engineering over closed models like GPT-5.4, driven by the enhanced Agent Swarm that coordinates 300 sub-agents for complex, multi-step tasks.[1](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/# \"Click to view source\")[6](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/# \"Click to view source\") This architecture addresses key limitations in prior open-source models by enabling proactive, long-duration execution, as seen in capabilities like autonomous resume generation or full-stack website builds. The 1 trillion parameter MoE design with Muon optimization ensures stability at scale, setting it apart in agentic intelligence without excessive compute demands.[6](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/# \"Click to view source\") The open-source release democratizes access to state-of-the-art coding tools, potentially accelerating adoption in developer workflows. ![Image 7: Generated image](https://mlq.ai/news/moonshot-ai-releases-kimi-k26-open-source-coding-model-with-autonomous-multi-day-task-execution/).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "kimi-blog",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-140",
+    "category": "major-release",
+    "trimmed": true
+  },
+  {
+    "title": "China's Moonshot AI Releases Kimi K2.6, Pushing Boundaries in ...",
+    "url": "https://www2.yicaiglobal.com/news/chinas-moonshot-ai-releases-kimi-k26-pushing-boundaries-in-coding-multi-agent-capabilities",
+    "summary": "China’s Moonshot AI Releases Kimi K2.6, Pushing Boundaries in Coding, Multi-Agent Capabilities. China’s Moonshot AI Releases Kimi K2.6, Pushing Boundaries in Coding, Multi-Agent Capabilities China’s Moonshot AI Releases Kimi K2.6, Pushing Boundaries in Coding, Multi-Agent Capabilities. (Yicai) April 21 -- Chinese artificial intelligence startup Moonshot AI launched Kimi K2.6, the latest addition to its Kimi series of open-source large language models, today. The new model is designed to strengthen performance in coding, long-horizon task execution and multi-agent clustering capabilities. OpenAI’s Agent Swarm architecture supports multi-agent collaboration for complex research tasks and Zhipu·AI's flagship open-source model, released earlier this month, focuses on long-range task capabilities. #### PASSWORD. #### PASSWORD. #### Enter your email. Enter the code below to reset your password. #### Enter code. ## Change your password. Resetting your password will log you out of all your active Yicai Global sessions. #### Enter your new password. #### Enter your new password again. ## Reset your password. #### Enter your new password.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "kimi-blog",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-141",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "Meta Introduces New AI Model in April 2026 Push | Printen QR Code",
+    "url": "https://www.printenqrcode.com/blog/meta-new-ai-model-april-2026/",
+    "summary": "# Meta Introduces New AI Model in April 2026 Push. Meta introduces new AI model in April 2026 push, marking a definitive watershed moment in the rapidly accelerating landscape of artificial intelligence. meta-introduces-new-ai-model-in-april-2026-push-featured. **Meta introduces new AI model in April 2026 push**, marking a definitive watershed moment in the rapidly accelerating landscape of artificial intelligence. To truly understand the market impact when **Meta introduces new AI model in April 2026 push** initiatives, we must examine the broader macroeconomic and technological climate. With the increasing reliance on AI-driven search experiences and the proliferation of zero-click digital environments, launching a highly capable, open-weights model positions Meta as the foundational infrastructure layer for the next generation of the internet. As the data illustrates, the moment **Meta introduces new AI model in April 2026 push** strategies, it not only matches but frequently surpasses the most expensive closed-source models on the market, particularly in long-context retrieval and multimodal reasoning. The moment **Meta introduces new AI model in April 2026 push** initiatives, the clock resets on digital competitiveness.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "meta-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-142",
+    "category": "major-release",
+    "trimmed": true
+  },
+  {
+    "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+    "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+    "summary": "[](https://ai.meta.com/blog/introducing-muse-spark-msl/# \"Go up one level\")[![Image 1: Meta](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=eLjbsGOtW_kQ7kNvwE6w-m6&_nc_oc=Adr3hJFMLvwooa-M_twe5zL9IbktIthDNcnYBlh6QC5W1TxjKP4bD0h-Q38AYaPThc0SQqyoaaA8ek9-UpCgOhka&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af033yvH_innMta0iDcLyZ_Wvif5IPJrbY-VDcAw0kW4FQ&oe=69F11D39)](https://ai.meta.com/). *   [Products](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [AI Research](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [About](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [](https://ai.meta.com/blog/introducing-muse-spark-msl/# \"Toggle site search\"). [](https://ai.meta.com/blog/introducing-muse-spark-msl/# \"Close submenu\")[](https://ai.meta.com/blog/introducing-muse-spark-msl/# \"Main menu\"). [BACK](https://ai.meta.com/blog/introducing-muse-spark-msl/# \"Go up one level\"). *   [Overview](https://ai.meta.com/research/). *   [People](https://ai.meta.com/results/?content_types[0]=person). *   [Products >](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [AI Research >](https://ai.meta.com/blog/introducing-muse-spark-msl/#). *   [About >](https://ai.meta.com/blog/introducing-muse-spark-msl/#). Muse Spark is available today at [meta.ai](https://applink.meta.ai/?utm_source=ai_meta&amp;utm_medium=web&amp;utm_content=Blog-Intro-Muse-Spark_Avail-Today_Meta-AI&amp;utm_campaign=04082026) and the Meta AI app. Muse Spark is available now, and Contemplating mode will be rolling out gradually in [meta.ai](https://applink.meta.ai/?utm_source=ai_meta&amp;utm_medium=web&amp;utm_content=Blog-Intro-Muse-Spark_Rolling-Out_Meta-AI&amp;utm_campaign=04082026). *For more details about our evaluations, [see our methodology document](https://ai.meta.com/static-resource/muse-spark-eval-methodology). Our process follows the updated [Advanced AI Scaling Framework](https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2), which defines threat models, evaluation protocols, and deployment thresholds for our most advanced models. Full results are available in our [Safety & Preparedness Report](https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/). Read more in our [Safety & Preparedness Report](https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/). [Our approach](https://ai.meta.com/about). [![Image 11](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uxxVbwihQx8Q7kNvwGkoj_o&_nc_oc=AdqwUACwqoNcpZSxsmkIAUJXjitrxL0hBzPSeAz6-SREKMVId3ome7tqcA-wxYXDgJFVJ14D8lOnaaoAjNofmPc5&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af24-375AH8Wq-OM_O9aM9AinS2USv1rwfOQ1pgbFJUWyQ&oe=69F10D67) ![Image 12](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uxxVbwihQx8Q7kNvwGkoj_o&_nc_oc=AdqwUACwqoNcpZSxsmkIAUJXjitrxL0hBzPSeAz6-SREKMVId3ome7tqcA-wxYXDgJFVJ14D8lOnaaoAjNofmPc5&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af24-375AH8Wq-OM_O9aM9AinS2USv1rwfOQ1pgbFJUWyQ&oe=69F10D67)](https://www.facebook.com/aiatmeta/). [![Image 15](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=K7c1jXDibIEQ7kNvwHSDI8S&_nc_oc=AdqDK9T8TlWDt5g1FZpKCF9-w7VHYFvzq0tKeG-kUq4isMc-IfQ-Zd5RsNgCHRRbkIsptftrBM7G3s5qBaNooZH-&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af2Z4uXo9ZyfIliTCIGOQW8_mx6XcpVTYbyiogVAnEs3lw&oe=69F1317B) ![Image 16](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=K7c1jXDibIEQ7kNvwHSDI8S&_nc_oc=AdqDK9T8TlWDt5g1FZpKCF9-w7VHYFvzq0tKeG-kUq4isMc-IfQ-Zd5RsNgCHRRbkIsptftrBM7G3s5qBaNooZH-&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af2Z4uXo9ZyfIliTCIGOQW8_mx6XcpVTYbyiogVAnEs3lw&oe=69F1317B)](https://www.linkedin.com/showcase/aiatmeta). [![Image 17](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BK_v5VjhNAQ7kNvwHyJxMk&_nc_oc=Adqv3STaBW8irot1EwLlXgc_4S1ORH6dr7WrZVr-zCZlOurUPPOb9qmfx2kyr_WPzAeOGO5qHZrmSvkNPcb0hx3R&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af325yLCAsspzCenY0BrJlnU-XO-Mg2DoPFVrIBc9HrFKQ&oe=69F112AE) ![Image 18](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BK_v5VjhNAQ7kNvwHyJxMk&_nc_oc=Adqv3STaBW8irot1EwLlXgc_4S1ORH6dr7WrZVr-zCZlOurUPPOb9qmfx2kyr_WPzAeOGO5qHZrmSvkNPcb0hx3R&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af325yLCAsspzCenY0BrJlnU-XO-Mg2DoPFVrIBc9HrFKQ&oe=69F112AE)](https://www.youtube.com/@aiatmeta). [![Image 19](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uxxVbwihQx8Q7kNvwGkoj_o&_nc_oc=AdqwUACwqoNcpZSxsmkIAUJXjitrxL0hBzPSeAz6-SREKMVId3ome7tqcA-wxYXDgJFVJ14D8lOnaaoAjNofmPc5&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af24-375AH8Wq-OM_O9aM9AinS2USv1rwfOQ1pgbFJUWyQ&oe=69F10D67) ![Image 20](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uxxVbwihQx8Q7kNvwGkoj_o&_nc_oc=AdqwUACwqoNcpZSxsmkIAUJXjitrxL0hBzPSeAz6-SREKMVId3ome7tqcA-wxYXDgJFVJ14D8lOnaaoAjNofmPc5&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af24-375AH8Wq-OM_O9aM9AinS2USv1rwfOQ1pgbFJUWyQ&oe=69F10D67)](https://www.facebook.com/aiatmeta/). [![Image 23](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=K7c1jXDibIEQ7kNvwHSDI8S&_nc_oc=AdqDK9T8TlWDt5g1FZpKCF9-w7VHYFvzq0tKeG-kUq4isMc-IfQ-Zd5RsNgCHRRbkIsptftrBM7G3s5qBaNooZH-&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af2Z4uXo9ZyfIliTCIGOQW8_mx6XcpVTYbyiogVAnEs3lw&oe=69F1317B) ![Image 24](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=K7c1jXDibIEQ7kNvwHSDI8S&_nc_oc=AdqDK9T8TlWDt5g1FZpKCF9-w7VHYFvzq0tKeG-kUq4isMc-IfQ-Zd5RsNgCHRRbkIsptftrBM7G3s5qBaNooZH-&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af2Z4uXo9ZyfIliTCIGOQW8_mx6XcpVTYbyiogVAnEs3lw&oe=69F1317B)](https://www.linkedin.com/showcase/aiatmeta). [![Image 25](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BK_v5VjhNAQ7kNvwHyJxMk&_nc_oc=Adqv3STaBW8irot1EwLlXgc_4S1ORH6dr7WrZVr-zCZlOurUPPOb9qmfx2kyr_WPzAeOGO5qHZrmSvkNPcb0hx3R&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af325yLCAsspzCenY0BrJlnU-XO-Mg2DoPFVrIBc9HrFKQ&oe=69F112AE) ![Image 26](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BK_v5VjhNAQ7kNvwHyJxMk&_nc_oc=Adqv3STaBW8irot1EwLlXgc_4S1ORH6dr7WrZVr-zCZlOurUPPOb9qmfx2kyr_WPzAeOGO5qHZrmSvkNPcb0hx3R&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af325yLCAsspzCenY0BrJlnU-XO-Mg2DoPFVrIBc9HrFKQ&oe=69F112AE)](https://www.youtube.com/@aiatmeta). [![Image 27](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uxxVbwihQx8Q7kNvwGkoj_o&_nc_oc=AdqwUACwqoNcpZSxsmkIAUJXjitrxL0hBzPSeAz6-SREKMVId3ome7tqcA-wxYXDgJFVJ14D8lOnaaoAjNofmPc5&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af24-375AH8Wq-OM_O9aM9AinS2USv1rwfOQ1pgbFJUWyQ&oe=69F10D67) ![Image 28](https://scontent-sof1-1.xx.fbcdn.net/v/t39.8562-6/335682312_964107378293184_3093631164486164913_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=uxxVbwihQx8Q7kNvwGkoj_o&_nc_oc=AdqwUACwqoNcpZSxsmkIAUJXjitrxL0hBzPSeAz6-SREKMVId3ome7tqcA-wxYXDgJFVJ14D8lOnaaoAjNofmPc5&_nc_zt=14&_nc_ht=scontent-sof1-1.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af24-375AH8Wq-OM_O9aM9AinS2USv1rwfOQ1pgbFJUWyQ&oe=69F10D67)](https://www.facebook.com/aiatmeta/). [![Image 31](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=K7c1jXDibIEQ7kNvwHSDI8S&_nc_oc=AdqDK9T8TlWDt5g1FZpKCF9-w7VHYFvzq0tKeG-kUq4isMc-IfQ-Zd5RsNgCHRRbkIsptftrBM7G3s5qBaNooZH-&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af2Z4uXo9ZyfIliTCIGOQW8_mx6XcpVTYbyiogVAnEs3lw&oe=69F1317B) ![Image 32](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/336289415_1541032296405649_2165099305308791297_n.svg?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=K7c1jXDibIEQ7kNvwHSDI8S&_nc_oc=AdqDK9T8TlWDt5g1FZpKCF9-w7VHYFvzq0tKeG-kUq4isMc-IfQ-Zd5RsNgCHRRbkIsptftrBM7G3s5qBaNooZH-&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af2Z4uXo9ZyfIliTCIGOQW8_mx6XcpVTYbyiogVAnEs3lw&oe=69F1317B)](https://www.linkedin.com/showcase/aiatmeta). [![Image 33](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BK_v5VjhNAQ7kNvwHyJxMk&_nc_oc=Adqv3STaBW8irot1EwLlXgc_4S1ORH6dr7WrZVr-zCZlOurUPPOb9qmfx2kyr_WPzAeOGO5qHZrmSvkNPcb0hx3R&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af325yLCAsspzCenY0BrJlnU-XO-Mg2DoPFVrIBc9HrFKQ&oe=69F112AE) ![Image 34](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/335648731_142576991793348_7786819189843639239_n.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7BK_v5VjhNAQ7kNvwHyJxMk&_nc_oc=Adqv3STaBW8irot1EwLlXgc_4S1ORH6dr7WrZVr-zCZlOurUPPOb9qmfx2kyr_WPzAeOGO5qHZrmSvkNPcb0hx3R&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=cGnKYqguZhaZQRMntCc9Bg&oh=00_Af325yLCAsspzCenY0BrJlnU-XO-Mg2DoPFVrIBc9HrFKQ&oe=69F112AE)](https://www.youtube.com/@aiatmeta).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "meta-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-143",
+    "category": "major-release",
+    "trimmed": true
+  },
+  {
+    "title": "Meta Ai Llama News April 2026 - Instagram",
+    "url": "https://www.instagram.com/popular/meta-ai-llama-news-april-2026/",
+    "summary": "Meta Ai Llama News April 2026 · Llama glamour and salad diet. Botox flawless and attitude peak. Living the high life 618K · Meta just dropped Llama 4 and Its a",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "meta-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-144",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "Meta reportedly delays Llama successor, shifts to closed-source AI ...",
+    "url": "https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html",
+    "summary": "*   [TECH](https://www.digitimes.com/tech/). *   [REGIONS](https://www.digitimes.com/regions/). *   [East Asia](https://www.digitimes.com/regions/index.php?cat=560). *   [Southeast Asia](https://www.digitimes.com/regions/index.php?cat=561). *   [South Asia](https://www.digitimes.com/regions/index.php?cat=562). *   [Middle East](https://www.digitimes.com/regions/index.php?cat=705). *   [RESEARCH](https://www.digitimes.com/reports/). *   [OPINIONS](https://www.digitimes.com/opinions/). *   [Interviews](https://www.digitimes.com/opinions/index.php?cat=567). *   [Commentary](https://www.digitimes.com/opinions/index.php?cat=570). *   [Research Insights](https://www.digitimes.com/opinions/index.php?cat=569). *   [Column](https://www.digitimes.com/opinions/index.php?cat=659). *   [COMPUTEX](https://www.digitimes.com/biz/index.php?cat=61). *   [SEMICON](https://www.digitimes.com/biz/index.php?cat=671). *   [CES](https://www.digitimes.com/biz/index.php?cat=450). *   [EVENT+](https://www.digitimes.com/eventplus/). [SUBSCRIBE](https://www.digitimes.com/register/). [](https://www.facebook.com/sharer/sharer.php?u=https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html)[](https://twitter.com/intent/tweet?url=https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html&text=Meta%20reportedly%20delays%20Llama%20successor,%20shifts%20to%20closed-source%20AI%20amid%20internal%20reorganization)[](https://www.linkedin.com/shareArticle?mini=true&url=https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html)[](https://www.digitimes.com/newsshow/emailnews.asp?datePublish=2025/12/11&pages=PD&seq=206). [Taiwan urged to shift from open-source user to global contributor in AI era](https://www.digitimes.com/news/a20251202PD239/taiwan-ai-open-source-business-competition-software.html)[Meta's AI push hits internal roadblocks](https://www.digitimes.com/news/a20250909PD218/meta-talent-data-google-development.html)[Meta restructures AI lab into four units, eyes potential job cuts](https://www.digitimes.com/news/a20250820PD236/meta-infrastructure-development-staff-llama.html). [Meta reportedly weighs retreat from open-source AI as Superintelligence team shifts focus to closed models](https://www.digitimes.com/news/a20250716PD205/meta-llama-development-military-open-source.html)[Integrating elite hires poses challenge for Meta's AI reboot](https://www.digitimes.com/news/a20250704PD202/meta-talent-openai-google-development.html). [](https://www.facebook.com/sharer/sharer.php?u=https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html)[](https://twitter.com/intent/tweet?url=https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html&text=Meta%20reportedly%20delays%20Llama%20successor,%20shifts%20to%20closed-source%20AI%20amid%20internal%20reorganization)[](https://www.linkedin.com/shareArticle?mini=true&url=https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html)[](https://www.digitimes.com/newsshow/emailnews.asp?datePublish=2025/12/11&pages=PD&seq=206). [Print](https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html?mod=0). [DeepSeek previews V4 models with Huawei integration, signaling shift in China's AI stack](https://www.digitimes.com/news/a20260424VL216/deepseek-huawei-startup-development-competition.html). *   [MOST-READ](https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html#topnews). *   [7 DAYS NEWS](https://www.digitimes.com/news/a20251211PD206/meta-llama-development-2026.html#calendar). *   [China's memory capacity surge led by YMTC and CXMT shifts global supply in AI cycle](https://www.digitimes.com/news/a20260409PD210/cxmt-ymtc-memory-chips-price-capacity-demand.html). *   [Taiwan's industrial production surges on AI infrastructure demand](https://www.digitimes.com/news/a20260423PD240/taiwan-production-industrial-moea-infrastructure.html). *   [Chinese AI firms push into deployment, shift focus to inference at GITEX Asia](https://www.digitimes.com/news/a20260423VL223/asia-gitex-training-demand-infrastructure.html). *   [About](https://www.digitimes.com/about-us/). *   [Advertising](https://www.digitimes.com/marketing/). *   [Membership](https://www.digitimes.com/register/). *   [Contact us](https://www.digitimes.com/contact.php). *   [Topics](https://www.digitimes.com/topic/).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "meta-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-145",
+    "category": "major-release",
+    "trimmed": true
+  },
+  {
+    "title": "Meta unveils a new AI model that it hopes will justify its ... - CNBC",
+    "url": "https://www.cnbc.com/2026/04/08/meta-unveils-a-new-ai-model-that-it-hopes-will-justify-its-massive-spending-plans.html",
+    "summary": "[Skip Navigation](https://www.cnbc.com/2026/04/08/meta-unveils-a-new-ai-model-that-it-hopes-will-justify-its-massive-spending-plans.html#MainContent). [Markets](https://www.cnbc.com/markets/). *   [Pre-Markets](https://www.cnbc.com/pre-markets/). *   [U.S. Markets](https://www.cnbc.com/us-markets/). *   [Currencies](https://www.cnbc.com/currencies/). *   [Prediction Markets](https://www.cnbc.com/prediction-markets/). *   [Cryptocurrency](https://www.cnbc.com/cryptocurrency/). *   [Bonds](https://www.cnbc.com/bonds/). [Business](https://www.cnbc.com/business/). *   [Economy](https://www.cnbc.com/economy/). *   [Finance](https://www.cnbc.com/finance/). *   [Media](https://www.cnbc.com/media/). *   [Energy](https://www.cnbc.com/energy/). *   [Climate](https://www.cnbc.com/climate/). *   [Transportation](https://www.cnbc.com/transportation/). *   [Industrials](https://www.cnbc.com/industrials/). *   [Retail](https://www.cnbc.com/retail/). *   [Wealth](https://www.cnbc.com/wealth/). *   [Sports](https://www.cnbc.com/sports/). *   [Life](https://www.cnbc.com/life/). [Investing](https://www.cnbc.com/investing/). *   [Fintech](https://www.cnbc.com/fintech/). *   [Earnings](https://www.cnbc.com/earnings/). [Tech](https://www.cnbc.com/technology/). *   [Cybersecurity](https://www.cnbc.com/cybersecurity/). *   [AI](https://www.cnbc.com/ai-artificial-intelligence/). *   [Enterprise](https://www.cnbc.com/enterprise/). *   [Internet](https://www.cnbc.com/internet/). *   [Media](https://www.cnbc.com/media/). *   [Mobile](https://www.cnbc.com/mobile/). [Politics](https://www.cnbc.com/politics/). *   [Policy](https://www.cnbc.com/policy/). *   [Defense](https://www.cnbc.com/defense/). *   [Congress](https://www.cnbc.com/congress/). [Video](https://www.cnbc.com/tv/). *   [Livestream](https://www.cnbc.com/live-tv/). [Watchlist](https://www.cnbc.com/watchlist/). *   [Analysis](https://www.cnbc.com/investingclub/analysis/). *   [Trade Alerts](https://www.cnbc.com/investingclub/trade-alerts/). *   [Homestretch](https://www.cnbc.com/investingclub/homestretch/). *   [Education](https://www.cnbc.com/investingclub/education/). *   [Pro News](https://www.cnbc.com/pro/news/). *   [My Portfolio](https://www.cnbc.com/my-portfolio/). *   [Livestream](https://www.cnbc.com/live-tv/). [Livestream](https://www.cnbc.com/live-tv/). *   [INTL](https://www.cnbc.com/world/). *    [Livestream](https://www.cnbc.com/live-tv/). [Watchlist](https://www.cnbc.com/watchlist/). [SIGN IN](https://www.cnbc.com/2026/04/08/meta-unveils-a-new-ai-model-that-it-hopes-will-justify-its-massive-spending-plans.html#). [Create free account](https://www.cnbc.com/2026/04/08/meta-unveils-a-new-ai-model-that-it-hopes-will-justify-its-massive-spending-plans.html#). [Markets](https://www.cnbc.com/markets/). [Business](https://www.cnbc.com/business/). [Investing](https://www.cnbc.com/investing/). [Tech](https://www.cnbc.com/technology/). [Politics](https://www.cnbc.com/politics/). [Video](https://www.cnbc.com/tv/). [Watchlist](https://www.cnbc.com/watchlist/). [](https://www.cnbc.com/investingclub/). ## [More In Homestretch](https://www.cnbc.com/investingclub/homestretch/). [Read More](https://www.cnbc.com/investingclub/homestretch/ \"Read More\"). *   [](https://www.facebook.com/cnbc/). *   [](https://www.twitter.com/cnbc/). *   [](https://www.linkedin.com/company/cnbc/). *   [](https://www.instagram.com/cnbc/). *   [](https://www.youtube.com/user/cnbc/). *   [](https://www.cnbc.com/rss-feeds/). *   [CNBC Councils](https://www.cnbccouncils.com/). *   [Corrections](https://www.cnbc.com/corrections/). *   [About CNBC](https://www.cnbc.com/about/). *   [Podcasts](https://www.cnbc.com/podcast/). [Get In Touch](https://www.cnbc.com/news-tips/). *   ![Image 11: California Consumer Privacy Act (CCPA) Opt-Out Icon](https://static-redesign.cnbcfm.com/dist/17269f1b6083fd5f61be.svg)[Your Privacy Choices](https://www.cnbc.com/2026/04/08/meta-unveils-a-new-ai-model-that-it-hopes-will-justify-its-massive-spending-plans.html). *   [Terms of Service](https://www.cnbc.com/terms). [Market Data Terms of Use and Disclaimers](https://www.cnbc.com/market-data-terms-of-service/).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "meta-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-146",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "The Llama 4 herd: The beginning of a new era of natively ... - Meta AI",
+    "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+    "summary": "[](https://ai.meta.com/blog/llama-4-multimodal-intelligence/# \"Go up one level\")[![Image 1: Meta](https://scontent-sof1-2.xx.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=eLjbsGOtW_kQ7kNvwGuCmjn&_nc_oc=AdqB_twiFJ031ajFOmQVwJJwVz_w443x-TR5SXX6UmoxXQKdrhg3Qf6krS_-wfLcAj7cuasw3p8tD1OKhNt3rtWK&_nc_zt=14&_nc_ht=scontent-sof1-2.xx&_nc_gid=Ek24H0QIgXo1wknLQdhpEQ&oh=00_Af021HIK2JteR1rTis9Aifc2IYkcTXR7IVLxwoh3PGJKRQ&oe=69F1FE39)](https://ai.meta.com/). *   [Products](https://ai.meta.com/blog/llama-4-multimodal-intelligence/#). *   [AI Research](https://ai.meta.com/blog/llama-4-multimodal-intelligence/#). *   [About](https://ai.meta.com/blog/llama-4-multimodal-intelligence/#). *   [](https://ai.meta.com/blog/llama-4-multimodal-intelligence/# \"Toggle site search\"). [BACK](https://ai.meta.com/blog/llama-4-multimodal-intelligence/# \"Go up one level\"). *   [Products >](https://ai.meta.com/blog/llama-4-multimodal-intelligence/#). *   [AI Research >](https://ai.meta.com/blog/llama-4-multimodal-intelligence/#). *   [About >](https://ai.meta.com/blog/llama-4-multimodal-intelligence/#). *   Download the Llama 4 Scout and Llama 4 Maverick models today on [llama.com](https://www.llama.com/llama-downloads/) and [Hugging Face](https://huggingface.co/meta-llama). Today, we’re excited to announce the most advanced suite of models that support the entire [Llama](https://www.llama.com/) ecosystem. We’re making Llama 4 Scout and Llama 4 Maverick available for download today on [llama.com](https://www.llama.com/llama-downloads/) and [Hugging Face](https://huggingface.co/meta-llama) so everyone can continue to build new experiences using our latest technology. We’re continuing to research and prototype both models and products, and we’ll share more about our vision at LlamaCon on April 29—[sign up to hear more](https://www.llama.com/events/llamacon/signup/). Download the Llama 4 Scout and Llama 4 Maverick models today on [llama.com](https://www.llama.com/llama-downloads/) and [Hugging Face](https://huggingface.co/meta-llama). [Read post](https://ai.meta.com/blog/sevilla-fc-scout-advisor-llama-ibm-watsonx/). [Read post](https://ai.meta.com/blog/future-of-ai-built-with-llama/). [Read post](https://ai.meta.com/blog/spotify-personalized-recommendations-built-with-llama/).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "meta-ai-blog",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-147",
+    "category": "major-release",
+    "trimmed": true
+  },
+  {
+    "title": "MiniMax：最新消息与动态",
+    "url": "https://www.scmp.com/topics/minimax",
+    "summary": "MiniMax最新资讯，受资本流入和房价回升推动，中国股市前景好转。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-148",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "MiniMax: Latest News and Updates | South China Morning Post",
+    "summary_original": "MiniMax ; Outlook for China stocks brightens on capital flows, rebounding home prices · 21 Apr 2026 - 1:15PM · Hong Kong economy ; 'Horrible' for US if DeepSeek AI"
+  },
+  {
+    "title": "MiniMax at Harvard XR 2026: Multimodal AI for the Next Generation ...",
+    "url": "https://www.minimax.io/news/minimax-at-harvard-xr-2026",
+    "summary": "MiniMax at Harvard XR 2026: Multimodal AI for the Next Generation of Spatial Computing. On April 11th, MiniMax joined over 20 speakers and",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-149",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "MiniMax AI | AGI Research, Product Updates & Partner News",
+    "url": "https://www.minimax.io/news",
+    "summary": "Stay up to date with the latest product launches, tech updates, and company news from MiniMax. MiniMax at Harvard XR 2026. MiniMax. Apr 16, 2026",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-150",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "Wes Henderson's Post - Trending AI News Rundown - LinkedIn",
+    "url": "https://www.linkedin.com/posts/weslie-henderson_trending-ai-news-rundown-april-13-2026-activity-7449456463304900608-gBzn",
+    "summary": "Trending AI News Rundown - April 13, 2026 - MiniMax Just Open Sourced MiniMax M2.7: A Self-Evolving Agent Model that Scores 56.22% on",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-151",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "MiniMax Drops State-of-the-Art AI Agent Model—Then Quietly ...",
+    "url": "https://tech.yahoo.com/ai/articles/minimax-drops-state-art-ai-202448125.html",
+    "summary": "MiniMax Drops State-of-the-Art AI Agent Model—Then Quietly Changes the License. Jose Antonio Lanz. Mon, April 13, 2026 at 1",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-152",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "MiniMax秀了波AI视频杂技：越看越惊艳，指令遵循太强了 - 新浪财经",
+    "url": "https://finance.sina.com.cn/stock/t/2025-06-18/doc-infanfym5827252.shtml",
+    "summary": "MiniMax发布海螺2.0版本，原生支持1080P，在指令遵循、生成质量达一流水平且成本效率破纪录。其在光影和细节处理上表现佳。网页端和APP端已支持该版本。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-153",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "New Releases - MiniMax Investor Relations",
+    "url": "https://ir.minimax.io/news-events/new-releases",
+    "summary": "Apr 13, 2026. Hailuo AI at Cambridge & University of London. 内容图. MiniMax. Apr 13, 2026. Hailuo AI x Lisbon Loras: Exploring the Future of AI Cinema. More.",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-154",
+    "category": "research-frontier",
+    "trimmed": true
+  },
+  {
+    "title": "MiniMax：“海螺AI”凭借其AI视频创作功能访问量增速达867.41%",
+    "url": "https://www.iyiou.com/briefing/202410251683190",
+    "summary": "近日，MiniMax的生产力产品“海螺AI”凭借其AI视频创作功能在9月的访问量增速高达867.41%。据官方介绍，MiniMax视频模型在VBench（视频生成模型评测框架）的",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-155",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "全球首份大模型业绩报！MiniMax预判2026三大超级PMF - 知乎专栏",
+    "url": "https://zhuanlan.zhihu.com/p/2012114424488564598",
+    "summary": "电话会上，MiniMax创始人闫俊杰还透露了最新消息——文本模型驱动的生产力场景中，产品增速在今年更加明显。 例如，M2系列文本模型在2026年2月的平均单日token",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-156",
+    "category": "tools-release",
+    "trimmed": true
+  },
+  {
+    "title": "深度｜MiniMax加速调整，收购AI视频创业公司，海螺ai正式改名",
+    "url": "https://news.qq.com/rain/a/20250314A08LJY00",
+    "summary": "产品侧，MiniMax的核心产品「海螺AI」近期更名为「MiniMax」，原域名hailuoai.com转向专用于视频生成业务「海螺视频」。目前更名仅涉及到网页端产品，APP端",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "minimax-news",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-157",
+    "category": "industry-business",
+    "trimmed": false
+  },
+  {
+    "title": "AI at MIT",
+    "url": "https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/",
+    "summary": "[Skip to Content](https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/#content). *   [Featured](https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/). *   [Audio](https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/). [Sign in](https://www.technologyreview.com/login&redirectTo=/2026/04/21/1134938/ai-at-mit/). *   [Featured](https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/). *   [Audio](https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/). [Sign in](https://www.technologyreview.com/login&redirectTo=/2026/04/21/1134938/ai-at-mit/). ![Image 1: Letters read MIT horizontally and AI vertically](https://wp.technologyreview.com/wp-content/uploads/2026/04/MJ26-feature_ai.png). Cordero says he hadn’t previously been pursuing AI-related research: “This is all totally new to me.” Working with Ahmed and other collaborators on a project sponsored by the US Defense Advanced Research Projects Agency (DARPA), Cordero developed an AI tool that can optimize the material composition of what’s known as a blisk—a bladed disk that’s a key component in jet and rocket turbine engines. “Where they are going to shine and where they are going to limit.” But instead of sensing danger, Hart sees opportunity, especially at MIT: “We have the learned expertise and experience that allows us to frame the right questions and use these tools in the right way.” The challenge for the MITs of the world, he says, is to figure out how to use AI tools to create faster, better solutions and navigate more complex problems than we ever could before. *   [Share story on linkedin](https://www.linkedin.com/shareArticle/?url=https%3A%2F%2Fwww.technologyreview.com%2F2026%2F04%2F21%2F1134938%2Fai-at-mit%2F&title=AI%20at%20MIT&summary=At%C2%A0MIT%2C%20AI%20has%20become%20so%20pervasive%20that%20you%20can%20almost%20find%20your%20way%20into%20it%20without%20meaning%20to.%20Take%20Sili%20Deng%2C%20an%20associate%20professor%20of%20mechanical%20engineering.%20Deng%20says%20she%20still%20doesn%E2%80%99t%20know%20whether%20she%E2%80%99d%20have%20gone%20all%20in%20on%20artificial%20intelligence%20had%20it%20not%20been%20for%20the%20covid%20pandemic.%20She%20had%20joined%20the%20faculty%E2%80%A6). *   [](https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/). [Explore the issue](https://www.technologyreview.com/magazines/ai-at-mit/).",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "mit-tech-review-ai",
+    "source_count": 1,
+    "sources": [
+      "mit-tech-review-ai"
+    ],
+    "id": "item-158",
+    "trimmed": true,
+    "category": "industry-business"
+  },
+  {
+    "title": "MIT Technology Review EmTech AI 2026：引领AI时代",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/mit-technology-reviews-emtech-ai-141800992.html",
+    "summary": "MIT Technology Review旗舰AI大会EmTech AI 2026相关报道与资讯聚合页面。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "mit-tech-review-ai",
+    "source_count": 2,
+    "sources": [
+      "mit-tech-review-ai"
+    ],
+    "id": "item-159",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "MIT Technology Review's EmTech AI 2026: Leading in the Era of AI ...",
+    "summary_original": "### [News](https://www.yahoo.com/). * [US](https://www.yahoo.com/news/us/). * [Health](https://health.yahoo.com/). * [Health](https://health.yahoo.com/). * [Shopping](https://shopping.yahoo.com/). + [Health](https://shopping.yahoo.com/health/). + [Tech](https://shopping.yahoo.com/tech/). ### [Finance](https://finance.yahoo.com/). * [My Portfolio](https://finance.yahoo.com/portfolios/). * [News](https://finance.yahoo.com/news/). + [Tech](https://finance.yahoo.com/topic/tech/). + [More Topics](https://finance.yahoo.com/news/). * [Markets](https://finance.yahoo.com/markets/). + [Stocks](https://finance.yahoo.com/markets/stocks/). - [Tech](https://finance.yahoo.com/markets/prediction/tech/). + [Sectors](https://finance.yahoo.com/sectors/). - [Technology](https://finance.yahoo.com/sectors/technology/). + [Futures](https://finance.yahoo.com/markets/commodities/). + [Calendar](https://finance.yahoo.com/calendar/). - [Earnings](https://finance.yahoo.com/calendar/earnings/). - [Economic events](https://finance.yahoo.com/calendar/economic/). * [Community](https://finance.yahoo.com/community/). + [My Money](https://finance.yahoo.com/my-money/). * [Videos](https://finance.yahoo.com/videos/). * [Watch Now](https://finance.yahoo.com/live/). ### [Sports](https://sports.yahoo.com/). + [Videos](https://sports.yahoo.com/watch/). + [Videos](https://sports.yahoo.com/watch/). + [Videos](https://sports.yahoo.com/watch/). * [Show all](https://sports.yahoo.com/). + [Videos](https://sports.yahoo.com/videos/). + [More news](https://sports.yahoo.com/news/). * [Tech](https://tech.yahoo.com/). + [AI](https://tech.yahoo.com/ai/). - [ChatGPT](https://tech.yahoo.com/ai/chatgpt/). - [Claude](https://tech.yahoo.com/ai/claude/). - [Gemini](https://tech.yahoo.com/ai/gemini/). - [Meta](https://tech.yahoo.com/ai/meta-ai/). - [Microsoft Copilot](https://tech.yahoo.com/ai/copilot/). - [Perplexity](https://tech.yahoo.com/ai/perplexity-ai/). [Yahoo Finance](https://finance.yahoo.com/). * [News](https://www.yahoo.com/). * [Finance](https://finance.yahoo.com/). * [Sports](https://sports.yahoo.com/). + [News](https://www.yahoo.com/). - [US](https://www.yahoo.com/news/us/). - [Health](https://health.yahoo.com/). - [Health](https://health.yahoo.com/). - [Shopping](https://shopping.yahoo.com/). + [Finance](https://finance.yahoo.com/). - [My portfolio](https://finance.yahoo.com/portfolios/). - [News](https://finance.yahoo.com/news/). - [Markets](https://finance.yahoo.com/markets/). - [Community](https://finance.yahoo.com/community/). - [Videos](https://finance.yahoo.com/videos/). + [Sports](https://sports.yahoo.com/). - [Show all](https://sports.yahoo.com/). * [Tech](https://tech.yahoo.com/). 1. [My Portfolio](https://finance.yahoo.com/portfolios/). 2. [News](https://finance.yahoo.com/news/). 7. [Tech](https://finance.yahoo.com/topic/tech/). 3. [Markets](https://finance.yahoo.com/markets/). 1. [Stocks](https://finance.yahoo.com/markets/stocks/). 5. [Tech](https://finance.yahoo.com/markets/prediction/tech/). 6. [Sectors](https://finance.yahoo.com/sectors/). 1. [Technology](https://finance.yahoo.com/sectors/technology/). 8. [Futures](https://finance.yahoo.com/markets/commodities/). 3. [Calendar](https://finance.yahoo.com/calendar/). 1. [Earnings](https://finance.yahoo.com/calendar/earnings/). 4. [Economic events](https://finance.yahoo.com/calendar/economic/). 5. [Community](https://finance.yahoo.com/community/). 7. [Videos](https://finance.yahoo.com/videos/). 8. [Watch Now](https://finance.yahoo.com/live/). [Sign in](https://login.yahoo.com/config/login?done=https%3A%2F%2Ffinance.yahoo.com%2Fsectors%2Ftechnology%2Farticles%2Fmit-technology-reviews-emtech-ai-141800992.html&intl=us&lang=en-US&activity=dock-portfolio&pspid=1183300100&src=finance)."
+  },
+  {
+    "title": "MIT Technology Review - Facebook",
+    "url": "https://www.facebook.com/technologyreview/videos/-the-wait-is-officially-over-our-most-coveted-list-of-the-yearthe-10-breakthroug/1503538767393766/",
+    "summary": "MIT Technology Review社交媒体动态，AI相关内容更新。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "mit-tech-review-ai",
+    "source_count": 1,
+    "sources": [
+      "mit-tech-review-ai"
+    ],
+    "id": "item-160",
+    "category": "industry-business",
+    "trimmed": true,
+    "title_original": "MIT Technology Review - Facebook",
+    "summary_original": "Last viewed on: Apr 20, 2026 ... This is the last day to lock in bonus AI content! Until midnig... Feb 24, 2026 · 4.4K views. 00:45. An"
+  },
+  {
+    "title": "MIT Technology Review发布全新'十大值得关注事物'榜单",
+    "url": "https://www.prnewswire.com/news-releases/mit-technology-review-launches-new-list-of-10-things-that-matter-in-ai-right-now-302750238.html",
+    "summary": "MIT Technology Review旗舰AI大会EmTech AI 2026将于4月21日至23日在MIT校园举办，汇聚400位高级参会者。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "mit-tech-review-ai",
+    "source_count": 1,
+    "sources": [
+      "mit-tech-review-ai"
+    ],
+    "id": "item-161",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "MIT Technology Review Launches New List of 10 Things That ...",
+    "summary_original": "MIT Technology Review's flagship AI conference, EmTech AI 2026, will take place April 21–23 on the MIT campus, bringing together 400 senior"
+  },
+  {
+    "title": "2026年AI的下一步是什么",
+    "url": "https://www.linkedin.com/pulse/whats-next-ai-2026-mit-technology-review-elmqe",
+    "summary": "2025年AI炒作大修正——也许是时候重新调整我们对AI的期望了。",
+    "published_at": "2026-04-27T02:03:07.897555+00:00",
+    "fetched_at": "2026-04-27T02:03:07.897555+00:00",
+    "source": "mit-tech-review-ai",
+    "source_count": 1,
+    "sources": [
+      "mit-tech-review-ai"
+    ],
+    "id": "item-162",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "What's next for AI in 2026 - LinkedIn",
+    "summary_original": "The great AI hype correction of 2025 — Perhaps it's time to readjust our expectations for AI. Image: Stephanie Arnett/MIT Technology Review |"
+  },
+  {
+    "title": "Our principles",
+    "url": "https://openai.com/index/our-principles",
+    "published_at": "2026-04-26T16:00:00+00:00",
+    "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+    "language": "en",
+    "source": "openai-blog",
+    "fetched_at": "2026-04-27T02:01:36.580718+00:00",
+    "source_count": 1,
+    "sources": [
+      "openai-blog"
+    ],
+    "id": "item-163",
+    "category": "major-release",
+    "trimmed": true
+  },
+  {
+    "title": "Google更新Gmail——发布新的Gemini攻击警告",
+    "url": "https://www.forbes.com/sites/zakdoffman/2026/04/26/google-changes-gmail-new-gemini-attack-warning/",
+    "published_at": "2026-04-26T00:00:00+00:00",
+    "summary": "Google更新了Gmail，将Gemini扩展至数百万用户——同时警告AI升级为复杂的新型攻击打开了大门。间接提示注入（IPI）是针对多数据源复杂AI应用的新兴威胁向量。",
+    "language": "en",
+    "fetched_at": "2026-04-27T02:01:35.279045+00:00",
+    "source": "search-ai-security",
+    "source_count": 1,
+    "sources": [
+      "search-ai-security"
+    ],
+    "id": "item-164",
+    "category": "policy-regulation",
+    "trimmed": false,
+    "title_original": "Google Changes Gmail—New Gemini Attack Warning - Forbes",
+    "summary_original": "Google has changed Gmail, expanding Gemini to millions of users — just as it warns that this kind of AI upgrade opens the door to an “evolving playground” of sophisticated new attacks. That announcement came on Apr. 22, but on Apr. 2, Google warned that “indirect prompt injection (IPI) is an evolving threat vector targeting users of complex AI applications with multiple data sources, such as Works"
+  },
+  {
+    "title": "AI正以超过防御者适应速度的节奏瓦解网络安全",
+    "url": "https://www.jpost.com/opinion/article-894151",
+    "published_at": "2026-04-26T08:44:05+00:00",
+    "summary": "在AI能够自主发现并利用漏洞的时代，防御也必须走向自主化。这场变革的规模正在永久性地重塑网络安全。",
+    "language": "en",
+    "fetched_at": "2026-04-27T02:01:35.279045+00:00",
+    "recent": true,
+    "source": "search-ai-security",
+    "source_count": 1,
+    "sources": [
+      "search-ai-security"
+    ],
+    "id": "item-165",
+    "category": "policy-regulation",
+    "trimmed": false,
+    "title_original": "AI is breaking cybersecurity faster than defenders can adapt - The Jerusalem Post",
+    "summary_original": "## In a world where AI can autonomously discover and exploit weaknesses, defense must become autonomous as well. It has become a standard line at industry conferences: AI will change the paradigm of cybersecurity, and defenders must adapt to keep pace with attackers who inevitably will. While this is certainly true, the magnitude of the shift – one that is changing cybersecurity forever – is only "
+  },
+  {
+    "title": "要买这套湾区房产，你需要用Anthropic股权来支付",
+    "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+    "published_at": "2026-04-26T15:30:00+00:00",
+    "summary": "有人为Mill Valley一处占地13英亩的房产提出了一项不寻常的交易方案。",
+    "language": "en",
+    "source": "techcrunch-ai",
+    "fetched_at": "2026-04-27T02:01:35.317759+00:00",
+    "source_count": 1,
+    "sources": [
+      "techcrunch-ai"
+    ],
+    "id": "item-166",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "To buy this Bay Area home, you’ll need Anthropic equity",
+    "summary_original": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco."
+  },
+  {
+    "title": "OpenAI的超级PAC可能在资助一个由AI记者运营的'新闻'网站",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/918787/openais-super-pac-might-be-funding-a-news-site-staffed-by-ai-reporters",
+    "published_at": "2026-04-25T21:21:45+00:00",
+    "summary": "倡导组织Encode的Nathan Calvin收到了来自The Wire by Acutus记者的采访请求。",
+    "language": "en",
+    "fetched_at": "2026-04-27T02:01:36.735643+00:00",
+    "source": "theverge-ai",
+    "source_count": 1,
+    "sources": [
+      "theverge-ai"
+    ],
+    "id": "item-167",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "OpenAI’s super PAC might be funding a ‘news’ site staffed by AI reporters.Nathan Calvin, from advocacy group Encode, received an interview request from Michael Chen, a reporter at The Wire by Acutus. ",
+    "summary_original": ""
+  },
+  {
+    "title": "开车时也能播放你的AI'泔水音乐'了",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/918768/stream-your-slop-while-you-drive",
+    "published_at": "2026-04-25T19:45:28+00:00",
+    "summary": "Suno已上线Android Auto，CarPlay支持也在开发中。现在你可以在自驾途中播放所有AI生成的翻唱歌曲了。",
+    "language": "en",
+    "fetched_at": "2026-04-27T02:01:36.735643+00:00",
+    "source": "theverge-ai",
+    "source_count": 1,
+    "sources": [
+      "theverge-ai"
+    ],
+    "id": "item-168",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "Stream your slop while you drive.Suno is available on Android Auto, and CarPlay support is in the works. Now you can stream all your illicit AI covers on your road trip from Hell. According to a post ",
+    "summary_original": ""
+  },
+  {
+    "title": "模拟恐怖大师Local 58直面当代AI末日",
+    "url": "https://www.theverge.com/entertainment/918761/analog-horror-masters-local-58-take-on-our-modern-ai-apocalypse",
+    "published_at": "2026-04-25T15:54:05+00:00",
+    "summary": "Thought Research Initiative是Local 58宇宙中的已知组织。一段新视频和网站将TRI从80年代带入了现代AI时代。",
+    "language": "en",
+    "fetched_at": "2026-04-27T02:01:36.735643+00:00",
+    "source": "theverge-ai",
+    "source_count": 1,
+    "sources": [
+      "theverge-ai"
+    ],
+    "id": "item-169",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "Analog horror masters Local 58 take on our modern AI apocalypse.The Thought Research Initiative is a known entity in the Local 58 universe. But a new video and website bring the TRI from the 80s into ",
+    "summary_original": ""
+  },
+  {
+    "title": "Sinceerly用AI让你的AI写作听起来不那么像AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/918758/sinceerly-uses-ai-to-make-your-ai-writing-sound-less-like-youre-using-ai",
+    "published_at": "2026-04-25T15:11:11+00:00",
+    "summary": "开发者Dan Horwitz告诉Gizmodo，他的'反Grammarly'工具确实是讽刺作品，但同时也是一个可正常使用的Chrome扩展程序。",
+    "language": "en",
+    "fetched_at": "2026-04-27T02:01:36.735643+00:00",
+    "source": "theverge-ai",
+    "source_count": 1,
+    "sources": [
+      "theverge-ai"
+    ],
+    "id": "item-170",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "Sinceerly uses AI to make your AI writing sound less like you’re using AI.Developer Dan Horwitz told Gizmodo his anti-Grammarly is indeed satire. But it’s also still a functional Chrome extension that",
+    "summary_original": ""
+  }
+]
