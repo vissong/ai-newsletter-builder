@@ -1,6 +1,6 @@
 name: bigmodel-features
 type: prompt
-enabled: true
+enabled: false  # feature-updates page stopped updating since 2025-05; merged into new-releases
 language: zh
 priority: 3
 time_window_hours: 24
