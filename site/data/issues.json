@@ -4,24 +4,28 @@
       "date": "2026-04-27",
       "n": 7,
       "dow": "SUN",
-      "title": "智谱发新品、Anthropic调价，AI周末不打烊",
-      "summary": "当智谱悄悄更新了文档里的新品清单，Anthropic 同一天动了价格表——两件事本身不大，合在一起却暗示着一个新节拍：前沿实验室的发布周期正在从\"季度\"缩进\"周\"。与此同时，西方互联网上有人感叹'我们连怎么写代码都快忘了'，有人让七岁孩子用 Codex 养龙——两种焦虑，同一条时间线。",
+      "title": "智谱更新不停歇，HN热议代码能力正在流失",
+      "summary": "智谱在周末悄悄刷新了新品清单，GLM-5-Turbo带着Agent原生能力登场；大洋彼岸，Hacker News上一篇\"西方忘了怎么写代码\"的帖子引爆千条评论——当AI越来越会写，人类越来越不会写，这条交叉线正好画在今天。",
       "headlines": [
         {
-          "title": "Anthropic 2026年 Claude 定价调整：对企业意味着什么",
+          "title": "新品发布 - 智谱AI开放文档",
           "tag": "重大发布"
         },
         {
-          "title": "2026年第一季度 Claude 所有更新的完整指南（实测）",
-          "tag": "重大发布"
+          "title": "西方已经忘记了如何制造东西，现在又在忘记如何写代码",
+          "tag": "KOL观点"
         },
         {
-          "title": "Codex不再局限于编程",
+          "title": "一个AI智能体删除了我们的生产数据库，以下是它的'供词'",
+          "tag": "KOL观点"
+        },
+        {
+          "title": "MIT Technology Review EmTech AI 2026：引领AI时代",
           "tag": "行业动态"
         },
         {
-          "title": "牌桌被掀，中国模型换了一种赢法",
-          "tag": "政策监管"
+          "title": "Google I/O 2026即将开幕，AI相关发布可能改变创业公司的构建方式",
+          "tag": "行业动态"
         }
       ],
       "top_items": [
@@ -38,12 +42,6 @@
           "category": "industry-business"
         },
         {
-          "id": "item-0",
-          "title": "2026開工必備AI工具清單！學生族和社畜的福音來了9大神器搞定上課 ...",
-          "source_count": 1,
-          "category": "tools-release"
-        },
-        {
           "id": "item-1",
           "title": "2026年AI工具生態系成形專業化、代理型AI主導未來趨勢 - Yahoo股市",
           "source_count": 1,
@@ -54,20 +52,26 @@
           "title": "2026最全AI工具白皮书！100+款神级AI应用，赶紧收藏",
           "source_count": 1,
           "category": "tools-release"
+        },
+        {
+          "id": "item-4",
+          "title": "2026年4月AI编程工具选型指南：先问自己一个问题，是搭项目还是写 ...",
+          "source_count": 1,
+          "category": "tools-release"
         }
       ],
-      "item_count": 79,
-      "trimmed_count": 92,
-      "source_count": 18,
+      "item_count": 58,
+      "trimmed_count": 113,
+      "source_count": 15,
       "categories": {
-        "tools-release": 19,
-        "major-release": 20,
-        "research-frontier": 10,
-        "policy-regulation": 4,
+        "major-release": 9,
+        "industry-business": 8,
+        "tools-release": 16,
+        "research-frontier": 8,
         "kol-posts": 15,
-        "industry-business": 11
+        "policy-regulation": 2
       },
-      "generated_at": "2026-04-27T03:59:35.798542+00:00"
+      "generated_at": "2026-04-27T04:35:48.433623+00:00"
     },
     {
       "date": "2026-04-25",

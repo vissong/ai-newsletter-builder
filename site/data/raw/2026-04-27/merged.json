@@ -12,7 +12,7 @@
     ],
     "id": "item-0",
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "2026年AI工具生態系成形專業化、代理型AI主導未來趨勢 - Yahoo股市",
@@ -87,7 +87,7 @@
     ],
     "id": "item-5",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Anthropic's 2026 Claude Pricing Shift: What It Means for Enterprises ...",
     "summary_original": "Anthropic announced a major evolution in its Claude pricing model effective April 2026. The company moved away from generous flat-rate"
   },
@@ -149,7 +149,7 @@
     ],
     "id": "item-9",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "The Complete Guide to Every Claude Update in Q1 2026 (Tested by ...",
     "summary_original": "The pace of Anthropic updates right now is so overwhelming. In the last three months alone, they've shipped over 30 new features. New model, new"
   },
@@ -299,7 +299,7 @@
     ],
     "id": "item-18",
     "category": "policy-regulation",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "GLM-5.1正式开放！智谱编程套餐全解析 - UniFuncs",
@@ -314,7 +314,7 @@
     ],
     "id": "item-19",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "智谱为GLM Coding Plan 用户致歉并提出补偿方案【AI 早报2026-02 ...",
@@ -329,7 +329,7 @@
     ],
     "id": "item-20",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "功能更新 - 智谱AI开放文档",
@@ -359,7 +359,7 @@
     ],
     "id": "item-22",
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "智谱GLM-5这次开源，让高级程序员也危险了... - QQ News",
@@ -374,7 +374,7 @@
     ],
     "id": "item-23",
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "2026 GLM-Image API Complete Guide - UniFuncs 深度搜索",
@@ -389,7 +389,7 @@
     ],
     "id": "item-24",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "刚刚，智谱发布GLM-5-Turbo：Agent原生，龙虾增强 - 智源社区",
@@ -419,7 +419,7 @@
     ],
     "id": "item-26",
     "category": "research-frontier",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "2026大模型架构概览（二）：GLM 5 & DSV3.2 - 知乎专栏",
@@ -434,7 +434,7 @@
     ],
     "id": "item-27",
     "category": "research-frontier",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "GLM-5 发布：从“写代码”到“写工程”的范式跃迁",
@@ -494,7 +494,7 @@
     ],
     "id": "item-31",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "April 22, 2026 AI is rapidly evolving beyond experimentation into real",
     "summary_original": "April 22, 2026 AI is rapidly evolving beyond experimentation into real-world impact. From OpenAI advancing autonomous agents to Google DeepMind"
   },
@@ -511,7 +511,7 @@
     ],
     "id": "item-32",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Google DeepMind announces new AI research lab for UK in 2026",
     "summary_original": "# Google DeepMind announces new AI research lab for UK in 2026. **Google DeepMind has announced its first \"automated research lab\" in the UK to discover new materials. Google DeepMind plans to open the lab next year, and the facility will use AI and robotics to develop new superconductor materials which will, in turn, be used to develop better medical imaging technology and enhanced materials for semiconductors. The announcement forms what the government hopes will be the centrepiece of the relationship between Google and the UK, with British scientists gaining \"priority access\" to some of the world's most advanced AI tools under the partnership. The government statement is heavy on the possibilities of what this partnership may achieve, including clean energy, smarter public services and the safe use of AI in education, based on Gemini. DeepMind also said it will share its proprietary models and data with the UK AI Security Institute; a government agency set up in 2023 to test and evaluate AI systems."
   },
@@ -528,7 +528,7 @@
     ],
     "id": "item-33",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "[PDF] Shakir Mohammed (Google Deepmind) wins 2026 AAAI Award for ...",
     "summary_original": "Shakir Mohammed (Google Deepmind) wins 2026 AAAI Award for Artificial Intelligence for the Benefit of Humanity December 3, 2025 Since 2021, the AAAI Award for Artificial Intelligence for the Benefit of Humanity has recognized for the positive impacts of artificial intelligence to protect, enhance, and improve human life in meaningful ways with long-lived effects. This year, the AAAI Awards Committee is pleased to announce that the 2026 recipient of the award and $25,000 prize is awarded to Shakir Mohammed, for significant contributions to maximizing social benefit by empowering communities worldwide to learn, contribute, debate, and shape how AI is used. Dr. Shakir Mohamed is a world-leading researcher and innovator in AI whose career exemplifies a profound commitment to AI addressing global challenges and for broad societal benefit. The award will be presented at the conference for the Annual Association for the Advancement of Artificial Intelligence (AAAI) in February and is accompanied by a prize of $25,000 plus travel expenses to the conference."
   },
@@ -1027,7 +1027,7 @@
     ],
     "id": "item-62",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Google Analytics News | April, 2026 (STARTUP EDITION)",
     "summary_original": "The big Google Analytics news involves major updates by April 2026, focusing on AI-driven automation, cross-device tracking,"
   },
@@ -1061,7 +1061,7 @@
     ],
     "id": "item-64",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "The latest AI news we announced in March 2026 - Google Blog",
     "summary_original": "[Skip to main content](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/#jump-content). [Share](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). [See all](https://blog.google/innovation-and-ai/products/ \"See all Products articles\"). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [How can I learn new AI skills?](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/#). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). 2.   [Innovation & AI](https://blog.google/innovation-and-ai/). 3.   [Technology](https://blog.google/innovation-and-ai/technology/). 4.   [AI](https://blog.google/innovation-and-ai/technology/ai/). [Share](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/). [Share](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/). [**We expanded Search Live globally to everywhere AI Mode is available**](https://blog.google/products-and-platforms/products/search/search-live-global-expansion/). We also made [Canvas in AI Mode available throughout the U.S](https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/). [**We introduced tools to help people switch to Gemini**](https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/). [**We released new AI features for your devices in the March Pixel Drop**](https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/). [**We announced new tools and partnerships to support your health at The Check Up 2026**](https://blog.google/innovation-and-ai/technology/health/google-health-check-up-2026/). *   [AI](https://blog.google/innovation-and-ai/technology/ai/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). Apr 24, 2026](https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/)."
   },
@@ -1078,7 +1078,7 @@
     ],
     "id": "item-65",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Google Gemini News | April, 2026 (STARTUP EDITION)",
     "summary_original": "[Toggle](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [Check out other fresh news that you might like:](https://blog.mean.ceo/google-gemini-news-april-2026/#Check_out_other_fresh_news_that_you_might_like). *   [Why Entrepreneurs Should Care](https://blog.mean.ceo/google-gemini-news-april-2026/#Why_Entrepreneurs_Should_Care). *   [Common Mistakes to Avoid](https://blog.mean.ceo/google-gemini-news-april-2026/#Common_Mistakes_to_Avoid). *   [What This Signals for the AI Landscape in 2026](https://blog.mean.ceo/google-gemini-news-april-2026/#What_This_Signals_for_the_AI_Landscape_in_2026). *   [People Also Ask:](https://blog.mean.ceo/google-gemini-news-april-2026/#People_Also_Ask). *   [Is Google Gemini free?](https://blog.mean.ceo/google-gemini-news-april-2026/#Is_Google_Gemini_free). *   [What is the Google Gemini app?](https://blog.mean.ceo/google-gemini-news-april-2026/#What_is_the_Google_Gemini_app). *   [FAQ on Google Gemini for Entrepreneurs and Startups](https://blog.mean.ceo/google-gemini-news-april-2026/#FAQ_on_Google_Gemini_for_Entrepreneurs_and_Startups). *   [How can Google Gemini help startups scale their productivity?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_can_Google_Gemini_help_startups_scale_their_productivity). *   [How does Gemini’s cross-platform import impact businesses already using AI tools like ChatGPT?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_does_Geminis_cross-platform_import_impact_businesses_already_using_AI_tools_like_ChatGPT). *   [How should startups ensure data privacy while using Personal Intelligence?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_should_startups_ensure_data_privacy_while_using_Personal_Intelligence). *   [How does Gemini improve lead management for startups?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_does_Gemini_improve_lead_management_for_startups). *   [What mistakes do small teams make while adopting AI tools like Gemini?](https://blog.mean.ceo/google-gemini-news-april-2026/#What_mistakes_do_small_teams_make_while_adopting_AI_tools_like_Gemini). *   [How does Personal Intelligence support business decision-making?](https://blog.mean.ceo/google-gemini-news-april-2026/#How_does_Personal_Intelligence_support_business_decision-making). *   [What opportunities does Gemini’s AI personalization open for marketing automation?](https://blog.mean.ceo/google-gemini-news-april-2026/#What_opportunities_does_Geminis_AI_personalization_open_for_marketing_automation). *   [About the Author](https://blog.mean.ceo/google-gemini-news-april-2026/#About_the_Author). *   [Violetta Bonenkamp](https://blog.mean.ceo/google-gemini-news-april-2026/#Violetta_Bonenkamp). [Learn how AI empowers solopreneurs](https://blog.mean.ceo/google-gemini-news-march-2026/). *   [Twitter](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [Facebook](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [LinkedIn](https://blog.mean.ceo/google-gemini-news-april-2026/#). *   [YouTube](https://blog.mean.ceo/google-gemini-news-april-2026/#). [Privacy Policy](https://blog.mean.ceo/google-gemini-news-april-2026/#). [Terms and Conditions](https://blog.mean.ceo/google-gemini-news-april-2026/#)."
   },
@@ -2468,7 +2468,7 @@
     ],
     "id": "item-135",
     "category": "policy-regulation",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "2026年4月最新四大模型横评：Kimi K2.6 vs Claude Opus 4.7 vs GPT-5.5 ...",
@@ -2663,7 +2663,7 @@
     ],
     "id": "item-148",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "MiniMax: Latest News and Updates | South China Morning Post",
     "summary_original": "MiniMax ; Outlook for China stocks brightens on capital flows, rebounding home prices · 21 Apr 2026 - 1:15PM · Hong Kong economy ; 'Horrible' for US if DeepSeek AI"
   },
@@ -2800,7 +2800,7 @@
     ],
     "id": "item-157",
     "category": "industry-business",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "AI at MIT",
@@ -2881,7 +2881,7 @@
     ],
     "id": "item-162",
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "What's next for AI in 2026 - LinkedIn",
     "summary_original": "The great AI hype correction of 2025 — Perhaps it's time to readjust our expectations for AI. Image: Stephanie Arnett/MIT Technology Review |"
   },
