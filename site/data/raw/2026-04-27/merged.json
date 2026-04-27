@@ -57,7 +57,7 @@
     ],
     "id": "item-3",
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "2026年4月AI编程工具选型指南：先问自己一个问题，是搭项目还是写 ...",
@@ -166,7 +166,7 @@
     ],
     "id": "item-10",
     "category": "research-frontier",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Artificial Intelligence Apr 2026",
     "summary_original": "[Yuxing Lu](https://arxiv.org/search/cs?searchtype=author&query=Lu,+Y), [Yushuhong Lin](https://arxiv.org/search/cs?searchtype=author&query=Lin,+Y), [Jason Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+J). [Hy Dang](https://arxiv.org/search/cs?searchtype=author&query=Dang,+H), [Quang Dao](https://arxiv.org/search/cs?searchtype=author&query=Dao,+Q), [Meng Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+M). [Ha Na Cho](https://arxiv.org/search/cs?searchtype=author&query=Cho,+H+N). [Mark Dranias](https://arxiv.org/search/cs?searchtype=author&query=Dranias,+M), [Adam Whitley](https://arxiv.org/search/cs?searchtype=author&query=Whitley,+A). [Gaurav Rajesh Parikh](https://arxiv.org/search/cs?searchtype=author&query=Parikh,+G+R), [Angikar Ghosal](https://arxiv.org/search/cs?searchtype=author&query=Ghosal,+A). [Syed Eqbal Alam](https://arxiv.org/search/cs?searchtype=author&query=Alam,+S+E), [Zhan Shu](https://arxiv.org/search/cs?searchtype=author&query=Shu,+Z). [Borislav Mavrin](https://arxiv.org/search/cs?searchtype=author&query=Mavrin,+B). [Wei Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+W). [Jama Hussein Mohamud](https://arxiv.org/search/cs?searchtype=author&query=Mohamud,+J+H), [Drew Wagner](https://arxiv.org/search/cs?searchtype=author&query=Wagner,+D), [Mirco Ravanelli](https://arxiv.org/search/cs?searchtype=author&query=Ravanelli,+M). [HyunJoon Jung](https://arxiv.org/search/cs?searchtype=author&query=Jung,+H), [William Na](https://arxiv.org/search/cs?searchtype=author&query=Na,+W). [Harshee Jignesh Shah](https://arxiv.org/search/cs?searchtype=author&query=Shah,+H+J) (Independent Researcher). [Yao Qin](https://arxiv.org/search/cs?searchtype=author&query=Qin,+Y), [Yangyang Yan](https://arxiv.org/search/cs?searchtype=author&query=Yan,+Y), [Jinhua Pang](https://arxiv.org/search/cs?searchtype=author&query=Pang,+J), [Xiaoming Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X). [Thanh Luong Tuan](https://arxiv.org/search/cs?searchtype=author&query=Tuan,+T+L). [Rajkiran Panuganti](https://arxiv.org/search/cs?searchtype=author&query=Panuganti,+R). Roijers](https://arxiv.org/search/cs?searchtype=author&query=Roijers,+D+M). [Sha Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+S), [Naren Ramakrishnan](https://arxiv.org/search/cs?searchtype=author&query=Ramakrishnan,+N). [Zhou Hanlin](https://arxiv.org/search/cs?searchtype=author&query=Hanlin,+Z), [Chan Huah Yong](https://arxiv.org/search/cs?searchtype=author&query=Yong,+C+H). [Olav Laudy](https://arxiv.org/search/cs?searchtype=author&query=Laudy,+O). Payne](https://arxiv.org/search/cs?searchtype=author&query=Payne,+T+R), [Valentina Tamma](https://arxiv.org/search/cs?searchtype=author&query=Tamma,+V), [Jacopo de Berardinis](https://arxiv.org/search/cs?searchtype=author&query=de+Berardinis,+J). [Andrei Mantsivoda](https://arxiv.org/search/cs?searchtype=author&query=Mantsivoda,+A), [Darya Gavrilina](https://arxiv.org/search/cs?searchtype=author&query=Gavrilina,+D). [Matthias Mertens](https://arxiv.org/search/cs?searchtype=author&query=Mertens,+M), [Adam Kuzee](https://arxiv.org/search/cs?searchtype=author&query=Kuzee,+A), [Brittany S. [Fan Huang](https://arxiv.org/search/cs?searchtype=author&query=Huang,+F), [Songheng Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+S), [Haewoon Kwak](https://arxiv.org/search/cs?searchtype=author&query=Kwak,+H), [Jisun An](https://arxiv.org/search/cs?searchtype=author&query=An,+J). [Zakariya Laouar](https://arxiv.org/search/cs?searchtype=author&query=Laouar,+Z), [Qi Heng Ho](https://arxiv.org/search/cs?searchtype=author&query=Ho,+Q+H), [Zachary Sunberg](https://arxiv.org/search/cs?searchtype=author&query=Sunberg,+Z). [Khalid Adnan Alsayed](https://arxiv.org/search/cs?searchtype=author&query=Alsayed,+K+A). Jacobson](https://arxiv.org/search/cs?searchtype=author&query=Jacobson,+M+J), [Daniel Xie](https://arxiv.org/search/cs?searchtype=author&query=Xie,+D), [Jackson Shen](https://arxiv.org/search/cs?searchtype=author&query=Shen,+J), [Adil Wazeer](https://arxiv.org/search/cs?searchtype=author&query=Wazeer,+A), [Haiyan Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Xinghang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X), [Yexiang Xue](https://arxiv.org/search/cs?searchtype=author&query=Xue,+Y). [Yakun Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Min Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+M), [Zeguan Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+Z), [Junyu Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+J), [Sitao Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+S), [Zhenwen Shao](https://arxiv.org/search/cs?searchtype=author&query=Shao,+Z). [Daniel Xie](https://arxiv.org/search/cs?searchtype=author&query=Xie,+D), [Maxwell J. Jacobson](https://arxiv.org/search/cs?searchtype=author&query=Jacobson,+M+J), [Adil Wazeer](https://arxiv.org/search/cs?searchtype=author&query=Wazeer,+A), [Haiyan Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+H), [Xinghang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X), [Yexiang Xue](https://arxiv.org/search/cs?searchtype=author&query=Xue,+Y). M. Rakibul Hasan Shawon](https://arxiv.org/search/cs?searchtype=author&query=Shawon,+S+M+R+H), [Hualiang Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+H). [Prince Zizhuang Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+P+Z), [Shuli Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+S)."
   },
@@ -183,7 +183,7 @@
     ],
     "id": "item-11",
     "category": "research-frontier",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Curated list of AI Agent papers (2026) — filtering arXiv so you don't ...",
     "summary_original": "Curated list of AI agent papers from arXiv. Top AI research papers for building AI agents. Innovative uses of AI agents in daily life. Best AI"
   },
@@ -217,7 +217,7 @@
     ],
     "id": "item-13",
     "category": "research-frontier",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "bansky-cl/diffusion-nlp-paper-arxiv - GitHub",
     "summary_original": "Date, Title, label, Abstract, PDF, Code. 2026-04-22, On the Quantization Robustness of Diffusion Language Models in Coding Benchmarks, cs.LG, cs."
   },
@@ -234,7 +234,7 @@
     ],
     "id": "item-14",
     "category": "research-frontier",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Machine Learning Apr 2026 - stat.ML - arXiv",
     "summary_original": "Jingyi Xie, Linjun Zhang, Sai Li. Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG). Subjects: Machine Learning (stat.ML); Information Theory (cs.IT); Machine Learning (cs.LG); Optimization and Control (math.OC); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Probability (math.PR); Statistics Theory (math.ST); Computational Finance (q-fin.CP). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Probability (math.PR). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Systems and Control (eess.SY); Optimization and Control (math.OC). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Optimization and Control (math.OC). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Optimization and Control (math.OC); Computation (stat.CO). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Econometrics (econ.EM); Statistics Theory (math.ST). Subjects: Machine Learning (stat.ML); Machine Learning (cs.LG); Signal Processing (eess.SP). Subjects: Machine Learning (stat.ML); Information Theory (cs.IT); Machine Learning (cs.LG); Signal Processing (eess.SP); Applications (stat.AP). Subjects: Machine Learning (stat.ML); Information Theory (cs.IT); Machine Learning (cs.LG)."
   },
@@ -251,7 +251,7 @@
     ],
     "id": "item-15",
     "category": "research-frontier",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "200 new machine learning papers uploaded on Arxiv. - Reddit",
     "summary_original": "[D] Some concerns about the current state of machine learning research ... Awesome repo of AI Agent papers (2026) - filtering arXiv so you don't"
   },
@@ -268,7 +268,7 @@
     ],
     "id": "item-16",
     "category": "major-release",
-    "trimmed": false
+    "trimmed": true
   },
   {
     "title": "新品发布 - 智谱AI开放文档",

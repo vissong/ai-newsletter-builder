@@ -42,31 +42,31 @@
           "category": "tools-release"
         },
         {
-          "id": "item-3",
-          "title": "2026最全AI工具白皮书！100+款神级AI应用，赶紧收藏",
-          "source_count": 1,
-          "category": "tools-release"
-        },
-        {
-          "id": "item-10",
-          "title": "人工智能 2026年4月",
-          "source_count": 1,
-          "category": "research-frontier"
-        },
-        {
           "id": "item-68",
           "title": "西方已经忘记了如何制造东西，现在又在忘记如何写代码",
           "source_count": 1,
           "category": "tools-release"
+        },
+        {
+          "id": "item-12",
+          "title": "NLP 中的大语言模型：演进、架构趋势与开放挑战",
+          "source_count": 1,
+          "category": "research-frontier"
+        },
+        {
+          "id": "item-30",
+          "title": "2026年4月大模型开源策略突变：GLM坚持真开源，MiniMax转向“伪 ...",
+          "source_count": 1,
+          "category": "major-release"
         }
       ],
-      "item_count": 52,
-      "trimmed_count": 119,
+      "item_count": 45,
+      "trimmed_count": 126,
       "source_count": 15,
       "categories": {
-        "tools-release": 13,
-        "research-frontier": 7,
-        "major-release": 7,
+        "tools-release": 12,
+        "research-frontier": 2,
+        "major-release": 6,
         "kol-posts": 15,
         "industry-business": 8,
         "policy-regulation": 2

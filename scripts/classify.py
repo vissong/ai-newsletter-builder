@@ -252,6 +252,22 @@ def is_garbage(item: dict, run_date: str):
     ]):
         return "scraping artifact"
 
+    # 3.5. Aggregation / listicle / roundup pages (not news articles)
+    LISTICLE_PATTERNS = [
+        r"最全.*(?:工具|AI|应用)",
+        r"白皮书",
+        r"选型指南",
+        r"\d+[款个+].*(?:AI|工具|应用|神器)",
+        r"(?:AI|人工智能|机器学习)\s*\d{4}年\d{1,2}月",  # "人工智能 2026年4月" / "机器学习 2026年4月 - stat.ML"
+        r"\d{4}年\d{1,2}月.*(?:已经|预期).*(?:发布|上线)",  # "2026年4月已经发布/预期发布的AI大模型"
+        r"arXiv\s*(?:上传|合集|论文精选)",
+        r"论文精选列表",
+        r"(?:每日|每周|本周|本月)AI(?:资讯|新闻|日报|周报)",
+    ]
+    for pat in LISTICLE_PATTERNS:
+        if re.search(pat, title):
+            return f"listicle/aggregation: {pat}"
+
     # 4. Summary is site navigation / too much boilerplate (>800 chars with lots of ####)
     if summary.count("####") >= 3:
         return "site navigation dump"
