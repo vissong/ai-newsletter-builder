@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-04-28",
+      "n": 8,
+      "dow": "TUE",
+      "title": "Microsoft与OpenAI分手，中国否决Meta收购Manus",
+      "summary": "Microsoft与OpenAI拆解独家约束的同一天，中国监管拦下了Meta伸向Manus的收购之手——当开放与封锁两者同时到来，人们发现真正的博弈从来不在模型本身。",
+      "headlines": [
+        {
+          "title": "Microsoft与OpenAI终止独家合作及收入分成协议",
+          "tag": "重大发布"
+        },
+        {
+          "title": "中国在数月调查后否决Meta 20亿美元收购Manus交易",
+          "tag": "行业动态"
+        },
+        {
+          "title": "DeepMind的David Silver筹集11亿美元打造无需人类数据学习的AI",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Mercor平台4万名AI承包商的4TB语音样本遭窃",
+          "tag": "政策监管"
+        },
+        {
+          "title": "GitHub Copilot将转向按量计费模式",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-36",
+          "title": "专题研讨：加速多模态基础模型的硬件与软件技术",
+          "source_count": 2,
+          "category": "research-frontier"
+        },
+        {
+          "id": "item-41",
+          "title": "任务网络上的多任务优化",
+          "source_count": 2,
+          "category": "research-frontier"
+        },
+        {
+          "id": "item-42",
+          "title": "通用Transformer需要记忆：自适应递归推理中的深度-状态权衡",
+          "source_count": 2,
+          "category": "research-frontier"
+        },
+        {
+          "id": "item-142",
+          "title": "Microsoft与OpenAI终止独家合作及收入分成协议",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-143",
+          "title": "GitHub Copilot将转向按量计费模式",
+          "source_count": 1,
+          "category": "tools-release"
+        }
+      ],
+      "item_count": 77,
+      "trimmed_count": 126,
+      "source_count": 17,
+      "categories": {
+        "major-release": 16,
+        "industry-business": 18,
+        "research-frontier": 10,
+        "tools-release": 18,
+        "policy-regulation": 4,
+        "kol-posts": 11
+      },
+      "generated_at": "2026-04-28T02:16:56.836892+00:00"
+    },
+    {
       "date": "2026-04-27",
       "n": 7,
       "dow": "SUN",
