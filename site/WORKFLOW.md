@@ -113,9 +113,23 @@ site/
 
 `output_language: zh` → 将所有英文条目的 `title` 和 `summary` 翻译为中文。原标题存入 `title_original`。保留专有名词原文（Claude、OpenAI、GPT-5 等）。
 
+> **注意**: 翻译应在分类裁剪之后执行（只翻译 visible 条目），节省工作量。
+
 ### Phase 4: 分类 + 裁剪
 
-分配到 5 个固定分类（slug 不可更改）：
+使用确定性脚本进行分类和垃圾检测：
+```bash
+python3 scripts/classify.py data/raw/<date>/merged.json
+```
+
+该脚本处理：
+- **垃圾检测**（最先执行）：屏蔽源、首页 URL、URL 日期过期、抓取残留、列表/聚合页面、站点导航碎片
+- **来源固定映射**（最高优先级）：arxiv-* → research-frontier, 36kr → industry-business 等
+- **来源默认映射**（第二优先级）：openai-blog → major-release, techcrunch → industry-business 等
+- **关键词匹配**（第三优先级）：政策、发布、行业、工具、研究
+- **上限裁剪**：按 `source_count` 降序排列，超出上限的标记 `trimmed`
+
+分配到 6 个固定分类（slug 不可更改）：
 
 | Slug | 名称 | 上限 |
 |---|---|---|
@@ -124,8 +138,24 @@ site/
 | `research-frontier` | 研究前沿 | **10** |
 | `tools-release` | 工具发布 | 20 |
 | `policy-regulation` | 政策监管 | 20 |
+| `kol-posts` | KOL 观点 | 15 |
 
 超出上限的条目标记 `"trimmed": true`（不删除），仅非 trimmed 条目计入可见数。
+
+### Phase 4.3: 日期验证
+
+对 `published_at == fetched_at` 的可见条目（即 prompt/search 来源未获取到真实发布日期的），验证其真实发布时间：
+
+```bash
+python3 scripts/verify_dates.py data/raw/<date>/merged.json
+```
+
+该脚本处理：
+1. **标题日期提取**（零网络开销）：识别"2026年4月10日"、"4月第3周"、"April 28, 2026"等模式
+2. **网页日期提取**（并行 6 线程 curl）：从 JSON-LD `datePublished`、`<meta>` 标签、`<time>` 标签、中英文文本日期中提取真实发布日期
+3. 超过 48h → 标记 `trimmed`；找到新鲜的真实日期 → 更新 `published_at`
+
+典型效果：每期自动拦截 6-10 条绕过时间过滤器的过期内容（如旧博客文章、过期公告、往期周报等）。
 
 ### Phase 5: 更新期刊清单
 
@@ -150,11 +180,12 @@ python scripts/build_feed.py --site site --base-url https://token-street.pages.d
 对于已经熟悉流程的 agent，按顺序执行：
 
 ```
-Phase 2  → 并发抓取所有源，写入 data/raw/<date>/<source>.json + collect.log
-Phase 3  → 合并去重 → data/raw/<date>/merged.json
-Phase 3.5 → 翻译英文条目为中文
-Phase 4  → 分类 + 裁剪（research ≤10, 其余 ≤20）→ 回写 merged.json
-Phase 5  → 更新 data/issues.json（编辑标题 + 2 条 headlines + top_items）
+Phase 2   → 并发抓取所有源，写入 data/raw/<date>/<source>.json + collect.log
+Phase 3   → 合并去重 → data/raw/<date>/merged.json
+Phase 4   → python3 scripts/classify.py merged.json（垃圾检测 + 分类 + 裁剪）
+Phase 4.3 → python3 scripts/verify_dates.py merged.json（日期验证，trim 过期内容）
+Phase 3.5 → 翻译英文条目为中文（仅 visible 条目）
+Phase 5   → 更新 data/issues.json（编辑标题 + 2 条 headlines + top_items）
 Phase 6.5 → python scripts/build_feed.py --site site --base-url https://token-street.pages.dev
 ```
 
