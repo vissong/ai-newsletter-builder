@@ -195,6 +195,7 @@ HOMEPAGE_PATTERNS = [
     re.compile(r'instagram\.com/popular/'),
     re.compile(r'aiopenminds\.com/ai/news/?$'),
     re.compile(r'apnews\.com/hub/'),
+    re.compile(r'technologyreview\.com/topic/'),
 ]
 
 
@@ -263,6 +264,12 @@ def is_garbage(item: dict, run_date: str):
         r"arXiv\s*(?:上传|合集|论文精选)",
         r"论文精选列表",
         r"(?:每日|每周|本周|本月)AI(?:资讯|新闻|日报|周报)",
+        r"(?:最佳|最推荐|best|top)\s*\d*\s*(?:份|个)?\s*(?:AI|机器学习)?\s*(?:新闻通讯|newsletter)",  # "10份最佳AI新闻通讯"
+        r"\d+\s*(?:份|个)\s*(?:小众|必读|推荐)?\s*AI\s*(?:新闻通讯|newsletter)",  # "12份小众AI新闻通讯"
+        r"\d+\s*(?:款|個)\s*最[強强]\s*AI\s*(?:工具|tool)",  # "16款最強AI工具"
+        r"(?:最佳|best|top)\s*\d*\s*(?:款|个|種)?\s*AI\s*(?:tool|工具).*(?:排名|ranking|榜|推[荐薦])",  # "最佳AI Tools排名"
+        r"(?:文章|article)\s*(?:归档|存档|archive)",  # "AI文章归档——The Verge"
+        r"(?:AI|人工智能).*(?:热门|熱門)\s*(?:榜|排行|top)",  # "AI熱門榜"
     ]
     for pat in LISTICLE_PATTERNS:
         if re.search(pat, title):

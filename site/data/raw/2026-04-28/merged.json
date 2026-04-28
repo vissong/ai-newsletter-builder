@@ -12,7 +12,8 @@
     ],
     "source_count": 1,
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true,
+    "trimmed_reason": "stale: 2026-04-18 (via title_date)"
   },
   {
     "id": "item-1",
@@ -57,7 +58,8 @@
     ],
     "source_count": 1,
     "category": "tools-release",
-    "trimmed": false
+    "trimmed": true,
+    "trimmed_reason": "stale: 2026-04-25 (via page_date)"
   },
   {
     "id": "item-4",
@@ -72,7 +74,7 @@
     ],
     "source_count": 1,
     "category": "tools-release",
-    "trimmed": true
+    "trimmed": false
   },
   {
     "id": "item-5",
@@ -149,7 +151,8 @@
     "category": "major-release",
     "trimmed": true,
     "title_original": "Have you heard these exciting AI news? - April 10, 2026 ... - YouTube",
-    "summary_original": "---- Keywords: AI agents, Claude, OpenClaw, Hermes, LM Arena, MemPalace, Anthropic, managed agents, Gemma 4, Meta Muse Spark, Cursor 3.0"
+    "summary_original": "---- Keywords: AI agents, Claude, OpenClaw, Hermes, LM Arena, MemPalace, Anthropic, managed agents, Gemma 4, Meta Muse Spark, Cursor 3.0",
+    "trimmed_reason": "stale: 2026-04-10 (via title_date)"
   },
   {
     "id": "item-10",
@@ -164,7 +167,7 @@
     ],
     "source_count": 1,
     "category": "major-release",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "Anthropic AI 2026 Strategy Reveals The Future Of AI Workflows",
     "summary_original": "Anthropic AI 2026 Strategy is rapidly transforming Claude from a chatbot into a system that can actually complete real work."
   },
@@ -200,7 +203,8 @@
     "category": "major-release",
     "trimmed": true,
     "title_original": "The Great Claude Code Leak of 2026: Accident, Incompetence, or ...",
-    "summary_original": "**TL;DR:** On March 31, 2026, Anthropic accidentally shipped the *entire source code* of Claude Code to the public npm registry via a single misconfigured debug file. `npm install @anthropic-ai/claude-code. The leaked codebase is the `src/` directory of Claude Code, the \"agentic harness\" that wraps the underlying Claude model and gives it the ability to use tools, manage files, run bash commands, and orchestrate multi-agent workflows. Claude Code has an entire subsystem called Undercover Mode, purpose-built to prevent internal codenames from leaking through AI-generated content. **If you're building AI coding tools:** The leaked source is now the most detailed public documentation of how to build a production-grade AI agent harness that exists. Here's what we know for certain: a misconfigured `.npmignore` and a public cloud storage bucket exposed 512,000 lines of Claude Code, the code spread instantly and is now permanently in the wild, the leak revealed a technically impressive product with a compelling feature roadmap, and Anthropic's brand among developers bounced back remarkably fast."
+    "summary_original": "**TL;DR:** On March 31, 2026, Anthropic accidentally shipped the *entire source code* of Claude Code to the public npm registry via a single misconfigured debug file. `npm install @anthropic-ai/claude-code. The leaked codebase is the `src/` directory of Claude Code, the \"agentic harness\" that wraps the underlying Claude model and gives it the ability to use tools, manage files, run bash commands, and orchestrate multi-agent workflows. Claude Code has an entire subsystem called Undercover Mode, purpose-built to prevent internal codenames from leaking through AI-generated content. **If you're building AI coding tools:** The leaked source is now the most detailed public documentation of how to build a production-grade AI agent harness that exists. Here's what we know for certain: a misconfigured `.npmignore` and a public cloud storage bucket exposed 512,000 lines of Claude Code, the code spread instantly and is now permanently in the wild, the leak revealed a technically impressive product with a compelling feature roadmap, and Anthropic's brand among developers bounced back remarkably fast.",
+    "trimmed_reason": "stale: 2026-03-31 (via page_date)"
   },
   {
     "id": "item-13",
@@ -1645,9 +1649,10 @@
     ],
     "source_count": 1,
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "New AI Model Releases News | April, 2026 (STARTUP EDITION)",
-    "summary_original": "[Toggle](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [Latest xAI models released in 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Latest_xAI_models_released_in_2026). *   [Grok AI video generation capability (April 2026)](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_AI_video_generation_capability_April_2026). *   [Grok xAI video generation capability in April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_xAI_video_generation_capability_in_April_2026). *   [Current Grok model version xAI, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Current_Grok_model_version_xAI_April_2026). *   [Current Grok model version (April 2026)](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Current_Grok_model_version_April_2026). *   [Grok xAI current model version in April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_xAI_current_model_version_in_April_2026). *   [xAI Grok latest model version, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#xAI_Grok_latest_model_version_April_2026). *   [Latest Grok model version xAI in April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Latest_Grok_model_version_xAI_in_April_2026). *   [Grok xAI current model version, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_xAI_current_model_version_April_2026). *   [xAI Grok current model version, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#xAI_Grok_current_model_version_April_2026). *   [Current Grok version xAI April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Current_Grok_version_xAI_April_2026). *   [People Also Ask:](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#People_Also_Ask). *   [What improvements does Google’s Gemini 3.1 offer?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#What_improvements_does_Googles_Gemini_31_offer). *   [How does OpenAI’s GPT-5.4 differ from previous versions?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#How_does_OpenAIs_GPT-54_differ_from_previous_versions). *   [Why is Claude Mythos considered groundbreaking?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Why_is_Claude_Mythos_considered_groundbreaking). *   [Can startups benefit from Google’s compression algorithm even with limited budgets?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Can_startups_benefit_from_Googles_compression_algorithm_even_with_limited_budgets). *   [Are lightweight AI tools, like Gemini 3.1, viable for solopreneurs?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Are_lightweight_AI_tools_like_Gemini_31_viable_for_solopreneurs). *   [About the Author](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#About_the_Author). *   [Violetta Bonenkamp](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Violetta_Bonenkamp). *   [Twitter](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [Facebook](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [LinkedIn](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [YouTube](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). [Privacy Policy](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). [Terms and Conditions](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#)."
+    "summary_original": "[Toggle](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [Latest xAI models released in 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Latest_xAI_models_released_in_2026). *   [Grok AI video generation capability (April 2026)](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_AI_video_generation_capability_April_2026). *   [Grok xAI video generation capability in April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_xAI_video_generation_capability_in_April_2026). *   [Current Grok model version xAI, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Current_Grok_model_version_xAI_April_2026). *   [Current Grok model version (April 2026)](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Current_Grok_model_version_April_2026). *   [Grok xAI current model version in April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_xAI_current_model_version_in_April_2026). *   [xAI Grok latest model version, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#xAI_Grok_latest_model_version_April_2026). *   [Latest Grok model version xAI in April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Latest_Grok_model_version_xAI_in_April_2026). *   [Grok xAI current model version, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Grok_xAI_current_model_version_April_2026). *   [xAI Grok current model version, April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#xAI_Grok_current_model_version_April_2026). *   [Current Grok version xAI April 2026](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Current_Grok_version_xAI_April_2026). *   [People Also Ask:](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#People_Also_Ask). *   [What improvements does Google’s Gemini 3.1 offer?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#What_improvements_does_Googles_Gemini_31_offer). *   [How does OpenAI’s GPT-5.4 differ from previous versions?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#How_does_OpenAIs_GPT-54_differ_from_previous_versions). *   [Why is Claude Mythos considered groundbreaking?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Why_is_Claude_Mythos_considered_groundbreaking). *   [Can startups benefit from Google’s compression algorithm even with limited budgets?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Can_startups_benefit_from_Googles_compression_algorithm_even_with_limited_budgets). *   [Are lightweight AI tools, like Gemini 3.1, viable for solopreneurs?](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Are_lightweight_AI_tools_like_Gemini_31_viable_for_solopreneurs). *   [About the Author](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#About_the_Author). *   [Violetta Bonenkamp](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#Violetta_Bonenkamp). *   [Twitter](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [Facebook](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [LinkedIn](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). *   [YouTube](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). [Privacy Policy](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#). [Terms and Conditions](https://blog.mean.ceo/new-ai-model-releases-news-april-2026/#).",
+    "trimmed_reason": "stale: 2026-04-01 (via page_date)"
   },
   {
     "id": "item-102",
@@ -1715,7 +1720,7 @@
     "source_count": 1,
     "id": "item-105",
     "category": "kol-posts",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "💥🤘 https://t.co/i7mo9zONAk",
     "summary_original": "[Kevin Weil @kevinweil · likes:117 rt:2] 💥🤘 https://t.co/i7mo9zONAk"
   },
@@ -1767,7 +1772,7 @@
     "source_count": 1,
     "id": "item-108",
     "category": "kol-posts",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "I synced my iPhone photos to @googlephotos and there seems to be no way to just …",
     "summary_original": "[Peter Yang @petergyang · likes:23 rt:2] I synced my iPhone photos to @googlephotos and there seems to be no way to just prompt Gemini to \"create a highlight reel of me with my daughter growing up\"\n\nSeems like a missed opportunity."
   },
@@ -1785,7 +1790,7 @@
     "source_count": 1,
     "id": "item-109",
     "category": "kol-posts",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "I’ve never heard of this insane app but the FindMy team needs to take notes. htt…",
     "summary_original": "[Nan Yu @thenanyu · likes:51 rt:0] I’ve never heard of this insane app but the FindMy team needs to take notes. https://t.co/gbc0vhufQG"
   },
@@ -1929,7 +1934,7 @@
     "source_count": 1,
     "id": "item-117",
     "category": "kol-posts",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "https://t.co/NRTQre60eW",
     "summary_original": "[Nikunj Kothari @nikunj · likes:89 rt:7] https://t.co/NRTQre60eW"
   },
@@ -2094,7 +2099,7 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "4/28/2026 | Daily AI News from GAI Insights - YouTube",
     "summary_original": "[4/28/2026 | Daily AI News from GAI Insights](https://www.youtube.com/watch?v=fhgqyFyemHw). | EP 564 | April 24 | Daily AI News by GAI Insights GAI Insights: Daily AI News & Learning Lab 56 • Streamed 3d ago Live Playlist ()Mix (50+)](https://www.youtube.com/watch?v=BHRB9yy6dfQ)[15:18 Muhammad Ali Refused to Shake Bruce Lee’s Hand — What Bruce Said Left the Studio Frozen Bruce Lee Diaries 501K • 2mo ago Live Playlist ()Mix (50+)](https://www.youtube.com/watch?v=W2d2B4podpo)[5:03 Gen. Keane: This seems PRETTY OBVIOUS...Fox Business 200K • 4h ago Live Playlist ()Mix (50+)](https://www.youtube.com/watch?v=0PyRBOzdj0k)[2:50 Melania Trump Calls On ABC to FIRE Jimmy Kimmel, 7 Months After Suspension Entertainment Tonight 4.5K • 1h ago Live Playlist ()Mix (50+)](https://www.youtube.com/watch?v=ZIaSh4HkGeg)[1:25:47 The Judges Thought This Would Be BORING... [![Image 8](https://www.youtube.com/watch?v=fhgqyFyemHw) ### GAI Insights: Daily AI News & Learning Lab 2.45K subscribers](https://www.youtube.com/@GAIInsights). ...more Show less [![Image 9](https://www.youtube.com/watch?v=fhgqyFyemHw) ### GAI Insights: Daily AI News & Learning Lab 2.45K subscribers](https://www.youtube.com/@GAIInsights). | EP 564 | April 24 | Daily AI News by GAI Insights](https://www.youtube.com/watch?v=BHRB9yy6dfQ&pp=ugUHEgVlbi1VUw%3D%3D). ### [AI Agent Design Through Claude Code | EP 562 | April 22 | Daily AI News from GAI Insights](https://www.youtube.com/watch?v=ZwjjqFEy-sk&pp=ugUHEgVlbi1VU9IHCQnfCgGHKiGM7w%3D%3D). ### [Salesforce just blew up its own pricing model | EP 560 | April 20 | Daily AI News from GAI Insights](https://www.youtube.com/watch?v=t4lAZ4eEFVQ&pp=ugUHEgVlbi1VUw%3D%3D)."
   },
@@ -2143,7 +2148,7 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "My Top 5 AI Newsletters for 2026 - YouTube",
     "summary_original": "1️⃣ The Neuron - AI News Daily newsletter great for AI ... 4️⃣ IAPP AI Governance Dashboard (weekly) Weekly digest of top AI-related policy and"
   },
@@ -2160,7 +2165,7 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Best AI Newsletters You're Not Reading Yet (2026) - YouTube",
     "summary_original": "... AI is headed, these newsletters save you hours of research every week. You'll walk away with a curated reading list that keeps you informed"
   },
@@ -2177,7 +2182,7 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "10 best AI newsletters to stay updated in 2026 | The Jotform Blog",
     "summary_original": "10 best AI newsletters to stay updated in 2026. Top 10 best AI newsletters. Instead of sifting through endless blog posts and social media threads, you’ll get handpicked insights, expert analysis, and the latest research straight to your inbox, including emerging developments in areas like AI agents, which are becoming increasingly relevant across industries. Whether you’re a developer, researcher, business strategist, or simply an AI enthusiast — there’s a newsletter to fit your needs. The best ones provide fresh perspectives, and industry shifts before they hit the mainstream — plus practical applications you can use in your day-to-day. ## What to look for in a great AI newsletter. Here’s what to consider when choosing the best AI newsletter for your needs:. These newsletters offer a range of perspectives and insights, helping you stay informed about the latest trends, research, and applications in AI. The Rundown is a must-read if you want a fast and easy way to stay updated on AI."
   },
@@ -2211,7 +2216,7 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "12 Niche AI Newsletters I'm Watching in 2026 | by Zack Liu - Medium",
     "summary_original": "## The definitive guide to high-margin, low-overhead AI media. It’s early 2026, and the “AI Gold Rush” of 2023 feels like a lifetime ago. They sold news that was obsolete by the time it hit the inbox. The people winning today — the ones printing cash while the rest of the market bleeds — are building **micro-monopolies**. I’ve spent the last few months digging into the backends of the world’s most profitable AI media brands. Here are the 12 niche AI newsletters I’m watching (and learning from) in 2026. > **_“In the age of noise, the curator who can actually code is the ultimate kingmaker.”_**. *   **Pure Authority:** Because he understands the “guts” of the technology, his endorsements carry 10x the weight of a generalist reporter. *   **Shortening the Funnel:** Brands pay a massive premium to be featured here because it’s a “Discovery Engine.” It shortens the sales cycle for new AI tools by weeks."
   },
@@ -2228,7 +2233,7 @@
     ],
     "source_count": 1,
     "category": "major-release",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "Google Online Security Blog",
     "summary_original": "We have previously detailed [our work in this area](https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html) and [researchers have further highlighted](https://bughunters.google.com/blog/task-injection-exploiting-agency-of-autonomous-ai-agents) the evolving nature of these vulnerabilities. *   [Google Workspace’s continuous approach to mitigating indirect prompt injections](https://security.googleblog.com/2026/04/google-workspaces-continuous-approach.html) (blog post) from Google’s GenAI security team. *   [Mitigating prompt injection attacks with a layered defense strategy](https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html) (blog post) from Google’s GenAI security team. While replacing one piece of risky attack surface is itself valuable, this project lays the foundation for future integration of memory-safe parsers and code into the cellular baseband, ensuring the baseband’s security posture will [continue to improve](https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html#:~:text=Final%20thoughts) as development continues. Posted by Adam Gavish, Google GenAI Security Team[Read More](https://security.googleblog.com/2026/04/google-workspaces-continuous-approach.html \"Google Workspace’s continuous approach to mitigating indirect prompt injections\"). In our previous blog “[Mitigating prompt injection attacks with a layered defense strategy](https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html)”, we reviewed the layered architecture of our IPI defenses. The [Google AI Vulnerability Rewards Program (VRP)](https://bughunters.google.com/about/rules/google-friends/ai-vulnerability-reward-program-rules) is a critical tool for enabling collaboration between Google and external security researchers who discover new attacks leveraging IPI."
   },
@@ -2245,9 +2250,10 @@
     ],
     "source_count": 1,
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Our 2026 Responsible AI Progress Report - Google Blog",
-    "summary_original": "[Skip to main content](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/#jump-content). [Share](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/). *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/). *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/). *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). [See all](https://blog.google/innovation-and-ai/models-and-research/ \"See all Models & Research articles\"). *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). [See all](https://blog.google/innovation-and-ai/products/ \"See all Products articles\"). [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/ \"See all Infrastructure & cloud articles\"). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/products/). *   [See all](https://blog.google/products-and-platforms/platforms/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/). *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/products/). *   [See all](https://blog.google/products-and-platforms/platforms/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). 2.   [Innovation & AI](https://blog.google/innovation-and-ai/). 3.   [Products](https://blog.google/innovation-and-ai/products/). [Share](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/). [Share](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/). *   [AI](https://blog.google/innovation-and-ai/technology/ai/). [![Image 9](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summer_Travel_Tips_2026_hero.width-300.format-webp.webp) Search #### 7 ways to travel smarter this summer, with help from Google Apr 17, 2026](https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/)."
+    "summary_original": "[Skip to main content](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/#jump-content). [Share](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/). *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/). *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/). *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). [See all](https://blog.google/innovation-and-ai/models-and-research/ \"See all Models & Research articles\"). *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). [See all](https://blog.google/innovation-and-ai/products/ \"See all Products articles\"). [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/ \"See all Infrastructure & cloud articles\"). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/products/). *   [See all](https://blog.google/products-and-platforms/platforms/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). *   [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/). *   [Google Labs](https://blog.google/innovation-and-ai/models-and-research/google-labs/). *   [Gemini models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/). *   [See all](https://blog.google/innovation-and-ai/models-and-research/). *   [Developer tools](https://blog.google/innovation-and-ai/technology/developers-tools/). *   [Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/). *   [NotebookLM](https://blog.google/innovation-and-ai/products/notebooklm/). *   [See all](https://blog.google/innovation-and-ai/products/). *   [See all](https://blog.google/innovation-and-ai/infrastructure-and-cloud/). [See all AI updates](https://blog.google/innovation-and-ai/). *   [See all](https://blog.google/products-and-platforms/products/). *   [See all](https://blog.google/products-and-platforms/platforms/). *   [See all](https://blog.google/products-and-platforms/devices/). *   [Health](https://blog.google/innovation-and-ai/technology/health/). 2.   [Innovation & AI](https://blog.google/innovation-and-ai/). 3.   [Products](https://blog.google/innovation-and-ai/products/). [Share](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/). [Share](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/). *   [AI](https://blog.google/innovation-and-ai/technology/ai/). [![Image 9](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summer_Travel_Tips_2026_hero.width-300.format-webp.webp) Search #### 7 ways to travel smarter this summer, with help from Google Apr 17, 2026](https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/).",
+    "trimmed_reason": "stale: 2026-02-17 (via page_date)"
   },
   {
     "id": "item-137",
@@ -2294,9 +2300,10 @@
     ],
     "source_count": 1,
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "6 New Features in Gemini Drop: April 2026 Update - Jetstream BLOG",
-    "summary_original": "*   A total of six announcements were made: a new image generation feature using the “Nano Banana 2” model that integrates “Google Photos” with “Personal Intelligence,” the expanded rollout of “Personal Intelligence,” the integration of “NotebookLM” into the Gemini app, the release of the Mac app for Gemini, the “Lyria 3 Pro” music generation model capable of creating tracks up to 3 minutes long, and the ability to generate 3D models and interactive charts in the Gemini app. In April 2026, Google announced a total of six new Gemini-related features and has begun rolling them out: a new image generation capability powered by the “Nano Banana 2” model that fuses “Google Photos” with “Personal Intelligence,” the expansion of “Personal Intelligence,” the integration of “NotebookLM” into the Gemini app, the launch of the Mac version of the Gemini app, the “Lyria 3 Pro” music generation model supporting up to 3-minute tracks, and the ability to generate 3D models and interactive charts within the app. [![Image 44: Thumbnail](blob:http://localhost/3307afe07e4f49cf2559baa311e1b5db) Gemini Now Supports 3D Model and Interactive Chart Generation Google announces an update to the Gemini app, now … ![Image 46: favicon](blob:http://localhost/9ebf02d7769bf4309ce0713cc649b936)jetstream.blog](https://jetstream.blog/en/gemini-3d-models-charts-generation/)."
+    "summary_original": "*   A total of six announcements were made: a new image generation feature using the “Nano Banana 2” model that integrates “Google Photos” with “Personal Intelligence,” the expanded rollout of “Personal Intelligence,” the integration of “NotebookLM” into the Gemini app, the release of the Mac app for Gemini, the “Lyria 3 Pro” music generation model capable of creating tracks up to 3 minutes long, and the ability to generate 3D models and interactive charts in the Gemini app. In April 2026, Google announced a total of six new Gemini-related features and has begun rolling them out: a new image generation capability powered by the “Nano Banana 2” model that fuses “Google Photos” with “Personal Intelligence,” the expansion of “Personal Intelligence,” the integration of “NotebookLM” into the Gemini app, the launch of the Mac version of the Gemini app, the “Lyria 3 Pro” music generation model supporting up to 3-minute tracks, and the ability to generate 3D models and interactive charts within the app. [![Image 44: Thumbnail](blob:http://localhost/3307afe07e4f49cf2559baa311e1b5db) Gemini Now Supports 3D Model and Interactive Chart Generation Google announces an update to the Gemini app, now … ![Image 46: favicon](blob:http://localhost/9ebf02d7769bf4309ce0713cc649b936)jetstream.blog](https://jetstream.blog/en/gemini-3d-models-charts-generation/).",
+    "trimmed_reason": "stale: 2026-04-25 (via page_date)"
   },
   {
     "id": "item-140",
@@ -2415,7 +2422,7 @@
     ],
     "source_count": 1,
     "id": "item-145",
-    "category": "tools-release",
+    "category": "major-release",
     "trimmed": false,
     "title_original": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
     "summary_original": "HN score: 303 · comments: 118 · by: GodelNumbering"
@@ -2437,7 +2444,7 @@
     ],
     "source_count": 1,
     "id": "item-146",
-    "category": "industry-business",
+    "category": "policy-regulation",
     "trimmed": false,
     "title_original": "China blocks Meta's acquisition of AI startup Manus",
     "summary_original": "HN score: 302 · comments: 204 · by: yakkomajuri"
@@ -2589,8 +2596,8 @@
     ],
     "source_count": 1,
     "id": "item-153",
-    "category": "tools-release",
-    "trimmed": false,
+    "category": "research-frontier",
+    "trimmed": true,
     "title_original": "Tim Cook Is Leaving. Good",
     "summary_original": "HN score: 92 · comments: 189 · by: tonhe"
   },
@@ -2874,9 +2881,10 @@
     ],
     "source_count": 1,
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Everything we announced at our first-ever LlamaCon - Meta AI",
-    "summary_original": "* We’re celebrating the first-ever LlamaCon by sharing some exciting new tools that will make it even easier to build with Llama and create custom models to fit your use cases. * We’re also sharing new Llama Protection Tools and announcing the Llama Defenders Program, where select trusted partners can access AI-enabled tools to help them evaluate the security of their systems to safeguard against potential threats. Of course, we couldn’t bring together a group of developers without also sharing some open source tools that will make it easier for them to explore Llama models, build faster, and use the latest tools to defend and protect. As part of this release, we’re sharing tools for fine-tuning and evaluation in our new API, where you can tune your own custom versions of our new Llama 3.3 8B model. We’re also sharing updates to help organizations evaluate the efficacy of AI systems in security operations with CyberSecEval 4, as well as announcing the Llama Defenders Program for select partners."
+    "summary_original": "* We’re celebrating the first-ever LlamaCon by sharing some exciting new tools that will make it even easier to build with Llama and create custom models to fit your use cases. * We’re also sharing new Llama Protection Tools and announcing the Llama Defenders Program, where select trusted partners can access AI-enabled tools to help them evaluate the security of their systems to safeguard against potential threats. Of course, we couldn’t bring together a group of developers without also sharing some open source tools that will make it easier for them to explore Llama models, build faster, and use the latest tools to defend and protect. As part of this release, we’re sharing tools for fine-tuning and evaluation in our new API, where you can tune your own custom versions of our new Llama 3.3 8B model. We’re also sharing updates to help organizations evaluate the efficacy of AI systems in security operations with CyberSecEval 4, as well as announcing the Llama Defenders Program for select partners.",
+    "trimmed_reason": "stale: 2025-04-29 (via page_date)"
   },
   {
     "id": "item-170",
@@ -2921,7 +2929,7 @@
     ],
     "source_count": 1,
     "category": "major-release",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "Here's Why Meta's $135 Billion AI Bet in 2026 Could Backfire on ...",
     "summary_original": "# Here's Why Meta's $135 Billion AI Bet in 2026 Could Backfire on Shareholders. Back in January, **Meta Platforms** (NASDAQ: META) announced it would increase its capex from $72 billion in 2025 to up to $135 billion in 2026. It plans to allocate most of that spending to expanding its \"Meta Superintelligence Labs\" AI division. That strategy isn't surprising, since Meta uses AI algorithms across its core social platforms: Facebook, Instagram, Messenger, and WhatsApp. However, that plan could also backfire and weigh down its stock -- which has declined 3% year-to-date, for the foreseeable future. Meta is the world's largest social media company, and it served 3.58 billion daily active people (DAP) across its family of apps (Facebook, Instagram, Messenger, and WhatsApp) at the end of 2025. Here's Why Meta's $135 Billion AI Bet in 2026 Could Backfire on Shareholders was originally published by The Motley Fool."
   },
@@ -2985,7 +2993,7 @@
     ],
     "source_count": 1,
     "category": "tools-release",
-    "trimmed": true
+    "trimmed": false
   },
   {
     "id": "item-177",
@@ -3000,7 +3008,8 @@
     ],
     "source_count": 1,
     "category": "policy-regulation",
-    "trimmed": true
+    "trimmed": true,
+    "trimmed_reason": "stale: 2025-12-31 (via page_date)"
   },
   {
     "id": "item-178",
@@ -3030,7 +3039,7 @@
     ],
     "source_count": 1,
     "category": "policy-regulation",
-    "trimmed": true
+    "trimmed": false
   },
   {
     "id": "item-180",
@@ -3045,7 +3054,7 @@
     ],
     "source_count": 1,
     "category": "tools-release",
-    "trimmed": true
+    "trimmed": false
   },
   {
     "id": "item-181",
@@ -3060,7 +3069,7 @@
     ],
     "source_count": 1,
     "category": "tools-release",
-    "trimmed": true
+    "trimmed": false
   },
   {
     "id": "item-182",
@@ -3091,8 +3100,8 @@
       "minimax-news"
     ],
     "source_count": 1,
-    "category": "policy-regulation",
-    "trimmed": false,
+    "category": "tools-release",
+    "trimmed": true,
     "title_original": "MiniMax at HumanX 2026",
     "summary_original": "[![Image 1: MiniMax](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F969d635c-cab6-45cc-8d61-47c9fe40c81f.png%3Fx-oss-process%3Dimage%2Fformat%2Cwebp&w=384&q=75)](https://www.minimax.io/). ![Image 2: TEXT](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F00874e9c-ad34-4f9f-8537-47e535ec2691.png&w=32&q=75)TEXT. ![Image 3: SPEECH](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F26f493fc-7e47-4583-ae9b-7a5f85d6228a.png&w=32&q=75)SPEECH. ![Image 4: VIDEO](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0f112b95-97b8-4e67-9ef9-e1b869e8342d.png&w=32&q=75)VIDEO. ![Image 5: MUSIC](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fd01e8064-2baf-4c26-adc8-53e9dfaa252d.png&w=32&q=75)MUSIC. ![Image 6: AI-native Applications](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fe0770c40-a75e-4dc9-a8dc-6430ce1e6d4f.png&w=32&q=75)AI-native Applications. [Agent](https://agent.minimax.io/)[Video Hailuo](https://hailuoai.video/)[Audio](https://www.minimax.io/audio)[Talkie](https://www.talkie-ai.com/). ![Image 7: Develop On MiniMax](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Ff4a709b7-c83c-4b29-88ab-00f2826f8667.png&w=32&q=75)Develop On MiniMax. ![Image 8: Intelligence with everyone](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0052eccd-8fbd-485b-9007-3d6ef1a80a76.png&w=32&q=75)Intelligence with everyone. [API Platform](https://platform.minimax.io/login)[MiniMax Agent](https://agent.minimax.io/)[Hailuo AI Video](https://hailuoai.video/)[MiniMax Audio](https://www.minimax.io/audio). [![Image 9: MiniMax](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F969d635c-cab6-45cc-8d61-47c9fe40c81f.png%3Fx-oss-process%3Dimage%2Fformat%2Cwebp&w=256&q=75)](https://www.minimax.io/). ![Image 10: TEXT](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F00874e9c-ad34-4f9f-8537-47e535ec2691.png&w=32&q=75)TEXT. [MiniMax M2.7 NEW](https://www.minimax.io/models/text/m27)[MiniMax M2.5](https://www.minimax.io/models/text)[MiniMax M2-Her](https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2)[MiniMax M2.1](https://www.minimax.io/news/minimax-m21)[MiniMax M2](https://www.minimax.io/news/minimax-m2). ![Image 11: SPEECH](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F26f493fc-7e47-4583-ae9b-7a5f85d6228a.png&w=32&q=75)SPEECH. ![Image 12: VIDEO](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0f112b95-97b8-4e67-9ef9-e1b869e8342d.png&w=32&q=75)VIDEO. [MiniMax Hailuo 2.3 / 2.3 Fast NEW](https://www.minimax.io/news/minimax-hailuo-23)[MiniMax Hailuo 02](https://www.minimax.io/news/minimax-hailuo-02). ![Image 13: MUSIC](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fd01e8064-2baf-4c26-adc8-53e9dfaa252d.png&w=32&q=75)MUSIC. ![Image 14: AI-native Applications](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Fe0770c40-a75e-4dc9-a8dc-6430ce1e6d4f.png&w=32&q=75)AI-native Applications. [Agent NEW](https://agent.minimax.io/)[Video Hailuo](https://hailuoai.video/)[Audio](https://www.minimax.io/audio)[Talkie](https://www.talkie-ai.com/). ![Image 15: Develop On MiniMax](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2Ff4a709b7-c83c-4b29-88ab-00f2826f8667.png&w=32&q=75)Develop On MiniMax. ![Image 16: Intelligence with everyone](https://www.minimax.io/_next/image?url=https%3A%2F%2Ffilecdn.minimax.chat%2Fpublic%2F0052eccd-8fbd-485b-9007-3d6ef1a80a76.png&w=32&q=75)Intelligence with everyone. ![Image 18: MiniMax booth at HumanX 2026](https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-at-HumanX-2026-%E9%A3%9E%E4%B9%A6%E4%BA%91%E6%96%87%E6%A1%A3/img-2.png). ![Image 20: MiniMax team at Booth #1227](https://filecdn.minimax.chat/public/platform_web/offical-news/MiniMax-at-HumanX-2026-%E9%A3%9E%E4%B9%A6%E4%BA%91%E6%96%87%E6%A1%A3/img-4.png). *   [MiniMax M2.7](https://www.minimax.io/news/minimax-m27-en). *   [MiniMax M2.5](https://www.minimax.io/news/minimax-m25). *   [MiniMax M2-her](https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2). *   [MiniMax M2.1](https://www.minimax.io/news/minimax-m21). *   [MiniMax M2](https://www.minimax.io/news/minimax-m2). *   [MiniMax Speech 2.8](https://www.minimax.io/news/minimax-speech-28). *   [MiniMax Hailuo 2.3](https://www.minimax.io/news/minimax-hailuo-23). *   [MiniMax Music 2.6](https://www.minimax.io/news/music-26). *   [MiniMax Music 2.5+](https://www.minimax.io/news/minimax-music-25-2). *   [MiniMax Music 2.0](https://www.minimax.io/news/minimax-music-20). *   [Audio](https://www.minimax.io/audio). *   [About Us](https://www.minimax.io/about). *   [What's New](https://www.minimax.io/news). [Read our Cookies Policy](https://www.minimax.io/protocol/cookie-policy)."
   },
@@ -3139,7 +3148,7 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "trimmed": true,
+    "trimmed": false,
     "title_original": "What's next for AI in 2026",
     "summary_original": "# What’s next for AI in 2026 - MIT Technology Review | Facebook. [Log In](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Ftechnologyreview%2Fposts%2Fwhats-next-for-ai-in-2026%2F1239258911396590%2F). [Forgot Account?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar). [](https://www.facebook.com/technologyreview?__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=%3C%3C%2CP-R). ### [**MIT Technology Review**](https://www.facebook.com/technologyreview?__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=-UC%2CP-R). [January 5](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=%2CO%2CP-R) ·. [![Image 1: What’s next for AI in 2026](https://external-sof1-2.xx.fbcdn.net/emg1/v/t13/3952777478296334907?url=https%3A%2F%2Fwp.technologyreview.com%2Fwp-content%2Fuploads%2F2025%2F12%2FWN-AI-2026.jpg%3Fresize%3D1200%2C600&fb_obo=1&utld=technologyreview.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p1000x522_q75_tt6&_nc_gid=4eyF4cqwK2NWFWNfJmQUPA&_nc_oc=AdrqxZQMeQySYKtwhtdLomUL-ykFKBgXcU4ziNmGNAJUPQEHWR8xr9mw04GhmmvaCGW_WThI-meKE3EbyVNClkdH&ccb=13-1&oh=06_Q3--AWjry762F5L0E_GYxhw-Z8U_R7iqpeSiq416NqgGUi6k&oe=69E79858&_nc_sid=c97757)](https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3NbCvVW&h=AT4VaLVKVo_v8quyzZ7bMLSdPHVOS5i3SDRt8CTDYsowv-enfnthQgYsEr2ZD1gjSBCQ7Kc_kZdz2kSkdgFum4-6AODR_I4q7u7x11E_N70nvOypxefLeOqkojI-ylgyiuZvPIhZzOrSPNf8hDamnZcopjhsMQ11Dtogrw2gIJp7v9ILwYE55g&__tn__=H-R&c[0]=AT4MFlUzSlGVZGwaQ1F3T2YiImnhEN-t0vZ3VorIh_M7fQn0WBkLEYh43oqPskGGWHVKUSCEEwie6RnsviqH6hMEsXwDKeNz81cZIY0PXutAXbD_3mA3CqXlDyjSXGuRN6G8fHvG6I_N8EPBS7EHq2NxF8i2boxxhGCo96ogDn5_eXLrWlNK9U7uMTC5Ncw). [technologyreview.com What’s next for AI in 2026](https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3NbCvVW&h=AT4VaLVKVo_v8quyzZ7bMLSdPHVOS5i3SDRt8CTDYsowv-enfnthQgYsEr2ZD1gjSBCQ7Kc_kZdz2kSkdgFum4-6AODR_I4q7u7x11E_N70nvOypxefLeOqkojI-ylgyiuZvPIhZzOrSPNf8hDamnZcopjhsMQ11Dtogrw2gIJp7v9ILwYE55g&__tn__=%2CmH-R&c[0]=AT4MFlUzSlGVZGwaQ1F3T2YiImnhEN-t0vZ3VorIh_M7fQn0WBkLEYh43oqPskGGWHVKUSCEEwie6RnsviqH6hMEsXwDKeNz81cZIY0PXutAXbD_3mA3CqXlDyjSXGuRN6G8fHvG6I_N8EPBS7EHq2NxF8i2boxxhGCo96ogDn5_eXLrWlNK9U7uMTC5Ncw). ![Image 2](blob:http://localhost/85d8b181a20aeb64a3afc2f1c39d2480). ![Image 3](blob:http://localhost/2b45e6f1a2ae097354c0b291152873d5). ![Image 4](https://static.xx.fbcdn.net/rsrc.php/yH/r/AAFdAhC9t6X.webp)Top fan. The year of continued layoffs and smaller payrolls. Might be the year the whole thing finally stalls. *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1171186478425030&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). ![Image 5](blob:http://localhost/85d8b181a20aeb64a3afc2f1c39d2480). *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1171186478425030&reply_comment_id=1397101181786285&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [](https://www.facebook.com/sea.ly.758?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzE2ODA3MTE4MDk1NjE3ODM%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [Sea Ly](https://www.facebook.com/sea.ly.758?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzE2ODA3MTE4MDk1NjE3ODM%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). Hoping 2026 is the year AI stops being a “wow” tool and starts quietly making things work better—in clinics and daily workflows. *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1680711809561783&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [](https://www.facebook.com/rich.hamilton2?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzEyMTMwNjk1NTc0Mjc5NjQ%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [Rich Hamilton](https://www.facebook.com/rich.hamilton2?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzEyMTMwNjk1NTc0Mjc5NjQ%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1213069557427964&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). ![Image 6](blob:http://localhost/85d8b181a20aeb64a3afc2f1c39d2480). ![Image 7](blob:http://localhost/2b45e6f1a2ae097354c0b291152873d5). ![Image 8](https://static.xx.fbcdn.net/rsrc.php/yH/r/AAFdAhC9t6X.webp)Top fan. The year of continued layoffs and smaller payrolls. Might be the year the whole thing finally stalls. *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1171186478425030&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). ![Image 9](blob:http://localhost/85d8b181a20aeb64a3afc2f1c39d2480). *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1171186478425030&reply_comment_id=1397101181786285&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [](https://www.facebook.com/sea.ly.758?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzE2ODA3MTE4MDk1NjE3ODM%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [Sea Ly](https://www.facebook.com/sea.ly.758?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzE2ODA3MTE4MDk1NjE3ODM%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). Hoping 2026 is the year AI stops being a “wow” tool and starts quietly making things work better—in clinics and daily workflows. *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1680711809561783&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [](https://www.facebook.com/rich.hamilton2?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzEyMTMwNjk1NTc0Mjc5NjQ%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). [Rich Hamilton](https://www.facebook.com/rich.hamilton2?comment_id=Y29tbWVudDoxMjM5MjU4OTExMzk2NTkwXzEyMTMwNjk1NTc0Mjc5NjQ%3D&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R). *   [14w](https://www.facebook.com/technologyreview/posts/pfbid0RfCr3vu7V4aneBrjqxkmwEj9CzcuUATngkJjxLhEraAHN1feW39kECgFzarf7pc5l?comment_id=1213069557427964&__cft__[0]=AZZWHs00NV07atJZ5AFQAzscfgQVV6sySLDlwTC3h97VOwlvGTcudTNICTx9IoheMSfViXrHQ-SHb-ZS3VP2EVvbl_zq4WgAQ-Nf94QG8uezKmzaPn27FrScOW6JwOJ-tBlKEVf4mLgp16e7NcjnHeG1wshC4B2H5lUvl-ssj4vGeA&__tn__=R]-R)."
   },
@@ -3156,7 +3165,7 @@
     ],
     "source_count": 1,
     "category": "industry-business",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Artificial intelligence | MIT Technology Review",
     "summary_original": "The latest advances in the quest to build machines that can reason, learn, and act intelligently."
   },

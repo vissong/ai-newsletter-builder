@@ -60,16 +60,16 @@
           "category": "tools-release"
         }
       ],
-      "item_count": 75,
-      "trimmed_count": 128,
-      "source_count": 17,
+      "item_count": 74,
+      "trimmed_count": 129,
+      "source_count": 15,
       "categories": {
-        "major-release": 16,
-        "industry-business": 18,
+        "major-release": 14,
+        "industry-business": 12,
         "research-frontier": 10,
         "tools-release": 18,
-        "policy-regulation": 4,
-        "kol-posts": 11
+        "policy-regulation": 5,
+        "kol-posts": 15
       },
       "generated_at": "2026-04-28T02:16:56.836892+00:00"
     },
