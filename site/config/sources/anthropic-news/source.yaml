@@ -1,6 +1,6 @@
 name: anthropic-news
 type: prompt
-enabled: true
+enabled: false
 language: en
 priority: 1
 time_window_hours: 24

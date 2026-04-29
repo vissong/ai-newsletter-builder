@@ -184,6 +184,7 @@ def trim_by_caps(items: list) -> list:
 BLOCKED_SOURCES = {
     "tencent-news-hot", "tencent-news-ai-search", "tencent-news-ai-agent",
     "tencent-news-ai-funding", "tencent-news-ai-policy",
+    "anthropic-news",
 }
 
 

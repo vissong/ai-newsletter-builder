@@ -138,9 +138,10 @@
       "anthropic-news"
     ],
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Anthropic Releases Claude Mythos Preview with ... - InfoQ",
-    "summary_original": "[View an example](https://www.infoq.com/software-architects-newsletter#placeholderPastIssues). *   [English edition](https://www.infoq.com/news/2026/04/anthropic-claude-mythos/#). [Register](https://www.infoq.com/reginit.action?). [Logo - Back to homepage](https://www.infoq.com/). [Development](https://www.infoq.com/development/ \"Development\"). *   [Go](https://www.infoq.com/golang/ \"Go\"). [All in development](https://www.infoq.com/development/)Follow Topic. *   [Architecture](https://www.infoq."
+    "summary_original": "[View an example](https://www.infoq.com/software-architects-newsletter#placeholderPastIssues). *   [English edition](https://www.infoq.com/news/2026/04/anthropic-claude-mythos/#). [Register](https://www.infoq.com/reginit.action?). [Logo - Back to homepage](https://www.infoq.com/). [Development](https://www.infoq.com/development/ \"Development\"). *   [Go](https://www.infoq.com/golang/ \"Go\"). [All in development](https://www.infoq.com/development/)Follow Topic. *   [Architecture](https://www.infoq.",
+    "trimmed_reason": "blocked source: anthropic-news"
   },
   {
     "id": "item-9",
@@ -155,9 +156,10 @@
       "anthropic-news"
     ],
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Anthropic Release Notes - April 2026 Latest Updates - Releasebot",
-    "summary_original": "Complete list of Anthropic latest updates for April 2026: get every product news, release note, and changelog from Anthropic summarized in"
+    "summary_original": "Complete list of Anthropic latest updates for April 2026: get every product news, release note, and changelog from Anthropic summarized in",
+    "trimmed_reason": "blocked source: anthropic-news"
   },
   {
     "id": "item-10",
@@ -188,9 +190,10 @@
       "anthropic-news"
     ],
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "AI Updates for the Week of 4/26/26 | by Annie Cushing - Medium",
-    "summary_original": "Anthropic Mythos finds 2,000 vulnerabilities across major systems. Updates. Below are some of the highlights in AI, robotics,"
+    "summary_original": "Anthropic Mythos finds 2,000 vulnerabilities across major systems. Updates. Below are some of the highlights in AI, robotics,",
+    "trimmed_reason": "blocked source: anthropic-news"
   },
   {
     "id": "item-12",
