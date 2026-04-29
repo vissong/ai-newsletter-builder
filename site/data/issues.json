@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-04-29",
+      "n": 9,
+      "dow": "TUE",
+      "title": "OpenAI转投Amazon怀抱，Musk法庭自辩只为救世",
+      "summary": "OpenAI 挣脱 Microsoft 的独家锁链，一天之内就牵手 Amazon——当旧盟约化为灰烬时，新赌局已经摆上了另一张牌桌。法庭上 Musk 声称只想拯救人类，而 Anthropic 拒绝为五角大楼效力的余温尚未散去，Google 已迫不及待接过了那份合同。",
+      "headlines": [
+        {
+          "title": "OpenAI 结束 Microsoft 独家合作，转身与 Amazon AWS 达成新协议",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Musk 在 OpenAI 案庭审中作证：称自己只想拯救人类",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Anthropic 拒绝军用后，Google 扩大五角大楼 AI 使用权限",
+          "tag": "行业动态"
+        },
+        {
+          "title": "GPT-5.5 发布：OpenAI 迄今最聪明最快模型",
+          "tag": "重大发布"
+        },
+        {
+          "title": "ChatGPT 开始投放广告——完整归因链路曝光",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-184",
+          "title": "OpenAI 与 Microsoft 的独家合作结束后，与 Amazon 和 AWS 达成新协议",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-174",
+          "title": "Amazon 已在 AWS 上提供 OpenAI 新产品",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-176",
+          "title": "Anthropic 拒绝后，Google 扩大了五角大楼对其 AI 的使用权限",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-137",
+          "title": "GPT-5.5来了：OpenAI迄今最聪明、最快的模型",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-149",
+          "title": "ChatGPT 开始投放广告——完整归因链路详解",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 71,
+      "trimmed_count": 126,
+      "source_count": 13,
+      "categories": {
+        "major-release": 9,
+        "industry-business": 19,
+        "research-frontier": 10,
+        "tools-release": 14,
+        "policy-regulation": 4,
+        "kol-posts": 15
+      },
+      "generated_at": "2026-04-29T02:12:29.465431+00:00"
+    },
+    {
       "date": "2026-04-28",
       "n": 8,
       "dow": "TUE",
