@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-04-30",
+      "n": 10,
+      "dow": "THU",
+      "title": "Anthropic千亿估值融资与Musk开庭对峳OpenAI",
+      "summary": "Anthropic 在九千亿估值的边缘试探资本的极限，而同一天 Musk 在证人席上被自己的旧推文绊住——当光打在创始人身上，语境就是全部的法庭。",
+      "headlines": [
+        {
+          "title": "消息人士：Anthropic 或将以 9000 亿美元估值融资 500 亿美元",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Mistral Medium 3.5 发布",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Satya Nadella 表示已准备好\"充分利用\"新的 OpenAI 协议",
+          "tag": "行业动态"
+        },
+        {
+          "title": "为智能时代构建算力基础设施",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Google 为允许美国军方将 AI 用于机密行动进行辩护",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-16",
+          "title": "消息人士：Anthropic 或将以 9000 亿美元估值融资 500 亿美元",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-99",
+          "title": "Mistral Medium 3.5 发布",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-19",
+          "title": "Satya Nadella 表示已准备好\"充分利用\"新的 OpenAI 协议",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-63",
+          "title": "为智能时代构建算力基础设施",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-2",
+          "title": "Google 为允许美国军方将 AI 用于机密行动进行辩护",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 63,
+      "trimmed_count": 102,
+      "source_count": 8,
+      "categories": {
+        "major-release": 3,
+        "industry-business": 9,
+        "research-frontier": 10,
+        "tools-release": 20,
+        "policy-regulation": 6,
+        "kol-posts": 15
+      },
+      "generated_at": "2026-04-30T02:10:32.724810+00:00"
+    },
+    {
       "date": "2026-04-29",
       "n": 9,
       "dow": "TUE",
