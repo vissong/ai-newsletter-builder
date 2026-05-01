@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-01",
+      "n": 11,
+      "dow": "THU",
+      "title": "Anthropic冲击万亿估值，Claude Code争议暴露AI工具信任裂痕",
+      "summary": "当Anthropic以九千亿估值敲响下一轮融资的钟声时，它的旗舰编码工具正因品牌歧视引爆社区信任危机——资本的狂欢与开发者的愤怒在同一天交响，暗示着AI公司最终要面对的敌人或许不在实验室里。",
+      "headlines": [
+        {
+          "title": "消息称Anthropic潜在9000亿美元以上估值融资轮可能在两周内完成",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Claude Code在提交信息包含「OpenClaw」时拒绝请求或额外收费",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Elon Musk确认xAI曾使用OpenAI的模型来训练Grok",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Anthropic发布Claude Security以应对AI驱动的漏洞利用激增",
+          "tag": "政策监管"
+        },
+        {
+          "title": "Gemini CLI严重漏洞可导致宿主代码执行及供应链攻击",
+          "tag": "政策监管"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-16",
+          "title": "消息称Anthropic潜在9000亿美元以上估值融资轮可能在两周内完成",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-96",
+          "title": "Claude Code在提交信息包含「OpenClaw」时拒绝请求或额外收费",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-11",
+          "title": "Elon Musk确认xAI曾使用OpenAI的模型来训练Grok",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-163",
+          "title": "Anthropic发布Claude Security以应对AI驱动的漏洞利用激增",
+          "source_count": 1,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-18",
+          "title": "法律AI初创公司Legora估值达56亿美元，与Harvey的竞争愈发白热化",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 50,
+      "trimmed_count": 147,
+      "source_count": 11,
+      "categories": {
+        "major-release": 2,
+        "industry-business": 10,
+        "research-frontier": 10,
+        "tools-release": 9,
+        "policy-regulation": 8,
+        "kol-posts": 11
+      },
+      "generated_at": "2026-05-01T02:13:25.160380+00:00"
+    },
+    {
       "date": "2026-04-30",
       "n": 10,
       "dow": "THU",
