@@ -1994,9 +1994,10 @@
     "source_count": 1,
     "id": "item-110",
     "category": "tools-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "NHS Goes to War Against Open Source",
-    "summary_original": "HN score: 80 · comments: 14 · by: edent"
+    "summary_original": "HN score: 80 · comments: 14 · by: edent",
+    "trim_reason": "title_url_mismatch"
   },
   {
     "title": "2026年 Hugging Face 完全指南",
@@ -2011,9 +2012,10 @@
     "source_count": 1,
     "id": "item-111",
     "category": "tools-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "The Complete Hugging Face Primer for 2026 - KDnuggets",
-    "summary_original": "+ [Language Models](https://www.kdnuggets.com/tag/language-models). + [Machine Learning](https://www.kdnuggets.com/tag/machine-learning). * [![Facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%3E%3C/svg%3E)](https://www.facebook.com/kdnuggets). * [![Twitter](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%3E%3C/svg%3E)](https://twitter.com/kdnuggets). ![Futuristic conceptual image of Hugging Face ecosystem in 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). Today, the Hugging Face Hub hosts millions of pre-trained models, hundreds of thousands of datasets, and large collections of demo applications, all contributed by a global community. ![Origin of Hugging Face](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). This is why Hugging Face is acceptable across industries, including [**Microsoft**](https://www.microsoft.com/), [**Google**](https://www.google.com/), [**Meta**](https://www.meta.com/), and others that integrate it into their workflows. ![Hugging face website in dark mode](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). The model section serves as the center of Hugging Face Hub. It offers thousands of pre-trained models across diverse machine learning tasks, enabling you to leverage pre-trained models for tasks like text classification, summarization, and image recognition without building everything from scratch. ![Hugging face models](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). ![Hugging Datasets Library](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). ![Hugging Face demo app](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). * [Use (Almost) Any Language Model Locally with Ollama and Hugging Face Hub](https://www.kdnuggets.com/use-almost-any-language-model-locally-with-ollama-and-hugging-face-hub). * [How to Use Hugging Face AutoTrain to Fine-tune LLMs](https://www.kdnuggets.com/how-to-use-hugging-face-autotrain-to-finetune-llms)."
+    "summary_original": "+ [Language Models](https://www.kdnuggets.com/tag/language-models). + [Machine Learning](https://www.kdnuggets.com/tag/machine-learning). * [![Facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%3E%3C/svg%3E)](https://www.facebook.com/kdnuggets). * [![Twitter](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%3E%3C/svg%3E)](https://twitter.com/kdnuggets). ![Futuristic conceptual image of Hugging Face ecosystem in 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). Today, the Hugging Face Hub hosts millions of pre-trained models, hundreds of thousands of datasets, and large collections of demo applications, all contributed by a global community. ![Origin of Hugging Face](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). This is why Hugging Face is acceptable across industries, including [**Microsoft**](https://www.microsoft.com/), [**Google**](https://www.google.com/), [**Meta**](https://www.meta.com/), and others that integrate it into their workflows. ![Hugging face website in dark mode](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). The model section serves as the center of Hugging Face Hub. It offers thousands of pre-trained models across diverse machine learning tasks, enabling you to leverage pre-trained models for tasks like text classification, summarization, and image recognition without building everything from scratch. ![Hugging face models](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). ![Hugging Datasets Library](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). ![Hugging Face demo app](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='100%'%20height='0'%20viewBox='0%200%20100%%200'%3E%3C/svg%3E). * [Use (Almost) Any Language Model Locally with Ollama and Hugging Face Hub](https://www.kdnuggets.com/use-almost-any-language-model-locally-with-ollama-and-hugging-face-hub). * [How to Use Hugging Face AutoTrain to Fine-tune LLMs](https://www.kdnuggets.com/how-to-use-hugging-face-autotrain-to-finetune-llms).",
+    "trim_reason": "not_news_evergreen"
   },
   {
     "title": "Google DeepMind 为 Gemini 3 Flash 引入智能体视觉，实现实时自主能力",
@@ -2097,9 +2099,10 @@
     "source_count": 1,
     "id": "item-116",
     "category": "tools-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "月之暗面正式发布并开源了Kimi K2.6 模型【AI 早报2026-04-21】",
-    "summary_original": "Intro 00:00 月之暗面正式发布并开源了Kimi K2.6 模型00:09 https://www.kimi.com/blog/kimi-k2-6"
+    "summary_original": "Intro 00:00 月之暗面正式发布并开源了Kimi K2.6 模型00:09 https://www.kimi.com/blog/kimi-k2-6",
+    "trim_reason": "source_content_mismatch"
   },
   {
     "title": "【独家】Kimi K2.5发布一个月后，月之暗面ARR突破1亿美金 - 新浪财经",
@@ -3042,9 +3045,10 @@
     "source_count": 1,
     "id": "item-174",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "AI infrastructure at Next '26 | Google Cloud Blog",
-    "summary_original": "New AI infrastructure capabilities to help you to innovate faster, deliver better customer experiences, and optimize for cost efficiency."
+    "summary_original": "New AI infrastructure capabilities to help you to innovate faster, deliver better customer experiences, and optimize for cost efficiency.",
+    "trim_reason": "title_url_mismatch"
   },
   {
     "title": "新型AI驱动的钓鱼攻击绕过传统邮件安全防护",
@@ -3059,9 +3063,10 @@
     "source_count": 1,
     "id": "item-175",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Google I/O 2026: What's new in Google AI",
-    "summary_original": "# Google I/O 2026: What's new in Google AI. [Skip to main content](https://io.google/2026/explore/pa-keynote-1#main-content). ![Image 1](https://io.google/2026/assets/images/hamburger.svg)![Image 2](https://io.google/2026/assets/images/hamburger-dark.svg)[![Image 3](https://io.google/2026/assets/images/Logo.svg)![Image 4](https://io.google/2026/assets/images/Logo-white.svg)![Image 5](https://io.google/2026/assets/images/Logo.svg)![Image 6](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/). [![Image 7](https://io.google/2026/assets/images/Logo.svg)![Image 8](https://io.google/2026/assets/images/Logo-white.svg)![Image 9](https://io.google/2026/assets/images/Logo.svg)![Image 10](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/)[Community](https://io.google/2026/community)[About](https://io.google/2026/about). ![Image 11](https://io.google/2026/assets/images/io26-session-hero-left.webp). # What's new in Google AI. May 19 | 3:30 pm - 4:15 pm PT. ![Image 12](https://io.google/2026/assets/images/io26-session-hero-right.webp). ## Overview. Explore Google's end-to-end AI stack. Learn about the latest model capabilities across multimodal, media generation, and robotics, and how to leverage them using Google’s infrastructure. Whether you are building intelligent agents, utilizing new vibe-coding tools, or tuning and serving open-source models, gain a clear understanding of the tools needed to build next-generation AI apps. ## Speakers. [![Image 13](https://io.google/2026/assets/images/Logo-white.svg)![Image 14](https://io.google/2026/assets/images/Logo.svg)![Image 15](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/)[I/O puzzle](https://io.google/2026/puzzle/)[Privacy & terms](https://policies.google.com/)[FAQ](https://io.google/2026/about)[Join user research](https://research.rallyuxr.com/recruit/cm20o1w2l00001ald8mja8tb8/form/cmo7hrqmi0si3i5mm0c6q5fk6/splash?ref=UXRZlqO2026113)[![Image 16](https://io.google/2026/assets/images/x-white.svg)![Image 17](https://io.google/2026/assets/images/x-white.svg)![Image 18](https://io.google/2026/assets/images/x.svg)](https://twitter.com/googledevs)[![Image 19](https://io.google/2026/assets/images/linkedIn-white.svg)![Image 20](https://io.google/2026/assets/images/linkedIn-white.svg)![Image 21](https://io.google/2026/assets/images/linkedIn.svg)](https://www.linkedin.com/showcase/googledevelopers/)[![Image 22](https://io.google/2026/assets/images/instagram-white.svg)![Image 23](https://io.google/2026/assets/images/instagram-white.svg)![Image 24](https://io.google/2026/assets/images/instagram.svg)](https://www.instagram.com/googlefordevs/)[![Image 25](https://io.google/2026/assets/images/tiktok-white.svg)![Image 26](https://io.google/2026/assets/images/tiktok-white.svg)![Image 27](https://io.google/2026/assets/images/tiktok.svg)](https://www.tiktok.com/@googlefordevs). ## New content is available."
+    "summary_original": "# Google I/O 2026: What's new in Google AI. [Skip to main content](https://io.google/2026/explore/pa-keynote-1#main-content). ![Image 1](https://io.google/2026/assets/images/hamburger.svg)![Image 2](https://io.google/2026/assets/images/hamburger-dark.svg)[![Image 3](https://io.google/2026/assets/images/Logo.svg)![Image 4](https://io.google/2026/assets/images/Logo-white.svg)![Image 5](https://io.google/2026/assets/images/Logo.svg)![Image 6](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/). [![Image 7](https://io.google/2026/assets/images/Logo.svg)![Image 8](https://io.google/2026/assets/images/Logo-white.svg)![Image 9](https://io.google/2026/assets/images/Logo.svg)![Image 10](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/)[Community](https://io.google/2026/community)[About](https://io.google/2026/about). ![Image 11](https://io.google/2026/assets/images/io26-session-hero-left.webp). # What's new in Google AI. May 19 | 3:30 pm - 4:15 pm PT. ![Image 12](https://io.google/2026/assets/images/io26-session-hero-right.webp). ## Overview. Explore Google's end-to-end AI stack. Learn about the latest model capabilities across multimodal, media generation, and robotics, and how to leverage them using Google’s infrastructure. Whether you are building intelligent agents, utilizing new vibe-coding tools, or tuning and serving open-source models, gain a clear understanding of the tools needed to build next-generation AI apps. ## Speakers. [![Image 13](https://io.google/2026/assets/images/Logo-white.svg)![Image 14](https://io.google/2026/assets/images/Logo.svg)![Image 15](https://io.google/2026/assets/images/Logo-white.svg)](https://io.google/2026/)[I/O puzzle](https://io.google/2026/puzzle/)[Privacy & terms](https://policies.google.com/)[FAQ](https://io.google/2026/about)[Join user research](https://research.rallyuxr.com/recruit/cm20o1w2l00001ald8mja8tb8/form/cmo7hrqmi0si3i5mm0c6q5fk6/splash?ref=UXRZlqO2026113)[![Image 16](https://io.google/2026/assets/images/x-white.svg)![Image 17](https://io.google/2026/assets/images/x-white.svg)![Image 18](https://io.google/2026/assets/images/x.svg)](https://twitter.com/googledevs)[![Image 19](https://io.google/2026/assets/images/linkedIn-white.svg)![Image 20](https://io.google/2026/assets/images/linkedIn-white.svg)![Image 21](https://io.google/2026/assets/images/linkedIn.svg)](https://www.linkedin.com/showcase/googledevelopers/)[![Image 22](https://io.google/2026/assets/images/instagram-white.svg)![Image 23](https://io.google/2026/assets/images/instagram-white.svg)![Image 24](https://io.google/2026/assets/images/instagram.svg)](https://www.instagram.com/googlefordevs/)[![Image 25](https://io.google/2026/assets/images/tiktok-white.svg)![Image 26](https://io.google/2026/assets/images/tiktok-white.svg)![Image 27](https://io.google/2026/assets/images/tiktok.svg)](https://www.tiktok.com/@googlefordevs). ## New content is available.",
+    "trim_reason": "title_url_mismatch"
   },
   {
     "title": "CISA 发布关键基础设施中AI系统安全框架",
@@ -3076,9 +3081,10 @@
     "source_count": 1,
     "id": "item-176",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Get ready for Google I/O 2026",
-    "summary_original": "[Products](https://developers.google.com/products)[](https://developers.googleblog.com/get-ready-for-google-io-2026/#). *   [Google Assistant](https://developers.google.com/assistant). *   [Google Maps Platform](https://developers.google.com/maps). *   [Google Workspace](https://developers.google.com/workspace). *   [YouTube](https://developers.google.com/youtube). *   [Google Ads](https://developers.google.com/google-ads). *   [Google Analytics](https://developers.google.com/analytics). *   [Google Play](https://developer.android.com/distribute). *   [Search](https://developers.google.com/search). *   [AdMob](https://developers.google.com/admob). *   [Google Pay](https://developers.google.com/pay). [Solutions](https://developers.google.com/solutions/catalog). [Events](https://developers.google.com/events). [Learn](https://developers.google.com/learn). [Community](https://developers.google.com/community)[](https://developers.googleblog.com/get-ready-for-google-io-2026/#). *   [Google Developer Groups](https://developers.google.com/community/gdg). *   [Woman Techmakers](https://developers.google.com/womentechmakers). *   [Google Developer Experts](https://developers.google.com/community/experts). *   [Accelerator](https://developers.google.com/community/accelerators). *   [DevFest](https://developers.google.com/community/devfest). *   [All Stories](https://developers.google.com/community/stories). [Developer Program](https://developers.google.com/profile/u/me). *   [Products](https://developers.google.com/products). *   [Solutions](https://developers.google.com/solutions/catalog). *   [Events](https://developers.google.com/events). *   [Learn](https://developers.google.com/learn). *   [Community](https://developers.google.com/community). *   [Developer Program](https://developers.google.com/profile/u/me). *   [Google Assistant](https://developers.google.com/assistant). *   [Google Maps Platform](https://developers.google.com/maps). *   [Google Workspace](https://developers.google.com/workspace). *   [YouTube](https://developers.google.com/youtube). *   [Google Ads](https://developers.google.com/google-ads). *   [Google Analytics](https://developers.google.com/analytics). *   [Google Play](https://developer.android.com/distribute). *   [Search](https://developers.google.com/search). *   [AdMob](https://developers.google.com/admob). *   [Google Pay](https://developers.google.com/pay). *   [Google Developer Groups](https://developers.google.com/community/gdg). *   [Woman Techmakers](https://developers.google.com/womentechmakers). *   [Google Developer Experts](https://developers.google.com/community/experts). *   [Accelerator](https://developers.google.com/community/accelerators). *   [DevFest](https://developers.google.com/community/devfest). *   [All Stories](https://developers.google.com/community/stories). [The Google I/O team](https://developers.googleblog.com/search/?author=The+Google+I%2FO+team). *   [](https://developers.googleblog.com/get-ready-for-google-io-2026/# \"Get shareable link\"). *   [Google AI Studio](https://developers.googleblog.com/search/?product_categories=Google+AI+Studio). [](https://developers.googleblog.com/on-device-function-calling-in-google-ai-edge-gallery/)Previous. *   [Google Developer Program](https://developers.google.com/program). *   [Google Developer Groups](https://developers.google.com/community/gdg). *   [Google Developer Experts](https://developers.google.com/community/experts). *   [Accelerators](https://developers.google.com/community/accelerators). *   [Google Cloud & NVIDIA](https://developers.google.com/community/nvidia). *   [Google API Console](https://console.developers.google.com/). *   [Google Home Developer Console](https://console.home.google.com/). *   [All products](https://developers.google.com/products). *   [Terms](https://developers.google.com/terms/site-terms)."
+    "summary_original": "[Products](https://developers.google.com/products)[](https://developers.googleblog.com/get-ready-for-google-io-2026/#). *   [Google Assistant](https://developers.google.com/assistant). *   [Google Maps Platform](https://developers.google.com/maps). *   [Google Workspace](https://developers.google.com/workspace). *   [YouTube](https://developers.google.com/youtube). *   [Google Ads](https://developers.google.com/google-ads). *   [Google Analytics](https://developers.google.com/analytics). *   [Google Play](https://developer.android.com/distribute). *   [Search](https://developers.google.com/search). *   [AdMob](https://developers.google.com/admob). *   [Google Pay](https://developers.google.com/pay). [Solutions](https://developers.google.com/solutions/catalog). [Events](https://developers.google.com/events). [Learn](https://developers.google.com/learn). [Community](https://developers.google.com/community)[](https://developers.googleblog.com/get-ready-for-google-io-2026/#). *   [Google Developer Groups](https://developers.google.com/community/gdg). *   [Woman Techmakers](https://developers.google.com/womentechmakers). *   [Google Developer Experts](https://developers.google.com/community/experts). *   [Accelerator](https://developers.google.com/community/accelerators). *   [DevFest](https://developers.google.com/community/devfest). *   [All Stories](https://developers.google.com/community/stories). [Developer Program](https://developers.google.com/profile/u/me). *   [Products](https://developers.google.com/products). *   [Solutions](https://developers.google.com/solutions/catalog). *   [Events](https://developers.google.com/events). *   [Learn](https://developers.google.com/learn). *   [Community](https://developers.google.com/community). *   [Developer Program](https://developers.google.com/profile/u/me). *   [Google Assistant](https://developers.google.com/assistant). *   [Google Maps Platform](https://developers.google.com/maps). *   [Google Workspace](https://developers.google.com/workspace). *   [YouTube](https://developers.google.com/youtube). *   [Google Ads](https://developers.google.com/google-ads). *   [Google Analytics](https://developers.google.com/analytics). *   [Google Play](https://developer.android.com/distribute). *   [Search](https://developers.google.com/search). *   [AdMob](https://developers.google.com/admob). *   [Google Pay](https://developers.google.com/pay). *   [Google Developer Groups](https://developers.google.com/community/gdg). *   [Woman Techmakers](https://developers.google.com/womentechmakers). *   [Google Developer Experts](https://developers.google.com/community/experts). *   [Accelerator](https://developers.google.com/community/accelerators). *   [DevFest](https://developers.google.com/community/devfest). *   [All Stories](https://developers.google.com/community/stories). [The Google I/O team](https://developers.googleblog.com/search/?author=The+Google+I%2FO+team). *   [](https://developers.googleblog.com/get-ready-for-google-io-2026/# \"Get shareable link\"). *   [Google AI Studio](https://developers.googleblog.com/search/?product_categories=Google+AI+Studio). [](https://developers.googleblog.com/on-device-function-calling-in-google-ai-edge-gallery/)Previous. *   [Google Developer Program](https://developers.google.com/program). *   [Google Developer Groups](https://developers.google.com/community/gdg). *   [Google Developer Experts](https://developers.google.com/community/experts). *   [Accelerators](https://developers.google.com/community/accelerators). *   [Google Cloud & NVIDIA](https://developers.google.com/community/nvidia). *   [Google API Console](https://console.developers.google.com/). *   [Google Home Developer Console](https://console.home.google.com/). *   [All products](https://developers.google.com/products). *   [Terms](https://developers.google.com/terms/site-terms).",
+    "trim_reason": "title_url_mismatch"
   },
   {
     "title": "借助AI扫描发现严重的 Linux Copy Fail 安全漏洞",
@@ -3114,9 +3120,10 @@
     "source_count": 1,
     "id": "item-178",
     "category": "policy-regulation",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Zero-Day Flaw in Linux Kernel Found by AI-Equipped Security Researcher - Infosecurity Magazine",
-    "summary_original": "Infosecurity Magazine Home » News » Nine-Year-Old Zero-Day Flaw in Linux Kernel Discovered by AI-Equipped Security Researcher. # Nine-Year-Old Zero-Day Flaw in Linux Kernel Discovered by AI-Equipped Security Researcher. A new high-security zero-day vulnerability that has lurked in the Linux kernel since 2017 has just been found with the help of AI. This nine-year-old flaw, dubbed ‘Copy Fail’, was "
+    "summary_original": "Infosecurity Magazine Home » News » Nine-Year-Old Zero-Day Flaw in Linux Kernel Discovered by AI-Equipped Security Researcher. # Nine-Year-Old Zero-Day Flaw in Linux Kernel Discovered by AI-Equipped Security Researcher. A new high-security zero-day vulnerability that has lurked in the Linux kernel since 2017 has just been found with the help of AI. This nine-year-old flaw, dubbed ‘Copy Fail’, was ",
+    "trim_reason": "stale_2017_content"
   },
   {
     "title": "MIT Technology Review：OpenAI 如何平衡速度与安全",
@@ -3133,9 +3140,10 @@
     "source_count": 1,
     "id": "item-179",
     "category": "policy-regulation",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Foreign Entities Such As China Are Siphoning American AI Models At Our Steep Loss And Their Huge Gain - Forbes",
-    "summary_original": "Foreign entities are using AI distillation to illegally siphon from American-made advanced AI. The typical use of distillation involves an AI maker deciding to create or enhance an SLM (small language model). The entity creates thousands or perhaps millions of fake accounts in the generative AI model that is being targeted. If you were to inspect the online licensing agreements of the AI makers, y"
+    "summary_original": "Foreign entities are using AI distillation to illegally siphon from American-made advanced AI. The typical use of distillation involves an AI maker deciding to create or enhance an SLM (small language model). The entity creates thousands or perhaps millions of fake accounts in the generative AI model that is being targeted. If you were to inspect the online licensing agreements of the AI makers, y",
+    "trim_reason": "title_url_mismatch"
   },
   {
     "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
@@ -3180,9 +3188,10 @@
     "source_count": 1,
     "id": "item-182",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "Meta's plans for 2026 are strongly focused on artificial intelligence ...",
-    "summary_original": "Meta's plans for 2026 are strongly focused on artificial intelligence , powerful computing infrastructure , and next-generation wearable"
+    "summary_original": "Meta's plans for 2026 are strongly focused on artificial intelligence , powerful computing infrastructure , and next-generation wearable",
+    "trim_reason": "stale_annual_plans"
   },
   {
     "title": "MIT Technology Review：企业智能体成为AI新战场",
@@ -3197,9 +3206,10 @@
     "source_count": 1,
     "id": "item-183",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "The Future of Meta AI in 2026 – Bigger, Smarter, Everywhere",
-    "summary_original": "Meta AI 2026: Open Powerhouse with Llama 4 Multimodal Revolution | Meta's AI ecosystem in 2026 (centered on Llama 4 series — Scout,"
+    "summary_original": "Meta AI 2026: Open Powerhouse with Llama 4 Multimodal Revolution | Meta's AI ecosystem in 2026 (centered on Llama 4 series — Scout,",
+    "trim_reason": "source_content_mismatch"
   },
   {
     "title": "What major developments do you expect from Meta AI in 2026, and ...",
