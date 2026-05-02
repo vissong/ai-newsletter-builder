@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-02",
+      "n": 12,
+      "dow": "FRI",
+      "title": "五角大楼密约落定，Musk法庭对峙OpenAI",
+      "summary": "五角大楼在机密网络上选定了新的AI盟友，唯独将曾经的合作伙伴留在了门外；法庭里Musk的证词像镜子一样反射着他自己的矛盾——当控方的证据就是被告的推文，所有人都在审视同一面镜子的不同侧面。",
+      "headlines": [
+        {
+          "title": "五角大楼与 OpenAI、Google 和 Nvidia 签订机密AI合同——但不包括 Anthropic",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Uber 四个月内烧光2026年AI预算用于 Claude Code",
+          "tag": "工具发布"
+        },
+        {
+          "title": "Musk 诉 Altman 第一周：Elon Musk 称自己被骗，警告AI可能杀死所有人，并承认 xAI 蒸馏了 OpenAI 的模型",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Google I/O 将于2026年5月19-20日举行，AI将成为最大亮点",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Meta 收购机器人创业公司以加强人形机器人AI野心",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-0",
+          "title": "五角大楼与 OpenAI、Google 和 Nvidia 签订机密AI合同——但不包括 Anthropic",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-100",
+          "title": "Uber 四个月内烧光2026年AI预算用于 Claude Code",
+          "source_count": 1,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-58",
+          "title": "Musk 诉 Altman 第一周：Elon Musk 称自己被骗，警告AI可能杀死所有人，并承认 xAI 蒸馏了 OpenAI 的模型",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-172",
+          "title": "Google I/O 将于2026年5月19-20日举行，AI将成为最大亮点",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-8",
+          "title": "Meta 收购机器人创业公司以加强人形机器人AI野心",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 64,
+      "trimmed_count": 151,
+      "source_count": 15,
+      "categories": {
+        "major-release": 11,
+        "industry-business": 17,
+        "research-frontier": 10,
+        "tools-release": 13,
+        "policy-regulation": 3,
+        "kol-posts": 10
+      },
+      "generated_at": "2026-05-02T02:12:29.574149+00:00"
+    },
+    {
       "date": "2026-05-01",
       "n": 11,
       "dow": "THU",
