@@ -2963,9 +2963,10 @@
     "source_count": 1,
     "id": "item-169",
     "category": "major-release",
-    "trimmed": false,
+    "trimmed": true,
     "title_original": "New MiniMax M2.7 proprietary AI model is 'self-evolving' and can ...",
-    "summary_original": "# New MiniMax M2.7 proprietary AI model is 'self-evolving' and can perform 30-50% of reinforcement learning research workflow. The release of MiniMax M2.7 today — a new proprietary LLM designed to perform well powering AI agents and as the backend to third-party harnesses and tools like Claude Code, Kilo Code and OpenClaw — marks yet a new milestone: Rather than relying solely on human-led fine-tuning, MiniMax has leveraged M2.7 to build, monitor, and optimize its own reinforcement learning harnesses. However, with M2.7 being proprietary for now, it is a sign once again that Chinese AI startups — for much of the last year, the standard-bearers in the world of the open source AI frontier, making them appealing for enterprises globally due to low (or no) costs and customization — are shifting strategy and pursuing more proprietary frontier models like U.S. leaders like OpenAI, Google, and Anthropic have been doing for years."
+    "summary_original": "# New MiniMax M2.7 proprietary AI model is 'self-evolving' and can perform 30-50% of reinforcement learning research workflow. The release of MiniMax M2.7 today — a new proprietary LLM designed to perform well powering AI agents and as the backend to third-party harnesses and tools like Claude Code, Kilo Code and OpenClaw — marks yet a new milestone: Rather than relying solely on human-led fine-tuning, MiniMax has leveraged M2.7 to build, monitor, and optimize its own reinforcement learning harnesses. However, with M2.7 being proprietary for now, it is a sign once again that Chinese AI startups — for much of the last year, the standard-bearers in the world of the open source AI frontier, making them appealing for enterprises globally due to low (or no) costs and customization — are shifting strategy and pursuing more proprietary frontier models like U.S. leaders like OpenAI, Google, and Anthropic have been doing for years.",
+    "trim_reason": "stale: MiniMax M2.7 released March 18, 2026"
   },
   {
     "title": "Best MiniMax Models for OpenClaw (2026): M2.5 vs Lightning vs M2.1",
