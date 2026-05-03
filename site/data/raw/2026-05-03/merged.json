@@ -1,0 +1,1464 @@
+[
+  {
+    "title": "2026年必看：六款热门AI编程工具横评，快来pick你最喜欢的吧2026年，AI编程工具已从“代码补全插件”进化为能够 - 掘金",
+    "url": "https://juejin.cn/post/7627870163761004590",
+    "summary": "| Cursor | Anysphere | 多文件AI编辑，Agent自主编码 | 免费试用 / $20/月 Pro |. | GitHub Copilot | GitHub + OpenAI | 全球生态标杆，深度集成GitHub | 免费版有额度 / $10/月 Pro |. | Windsurf | Cognition AI | AI Agent IDE，代码库级智能 | 免费有额度 / $15/月 Pro |. | Tabnine | Tabnine | 企业级隐私优先，本地部署 | 团队/企业定制 |. | Replit | Replit | 云原生协作开发，AI Agent原生 | 按用量/订阅 |. 作为字节跳动推出的AI原生集成开发环境，Trae在2026年凭借其本土化深度适配和全流程自动化能力，迅速成为中文开发领域的一匹黑马。与传统的AI插件不同，Trae是一个从底层为AI设计的完整IDE，而非“附加层”式的代码助手。. **Agent Mode：完全自主编码。** 这是Cursor区别于Copilot等插件的关键功能。Agent Mode可以自主读取文件、修改代码、运行终端命令、安装依赖，甚至能在遇到错误时自行修复，直至任务完成。. **小结：** Cursor适合对开发效率有极致追求的开发者。Composer + Agent Mode的组合使其在多文件重构和复杂任务处理方面表现突出。但相比Trae，Cursor缺少对中国开发场景的专门优化，且Pro版$20/月的定价门槛较高。. **小结：** Copilot的优势在于全球最庞大的开发者生态和持续进化的Agent能力。但其免费版仅有50次/月的高级请求额度，且在中国开发场景的适配度上不如Trae。. **小结：** Windsurf以$15/月的定价在成本与功能之间取得了良好平衡。但产品在中文场景的文档和社区支持较为薄弱，对中文开发者而言上手门槛相对较高。. **Tabnine CLI与Agent能力深化。** Tabnine CLI是一个可在终端原生运行的自主或半自主AI编码Agent，已正式进入Visual Studio 2022/2026版本。v6.0版本进一步引入了Skills和Subagents机制——前者提供预定义的可复用动作协议，后者是专注于特定领域（如测试生成、代码重构）的“迷你Agent”。. Replit是云原生开发环境的先行者，其“云端IDE+AI Agent”的模式在2026年迎来了重大升级。. | 对比维度 | Trae | Cursor | Copilot | Windsurf | Tabnine | Replit |. | 多文件编辑 | ✓（Builder模式） | ✓（Composer） | ✗ | ✓（Cascade） | ✗ | ✓（Agent 4） |. | Agent自主编码 | ✓（SOLO模式） | ✓（Agent Mode） | ✓（Autopilot） | ✓（Cascade） | ✓（CLI） | ✓（Agent 4） |. | 多模型切换 | ✓（多模型） | ✓（多模型） | ✓（GPT-5/Claude） | ✗ | ✓（GPT-5.4/Gemini） | ✓ |. **如果你是VS Code重度用户且追求前沿功能：** Cursor是最自然的迁移路径。Composer + Agent Mode的组合在处理复杂项目重构时表现卓越，Pro版$20/月的定价对专业开发者来说物有所值。. **如果你的企业有严格的隐私合规要求：** Tabnine是唯一选择。本地部署、Enterprise Context Engine、精细化的权限管控，使其在金融、医疗等合规行业占据不可替代的位置。. 目前来看，AI编程工具是“效率放大器”而非“岗位替代者”。正如Composer 2所展示的方向，AI的价值在于降低开发门槛，让更多有创意的人参与到高质量代码创造中，而非取代专业开发者的核心判断力和架构设计能力。.",
+    "source": "ai-bot-tools",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-0",
+    "category": "tools-release",
+    "trimmed": true,
+    "trimmed_reason": "stale: 2026-04-13 (via page_date)"
+  },
+  {
+    "title": "2026 开年AI 工具推荐，让你新的一年效率起飞！（建议收藏） - 53AI",
+    "url": "https://www.53ai.com/news/LargeLanguageModel/2026010160748",
+    "summary": "# 2026 开年 AI 工具推荐，让你新的一年效率起飞！（建议收藏）. # 2026 开年 AI 工具清单. ### 首选：Gemini（$20/month Google家）. 特别是Gemini 3.0 thinking，非常推荐大家使用。. 多模态、超长上下文、世界知识、强大搜索理解能力，是目前**模型性能综合实力最强**，而且还附赠最强绘画Nano Banana Pro和Veo 3.1，. 【官网地址】`https://gemini.google.com/app`. `https://gemini.google.com/app`. ### 第二主力：ChatGPT（$20/month OpenAI）. ### 免费平替：豆包 / 千问 / 元宝（免费）. `https://www.doubao.com/chat/`. ### 开源选项：本地 Qwen 等. 在「年终篇」里面也给大家说了，一些本地化的项目，大多数模型都在32B、70B的尺寸，性价比会比较高一些。. 【官网地址】`https://tongyi.aliyun.com`. ### 付费首选：Nano Banana Pro（$20/month Google）. ### 免费平替：即梦. 【官网地址】`https://jimeng.jianying.com`. ### 审美兜底：Midjourney （$10/month）. 【官网地址】`https://www.midjourney.com`. ### 开源选项：本地 Qwen-Image-2512 等. 【官网地址】`https://www.modelscope.cn/models/Qwen/Qwen-Image-2512`. `https://www.modelscope.cn/models/Qwen/Qwen-Image-2512`. 1）画面主体是什么 2）风格与质感要什么 3）你希望观众看完这张图“理解什么”. ### 国内：可灵 / 即梦 / Vidu. 【可灵官网地址】`https://app.klingai.com/cn/`. `https://app.klingai.com/cn/`. 【Sora2官网地址】`https://sora.chatgpt.com/explore`. `https://sora.chatgpt.com/explore`. ### 视频 Agent：Medeo / Oiioii / TapNow. 【minimax官网地址】`https://www.minimax.io/`. 【IndexTTS官网地址】`https://github.com/index-tts/index-tts`. `https://github.com/index-tts/index-tts`. ## All-In-One神器：Lovart（不同需求不同收费标准）. 我日常用到的Nano Banana Pro、Sora2、即梦、海螺、Vidu、mj等工具，其实都是在Lovart里调用的。一个平台搞定所有需求，不用在不同工具之间来回切换。. 深度体验 Lovart：这才是AI Design Agent！设计领域终于迎来了它们的「神」. 【Coze官网地址】`https://www.coze.cn/`. 比如：抓取信息 → 总结 → 写稿 → 出图 → 推送到你的知识库。. ## AI 数字人. 【官网地址】`https://www.heygen.com`. 结合Claude Code做AI coding agent，效果非常好，有很多精彩的设计细节。. 【TRAE官网地址】`https://www.trae.cn/`. 【秒哒官网地址】`https://www.miaoda.cn/`. ## AI知识库 & AI笔记. 【飞书官网地址】`https://www.feishu.cn/`. ### AI笔记：Get笔记. 【get笔记官网地址】`https://www.biji.com/`. ## AI PPT生成. AI生成PPT是很多人的刚需，我推荐**WPS AI PPT**和AIPPT.cn。. 【WPS官网地址】`https://www.wps.cn/`. ## AI 对话管理：ChatMemo. ### 买法 3：付费工具做生产，免费工具做补位. 比如：付费出图做海报主视觉，免费工具做批量变体、做简单配图。 效率非常高。. ## 方案 1：只订阅一个. ## 方案 2：一付费 + 一免费. ## 方案 3：内容创作者套装. 随时上车都不晚，关键是保持学习的心态，在\"干中学\"、\"玩中学\"。. Claude Code 的 Memory 系统：让 AI 记住你的偏好. 别急着All-in DeepSeek V4，先看看这10位从业者的真心话. 从 Prompt 到 Harness，Agent 进入企业需要流程治理吗.",
+    "source": "ai-bot-tools",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-1",
+    "category": "tools-release",
+    "trimmed": true,
+    "trim_reason": "listicle"
+  },
+  {
+    "title": "2026 年，终于有个AI 产品不用我学提示词了 - 太平洋科技",
+    "url": "https://www.pconline.com.cn/focus/2123/21231892.html",
+    "summary": "[Floatboat](https://ks.pconline.com.cn/?q=Floatboat)[AI办公环境](https://ks.pconline.com.cn/?q=AI%E5%8A%9E%E5%85%AC%E7%8E%AF%E5%A2%83)[Combo自进化](https://ks.pconline.com.cn/?q=Combo%E8%87%AA%E8%BF%9B%E5%8C%96). *   [![Image 372: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _【智投影】能装进口袋的轻薄激光高亮小钢炮，当贝D5X Pro投影有多强？_ 轻薄高颜值，亦配有强劲的性能，是数码产品一直所追求的，但对于传统投影而言，想要在轻薄机身内塞进高性能高亮光源，本就是一个难题。随着近年来激光投影技术的提升与应用，激光投影仪可以做到在相同亮度下比LED投影仪小30%-50%，搭载了激光技术的投影足以让轻薄高亮成为可能。 _![Image 373: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 绿苹果 2023-05-12 00:15](https://projector.pconline.com.cn/1612/16124624.html \"【智投影】能装进口袋的轻薄激光高亮小钢炮，当贝D5X Pro投影有多强？\")[当贝D5X Pro](https://ks.pconline.com.cn/?q=%E5%BD%93%E8%B4%9DD5X%20Pro)  [![Image 374: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _【水煮office】兄弟DCP-B7535DW黑白激光一体机：99元粉仓，省心又省钱！_ 今天，我们为大家介绍一款备受好评的打印机——兄弟DCP-B7535DW黑白激光一体机。它拥有高速打印、高质量打印、无线连接、多功能扫描、高性价比原装耗材等多种特点，一定是办公室中的不二选择。 _![Image 375: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 绿苹果 2023-05-08 00:15](https://pconline.pcvideo.com.cn/video-31901.html \"【水煮office】兄弟DCP-B7535DW黑白激光一体机：99元粉仓，省心又省钱！\")[兄弟](https://ks.pconline.com.cn/?q=%E5%85%84%E5%BC%9F)[打印机](https://product.pconline.com.cn/printer_laser/)[DCP-B7535DW](https://ks.pconline.com.cn/?q=DCP-B7535DW)  [![Image 376: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _爱普生激活“省、小、精”技术潜力，为特殊教育注入数字化动力_ 爱普生宣布成为HERALBONY艺术奖金牌合作伙伴，利用其打印与视觉技术助力全球残障艺术家展示作品。公司在上海黄浦区特殊教育职业学校推广艺术微喷和超短焦激光投影，推动特殊教育数字化发展。同时，爱普生持续提升内部残障人士雇佣率，实现社会包容性目标。 _![Image 377: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-03-25 10:35](https://office.pconline.com.cn/2120/21203953.html \"爱普生激活“省、小、精”技术潜力，为特殊教育注入数字化动力\")[爱普生](https://ks.pconline.com.cn/?q=%E7%88%B1%E6%99%AE%E7%94%9F)[省](https://ks.pconline.com.cn/?q=%E7%9C%81)[小](https://ks.pconline.com.cn/?q=%E5%B0%8F)[精技术](https://ks.pconline.com.cn/?q=%E7%B2%BE%E6%8A%80%E6%9C%AF)[特殊教育](https://ks.pconline.com.cn/?q=%E7%89%B9%E6%AE%8A%E6%95%99%E8%82%B2)[数字化包容](https://ks.pconline.com.cn/?q=%E6%95%B0%E5%AD%97%E5%8C%96%E5%8C%85%E5%AE%B9)  [![Image 378: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _惠普发布全新LaserJet系列：引入抗量子安全技术与AI文档处理_ 惠普在Imagine 2026大会发布全新LaserJet Pro 4000/4100及Enterprise 5000/6000系列激光打印机。新品引入抗量子安全技术与AI文档处理，助力企业应对混合办公挑战。 _![Image 379: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-03-25 09:48](https://office.pconline.com.cn/2120/21203753.html \"惠普发布全新LaserJet系列：引入抗量子安全技术与AI文档处理\")[惠普激光打印机](https://ks.pconline.com.cn/?q=%E6%83%A0%E6%99%AE%E6%BF%80%E5%85%89%E6%89%93%E5%8D%B0%E6%9C%BA)[抗量子安全技术](https://ks.pconline.com.cn/?q=%E6%8A%97%E9%87%8F%E5%AD%90%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF)[AI文档处理](https://ks.pconline.com.cn/?q=AI%E6%96%87%E6%A1%A3%E5%A4%84%E7%90%86)  [![Image 380: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _佳能发布数码复合机与激光打印机矩阵，AI赋能与全场景覆盖驱动办公效能跃升_ 佳能于2026年3月17日发布全新文印产品矩阵，包括imageFORCE C3150、C431数码复合机及LBP811Cx激光打印机。新品融合AI技术与高效性能，满足从大型企业到小微公司的多样办公需求，助力数字化转型并强化数据安全。此次发布体现佳能在智能、高质与环保领域的创新实力。 _![Image 381: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-03-18 09:55](https://office.pconline.com.cn/2116/21168932.html \"佳能发布数码复合机与激光打印机矩阵，AI赋能与全场景覆盖驱动办公效能跃升\")[佳能新品](https://ks.pconline.com.cn/?q=%E4%BD%B3%E8%83%BD%E6%96%B0%E5%93%81)[AI赋能](https://ks.pconline.com.cn/?q=AI%E8%B5%8B%E8%83%BD)[办公效能提升](https://ks.pconline.com.cn/?q=%E5%8A%9E%E5%85%AC%E6%95%88%E8%83%BD%E6%8F%90%E5%8D%87)  [![Image 382: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _重新定义家用投影！4K 三色激光投影Vidda C1S评测_ 投影还是电视？这道令无数年轻消费者难以抉择的问题随着近些年投影仪技术的不断完善变得越来越好回答。当投影的产品硬件与功能体验有了长足进步后，越来越多的消费者开始关注家用投影。此外，在消费者高需求、行业高曝光、渠道多元化等多方因素共同驱动下，家用投影也迎来了高速增长。北京时间3月21日，Vidda在京发布全新专业级4K 三色激光投影C1S。作为去年4K 三色激光投影的升级产品，Vidda C1S在亮度、色域、对比度等多个方面进行了关键升级，而7299元的市场售价在中高端家用投影中也是诚意满满。 _![Image 383: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 呼伦 2023-04-26 00:15](https://family.pconline.com.cn/1609/16090725.html \"重新定义家用投影！4K 三色激光投影Vidda C1S评测\")[Vidda](https://ks.pconline.com.cn/?q=Vidda)[电视影音](https://ks.pconline.com.cn/?q=%E7%94%B5%E8%A7%86%E5%BD%B1%E9%9F%B3)[智能投影仪](https://ks.pconline.com.cn/?q=%E6%99%BA%E8%83%BD%E6%8A%95%E5%BD%B1%E4%BB%AA)  [![Image 384: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _思必驰联合实验室多篇论文入选ICASSP 2026，三大核心技术突破赋能产业落地_ 思必驰宣布，多篇论文入选ICASSP 2026，展示三大核心技术突破。该实验室由思必驰牵头，与上海交通大学、苏州大学合作，聚焦多语种识别、实时语音合成及低码率编解码技术，有效提升车载和智能家居等场景的跨语言交互与传输稳定性，推动产业应用升级。 _![Image 385: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-03-12 09:10](https://office.pconline.com.cn/2112/21126534.html \"思必驰联合实验室多篇论文入选ICASSP 2026，三大核心技术突破赋能产业落地\")[思必驰联合实验室](https://ks.pconline.com.cn/?q=%E6%80%9D%E5%BF%85%E9%A9%B0%E8%81%94%E5%90%88%E5%AE%9E%E9%AA%8C%E5%AE%A4)[语音识别技术突破](https://ks.pconline.com.cn/?q=%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%AA%81%E7%A0%B4)[多语种交互](https://ks.pconline.com.cn/?q=%E5%A4%9A%E8%AF%AD%E7%A7%8D%E4%BA%A4%E4%BA%92)  [![Image 386: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _拒绝家庭打印内耗：兄弟DCP-B7628DW如何用“芯”解决成本与效率难题_ 兄弟DCP-B7628DW黑白激光多功能一体机，以99元2600页的按需供粉技术和12000页鼓粉分离寿命，有效降低成本；内置智能学习助手支持试卷翻新与同步练习，提升子女教育效率。同时53页/分钟高速打印满足居家办公需求，助力家庭高效低耗打印体验。 _![Image 387: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 九月 2026-02-27 14:25](https://office.pconline.com.cn/2084/20848972.html \"拒绝家庭打印内耗：兄弟DCP-B7628DW如何用“芯”解决成本与效率难题\")[兄弟DCP-B7628DW](https://ks.pconline.com.cn/?q=%E5%85%84%E5%BC%9FDCP-B7628DW)[低成本打印](https://ks.pconline.com.cn/?q=%E4%BD%8E%E6%88%90%E6%9C%AC%E6%89%93%E5%8D%B0)[智能家庭教育](https://ks.pconline.com.cn/?q=%E6%99%BA%E8%83%BD%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2)  [![Image 388: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _你的痛苦，我们懂！8款家用喷墨打印机横评「打印速度篇」_ 打印机太慢，急性子要疯了？别急！这种痛苦我们懂！本期视频，我们实测惠普、爱普生、佳能、小米、兄弟、联想、得力、汉印等8款家用喷墨打印机，只为找出效率之王！ _![Image 389: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-01-07 09:34](https://pconline.pcvideo.com.cn/video-36312.html \"你的痛苦，我们懂！8款家用喷墨打印机横评「打印速度篇」\")[家用喷墨打印机横评](https://ks.pconline.com.cn/?q=%E5%AE%B6%E7%94%A8%E5%96%B7%E5%A2%A8%E6%89%93%E5%8D%B0%E6%9C%BA%E6%A8%AA%E8%AF%84)[爱普生L3251](https://ks.pconline.com.cn/?q=%E7%88%B1%E6%99%AE%E7%94%9FL3251)[小米米家](https://ks.pconline.com.cn/?q=%E5%B0%8F%E7%B1%B3%E7%B1%B3%E5%AE%B6)[惠普4925](https://ks.pconline.com.cn/?q=%E6%83%A0%E6%99%AE4925)[佳能G3800](https://ks.pconline.com.cn/?q=%E4%BD%B3%E8%83%BDG3800)[喷墨打印机](https://ks.pconline.com.cn/?q=%E5%96%B7%E5%A2%A8%E6%89%93%E5%8D%B0%E6%9C%BA)  [![Image 390: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _【科技实话】很多人都不知道的打印技巧，看完受用！_ 让我们一起告别“傻瓜式”打印，深入探索打印机驱动程序中的那些“隐藏菜单”。只需花几分钟了解并善用它们，你就能轻松实现省墨省纸、提升打印品质、增强文档专业性，甚至还能解锁意想不到的创意玩法。 _![Image 391: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-01-01 00:15](https://office.pconline.com.cn/2000/20002152.html \"【科技实话】很多人都不知道的打印技巧，看完受用！\")[打印机驱动程序](https://ks.pconline.com.cn/?q=%E6%89%93%E5%8D%B0%E6%9C%BA%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F)[效率与成本平衡](https://ks.pconline.com.cn/?q=%E6%95%88%E7%8E%87%E4%B8%8E%E6%88%90%E6%9C%AC%E5%B9%B3%E8%A1%A1)[色彩校正](https://ks.pconline.com.cn/?q=%E8%89%B2%E5%BD%A9%E6%A0%A1%E6%AD%A3)  [![Image 392: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _【科技实话】喷墨or激光？想买打印机，先算清隐性成本_ 消费者在喷墨与激光打印机间犹豫：喷墨机初价低但耗材贵，墨仓式改进单页成本；激光机价格高但稳定耐用。专家建议，高频彩色用户选墨仓喷墨，低频黑白用户选激光，以避免隐性成本陷阱，实现省钱省心。 _![Image 393: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2025-12-29 14:58](https://office.pconline.com.cn/2043/20432133.html \"【科技实话】喷墨or激光？想买打印机，先算清隐性成本\")[打印机选择](https://ks.pconline.com.cn/?q=%E6%89%93%E5%8D%B0%E6%9C%BA%E9%80%89%E6%8B%A9)[隐性成本](https://ks.pconline.com.cn/?q=%E9%9A%90%E6%80%A7%E6%88%90%E6%9C%AC)[喷墨与激光](https://ks.pconline.com.cn/?q=%E5%96%B7%E5%A2%A8%E4%B8%8E%E6%BF%80%E5%85%89)  [![Image 394: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _你的痛苦，我们懂！8款家用喷墨打印机横评「卡纸体验篇」_ 打印机频繁卡纸，不仅脏了手，更让心态瞬间爆炸！你的痛苦，我们懂！本期视频，我们暴力实测惠普4925、爱普生L3251、佳能G3800、小米米家、兄弟T435W、得力L511Ws、汉印V1与联想小新鲸鱼8款家用喷墨打印机。挑战地狱级400页连续打印卡纸测试，看纸张如何刁难搓纸轮！ _![Image 395: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2025-12-31 10:52](https://pconline.pcvideo.com.cn/video-36200.html \"你的痛苦，我们懂！8款家用喷墨打印机横评「卡纸体验篇」\")[家用喷墨打印机横评](https://ks.pconline.com.cn/?q=%E5%AE%B6%E7%94%A8%E5%96%B7%E5%A2%A8%E6%89%93%E5%8D%B0%E6%9C%BA%E6%A8%AA%E8%AF%84)[爱普生L3251](https://ks.pconline.com.cn/?q=%E7%88%B1%E6%99%AE%E7%94%9FL3251)[小米米家](https://ks.pconline.com.cn/?q=%E5%B0%8F%E7%B1%B3%E7%B1%B3%E5%AE%B6)[惠普4925](https://ks.pconline.com.cn/?q=%E6%83%A0%E6%99%AE4925)[佳能G3800](https://ks.pconline.com.cn/?q=%E4%BD%B3%E8%83%BDG3800)[喷墨打印机](https://ks.pconline.com.cn/?q=%E5%96%B7%E5%A2%A8%E6%89%93%E5%8D%B0%E6%9C%BA)  [![Image 396: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _汉印蝉联2025厦门企业百强：以“专精特新”构筑技术护城河_ 厦门发布企业百强榜，本土高新技术企业汉印凭借打印设备研发优势，连续两年入选“厦门专精特新企业10强”，并获“知识产权企业十强”称号。汉印以专业化和创新构筑技术护城河，巩固行业领先地位。 _![Image 397: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-01-02 00:15](https://office.pconline.com.cn/2050/20500812.html \"汉印蝉联2025厦门企业百强：以“专精特新”构筑技术护城河\")[汉印](https://ks.pconline.com.cn/?q=%E6%B1%89%E5%8D%B0)[专精特新](https://ks.pconline.com.cn/?q=%20%E4%B8%93%E7%B2%BE%E7%89%B9%E6%96%B0)[知识产权](https://ks.pconline.com.cn/?q=%20%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83)  [![Image 398: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _联想至像斩获2025金音奖：AI驱动服务变革，树立文印行业新质生产力标杆_ 联想至像在上海第十八届“金音奖”中荣获“2025中国最佳客户体验”。此次评选首次纳入AI应用成熟度，联想至像凭借AI驱动的智能工单分配和远程诊断技术，实现售后服务数智化转型，提升响应速度。其硬件+软件+服务一体化生态覆盖百城，树立文印行业新质生产力标杆。 _![Image 399: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2026-01-03 00:15](https://office.pconline.com.cn/2050/20500792.html \"联想至像斩获2025金音奖：AI驱动服务变革，树立文印行业新质生产力标杆\")[联想至像](https://ks.pconline.com.cn/?q=%E8%81%94%E6%83%B3%E8%87%B3%E5%83%8F)[AI驱动](https://ks.pconline.com.cn/?q=AI%E9%A9%B1%E5%8A%A8)[客户体验](https://ks.pconline.com.cn/?q=%E5%AE%A2%E6%88%B7%E4%BD%93%E9%AA%8C)  [![Image 400: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _兄弟中国获鸿蒙外设兼容性认证：百余款机型完成适配，加速本土文印生态_ 兄弟（中国）商业有限公司获鸿蒙外设兼容性认证，百余款打印机完成适配。此次认证涵盖Brother Mobile Connect应用，实现无线打印、扫描与设备监控，支持鸿蒙手机、平板及PC。作为首批获证品牌之一，兄弟加速本土文印生态布局，深化对国产系统的支持，彰显其技术实力和“中国速度”。 _![Image 401: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2025-12-31 09:34](https://office.pconline.com.cn/2050/20500832.html \"兄弟中国获鸿蒙外设兼容性认证：百余款机型完成适配，加速本土文印生态\")[兄弟中国](https://ks.pconline.com.cn/?q=%E5%85%84%E5%BC%9F%E4%B8%AD%E5%9B%BD)[鸿蒙兼容性认证](https://ks.pconline.com.cn/?q=%E9%B8%BF%E8%92%99%E5%85%BC%E5%AE%B9%E6%80%A7%E8%AE%A4%E8%AF%81)[本土文印生态](https://ks.pconline.com.cn/?q=%E6%9C%AC%E5%9C%9F%E6%96%87%E5%8D%B0%E7%94%9F%E6%80%81)  [![Image 402: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _苏科思中国部署巴可可立享无线会议屏 打造无尘实验室高效协作新体验_ 荷兰Sioux（苏科思）中国苏州研发中心成功部署巴可可立享无线会议屏，提升实验室视频会议效率与安全性。新品支持AI降噪、防眩光屏幕等特性，解决原有系统问题。7秒一键入会、16麦克风确保清晰通话，助力内部协作与远程工程师合作。巴可XMS云管理平台实现IT远程运维，大幅降低管理成本。 _![Image 403: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2025-09-15 16:57](https://office.pconline.com.cn/1981/19811292.html \"苏科思中国部署巴可可立享无线会议屏 打造无尘实验室高效协作新体验\")[无尘实验室](https://ks.pconline.com.cn/?q=%E6%97%A0%E5%B0%98%E5%AE%9E%E9%AA%8C%E5%AE%A4)[视频会议效率](https://ks.pconline.com.cn/?q=%20%E8%A7%86%E9%A2%91%E4%BC%9A%E8%AE%AE%E6%95%88%E7%8E%87)[安全性](https://ks.pconline.com.cn/?q=%20%E5%AE%89%E5%85%A8%E6%80%A7)  [![Image 404: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _天合光能携手亿联网络 升级全球会议协作体系_ 天合光能与亿联网络合作升级全球会议协作体系。亿联提供MeetingBoard会议平板解决方案，全球100+会议室改造完成，实现全平台无缝兼容和高清拾音能力。此举支持钉钉、Teams、Zoom等主流系统，提升跨国会议品质。合作构建智能全球协作体系，为天合光能全球化战略提供数字化支撑。未来将深化合作，共推绿色信息化建设。 _![Image 405: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 西贝0705 2025-09-15 16:57](https://office.pconline.com.cn/1981/19811312.html \"天合光能携手亿联网络 升级全球会议协作体系\")[天合光能](https://ks.pconline.com.cn/?q=%E5%A4%A9%E5%90%88%E5%85%89%E8%83%BD)[亿联网络](https://ks.pconline.com.cn/?q=%20%E4%BA%BF%E8%81%94%E7%BD%91%E7%BB%9C)[全球会议协作](https://ks.pconline.com.cn/?q=%20%E5%85%A8%E7%90%83%E4%BC%9A%E8%AE%AE%E5%8D%8F%E4%BD%9C)  [![Image 406: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _汉印将亮相第十七届中国商业信息化行业大会_ 汉印TP80系列智能票据打印机将亮相第十七届中国商业信息化行业大会。此次展示的新品具有高速打印、低噪音、多接口兼容和云服务支持等特点，适用于零售和餐饮场景。其前后厨自动分单功能提高效率60%，语音播报与外卖平台对接，助力连锁餐饮迎接订单高峰。 _![Image 407: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 办公仔 2025-09-15 16:56](https://office.pconline.com.cn/1981/19811332.html \"汉印将亮相第十七届中国商业信息化行业大会\")[智能商用打印解决方案](https://ks.pconline.com.cn/?q=%E6%99%BA%E8%83%BD%E5%95%86%E7%94%A8%E6%89%93%E5%8D%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)[智慧商业信息化展览会](https://ks.pconline.com.cn/?q=%20%E6%99%BA%E6%85%A7%E5%95%86%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%8C%96%E5%B1%95%E8%A7%88%E4%BC%9A)[TP80系列智能票据打印机](https://ks.pconline.com.cn/?q=%20TP80%E7%B3%BB%E5%88%97%E6%99%BA%E8%83%BD%E7%A5%A8%E6%8D%AE%E6%89%93%E5%8D%B0%E6%9C%BA)  [![Image 408: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _亿联网络打造全链路安全视频会议解决方案，护航企业高效办公_ 亿联网络推出全链路安全视频会议解决方案，助力企业高效办公。产品获多项权威认证，支持私有云和混合云部署模式，保障数据安全。通过身份认证、加密传输及权限管理等措施实现全流程管控。终端产品具备国产化适配和国密算法加密通信技术。亿联网络致力于打造安全智能的视频会议体验，助力企业数字化协作。 _![Image 409: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 办公仔 2025-08-06 09:39](https://office.pconline.com.cn/1959/19595772.html \"亿联网络打造全链路安全视频会议解决方案，护航企业高效办公\")[视频会议](https://ks.pconline.com.cn/?q=%E8%A7%86%E9%A2%91%E4%BC%9A%E8%AE%AE)[数据安全](https://ks.pconline.com.cn/?q=%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8)[全链路安全](https://ks.pconline.com.cn/?q=%E5%85%A8%E9%93%BE%E8%B7%AF%E5%AE%89%E5%85%A8)  [![Image 410: 办公仔](https://www1.pconline.com.cn/images/blank.gif) _思必驰亮相2025人工智能产品应用博览会，以全栈AI方案赋能智慧办公_ 思必驰亮相2025人工智能产品应用博览会，展示全新AI办公本系列及MC10麦克风。AI办公本配备专业级大模型2.0与Wacom电磁膜，实现AI笔记等功能；MC10集成128单元麦克风阵列，采用Dante音频技术精准拾音。7月30日发布的AI大模型信创一体机支持离线部署、DFM与DeepSeek双大模型。 _![Image 411: 办公仔](https://www1.pconline.com.cn/images/blank.gif)_ 办公仔 2025-08-06 09:39](https://office.pconline.com.cn/1959/19595773.html \"思必驰亮相2025人工智能产品应用博览会，以全栈AI方案赋能智慧办公\")[人工智能产品](https://ks.pconline.com.cn/?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BA%A7%E5%93%81)[智慧办公](https://ks.pconline.com.cn/?q=%20%E6%99%BA%E6%85%A7%E5%8A%9E%E5%85%AC)[思必驰](https://ks.pconline.com.cn/?q=%20%E6%80%9D%E5%BF%85%E9%A9%B0)   [点击加载更多](javascript:;).",
+    "source": "ai-bot-tools",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-2",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "微软宣布AI办公系统Agent 365将于2026年5月上线- 经济观察网",
+    "url": "http://www.eeo.com.cn/2026/0331/824154.shtml",
+    "summary": "### 用户名登录/手机号登录 还没有账号？免费注册. # 微软宣布AI办公系统Agent 365将于2026年5月上线. 经观智讯2026-03-31 22:46. **经济观察网** 微软宣布其AI办公系统Microsoft 365 Copilot的第三波更新将于2026年5月1日推出Agent 365，并引入Claude及新一代OpenAI模型。微软与英伟达在2026年3月宣布携手推进“AI for nuclear”计划，旨在利用人工智能工具加速核电站的许可、设计和运营，以应对AI算力扩张的能源需求。微软于2026年3月租用德克萨斯州阿比林市一处容量约700兆瓦的数据中心项目，此前该站点曾被甲骨文和OpenAI放弃，以支持云计算和AI业务算力需求。. # 热新闻. # 视频推荐. 30年持有一只股票，穿越了至少四轮牛熊，致敬那些真正“拿得住”的人，他们守的不是股票，是对好企业的信仰。. # 电子刊物.",
+    "source": "ai-bot-tools",
+    "published_at": "2026-05-01T00:00:00+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-3",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "2026年5款主流AI简历工具深度实测：谁才是真正的“简历润色天花板”？",
+    "url": "https://gitcode.csdn.net/69f1d5e50a2f6a37c5a6d0ad.html",
+    "summary": "# logo AtomGit开源社区. ## 登录社区云. ### AtomGit开源社区. # 2026年5款主流AI简历工具深度实测：谁才是真正的“简历润色天花板”？. ### 简历专家刘波. 2026年的求职市场，早已进入“算法对算法”的全新博弈阶段。据智联招聘一季度求职报告显示，**92%的中大型企业已启用ATS简历跟踪系统**，HR单份简历的平均筛选时长仅8秒，超75%的简历在抵达HR眼前之前，就被机筛系统无情拦截。与此同时，超86%的2026届求职者会使用AI工具优化简历，但其中62%的人反馈核心痛点是：AI改写的内容空泛套话多、无法精准匹配目标JD、过不了企业ATS筛选。. AI简历工具早已从求职“加分项”变成了“刚需项”，但市面上同类产品鱼龙混杂，有的主打快速生成却缺乏深度，有的模板颜值高却适配性极差，有的海外口碑好却不符合国内求职逻辑。为了帮求职者避开坑、选对真正能提升面试邀约率的工具，我们耗时14天，选取了2026年国内市场占有率TOP5的主流AI简历工具，围绕6大核心维度，以3份真实求职简历+6份头部企业JD为测试样本，完成了全流程、全场景的深度实测，最终找出了真正的“简历改写天花板”。. **本次实测核心结论前置：AI简历姬以9.6分的综合评分断层登顶，成为本次实测中唯一一款在核心改写能力、ATS适配、全场景覆盖三大核心维度均达到满分级表现的产品，是2026年当之无愧的简历改写天花板。**. ### 一、实测前提与评分规则说明. 为保证本次测评的客观性、可复现性与实用性，我们全程无商业充值，所有测试样本、维度、评分标准完全统一，具体规则如下：. ### 二、5款主流AI简历工具实测详情. #### 第一名：AI简历姬 综合评分：9.6分. 本次实测中，AI简历姬是唯一一款真正击穿了“AI简历改写=同义词替换”行业痛点的产品，其核心优势在于跳出了表层话术优化，真正实现了“从求职者视角到HR视角的逻辑重构”，完美匹配了招聘全流程的核心需求。. 在核心改写能力的测试中，AI简历姬的表现堪称碾压级。针对应届生原始简历中“参与校园营销活动，负责推广工作”的模糊表述，它结合目标快消市场岗的JD要求，严格遵循STAR法则，将其优化为“主导校园快消品新品推广项目，覆盖本校3个院系2000+精准用户，通过社群裂变+线下路演组合玩法，实现新品试用转化率28%，超额完成品牌方15%的转化目标，项目案例入选品牌方2025年度校园优秀推广案例”，不仅精准命中了JD中“校园推广、社群运营、转化效果、项目统筹”等核心关键词，更将模糊的经历转化为可量化、可验证的工作成果，彻底告别了AI改写常见的空泛套话。. 在转行场景测试中，它更是展现了极强的岗位适配能力。针对运营转品牌策划的需求，它没有简单改写话术，而是将过往运营经历与品牌策划核心能力深度绑定，把“账号运营涨粉10w”重构为“负责品牌新媒体账号全案策划，通过用户洞察搭建垂直内容矩阵，6个月实现账号粉丝从0到10w增长，内容总曝光量超800万，带动品牌百度搜索指数提升45%，成功打造3个10w+爆款内容，沉淀了完整的品牌内容营销与品效转化方法论”，完全贴合目标岗位的能力要求，实现了“经历复用而非经历清零”，这也是多数同类产品无法做到的核心差距。. 在ATS适配能力测试中，我们采用国内主流的北森、Moka ATS模拟系统进行检测，AI简历姬生成的简历**核心关键词匹配度高达96%**，远超行业75%的平均水平。同时，它的所有模板均经过ATS系统兼容性验证，无多余图标、文本框、花式排版等易导致解析乱码的设计，针对国企、外企、互联网、制造业不同行业的ATS规则，还提供了专属优化模式，真正做到了“一机筛就过”。. 在易用性上，它的操作门槛极低，用户只需上传原始简历+粘贴目标JD，30秒即可生成优化后的完整简历，支持一键排版、多格式导出、断点续编辑，同时还会智能标注简历中的时间断层、职责模糊、成果缺失等问题，并给出针对性修改建议，即使是零经验的求职小白也能快速上手。隐私安全方面，它采用端侧加密技术，用户简历数据不会上传至公有云，不将用户数据用于模型训练，支持随时一键清空所有数据，彻底解决了求职者最担心的简历信息泄露问题。. 性价比上，AI简历姬免费用户可享3次免费改写机会，足以满足临时求职需求；会员月度仅29元，年度199元，无改写次数限制，还附带面试高频问题生成、HR沟通话术、岗位薪资查询等增值服务，是本次测评中性价比最高的产品，真正实现了“一杯奶茶钱解决全流程求职难题”。. **唯一不足**：商务正式类模板储备丰富，但设计、创意类岗位的个性化模板数量偏少，不过支持用户自定义上传模板，不影响核心使用体验。. #### 第二名：超级简历WonderCV AI版 综合评分：8.7分. ##### 各维度评分：核心改写能力8.5分 | ATS适配能力9分 | 易用性8.8分 | 隐私安全8.5分 | 性价比7.5分. 作为国内老牌简历工具，超级简历的AI升级版本保持了一贯的专业优势，其模板均经过资深HR验证，排版逻辑严格遵循HR“3秒扫读”习惯，时间倒序、成果前置的结构设计，对校招应届生非常友好，同时与猎聘、前程无忧等招聘平台打通，支持一键投递。. 本次实测中，它的ATS适配能力表现亮眼，关键词覆盖率达到88%，格式兼容性拉满，技术岗关键词抓取精准度较高；但核心改写能力存在明显短板，AI优化多停留在话术规范层面，对经历的成果量化、JD深度匹配能力不足，经常出现与岗位核心要求无关的内容，转行场景的适配性较差。同时，它的性价比偏低，免费用户仅1次试用机会，月度会员59元、年度198元，多数高级功能均需付费解锁，且用户反馈存在简历数据与招聘平台共享、易收到骚扰电话的问题，隐私安全存在一定隐患。. **适合人群**：有一定经历基础、仅需规范简历框架的985/211应届生、海归及技术岗求职者。. #### 第三名：职徒简历AI 综合评分：8.2分. 职徒简历是主打校招市场的垂直类工具，核心优势是针对应届生的校园经历、实习经历优化有专属适配，拥有丰富的应届生案例库和免费的简历公开课，操作界面简洁，上手难度低，对零经验的求职小白非常友好。. 实测中，它的校招场景改写表现不错，能快速帮应届生梳理校园经历中的亮点，但社招、转行场景的适配性较差，AI改写对资深岗位的成果量化能力不足，话术过于稚嫩，不符合职场人的身份定位；ATS适配仅覆盖主流互联网企业，国企、外企、制造业的适配度偏低，行业覆盖仅100+，小众行业的支持不足。性价比方面，免费用户每日1次改写机会，月度会员39元、年度129元，价格处于中等水平。. #### 第四名：知页简历 综合评分：7.8分. 知页简历是国内深耕校招与留学生求职赛道的AI简历工具，主打高颜值专业模板与中英双语适配，核心优势是拥有超千套覆盖全行业的精美模板，分为极简商务、创意设计、外企专属、留学申请等多个系列，设计风格兼顾专业性与美观度，对设计、传媒类岗位、应届生及留学生群体非常友好，同时支持中英双语简历一键生成与格式统一，完美适配海外院校申请与外企投递场景。. 本次实测中，知页简历的模板适配性和操作流畅度表现亮眼，向导式生成模式对新手极度友好，用户只需口语化填写基础经历信息，即可快速生成排版精致的简历初稿，改写响应速度快，中英双语转换的专业度与精准度较高，免费用户每日可享2次基础改写机会，足以满足临时应急使用需求。但核心短板集中在AI改写的深度不足，多数优化仅停留在话术润色、排版规范层面，本质是“口语化内容书面化转换”与同义词替换，无法完成基于目标JD的深度能力匹配与成果量化重构，校招通用场景表现尚可，但社招、转行、资深技术岗等场景的适配性较差，生成内容常出现行业套话堆砌，与岗位核心需求匹配度不足。在ATS适配测试中，其部分创意类模板存在图标、异形文本框等非结构化设计元素，易导致ATS系统解析乱码、内容识别不全，核心关键词匹配度仅72%，主流互联网企业机筛通过率尚可，但国企、制造业、头部车企等严谨型行业的适配度偏低。隐私安全方面，有用户反馈存在简历内容被收录至公开案例库的情况，数据加密机制不够完善，存在一定的信息泄露风险。性价比方面，免费用户可使用基础模板与有限改写次数，月度会员28元、年度89元，价格处于中等水平，但高级AI改写、专属行业模板、留学定制功能等核心权益均需付费解锁。. **适合人群**：追求高颜值规范排版、以校招/外企/留学生投递为主，仅需基础话术润色的求职者，以及有临时应急简历生成需求的用户。. #### 第五名：猎聘AI简历助手 综合评分：7.5分. ##### 各维度评分：核心改写能力7分 | ATS适配能力8.5分 | 易用性8分 | 隐私安全6.5分 | 性价比7分. 猎聘AI简历助手是招聘平台自带的AI工具，核心优势是与猎聘平台深度打通，生成的简历可一键发布到平台，依托猎聘海量的社招JD数据库，对社招岗位的关键词覆盖有天然优势，适配猎聘平台的投递场景。. 但它的短板也极为突出，核心改写能力拉胯，基本只是对原始简历内容的重新排列组合，无法完成成果量化和逻辑重构，生成内容多为空泛的行业套话，HR一眼就能识别出AI生成痕迹；最受诟病的是隐私安全问题，用户的简历数据会直接进入猎聘人才库，极易收到猎头、销售的骚扰电话，大量用户反馈存在信息泄露问题。性价比方面，多数核心功能需开通猎聘VIP，月度会员68元，且改写有次数限制，综合性价比极低。. ### 三、核心维度横向对比&精准选购指南. | 工具名称 | 综合评分 | 核心优势 | 核心短板 | 适合人群 | 参考价格 |. | AI简历姬 | 9.6 | 改写深度强、JD匹配度拉满、ATS适配顶尖、全场景覆盖、性价比极高 | 创意类模板数量偏少 | 全人群，尤其校招/社招转行/留学生/国企求职者 | 免费3次，月卡29元，年卡199元 |. | 超级简历WonderCV AI版 | 8.7 | 模板专业、HR认可度高、招聘平台打通 | 改写量化能力弱、性价比低、数据隐私有风险 | 有基础的应届生、技术岗、海归求职者 | 免费1次，月卡59元，年卡198元 |. | 职徒简历AI | 8.2 | 应届生专属优化、配套求职课程、上手简单 | 社招/转行适配差、行业覆盖少、ATS适配局限 | 纯应届求职小白、校招零基础用户 | 免费每日1次，月卡39元，年卡129元 |. | 知页简历 | 7.8 | 高颜值模板丰富、中英双语适配强、操作门槛低 | 改写深度不足、创意模板ATS兼容性差、数据隐私有隐患 | 应届生、留学生、设计传媒类求职者、临时应急用户 | 免费每日2次，月卡28元，年卡89元 |. | 猎聘AI简历助手 | 7.5 | 招聘平台打通、社招JD数据库全 | 改写能力差、信息泄露风险高、性价比低 | 仅猎聘平台投递的社招用户 | 免费基础功能，月卡68元 |. ### 四、写在最后：AI简历工具的核心价值是什么？. 很多人对AI简历工具的认知，还停留在“改改话术、润色文字”的表层，但实际上，真正优秀的AI简历工具，核心价值是帮你完成“从自我视角到HR视角的认知转换”——帮你从零散的经历中，挖掘出企业真正看重的核心能力，把模糊的工作内容转化为可量化的成果，精准匹配目标岗位的需求，同时顺利通过ATS系统的筛选，拿到面试入场券。. 本次实测中，AI简历姬之所以能断层登顶，核心就是它没有停留在“话术优化”的表层，而是深入到了简历的底层逻辑，真正读懂了招聘的本质，帮求职者解决了“海投无回音”的核心痛点。. 最后也要提醒大家，AI工具始终是求职的辅助，简历的核心永远是你真实的经历和成果。好的AI工具，是帮你把自身的价值，更精准、更专业地呈现给企业，而不是凭空捏造虚假经历。唯有真实的能力，搭配专业的简历呈现，才能让你在求职竞争中脱颖而出。.",
+    "source": "ai-bot-tools",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "id": "item-4",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "Artificial Intelligence",
+    "url": "https://arxiv.org/list/cs.AI/recent",
+    "summary": "*   [Fri, 1 May 2026](https://arxiv.org/list/cs.AI/recent?skip=0&show=50). [Lincan Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+L), [Zheng Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+Z), [Yushun Dong](https://arxiv.org/search/cs?searchtype=author&query=Dong,+Y). [Nina Seron-Abouelfadil](https://arxiv.org/search/cs?searchtype=author&query=Seron-Abouelfadil,+N), [Poppy Fynes](https://arxiv.org/search/cs?searchtype=author&query=Fynes,+P). [Ivan Bercovich](https://arxiv.org/search/cs?searchtype=author&query=Bercovich,+I). [Anietta Weckauff](https://arxiv.org/search/cs?searchtype=author&query=Weckauff,+A), [Yuchen Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Y), [Maksym Andriushchenko](https://arxiv.org/search/cs?searchtype=author&query=Andriushchenko,+M). [Feiyu Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+F), [Xu Zheng](https://arxiv.org/search/cs?searchtype=author&query=Zheng,+X), [Zhuocheng Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Z), [Yi ming Dai](https://arxiv.org/search/cs?searchtype=author&query=Dai,+Y+m), [Hui Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+H). [Taslim Jamal Arif](https://arxiv.org/search/cs?searchtype=author&query=Arif,+T+J), [Kuldeep Singh](https://arxiv.org/search/cs?searchtype=author&query=Singh,+K). [Rahul Ramachandran](https://arxiv.org/search/cs?searchtype=author&query=Ramachandran,+R), [Nidhi Jha](https://arxiv.org/search/cs?searchtype=author&query=Jha,+N), [Muthukumaran Ramasubramanian](https://arxiv.org/search/cs?searchtype=author&query=Ramasubramanian,+M). [Habtom Kahsay Gidey](https://arxiv.org/search/cs?searchtype=author&query=Gidey,+H+K), [Alexander Lenz](https://arxiv.org/search/cs?searchtype=author&query=Lenz,+A), [Alois Knoll](https://arxiv.org/search/cs?searchtype=author&query=Knoll,+A). [Jackson Vonderhorst](https://arxiv.org/search/cs?searchtype=author&query=Vonderhorst,+J), [Kuangshi Ai](https://arxiv.org/search/cs?searchtype=author&query=Ai,+K), [Haichao Miao](https://arxiv.org/search/cs?searchtype=author&query=Miao,+H), [Shusen Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+S), [Chaoli Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+C). [Hanane Nour Moussa](https://arxiv.org/search/cs?searchtype=author&query=Moussa,+H+N), [Yifei Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Y), [Zhuoyang Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Z), [Yankai Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+Y), [Cheng Tang](https://arxiv.org/search/cs?searchtype=author&query=Tang,+C), [Tianshu Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+T), [Nesreen K. Ahmed](https://arxiv.org/search/cs?searchtype=author&query=Ahmed,+N+K), [Ali Payani](https://arxiv.org/search/cs?searchtype=author&query=Payani,+A), [Ziru Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+Z), [Huan Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+H). [Johannes Pfau](https://arxiv.org/search/cs?searchtype=author&query=Pfau,+J), [Panagiotis Vrettis](https://arxiv.org/search/cs?searchtype=author&query=Vrettis,+P). [Adam Ishay](https://arxiv.org/search/cs?searchtype=author&query=Ishay,+A), [Joohyung Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+J). K. Ong](https://arxiv.org/search/cs?searchtype=author&query=Ong,+K+J+K). [Weihai Lu](https://arxiv.org/search/cs?searchtype=author&query=Lu,+W), [Zhejun Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+Z), [Yanshu Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Y), [Huan He](https://arxiv.org/search/cs?searchtype=author&query=He,+H). [Mohit Dubey](https://arxiv.org/search/cs?searchtype=author&query=Dubey,+M), [Open Gigantic](https://arxiv.org/search/cs?searchtype=author&query=Gigantic,+O). [Haonan Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+H), [Tianjun Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun,+T), [Yongqing Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Qisheng Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Q). [Vishnuprasadh Kumaravelu](https://arxiv.org/search/cs?searchtype=author&query=Kumaravelu,+V), [Sunil Gupta](https://arxiv.org/search/cs?searchtype=author&query=Gupta,+S), [P. K. Srijith](https://arxiv.org/search/cs?searchtype=author&query=K.,+P). [Jinchao Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+J), [Yunxin Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Y), [Chenrui Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+C), [Zhenran Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+Z), [Baotian Hu](https://arxiv.org/search/cs?searchtype=author&query=Hu,+B), [Min Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+M). [Wei Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+W), [Rashina Hoda](https://arxiv.org/search/cs?searchtype=author&query=Hoda,+R), [Joycelyn Ling](https://arxiv.org/search/cs?searchtype=author&query=Ling,+J). [Wilder Baldwin](https://arxiv.org/search/cs?searchtype=author&query=Baldwin,+W), [Sepideh Ghanavati](https://arxiv.org/search/cs?searchtype=author&query=Ghanavati,+S). [Binyan Xu](https://arxiv.org/search/cs?searchtype=author&query=Xu,+B), [Xilin Dai](https://arxiv.org/search/cs?searchtype=author&query=Dai,+X), [Kehuan Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+K). [Chao Fei](https://arxiv.org/search/cs?searchtype=author&query=Fei,+C), [Hongcheng Guo](https://arxiv.org/search/cs?searchtype=author&query=Guo,+H), [Yanghua Xiao](https://arxiv.org/search/cs?searchtype=author&query=Xiao,+Y).",
+    "source": "arxiv-cs-ai",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-ai"
+    ],
+    "id": "item-5",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "homepage"
+  },
+  {
+    "title": "Artificial Intelligence 2026 - arXiv",
+    "url": "https://arxiv.org/list/cs.AI/2026",
+    "summary": "# Artificial Intelligence May 2026. [Skip to main content](https://arxiv.org/list/cs.AI/current#content). [![Image 1: Cornell University Logo](https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg)](https://www.cornell.edu/). [Learn about arXiv becoming an independent nonprofit.](https://tech.cornell.edu/arxiv/). We gratefully acknowledge support from the Simons Foundation, [member institutions](https://info.arxiv.org/about/ourmembers.html), and all contributors.[Donate](https://info.arxiv.org/about/donate.html). [![Image 2: arxiv logo](https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg)](https://arxiv.org/)>[cs.AI](https://arxiv.org/list/cs.AI/recent). [Help](https://info.arxiv.org/help) | [Advanced Search](https://arxiv.org/search/advanced). [![Image 3: arXiv logo](https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg)](https://arxiv.org/). [![Image 4: Cornell University Logo](https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg)](https://www.cornell.edu/). ## quick links. *   [Login](https://arxiv.org/login). *   [Help Pages](https://info.arxiv.org/help). *   [About](https://info.arxiv.org/about). # Artificial Intelligence. ## Authors and titles for May 2026. No updates for this time period. *   [About](https://info.arxiv.org/about). *   [Help](https://info.arxiv.org/help). *   [Contact](https://info.arxiv.org/help/contact.html). *   [Subscribe](https://info.arxiv.org/help/subscribe). *   [Copyright](https://info.arxiv.org/help/license/index.html). *   [Privacy Policy](https://info.arxiv.org/help/policies/privacy_policy.html). *   [Web Accessibility Assistance](https://info.arxiv.org/help/web_accessibility.html). *   [arXiv Operational Status](https://status.arxiv.org/).",
+    "source": "arxiv-cs-ai",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-ai"
+    ],
+    "id": "item-6",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "arxiv_listing_page"
+  },
+  {
+    "title": "Multiagent Systems - arXiv",
+    "url": "https://arxiv.org/list/cs.MA/recent",
+    "summary": "*   [Wed, 29 Apr 2026](https://arxiv.org/list/cs.MA/recent?skip=0&show=50). *   [Tue, 28 Apr 2026](https://arxiv.org/list/cs.MA/recent?skip=11&show=50). *   [Mon, 27 Apr 2026](https://arxiv.org/list/cs.MA/recent?skip=32&show=50). *   [Fri, 24 Apr 2026](https://arxiv.org/list/cs.MA/recent?skip=40&show=50). *   [Thu, 23 Apr 2026](https://arxiv.org/list/cs.MA/recent?skip=55&show=50). Total of 70 entries : 1-50[51-70](https://arxiv.org/list/cs.MA/recent?skip=50&show=50). [Feliks Bańka](https://arxiv.org/search/cs?searchtype=author&query=Ba%C5%84ka,+F), [Jarosław A. Chudziak](https://arxiv.org/search/cs?searchtype=author&query=Chudziak,+J+A). [[9]](https://arxiv.org/list/cs.MA/recent)[arXiv:2604.24842](https://arxiv.org/abs/2604.24842 \"Abstract\") (cross-list from cs.AI) [[pdf](https://arxiv.org/pdf/2604.24842 \"Download PDF\"), [html](https://arxiv.org/html/2604.24842v1 \"View HTML\"), [other](https://arxiv.org/format/2604.24842 \"Other formats\")]. [Ben Hagag](https://arxiv.org/search/cs?searchtype=author&query=Hagag,+B), [William L. [Jie Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+J), [Ming Gong](https://arxiv.org/search/cs?searchtype=author&query=Gong,+M). [Luay Gharzeddine](https://arxiv.org/search/cs?searchtype=author&query=Gharzeddine,+L), [Samer Saab Jr](https://arxiv.org/search/cs?searchtype=author&query=Saab,+S). [[18]](https://arxiv.org/list/cs.MA/recent)[arXiv:2604.24572](https://arxiv.org/abs/2604.24572 \"Abstract\") (cross-list from cs.AI) [[pdf](https://arxiv.org/pdf/2604.24572 \"Download PDF\"), [html](https://arxiv.org/html/2604.24572v1 \"View HTML\"), [other](https://arxiv.org/format/2604.24572 \"Other formats\")]. [Antony Rowstron](https://arxiv.org/search/cs?searchtype=author&query=Rowstron,+A). [Minhyeong Yu](https://arxiv.org/search/cs?searchtype=author&query=Yu,+M), [Wonduk Seo](https://arxiv.org/search/cs?searchtype=author&query=Seo,+W). [[22]](https://arxiv.org/list/cs.MA/recent)[arXiv:2604.23970](https://arxiv.org/abs/2604.23970 \"Abstract\") (cross-list from cs.AI) [[pdf](https://arxiv.org/pdf/2604.23970 \"Download PDF\"), [html](https://arxiv.org/html/2604.23970v1 \"View HTML\"), [other](https://arxiv.org/format/2604.23970 \"Other formats\")]. [Nikolaos Al.Papadopoulos](https://arxiv.org/search/cs?searchtype=author&query=Al.Papadopoulos,+N), [Konstantinos E. Psannis](https://arxiv.org/search/cs?searchtype=author&query=Psannis,+K+E). Title: GSAR: Typed Grounding for Hallucination Detection and Recovery in Multi-Agent LLMs. Kamelhar](https://arxiv.org/search/cs?searchtype=author&query=Kamelhar,+F+A). [Kanghoon Lee](https://arxiv.org/search/cs?searchtype=author&query=Lee,+K), [Matthew M. Law](https://arxiv.org/search/cs?searchtype=author&query=Law,+K+H), [Yoonjin Yoon](https://arxiv.org/search/cs?searchtype=author&query=Yoon,+Y). [Juergen Dietrich](https://arxiv.org/search/cs?searchtype=author&query=Dietrich,+J). Krishnan](https://arxiv.org/search/cs?searchtype=author&query=Krishnan,+A+R), [Michael D. Phillips](https://arxiv.org/search/cs?searchtype=author&query=Phillips,+M+D), [Yelena G. Bodien](https://arxiv.org/search/cs?searchtype=author&query=Bodien,+Y+G), [Mayur B. Deppen](https://arxiv.org/search/cs?searchtype=author&query=Deppen,+S+A), [Eric L. Holmes](https://arxiv.org/search/cs?searchtype=author&query=Holmes,+H+M), [Laurie E. Cutting](https://arxiv.org/search/cs?searchtype=author&query=Cutting,+L+E), [Yuankai Huo](https://arxiv.org/search/cs?searchtype=author&query=Huo,+Y), [Bennett A. Landman](https://arxiv.org/search/cs?searchtype=author&query=Landman,+B+A). [Emilie Frost](https://arxiv.org/search/cs?searchtype=author&query=Frost,+E), [Astrid Nieße](https://arxiv.org/search/cs?searchtype=author&query=Nie%C3%9Fe,+A). [Tamás Kiss](https://arxiv.org/search/cs?searchtype=author&query=Kiss,+T). [Anbang Ruan](https://arxiv.org/search/cs?searchtype=author&query=Ruan,+A), [Xing Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X). [Andrew Shin](https://arxiv.org/search/cs?searchtype=author&query=Shin,+A). Total of 70 entries : 1-50[51-70](https://arxiv.org/list/cs.MA/recent?skip=50&show=50).",
+    "source": "arxiv-cs-ai",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-ai"
+    ],
+    "id": "item-7",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "arxiv_category_page"
+  },
+  {
+    "title": "First-time arXiv submitter — seeking endorsement in cs.AI - Reddit",
+    "url": "https://www.reddit.com/r/ResearchML/comments/1spiz0i/firsttime_arxiv_submitter_seeking_endorsement_in/",
+    "summary": "Latest AI papers on arXiv ... I recently submitted a paper to the IEEE COMPSAC 2026 AI/ML Workshop and am preparing an arXiv preprint.",
+    "source": "arxiv-cs-ai",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-ai"
+    ],
+    "id": "item-8",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "reddit_not_paper"
+  },
+  {
+    "title": "Computation and Language Apr 2026",
+    "url": "https://www.arxiv.org/list/cs.CL/current?skip=450&show=50",
+    "summary": "# Computation and Language. ## Authors and titles for April 2026. :   Title: The Impact of Steering Large Language Models with Persona Vectors in Educational Applications. Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Computers and Society (cs.CY); Machine Learning (cs.LG). :   Title: Language Bias under Conflicting Information in Multilingual LLMs. Subjects: Computation and Language (cs.CL). Subjects: Computation and Language (cs.CL); Information Theory (cs.IT); Machine Learning (cs.LG). Subjects: Computation and Language (cs.CL); Computers and Society (cs.CY). Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Machine Learning (cs.LG). Subjects: Computation and Language (cs.CL); Emerging Technologies (cs.ET). Bingxuan Li, Simo Du, Yue Guo. Subjects: Computation and Language (cs.CL). Subjects: Computation and Language (cs.CL). Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Sound (cs.SD). Subjects: Computation and Language (cs.CL); Machine Learning (cs.LG). Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI). :   Title: Reasoning-Based Refinement of Unsupervised Text Clusters with LLMs. Comments: Accepted to the Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026).",
+    "source": "arxiv-cs-cl",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-cl"
+    ],
+    "id": "item-9",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "arxiv_listing_page"
+  },
+  {
+    "title": "Computation and Language - arXiv",
+    "url": "https://www.arxiv.org/list/cs.CL/pastweek?skip=1&show=1000",
+    "summary": "# Computation and Language. :   Title: Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models. Gongbo Zhang, Wen Wang, Ye Tian, Li Yuan. Wenxuan Ye, Yangyang Zhang, Xueli An, Georg Carle, Yunpu Ma. Subjects: Computation and Language (cs.CL). Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Digital Libraries (cs.DL). :   Title: HealthNLP\\_Retrievers at ArchEHR-QA 2026: Cascaded LLM Pipeline for Grounded Clinical Question Answering. Subjects: Computation and Language (cs.CL); Machine Learning (cs.LG). :   Title: What Kind of Language is Easy to Language-Model Under Curriculum Learning? Comments: The 15th edition of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL 2026). Weihang Su, Hanwen Zhang, Qingyao Ai, Yiqun Liu. Subjects: Computation and Language (cs.CL). :   Title: HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists. Subjects: Computation and Language (cs.CL). Subjects: Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Information Retrieval (cs.IR). Comments: Accepted to ACL 2026 (Main Conference). Comments: Accepted to the main conference of ACL 2026.",
+    "source": "arxiv-cs-cl",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-cl"
+    ],
+    "id": "item-10",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "arxiv_category_page"
+  },
+  {
+    "title": "Machine Learning - arXiv",
+    "url": "https://www.arxiv.org/list/cs.LG/recent?skip=234&show=250",
+    "summary": "Across LLM fine-tuning and temporal KGE training, CI provides a low-latency early-warning signal suitable for in-training interventions. In standard masked diffusion, if a token remains masked after a reverse update, the model discards its clean-state prediction for that position. To address this limitation, this paper proposes a simple, yet effective, post-training adaptation for MDMs that conditions each denoising step on the model's own previous clean-state predictions. The resulting method, called Self-Conditioned Masked Diffusion Models (SCMDM), requires minimal architectural change, does not introduce a recurrent latent-state pathway, does not rely on an auxiliary reference model, and adds no extra denoiser evaluations during sampling. This is an important departure from partial self-conditioning approaches which requires expensive model training from scratch. In particular, the paper shows that partial self-conditioning, including the commonly used 50% dropout strategy for training self-conditioned models from scratch, is suboptimal in the post-training regime.",
+    "source": "arxiv-cs-lg",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-lg"
+    ],
+    "id": "item-11",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "homepage"
+  },
+  {
+    "title": "Machine Learning May 2026 - arXiv",
+    "url": "https://arxiv.org/list/cs.LG/current",
+    "summary": "# Machine Learning May 2026. [Skip to main content](https://arxiv.org/list/cs.LG/current#content). [![Image 1: Cornell University Logo](https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg)](https://www.cornell.edu/). [Learn about arXiv becoming an independent nonprofit.](https://tech.cornell.edu/arxiv/). We gratefully acknowledge support from the Simons Foundation, [member institutions](https://info.arxiv.org/about/ourmembers.html), and all contributors.[Donate](https://info.arxiv.org/about/donate.html). [![Image 2: arxiv logo](https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg)](https://arxiv.org/)>[cs.LG](https://arxiv.org/list/cs.LG/recent). [Help](https://info.arxiv.org/help) | [Advanced Search](https://arxiv.org/search/advanced). [![Image 3: arXiv logo](https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg)](https://arxiv.org/). [![Image 4: Cornell University Logo](https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg)](https://www.cornell.edu/). ## quick links. *   [Login](https://arxiv.org/login). *   [Help Pages](https://info.arxiv.org/help). *   [About](https://info.arxiv.org/about). # Machine Learning. ## Authors and titles for May 2026. No updates for this time period. *   [About](https://info.arxiv.org/about). *   [Help](https://info.arxiv.org/help). *   [Contact](https://info.arxiv.org/help/contact.html). *   [Subscribe](https://info.arxiv.org/help/subscribe). *   [Copyright](https://info.arxiv.org/help/license/index.html). *   [Privacy Policy](https://info.arxiv.org/help/policies/privacy_policy.html). *   [Web Accessibility Assistance](https://info.arxiv.org/help/web_accessibility.html). *   [arXiv Operational Status](https://status.arxiv.org/).",
+    "source": "arxiv-cs-lg",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-lg"
+    ],
+    "id": "item-12",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "arxiv_listing_page"
+  },
+  {
+    "title": "Logic in Computer Science - arXiv",
+    "url": "https://arxiv.org/list/cs.LO/recent",
+    "summary": "Fri, 1 May 2026 (showing 14 of 14 entries ). [1] arXiv:2604.28171 [pdf ... Subjects: Logic in Computer Science (cs.LO); Machine Learning (cs.LG). [8]",
+    "source": "arxiv-cs-lg",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "arxiv-cs-lg"
+    ],
+    "id": "item-13",
+    "category": "research-frontier",
+    "trimmed": true,
+    "trim_reason": "arxiv_category_page"
+  },
+  {
+    "title": "宣布与韩国建立合作伙伴关系",
+    "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+    "summary": "DeepMind 宣布与韩国政府建立合作伙伴关系，共同推进人工智能领域的发展与合作。",
+    "source": "deepmind-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "deepmind-blog"
+    ],
+    "id": "item-14",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Announcing our partnership with the Republic of Korea",
+    "summary_original": "[![Image 9](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__gemma__large.svg) Gemma Build responsible AI applications at scale](https://deepmind.google/models/gemma/). [![Image 17](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__alphaearth__large.svg) AlphaEarth Foundations Map our planet in unprecedented detail](https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/)[![Image 18](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__weathernext__large.svg) WeatherNext Fast and accurate AI weather forecasting](https://deepmind.google/science/weathernext/)[![Image 19](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__weather-lab__large.svg) Weather Lab Test our experimental weather models](https://deepmind.google.com/science/weatherlab/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=). [![Image 28](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__gemma__large.svg) Gemma Build responsible AI applications at scale](https://deepmind.google/models/gemma/). [![Image 36](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__alphaearth__large.svg) AlphaEarth Foundations Map our planet in unprecedented detail](https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/)[![Image 37](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__weathernext__large.svg) WeatherNext Fast and accurate AI weather forecasting](https://deepmind.google/science/weathernext/)[![Image 38](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__weather-lab__large.svg) Weather Lab Test our experimental weather models](https://deepmind.google.com/science/weatherlab/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=). [Responsibility Ensuring AI safety through proactive security, even against evolving threats](https://deepmind.google/responsibility-and-safety/)[News Discover our latest AI breakthroughs, projects, and updates](https://deepmind.google/blog/)[Careers We’re looking for people who want to make a real, positive impact on the world](https://deepmind.google/careers/)[Education We work to make AI more accessible to the next generation](https://deepmind.google/education/)[Our National Partnerships for AI Working with governments worldwide to benefit people through frontier AI](https://deepmind.google/national-partnerships-for-ai/)[The Podcast Join Professor Hannah Fry as she uncovers the extraordinary way AI is transforming our world](https://deepmind.google/the-podcast/). [](https://deepmind.google/national-partnerships-for-ai/). [Learn more](https://deepmind.google/national-partnerships-for-ai/). [](https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/). [Learn more](https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/). [](https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/). [Learn more](https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/). [](https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/). [Learn more](https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/)."
+  },
+  {
+    "title": "Publications - Google DeepMind",
+    "url": "https://deepmind.google/research/publications/",
+    "summary": "[![Image 9](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__gemma__large.svg) Gemma Build responsible AI applications at scale](https://deepmind.google/models/gemma/). [![Image 28](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/nav__dm__gemma__large.svg) Gemma Build responsible AI applications at scale](https://deepmind.google/models/gemma/). *   [22 April 2026 Image Generators are Generalist Vision Learners](https://deepmind.google/research/publications/240658/). *   [10 March 2026 The Abstraction Fallacy: Why AI Can Simulate But Not Instantiate Consciousness](https://deepmind.google/research/publications/231971/). *   [9 January 2026 TRecViT: A Recurrent Video Transformer](https://deepmind.google/research/publications/122591/). *   [4 November 2025 To Mask or to Mirror: Human-AI Alignment in Collective Reasoning](https://deepmind.google/research/publications/180362/). *   [30 October 2025 A Pragmatic View of AI Personhood](https://deepmind.google/research/publications/210560/). *   [29 September 2025 AI-Generated Video Detection via Perceptual Straightening](https://deepmind.google/research/publications/160567/). *   [24 September 2025 Video models are zero-shot learners and reasoners](https://deepmind.google/research/publications/203190/). *   [16 July 2025 Dialogues Between Technologists and the Art Worlds](https://deepmind.google/research/publications/181976/). *   [13 July 2025 Long-Form Speech Generation with Spoken Language Models](https://deepmind.google/research/publications/126936/). *   [1 July 2025 Rethinking Example Selection in the Era of Million-Token Models](https://deepmind.google/research/publications/102792/). *   [1 May 2025 Proactive Agents for Multi-Turn Text-to-Image Generation Under Uncertainty](https://deepmind.google/research/publications/121578/). *   [26 April 2025 Generative Ghosts: Anticipating Benefits and Risks of AI Afterlives](https://deepmind.google/research/publications/65827/).",
+    "source": "deepmind-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "deepmind-blog"
+    ],
+    "id": "item-15",
+    "category": "major-release",
+    "trimmed": true,
+    "trim_reason": "homepage"
+  },
+  {
+    "title": "求推荐一个能增强网页上所有图片输入框的 Chrome 扩展",
+    "url": "https://x.com/swyx/status/2050460622706626740",
+    "published_at": "2026-05-02T06:21:22.000Z",
+    "summary": "[Swyx] 希望找到一个 Chrome 扩展，能为网页上的图片输入框添加绘图和文字生成功能，并 @devinai 求助。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389163+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-16",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "request for chrome extension that augments all image input boxes on the web:\n\n- …",
+    "summary_original": "[Swyx @swyx · likes:11 rt:1] request for chrome extension that augments all image input boxes on the web:\n\n- lets me generate a simple word text thing (no ai)  OR \n- draw something with @tldraw (no ai) OR\n- use either words or drawings to generate something of the required proportions\n\n@devinai do it pls https://t.co/9Z7nhwr16q"
+  },
+  {
+    "title": "@xai @grok Codex 作为 Slack AI 搜索竟然比 Slack 自家的 AI 搜索还好用",
+    "url": "https://x.com/swyx/status/2050432398161264664",
+    "published_at": "2026-05-02T04:29:13.000Z",
+    "summary": "Swyx 指出 Codex 用来搜索 Slack 内容，效果竟然比 Slack 自带的 AI 搜索还要好。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389205+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-17",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "@xai @grok codex is also a better slack ai search than slack ai search. https://…",
+    "summary_original": "[Swyx @swyx · likes:3 rt:0] @xai @grok codex is also a better slack ai search than slack ai search. https://t.co/s4EhtEQuwi"
+  },
+  {
+    "title": "@xai @grok 这真的把效率差距凸显出来了",
+    "url": "https://x.com/swyx/status/2050396374282408358",
+    "published_at": "2026-05-02T02:06:04.000Z",
+    "summary": "Swyx 感叹 AI 在效率方面的表现令人印象深刻。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389215+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-18",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "@xai @grok this really puts the efficiency into focus https://t.co/PIivry9YDt",
+    "summary_original": "[Swyx @swyx · likes:4 rt:0] @xai @grok this really puts the efficiency into focus https://t.co/PIivry9YDt"
+  },
+  {
+    "title": "我发现的第一个 Codex 坏掉的功能",
+    "url": "https://x.com/petergyang/status/2050406287008268450",
+    "published_at": "2026-05-02T02:45:28.000Z",
+    "summary": "Peter Yang 发现了 Codex 中第一个存在问题的功能。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389217+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-19",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "First broken Codex feature I've come across https://t.co/2u5fVxBVIk",
+    "summary_original": "[Peter Yang @petergyang · likes:77 rt:0] First broken Codex feature I've come across https://t.co/2u5fVxBVIk"
+  },
+  {
+    "title": "我花了将近 3000 美元买了台 MacBook Pro，本来是为了跑本地模型的",
+    "url": "https://x.com/petergyang/status/2050394924395434233",
+    "published_at": "2026-05-02T02:00:19.000Z",
+    "summary": "Peter Yang 花了 3000 美元买 MacBook Pro 本想跑本地模型，结果实际上都在干别的事。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389219+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-20",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "I spent close to $3,000 for a Macbook Pro so that I can try running local models…",
+    "summary_original": "[Peter Yang @petergyang · likes:81 rt:0] I spent close to $3,000 for a Macbook Pro so that I can try running local models.\n\nAt least, that was my excuse. In reality, I am running...😅 https://t.co/A0evP7Rddo"
+  },
+  {
+    "title": "用 Codex 取得突破的感觉太爽了",
+    "url": "https://x.com/petergyang/status/2050378287348899962",
+    "published_at": "2026-05-02T00:54:12.000Z",
+    "summary": "Peter Yang 分享了在使用 Codex 时取得突破性进展的喜悦。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389222+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-21",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Feels so good when you have a breakthrough with Codex",
+    "summary_original": "[Peter Yang @petergyang · likes:37 rt:0] Feels so good when you have a breakthrough with Codex"
+  },
+  {
+    "title": "Replit 十周年了！为了庆祝，我们限时 24 小时完全免费",
+    "url": "https://x.com/amasad/status/2050479551537619413",
+    "published_at": "2026-05-02T07:36:35.000Z",
+    "summary": "Amjad Masad 宣布 Replit 迎来十周年生日，限时 24 小时免费开放，并回顾了让编程变得人人可及的初心。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389223+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-22",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Replit, turned 10 🎂\n\nTo celebrate we’re making it totally free for 24 hours star…",
+    "summary_original": "[Amjad Masad @amasad · likes:22 rt:4] Replit, turned 10 🎂\n\nTo celebrate we’re making it totally free for 24 hours starting at 5am PT.\n\nBut our work—to make coding accessible for all—goes back to 2011.\n\nWatch the highlights from the journey:\n\nIt’s been an honor to help millions learn &amp; ship. Here is to the next 10! https://t.co/5vWdSOw9P0"
+  },
+  {
+    "title": "Atlassian 的业绩让华尔街感到意外，但其实不应该意外",
+    "url": "https://x.com/levie/status/2050295657836277764",
+    "published_at": "2026-05-01T19:25:52.000Z",
+    "summary": "Aaron Levie 认为，当 AI 智能体的数量是人类的 100 倍时，与智能体工作绑定的软件将迎来爆发式增长。更多代码、更多线索、更多合同意味着 Atlassian 和 Salesforce 等平台将持续受益。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389231+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-23",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Atlassian’s results surprised Wall Street, but it shouldn’t be a surprise. The s…",
+    "summary_original": "[Aaron Levie @levie · likes:430 rt:48] Atlassian’s results surprised Wall Street, but it shouldn’t be a surprise. The simple heuristic for the future of software is that when there are 100X more agents than people, which parts of software will grow because agents are doing more work that the underlying software is tied to.\n\nIf the world generates more code, generates more leads, reviews more contracts, processes more invoices, creates more designs, transacts with more payments, and so on, what are the underlying systems that are managing that work? That will give you a hint as to what happens next.\n\nThese agents still need guardrails, security, compliance, workflows to be tied to, data stored, and so on. Those parts of the system of record ecosystem will only go up over time in a world of 100X more untrusted (and trusted) agents used in your workflows."
+  },
+  {
+    "title": "当我与硅谷以外的企业交流时，他们对 AI 的主要需求是增强和加速现有工作",
+    "url": "https://x.com/levie/status/2050240083325030404",
+    "published_at": "2026-05-01T15:45:02.000Z",
+    "summary": "Aaron Levie 指出，硅谷以外的企业希望用 AI 来增强而非取代人力。他们总是受制于各种瓶颈，迫切需要提升效率和加速业务流程。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389235+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-24",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "When I talk to enterprises outside of Silicon Valley, most of the use-cases they…",
+    "summary_original": "[Aaron Levie @levie · likes:232 rt:18] When I talk to enterprises outside of Silicon Valley, most of the use-cases they have in mind with AI are to augment and accelerate how they work, simply because of how much more they can do right now.\n\nMost companies are not satisfied with how much they’re doing, and they’re always constrained by some bottleneck. So they’re looking at processes that are slow and inefficient and wondering if AI can make it so they can ship more product, speed up customer onboarding, better resolve customer issues, more comprehensively understand their customers, and more. \n\nThey’re also bringing intelligence to work that would have never been possible to do before. Tech jobs got concentrated in valley and the tech industry, and enterprises or SMBs have not been able to build the products or bring automation to most areas of work. AI lets them do so now. This will be true of many other fields.\n\nAnd in the areas where there may be some cost cutting, usually that’s in service of funding another area of growth, or it’s temporary. AI cost cutting quickly gets eroded when your competition uses AI to better serve the customer and compete more effectively."
+  },
+  {
+    "title": "How to drive the billionaires out and ruin the California tax base in one fell s…",
+    "url": "https://x.com/garrytan/status/2050365216421241152",
+    "published_at": "2026-05-02T00:02:16.000Z",
+    "summary": "[Garry Tan @garrytan · likes:463 rt:30] How to drive the billionaires out and ruin the California tax base in one fell swoop: propose asset seizure measures\n\nMake it make sense! Middle class taxpayers will take on all the billions in tax revenue lost https://t.co/MMVeHAPwMB",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389237+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-25",
+    "category": "kol-posts",
+    "trimmed": true,
+    "trim_reason": "non_ai_politics"
+  },
+  {
+    "title": "https://t.co/l1ilGEu4Lh",
+    "url": "https://x.com/garrytan/status/2050348984171192773",
+    "published_at": "2026-05-01T22:57:46.000Z",
+    "summary": "[Garry Tan @garrytan · likes:11 rt:0] https://t.co/l1ilGEu4Lh",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389238+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-26",
+    "category": "kol-posts",
+    "trimmed": true,
+    "trim_reason": "link_only_tweet"
+  },
+  {
+    "title": "https://t.co/Ljhblwn1TS",
+    "url": "https://x.com/zarazhangrui/status/2050445806428438734",
+    "published_at": "2026-05-02T05:22:30.000Z",
+    "summary": "[Zara Zhang @zarazhangrui · likes:71 rt:8] https://t.co/Ljhblwn1TS",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389239+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-27",
+    "category": "kol-posts",
+    "trimmed": true,
+    "trim_reason": "link_only_tweet"
+  },
+  {
+    "title": "我发现很多人把编程智能体当员工用，而我其实把它当联合创始人",
+    "url": "https://x.com/zarazhangrui/status/2050326543797469415",
+    "published_at": "2026-05-01T21:28:35.000Z",
+    "summary": "Zara Zhang 分享了她将编程智能体视为联合创始人而非员工的理念——向它描述问题和场景，征求它的意见和建议。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389240+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-28",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "I realized a lot of people treat coding agents as their employee, whereas I actu…",
+    "summary_original": "[Zara Zhang @zarazhangrui · likes:74 rt:6] I realized a lot of people treat coding agents as their employee, whereas I actually treat it as my cofounder\n\nI don't just give orders. I present problems, describe the situation, and ask for their opinion"
+  },
+  {
+    "title": "I have used Cleanshot every single day for the past 8 years and I'm not even exa…",
+    "url": "https://x.com/zarazhangrui/status/2050280810302062927",
+    "published_at": "2026-05-01T18:26:52.000Z",
+    "summary": "[Zara Zhang @zarazhangrui · likes:96 rt:3] I have used Cleanshot every single day for the past 8 years and I'm not even exaggerating. https://t.co/gmyUfEYfYv",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389241+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-29",
+    "category": "kol-posts",
+    "trimmed": true,
+    "trim_reason": "non_ai_kol"
+  },
+  {
+    "title": "看呐，我的 ARR 达到 36,500 美元了！",
+    "url": "https://x.com/nikunj/status/2050407946438467878",
+    "published_at": "2026-05-02T02:52:03.000Z",
+    "summary": "Nikunj Kothari 庆祝自己的产品年经常性收入（ARR）达到 36,500 美元。",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389242+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-30",
+    "category": "kol-posts",
+    "trimmed": false,
+    "title_original": "Look Ma, I'm at $36,500 in ARR 💀 https://t.co/mdj702sZyg https://t.co/Y3r0hLiL5g",
+    "summary_original": "[Nikunj Kothari @nikunj · likes:179 rt:1] Look Ma, I'm at $36,500 in ARR 💀 https://t.co/mdj702sZyg https://t.co/Y3r0hLiL5g"
+  },
+  {
+    "title": "@Railway @conductor_build @claudeai @stripe If you are actively house hunting, s…",
+    "url": "https://x.com/nikunj/status/2050355231486316818",
+    "published_at": "2026-05-01T23:22:35.000Z",
+    "summary": "[Nikunj Kothari @nikunj · likes:8 rt:0] @Railway @conductor_build @claudeai @stripe If you are actively house hunting, send me a DM. I'll send you a promo code for half the cost in exchange for feedback. \n\nMain website is here: https://t.co/tMABSHz9wm",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389243+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-31",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "Built using @Railway, @conductor_build &amp; @claudeai. \n\nThis is also my first …",
+    "url": "https://x.com/nikunj/status/2050353986742698400",
+    "published_at": "2026-05-01T23:17:38.000Z",
+    "summary": "[Nikunj Kothari @nikunj · likes:20 rt:0] Built using @Railway, @conductor_build &amp; @claudeai. \n\nThis is also my first \"paid\" project (thanks @stripe) since each report costs me $8-$9 so selling this mostly at cost. \n\nSee an example report here: https://t.co/80fKpE7qvt",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389244+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-32",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "I love this. https://t.co/yMnySVcMaj",
+    "url": "https://x.com/steipete/status/2050440893786685837",
+    "published_at": "2026-05-02T05:02:59.000Z",
+    "summary": "[Peter Steinberger @steipete · likes:52 rt:1] I love this. https://t.co/yMnySVcMaj",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389246+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-33",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "told codex I had to pay up to make @xai work again. https://t.co/GXglxd8paK",
+    "url": "https://x.com/steipete/status/2050384648119734683",
+    "published_at": "2026-05-02T01:19:29.000Z",
+    "summary": "[Peter Steinberger @steipete · likes:433 rt:5] told codex I had to pay up to make @xai work again. https://t.co/GXglxd8paK",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389247+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-34",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "The new /goal feature in codex slaps. https://t.co/IR5QyFYoVM",
+    "url": "https://x.com/steipete/status/2050275598178586921",
+    "published_at": "2026-05-01T18:06:09.000Z",
+    "summary": "[Peter Steinberger @steipete · likes:2020 rt:46] The new /goal feature in codex slaps. https://t.co/IR5QyFYoVM",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389248+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-35",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "interesting discussion about this: https://t.co/a6mHh6B2Iw",
+    "url": "https://x.com/danshipper/status/2050380001279975517",
+    "published_at": "2026-05-02T01:01:01.000Z",
+    "summary": "[Dan Shipper @danshipper · likes:0 rt:0] interesting discussion about this: https://t.co/a6mHh6B2Iw",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389249+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-36",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "also, fwiw if anyone wants to pay to see me do this feel free to subscribe to @e…",
+    "url": "https://x.com/danshipper/status/2050363982813552820",
+    "published_at": "2026-05-01T23:57:22.000Z",
+    "summary": "[Dan Shipper @danshipper · likes:0 rt:0] also, fwiw if anyone wants to pay to see me do this feel free to subscribe to @every:\n\nhttps://t.co/9wRhOCVapS",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389250+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-37",
+    "trimmed": true,
+    "category": "kol-posts"
+  },
+  {
+    "title": "this is correct and the reason is simple:\n\nmodels know more than any individual …",
+    "url": "https://x.com/danshipper/status/2050304359024759242",
+    "published_at": "2026-05-01T20:00:26.000Z",
+    "summary": "[Dan Shipper @danshipper · likes:93 rt:3] this is correct and the reason is simple:\n\nmodels know more than any individual human. but any individual human learns faster than models do https://t.co/vo4BGFKv5A",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389251+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-38",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "The best way to kill your company? Focus on everything except the product. https…",
+    "url": "https://x.com/adityaag/status/2050229509840900434",
+    "published_at": "2026-05-01T15:03:01.000Z",
+    "summary": "[Aditya Agarwal @adityaag · likes:83 rt:8] The best way to kill your company? Focus on everything except the product. https://t.co/PGQJi8xYHV https://t.co/4z6cSPIff5",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389255+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-39",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "we will plan bigger parties for future releases.\n\na lot more people wanted to co…",
+    "url": "https://x.com/sama/status/2050427808456077541",
+    "published_at": "2026-05-02T04:10:59.000Z",
+    "summary": "[Sam Altman @sama · likes:2294 rt:53] we will plan bigger parties for future releases.\n\na lot more people wanted to come than we expected. thank you!\n\ngonna try to think of a really good idea for the next one.",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389256+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-40",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "/hatch clippy",
+    "url": "https://x.com/sama/status/2050402088266694689",
+    "published_at": "2026-05-02T02:28:47.000Z",
+    "summary": "[Sam Altman @sama · likes:1115 rt:40] /hatch clippy",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389257+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-41",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "man its good to be back on twitter\n\nthere is comfort in the skills of a wasted y…",
+    "url": "https://x.com/sama/status/2050399512494227709",
+    "published_at": "2026-05-02T02:18:33.000Z",
+    "summary": "[Sam Altman @sama · likes:6302 rt:193] man its good to be back on twitter\n\nthere is comfort in the skills of a wasted youth",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389258+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-42",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "Code with Claude, our developer conference, returns next week.\n\nWhether you're j…",
+    "url": "https://x.com/claudeai/status/2050252933866930339",
+    "published_at": "2026-05-01T16:36:05.000Z",
+    "summary": "[Claude @claudeai · likes:7562 rt:727] Code with Claude, our developer conference, returns next week.\n\nWhether you're just getting started with Claude Code or you've been building for a while, there's a session for you.\n\nRegister for the livestream: https://t.co/GJwOPMDLEC https://t.co/uwAZgWPu7F",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389259+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-43",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "published_at": "2026-05-03T02:01:22+00:00",
+    "summary": "[Anthropic Engineering] Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differ",
+    "language": "en",
+    "source": "follow-builders",
+    "fetched_at": "2026-05-03T02:01:22.389260+00:00",
+    "source_count": 1,
+    "sources": [
+      "follow-builders"
+    ],
+    "id": "item-44",
+    "category": "kol-posts",
+    "trimmed": true
+  },
+  {
+    "title": "Hugging Face 的 Clem Delangue：别再拿引擎和汽车做比较了",
+    "url": "https://www.turingpost.com/p/huggingfacechronicle)****",
+    "published_at": "2026-05-02T15:05:03+00:00",
+    "summary": "Clem 认为，将开放权重模型与闭源 API 相比较，就像拿引擎和整辆汽车做对比一样不恰当。API 背后整合了工具、路由和多个模型，所以「开源模型是否在追赶」这个问题本身就不太成立。",
+    "source_detail": "\"🔳 Turing Post\" <turingpost@mail.beehiiv.com>",
+    "language": "en",
+    "fetched_at": "2026-05-03T02:01:20.530392+00:00",
+    "recent": true,
+    "source": "gmail-ai-newsletter",
+    "source_count": 1,
+    "sources": [
+      "gmail-ai-newsletter"
+    ],
+    "id": "item-45",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "🎙️Hugging Face’s Clem Delangue: Stop Comparing Engines to Cars",
+    "summary_original": "One of Clem’s clearest points is that comparing open weights to closed APIs is like comparing an engine to a car. And that’s why the question “are open-source models catching up?” doesn’t even matter in the same way. Behind an API, there are tools, harnesses, routing, and sometimes several models. So when people say open models are “behind,” the real question is: behind what system, for what task,"
+  },
+  {
+    "title": "[AINews] AI Engineer World's Fair — 自动化研究、记忆、世界模型、Token 优化、智能体商业",
+    "url": "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
+    "published_at": "2026-05-02T07:21:55+00:00",
+    "summary": "AI Engineer World's Fair 大会报道，涵盖自动化研究、记忆系统、世界模型、Token 优化及智能体商业等热门议题。",
+    "source_detail": "AINews <swyx+ainews@substack.com>",
+    "language": "en",
+    "fetched_at": "2026-05-03T02:01:20.530392+00:00",
+    "recent": true,
+    "source": "gmail-ai-newsletter",
+    "source_count": 1,
+    "sources": [
+      "gmail-ai-newsletter"
+    ],
+    "id": "item-46",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "[AINews] AI Engineer World's Fair — Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertic…",
+    "summary_original": ""
+  },
+  {
+    "title": "The latest AI news we announced in March 2026: Here are Google's ...",
+    "url": "https://www.instagram.com/p/DW19ZjuEhNu/",
+    "summary": "The latest AI news we announced in March 2026: Here are Google’s latest AI updates from March 2026 🔗 Google DeepMind. #Libro Elefénix Negro: La disrupción IA que nos obliga a renacer: La mayoría de las empresas no logra materializar un valor económico significativo con la IA. https://martescoach.oscarschmitz.com/p/libro-elefenix-negro-la-disrupcion-ia-para-renacer? ICYMI: 🎧 La revolución de la IA según el experto Jürgen Schmidhuber #Nego2CIO #IA: En este episodio, María Laia con equipo de Nego2CIO nos sumergimos en la visión transformadora de Jürgen Schmidhuber, uno de los pioneros de la inteligencia artificial. Nego2CIO.com es un espacio que se creó en la radio en 2015 y luego se transformó en podcast y videocast en el Canal Youtube de CXO Community que seguro ya conocen. Nego2CIO.com es un punto de encuentro con amigos, colegas y profesionales expertos, con el objetivo de COMPARTIR, APRENDER E INSPIRAR a todo el mundo que quiera escuchar y a nosotros mismos. Nego2CIO.com es un proyecto, que se apoya en la red de amigos, colaboradores y profesionales de CXO-Community.com.",
+    "source": "google-ai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-47",
+    "category": "major-release",
+    "trimmed": true,
+    "trim_reason": "stale_monthly_roundup"
+  },
+  {
+    "title": "Google 确认 I/O 2026 大会将于 5 月 19-20 日举行，聚焦 AI",
+    "url": "https://www.techbuzz.ai/articles/google-sets-i-o-2026-for-may-19-20-with-ai-focus",
+    "summary": "Google 确认 I/O 2026 将于 5 月 19-20 日在 Mountain View 的 Shoreline Amphitheatre 举办，并向全球直播。",
+    "source": "google-ai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-48",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Google Sets I/O 2026 for May 19-20 with AI Focus | The Tech Buzz",
+    "summary_original": "The company confirmed Tuesday that I/O 2026 will run May 19-20 at the Shoreline Amphitheatre in Mountain View, with the event streaming globally"
+  },
+  {
+    "title": "What to expect from Google I/O 2026 - Engadget",
+    "url": "https://www.engadget.com/ai/what-to-expect-from-google-io-2026-200252914.html",
+    "summary": "# What to expect from Google I/O 2026. [Add Engadget on Google](https://www.google.com/preferences/source?q=engadget.com). This year's edition is [taking place on May 19 and 20](https://www.engadget.com/general/google-io-2026-is-set-for-may-19-and-20-200805024.html). ![Google I/O logo](https://s.yimg.com/ny/api/res/1.2/xHBCDAIhMAcLYNeBiH5YQQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/io_2382.jpg). Google plans to share its \"AI breakthroughs and updates in products across the company, from Gemini to Android, Chrome, Cloud and more,\" it wrote in a [blog post](https://developers.googleblog.com/get-ready-for-google-io-2026/) in February. ![Leaked image of Google's Aluminium OS](https://s.yimg.com/ny/api/res/1.2/lSeluQIsL9imIG2.ePexRg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MA--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/aluminium_os_7020.jpg). As for other operating systems, Google is planning to meld ChromeOS and Android [into a unified platform](https://www.engadget.com/mobile/google-exec-says-the-company-will-unify-android-and-chromeos-120053895.html). This seems to be the project that's being referred to as Aluminium OS, which we got [a first glimpse of earlier this year](https://www.engadget.com/computing/our-first-look-at-googles-android-for-pc-interface-leaks-in-a-bug-report-133006008.html) thanks to some leaks. Maybe we’ll hear more about [Project Astra](https://www.engadget.com/ai/project-astra-googles-vision-for-a-universal-ai-assistant-is-pulling-into-focus-174539875.html), Google’s pitch for a universal AI assistant. These events are always more fun when there’s something for us to get genuinely excited about, even if it’s something relatively niche but out there, like the [Google Beam](https://www.engadget.com/ar-vr/google-is-bringing-beam-its-3d-video-conferencing-tech-to-deployed-service-members-174500517.html) 3D video conferencing tech.",
+    "source": "google-ai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "google-ai-blog"
+    ],
+    "id": "item-49",
+    "category": "major-release",
+    "trimmed": true,
+    "trimmed_reason": "stale: 2026-04-14 (via page_date)"
+  },
+  {
+    "title": "VS Code 不管是否使用了 Copilot，都在提交中自动插入「Co-Authored-by Copilot」",
+    "url": "https://github.com/microsoft/vscode/pull/310226",
+    "published_at": "2026-05-02T19:57:26+00:00",
+    "summary": "HN 热度 796 分，377 条评论。VS Code 被发现即使用户未使用 Copilot，也会在 git 提交信息中自动添加 Copilot 联合作者署名，引发社区广泛讨论。",
+    "language": "en",
+    "hn_id": 47989883,
+    "hn_url": "https://news.ycombinator.com/item?id=47989883",
+    "hn_score": 796,
+    "hn_comments": 377,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-50",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+    "summary_original": "HN score: 796 · comments: 377 · by: indrora"
+  },
+  {
+    "title": "AI在算法招聘中的自我偏好：实证证据与洞察",
+    "url": "https://arxiv.org/abs/2509.00462",
+    "published_at": "2026-05-02T15:28:13+00:00",
+    "summary": "HN 评分：316，170 条评论。研究论文揭示AI在招聘算法中存在自我偏好偏差",
+    "language": "en",
+    "hn_id": 47987256,
+    "hn_url": "https://news.ycombinator.com/item?id=47987256",
+    "hn_score": 316,
+    "hn_comments": 170,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-51",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+    "summary_original": "HN score: 316 · comments: 170 · by: laurex"
+  },
+  {
+    "title": "Open Design：将你的编程智能体用作设计引擎",
+    "url": "https://github.com/nexu-io/open-design",
+    "published_at": "2026-05-02T12:16:16+00:00",
+    "summary": "HN 评分：179，86 条评论。利用编程智能体作为设计工具",
+    "language": "en",
+    "hn_id": 47985750,
+    "hn_url": "https://news.ycombinator.com/item?id=47985750",
+    "hn_score": 179,
+    "hn_comments": 86,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-52",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Open Design: Use Your Coding Agent as a Design Engine",
+    "summary_original": "HN score: 179 · comments: 86 · by: steveharing1"
+  },
+  {
+    "title": "Show HN：Agent-desktop — 面向AI智能体的原生桌面自动化CLI工具",
+    "url": "https://github.com/lahfir/agent-desktop",
+    "published_at": "2026-05-02T02:18:24+00:00",
+    "summary": "HN 评分：93，34 条评论。帮助AI智能体实现桌面任务自动化的命令行工具",
+    "language": "en",
+    "hn_id": 47982708,
+    "hn_url": "https://news.ycombinator.com/item?id=47982708",
+    "hn_score": 93,
+    "hn_comments": 34,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-53",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Show HN: Agent-desktop – Native desktop automation CLI for AI agents",
+    "summary_original": "HN score: 93 · comments: 34 · by: lahfir"
+  },
+  {
+    "title": "Show HN：AI CAD Harness — AI驱动的CAD设计工具",
+    "url": "https://fusion.adam.new/install",
+    "published_at": "2026-05-01T17:43:53+00:00",
+    "summary": "HN 评分：92，89 条评论。AI驱动的CAD设计工具",
+    "language": "en",
+    "hn_id": 47977694,
+    "hn_url": "https://news.ycombinator.com/item?id=47977694",
+    "hn_score": 92,
+    "hn_comments": 89,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-54",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Show HN：AI CAD Harness",
+    "summary_original": "HN score: 92 · comments: 89 · by: zachdive"
+  },
+  {
+    "title": "Flue is a TypeScript framework for building the next generation of agents",
+    "url": "https://flueframework.com/",
+    "published_at": "2026-05-02T17:32:07+00:00",
+    "summary": "HN score: 84 · comments: 49 · by: momentmaker",
+    "language": "en",
+    "hn_id": 47988501,
+    "hn_url": "https://news.ycombinator.com/item?id=47988501",
+    "hn_score": 84,
+    "hn_comments": 49,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-55",
+    "trimmed": true,
+    "category": "tools-release"
+  },
+  {
+    "title": "智能体调度框架应置于沙箱之外",
+    "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+    "published_at": "2026-05-02T21:21:27+00:00",
+    "summary": "HN 评分：66，54 条评论。文章主张智能体的编排层应独立于沙箱化环境之外",
+    "language": "en",
+    "hn_id": 47990675,
+    "hn_url": "https://news.ycombinator.com/item?id=47990675",
+    "hn_score": 66,
+    "hn_comments": 54,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-56",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "The agent harness belongs outside the sandbox",
+    "summary_original": "HN score: 66 · comments: 54 · by: shad42"
+  },
+  {
+    "title": "我们的智能体在Google Kubernetes Engine中发现了WireGuard的一个漏洞",
+    "url": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes",
+    "published_at": "2026-05-01T08:14:07+00:00",
+    "summary": "HN 评分：66，36 条评论。一个AI智能体在GKE中发现了WireGuard的bug",
+    "language": "en",
+    "hn_id": 47972367,
+    "hn_url": "https://news.ycombinator.com/item?id=47972367",
+    "hn_score": 66,
+    "hn_comments": 36,
+    "source": "hn-best",
+    "fetched_at": "2026-05-03T02:03:26.886460+00:00",
+    "source_count": 1,
+    "sources": [
+      "hn-best"
+    ],
+    "id": "item-57",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Our agent found a bug with WireGuard in Google Kubernetes Engine",
+    "summary_original": "HN score: 66 · comments: 36 · by: vikeri"
+  },
+  {
+    "title": "Hugging Face review: Powering the future of open source AI",
+    "url": "https://allthingsopen.org/articles/hugging-face-review-developers-guide",
+    "summary": "Be the first to know and get exclusive access to offers by signing up for our mailing list(s). # We ❤️ Open Source. # Hugging Face review: Powering the future of open source AI. *This article is part of the eBook: The ultimate 2026 guide to open source marketing automation for developers, a free download from We Love Open Source.*. Anyone can grab a pre-trained model and start building in minutes, completely for free. This Hugging Face review covers what it actually does, how much it costs, what works well, what doesn’t, and how it compares to other options. ## **What is Hugging Face?**. Hugging Face flips this model completely, with everything being open and transparent. Hugging Face is an open source platform where developers and creators share AI models and tools. Hugging Face ecosystem model with Transformer libraries, Model hub, Spaces (apps), and Datasets in a circle with clockwise arrows. **Here’s what makes up the Hugging Face ecosystem:**.",
+    "source": "huggingface-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-58",
+    "category": "tools-release",
+    "trimmed": true,
+    "trimmed_reason": "stale: 2026-03-16 (via page_date)"
+  },
+  {
+    "title": "2026年的Hugging Face Hub：这场AI革命其实……",
+    "url": "https://aitoolshub.medium.com/hugging-face-hub-in-2026-the-ai-revolution-thats-actually-accessible-bc4688663ade",
+    "summary": "大规模开源模型库，最先进模型免费使用，便捷的协作机制，Spaces提供在线演示",
+    "source": "huggingface-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-59",
+    "category": "tools-release",
+    "trimmed": false,
+    "title_original": "Hugging Face Hub in 2026: The AI Revolution That's Actually ...",
+    "summary_original": "- Massive open-source library SOTA models are free. - Super easy collaboration and sharing. - Spaces turn ideas into live demos instantly. -"
+  },
+  {
+    "title": "Open-source AI with Hugging Face",
+    "url": "https://odsc.com/speakers/open-source-ai-with-hugging-face/",
+    "summary": "In this session, you'll learn how open-source models can help you build high-quality AI applications, generative or not, while giving you more flexibility,",
+    "source": "huggingface-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "huggingface-blog"
+    ],
+    "id": "item-60",
+    "category": "tools-release",
+    "trimmed": true,
+    "trim_reason": "generic_page"
+  },
+  {
+    "title": "全球AI熱潮陸AI新創企業「月之暗面」市值3個月翻4倍| 大陸政經| 兩岸",
+    "url": "https://money.udn.com/money/story/5603/9380989",
+    "summary": "### 熱門關鍵字. ### 最近搜尋. ### 網站導覽. ### 服務. 聯合報系著作權所有 © 2026 All Rights Reserved. # 全球AI熱潮 陸AI新創企業「月之暗面」市值3個月翻4倍. 人工智慧（AI）公司近年來成為全球資本市場熱捧寵兒，大陸AI新創企業月之暗面（(Moonshot AI）正在進行新一輪融資，計劃籌集最高10億美元（約合新台幣321.9億元），估值已升至約180億美元，顯示其估值在3個月內翻了4倍多。. 彭博指出，消息人士透露，月之暗面已啟動討論最新一輪融資，其在今年早些時候完成逾7億美元融資，當時估值達到100億美元；去年底完成5億美元融資時估值僅為43億美元，而當前估值有了顯著提升。消息人士稱，最新一輪融資參與方尚不明朗。. 華爾街見聞提到，月之暗面在短短3個月，已先後完成3輪融資，創下大陸大模型企業連續融資最多紀錄，成為大陸估值最快突破百億美元的AI獨角獸公司之一。. 月之暗面旗下AI代理產品Kimi Claw自推出後爆發式增長，1月底以來20天收入已超2025年全年。全球支付平台Stripe數據顯示，Kimi個人訂閱用戶1月支付訂單數月增8,280%，2月再增123.8%，已進入Stripe全球榜單前十。. 另，每日經濟新聞稱，月之暗面近期密集推出新產品和能力升級，包括萬億參數開源多模態大模型Kimi K2.5及Kimi Claw Beta版，支持圖文雙輸入、代理集群調度、代碼與複雜任務處理。Kimi Claw亦可內置微博、企業微信插件，支持遠程操控AI代理執行任務，並適配飛書、釘釘等主流辦公平台。. 公開資料顯示，月之暗面由前清華大學教授楊植麟創立，他曾在Meta及谷歌參與AI研發。楊植麟在全員信中表示，新一輪融資金額超過大部分IPO募資及上市公司定向增發，可從一級市場募集更多資金。. 此前，月之暗面C輪及後續融資資方包括阿里巴巴、騰訊、五源資本、高榕創投、九安醫療等產業及投資機構。. 大陸AI新創公司月之暗面Kimi最新估值已上升至180億美元，3個月內估值翻了4倍。不僅如此，新一輪10億美元融資也正在進行中。圖／取自月之暗面官網. 圖為月之暗面旗下Kimi K2.5模型介面。圖／取自月之暗面官網. ※ 歡迎用「轉貼」或「分享」的方式轉傳文章連結；未經授權，請勿複製轉貼文章內容. ### 猜你喜歡. ### AI 催動軟體業進化 台灣新契機. ### 卡位AI光通訊與低軌衛星，它轉虧為盈去年EPS約4元，連6月營收年增逾24%，今年還有好消息？. ### 養龍蝦公司 miniMax 創下新創公司 IPO 史上最飆紀錄 年輕有為的老闆閆俊傑是何人物？. ### 人工智慧驅動的生物科技公司 Earendil Labs 據悉考慮在香港 IPO. ### 一家頂尖基金看好中國大陸 AI 巨頭 表示其投資價值優於美國同行. ### OpenClaw 熱點追蹤：「養龍蝦」熱潮考驗監管智慧；阿里百度推手機應用. ### 從保安全到穩就業 「龍蝦熱」考驗大陸 AI 監管智慧. ### 第九屆《Hit AI & Blockchain》人工智慧暨區塊鏈產業高峰會 3月26日盛大登場. ### 人工智慧編程初創公司 Cursor 據悉洽談新一輪融資 估值或達500億美元. ### 從模型競賽到盈利考驗 2026年 AI 產業的關鍵轉折. ### DeepSeek 躍全球 AI 應用四哥. ### 陸 AI 代理「養龍蝦」火熱 阿里、騰訊、智譜、Kimi等搶推相關應用. ### 「養龍蝦」成為 AI 工具新潮流 什麼是 OpenClaw、要養它又會有哪些風險？. ### 兩岸快遞／泡泡瑪特前進美國 加州開設美洲區域總部. #### 美股早盤／伊朗傳提新回應帶動油價回落 三大指數齊揚 蘋果漲4%. #### 獨家／「南霸天」侯西峰傳回鍋接任國揚董座 已列董事候選人首位. #### 卡到AI及低軌道，EPS從6.41到9.5元，它3月營收創新高，800G下半年放量，能比華通還會漲？. #### NVIDIA 股價周四跌什麼勁？分析師為輝達抱屈：投資人誤解了. #### Google 亞馬遜的「爆炸性 AI 獲利」背後有詭？一半竟非來自實際業務. ### 編輯精選. #### 地緣政治成台灣主權評等夢魘？標普今年對兩岸關係說得很直白. #### 比亞迪為什麼第1季獲利大幅下滑？今年車市逆風？. #### 人民幣5,999元的 Labubu 冰箱被炒至人民幣9.2萬元 賣的真是家電嗎？. #### 阿聯退群後座力？油市價格戰正在醞釀中. #### Euronews 精選：歐洲推動數位歐元挑戰美國支付霸權 各方角力白熱化. 此為訂戶獨享，每月 10 則，轉傳連結即可邀請朋友免費閱讀全文。. 本站使用元件之台股行情、個股基本資料及財務資訊為 凱衛資訊 提供。元件資料來源：台灣證券交易所, 櫃買中心。. 本站元件所提供之金融資訊， 係供參考，不能做為投資交易之依據，所有資料以台灣證券交易所、櫃買中心公告為準。.",
+    "source": "kimi-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-61",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "月之暗面兩年晉身十角獸企業 估值突破百億美元大關 - 財經新聞 Financial News",
+    "url": "https://www.aastocks.com/tc/mobile/newscontent/HK/NOW.1504330",
+    "summary": "| 月之暗面兩年晉身十角獸企業 估值突破百億美元大關  AASTOCKS新聞  2026/02/24 09:27 |. | 據內媒報道，大模型獨角獸公司月之暗面(Moonshot AI)估值突破百億美元大關，創下國內公司從成立到晉級十角獸企業(估值逾100億美元)的最快速度。  資料顯示，月之暗面僅用兩年多的時間，已將身價突破百億美元。公司受惠於新模型Kimi K2.5的領先表現，近20天的累計收入已經超過2025全年總收入。增長主要由全球付費用戶及API調用量大漲共同驅動，特別是海外付費用戶保持高速增長，公司的海外收入已超越國內。  相關內容《大行》大摩：騰訊(00700.HK)開源Hy3 Preview 評級「增持」 月之暗面由前清華大學教授楊植麟創立，他此前曾在Meta Platforms Inc.和谷歌從事AI項目。據外媒上周披露，包括阿里巴巴(09988.HK)、騰訊(00700.HK)和五源資本在內的現有投資方，已承諾向月之暗面最新融資的首批資金投入超過7億美元。此外，楊植麟在去年底的內部備忘錄中透露，月之暗面擁有100億元人民幣現金，不急於進行IPO。(sl/u)  AASTOCKS新聞 網址: www.aastocks.com |.",
+    "source": "kimi-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-62",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "月之暗面上市前夜，AI独角兽的融资狂飙_Kimi_产业_模型",
+    "url": "https://www.sohu.com/a/1001492526_120549004",
+    "summary": "# 原创 月之暗面上市前夜，AI独角兽的融资狂飙. 据彭博社3月26日最新报道，月之暗面（Moonshot AI）正处于考虑在香港首次公开募股（IPO）的早期阶段。这家Kimi聊天机器人背后的公司，已与中金公司等投行展开初步沟通，旨在借助全球投资者对AI的狂热热情。. 就在前不久的英伟达GTC 2026大会上，月之暗面创始人兼CEO杨植麟发表了题为《How We Scaled Kimi K2.5》的演讲，首次完整披露Kimi的技术路线图，强调底层架构重构正驱动模型智能上限突破。. 短短三年，月之暗面估值从数亿美元跃至“十角兽”级别，继智谱、Minimax之后，开启了上市之路。. 2023年3月，月之暗面成立，当年6月完成天使轮融资，红杉中国、真格基金等早期投资人相继入场；. 2024年2月A+轮融资超10亿美元，阿里、小红书、美团龙珠、招商局中国基金等产业资本与战投跟进，投后估值约25亿美元；. 2025年12月，月之暗面完成C轮融资，融资金额5亿美元，IDG资本、阿里巴巴、腾讯等领投，投后估值43亿美元。. 2026年2月，月之暗面进一步完成了C+轮超7亿美元融资，由阿里、腾讯、五源资本、九安医疗、高榕创投等联合领投，估值跃升至100亿美元区间，创下国内公司从成立到百亿美金估值的最快纪录。. 全球支付平台Stripe数据显示，Kimi个人订阅用户1月支付订单数环比暴增8280%，2月再涨123.8%，进入全球前十。. 三轮连续融资总额超22亿美元，不仅刷新国内大模型单轮规模纪录，更反映产业资本对底层大模型的押注逻辑：阿里、腾讯等巨头既是投资者，也是潜在生态伙伴，融资条款中往往绑定企业服务采购与AI基础设施优先权。. 这种“资本+订单”模式，让月之暗面在算力竞赛中获得充足粮草。返回搜狐，查看更多.",
+    "source": "kimi-blog",
+    "published_at": "2026-05-03T00:00:00+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-63",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "月之暗面傳赴港IPO 估值上看180億美元 - 鉅亨網",
+    "url": "https://news.cnyes.com/news/id/6397543",
+    "summary": "### 鉅亨熱AI. ### 人氣排行. ### 主編精選. ### 熱門時事. ### ‌. ### 台股專家觀點. # 月之暗面傳赴港 IPO 估值上看180億美元. 鉅亨網新聞中心2026-03-26 19:00. 據《彭博》引述知情人士報導，北京人工智慧 (AI) 獨角獸、熱門聊天機器人「Kimi」的開發商「月之暗面」(Moonshot AI)，正處於考慮在香港進行首次公開招股 (IPO) 的初步階段。據悉，該公司已就潛在的上市計畫與中金公司 (CICC) 及高盛集團 (Goldman Sachs) 展開初步接觸，旨在激發投資者對 AI 領域的興趣。. 報導指出，月之暗面近期除了籌備上市，也正積極在私募市場籌集資金。繼今年初完成逾 7 億美元的融資後，目前正洽商新一輪高達 10 億美元的融資計畫。若此輪擴資順利達成，該公司的估值預計將從突破 100 億美元進一步推升至約 180 億美元。. 月之暗面的背景實力雄厚，其投資者陣容堪稱豪華，包括阿里巴巴 (BABA-US)(09988-HK)、騰訊 (00700-HK)、美團 (03690-HK)、小紅書及五源資本 (5Y Capital) 等頭部企業與機構。. 月之暗面由清華大學前教授楊植麟於 2023 年初創立，他曾任職於 Meta 與 Google，具備深厚的 AI 研發經驗。旗艦產品「Kimi」的大模型被視為中國表現最頂尖的產品之一。. 近期，楊植麟在輝達 (NVDA-US)GTC 大會上演講時，首度揭露了 Kimi K2.5 的進化邏輯，強調其在 Token 效率、長上下文 (Long Context) 以及智能體集群 (Agent Swarms) 等維度的技術突破。. 隨著中國大模型產業從技術競賽邁向資本驅動階段，業界已出現上市潮。同屬大陸 AI 領先群的智譜 AI 與 MiniMax 已於今年 1 月在港掛牌，兩家公司的市值目前均已達到約 400 億美元。儘管北京當局積極扶持 AI 與機器人等本土龍頭，但近期也加強了對「紅籌股」在香港發售股份的審查。. 目前，月之暗面的 IPO 討論仍在進行中，最終未必會啟動上市，具體的時間表及集資規模仍屬未知之數。針對上述報導，月之暗面與高盛代表均拒絕置評，而中金公司則未作出回應。. ### 文章標籤. ### 相關行情. ### 延伸閱讀. cover image of news article.",
+    "source": "kimi-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-64",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "中國AI新創月之暗面Kimi新模型上線遇技術故障，宣布全員額度重置 ...",
+    "url": "https://finance.biggo.com.tw/news/iZGQtZ0Bh5an-7GhKE_k",
+    "summary": "# 中國AI新創月之暗面Kimi新模型上線遇技術故障，宣布全員額度重置作為補償. 中國人工智慧新創公司月之暗面（Moonshot AI）在新一代大型語言模型Kimi K2.6上線期間，因訪問量遠超預期而遭遇技術故障，導致部分使用者需排隊、功能異常及權益被誤扣。公司於4月22日晚間宣布補償方案，將所有使用者的當月使用額度恢復至100%，並將已使用量歸零。此次故障發生在該公司發布重磅升級的K2.6模型之後，該模型在長程編碼、Agent叢集能力等方面有顯著提升，並在測試中表現媲美GPT-5.4等國際頂級閉源模型。事件凸顯了AI公司在追求技術突破與確保服務穩定性之間面臨的挑戰。. ##### 關鍵要素. 中國人工智慧新創公司月之暗面（Moonshot AI）在其新一代大型語言模型Kimi K2.6上線期間遭遇技術挑戰。由於訪問量遠超預期，導致部分使用者出現排隊和功能異常，部分使用者的權益額度也被系統誤扣。對此，該公司迅速做出反應，於4月22日晚間宣布了一項補償方案：**將所有使用者的當月使用額度恢復至100%，並將已使用量清零**。. 4月22日晚間，月之暗面透過其官方社群媒體帳號「@月之暗面Kimi」發布公告，承認近期Kimi的使用體驗有所下降。公告稱：「我們知道最近Kimi的使用體驗讓大家感覺『打折扣』了。在新模型Kimi K2.6上線期間，大家的熱情遠超我們的預期。」. 問題主要源於兩個方面。首先，由於訪問量瞬間激增，導致部分使用者遇到了會員排隊、功能短暫不可用的情況。其次，後台系統在統計Agent（智慧體）額度時出現了偏差，導致部分使用者的權益被誤扣。. 為了盡快恢復使用者體驗，月之暗面宣布已於2026年4月22日20:30採取行動，將所有使用者當月額度恢復至100%，並將已使用量直接清零。這意味著所有使用者，無論此前是否受到影響，都將獲得一個全新的月度使用額度。. 此次技術故障發生在新模型Kimi K2.6發布之際。就在前一天（4月21日），據《華爾街見聞》援引「硬AI」的報導，月之暗面正式發布並開源了Kimi K2.6模型。該模型在通用Agent能力、程式碼生成、視覺理解等綜合能力上均實現了全面提升。報導稱，Kimi K2.6在多個基準測試中表現優異，其效能優於或持平於GPT-5.4、Claude Opus 4.6和Gemini 3.1 Pro等國際主流閉源模型。. Kimi K2.6的技術亮點主要集中在長程任務處理和智慧體叢集協作方面。根據報導，其長程編碼能力得到顯著提升，在測試中可不間斷編碼13小時，編寫或修改超過4000行程式碼。同時，模型驅動的Agent（智慧體）叢集架構迎來重大升級，支援多達300個子Agent並行完成4000個協作步驟，實現了更大規模的並行化處理。. 此外，針對高負載工作流，K2.6模型整合了對OpenClaw、Hermes Agent等主動式Agent框架的自動化任務處理能力，支援長達5天的持續自主執行。這些強大的新功能，尤其是對大規模並行Agent任務的支援，可能是引發使用者訪問熱情高漲、進而導致系統承壓的技術背景。. | 模型能力 | Kimi K2.6 表現 |. *註：表格資料來源於《華爾街見聞》對「硬AI」報導的轉述。*. 月之暗面此次「全員額度重置」的補償措施，在網際網路服務領域屬於較為直接和普惠的使用者安撫方式。它直接解決了因系統錯誤導致的使用者權益損失問題，並讓所有使用者都能以「滿額」狀態體驗新一代模型的能力。然而，這也從側面反映出，在激烈的人工智慧競賽中，技術領先性與服務穩定性之間的平衡，是每一家AI公司都必須面對的挑戰。. 此次事件對市場的影響是多方面的。對於月之暗面而言，快速公佈補償方案有助於維護品牌聲譽和使用者信任，尤其是在其剛剛發布重磅升級、意圖擴大市佔率的關鍵時刻。對於使用者和開發者社群，Kimi K2.6的開源及其在Agent叢集能力上的突破，仍是一個重要的技術進步，可能推動相關應用生態的發展。但此次技術故障也提醒整個行業，在追求模型效能極限的同時，後端工程能力、系統彈性和使用者體驗保障同樣至關重要。. ## 更多相關新聞.",
+    "source": "kimi-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "kimi-blog"
+    ],
+    "id": "item-65",
+    "category": "major-release",
+    "trimmed": false
+  },
+  {
+    "title": "Meta Llama的下一步：2026年路线图",
+    "url": "https://pub.towardsai.net/whats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d",
+    "summary": "关于Meta旗下Llama模型的发展路线图及2026年规划的文章",
+    "source": "meta-ai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-66",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "What's Next for Meta's Llama: A Roadmap to 2026 | by M - Towards AI",
+    "summary_original": "# What’s Next for Meta’s Llama: A Roadmap to 2026 | by M | Towards AI. [Sitemap](https://pub.towardsai.net/sitemap/sitemap.xml). [Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=post_page---top_nav_layout_nav-----------------------------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [](https://medium.com/?source=post_page---top_nav_layout_nav-----------------------------------------). [Write](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav------------------). [Search](https://medium.com/search?source=post_page---top_nav_layout_nav-----------------------------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). ![Image 1](https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png). ## [Towards AI](https://pub.towardsai.net/?source=post_page---publication_nav-98111c9905da-163191f21a1d---------------------------------------). [![Image 2: Towards AI](https://miro.medium.com/v2/resize:fill:76:76/1*JyIThO-cLjlChQLb6kSlVQ.png)](https://pub.towardsai.net/?source=post_page---post_publication_sidebar-98111c9905da-163191f21a1d---------------------------------------). Free: 6-day Agentic AI Engineering Email Guide: [https://email-course.towardsai.net/](https://email-course.towardsai.net/). # What’s Next for Meta’s Llama: A Roadmap to 2026. [![Image 3: M](https://miro.medium.com/v2/resize:fill:64:64/1*wwxMRP6RrqZVaB115zsoOA.png)](https://medium.com/@maddpublish?source=post_page---byline--163191f21a1d---------------------------------------). [M](https://medium.com/@maddpublish?source=post_page---byline--163191f21a1d---------------------------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Ftowards-artificial-intelligence%2F163191f21a1d&operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&user=M&userId=3b58641a2d0b&source=---header_actions--163191f21a1d---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F163191f21a1d&operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&source=---header_actions--163191f21a1d---------------------bookmark_footer------------------). [Listen](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D163191f21a1d&operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&source=---header_actions--163191f21a1d---------------------post_audio_button------------------). ![Image 4: Llama](https://miro.medium.com/v2/resize:fit:700/1*-b_upmfczB2mQCN-ctg1JA.png). Open-source AI models have fundamentally changed the industry. With over 1 billion downloads, it has established itself as the leader in open-source AI. The urgency behind Meta’s AI push remains real. [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Ftowards-artificial-intelligence%2F163191f21a1d&operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&user=M&userId=3b58641a2d0b&source=---footer_actions--163191f21a1d---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Ftowards-artificial-intelligence%2F163191f21a1d&operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&user=M&userId=3b58641a2d0b&source=---footer_actions--163191f21a1d---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F163191f21a1d&operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&source=---footer_actions--163191f21a1d---------------------bookmark_footer------------------). [![Image 5: Towards AI](https://miro.medium.com/v2/resize:fill:96:96/1*JyIThO-cLjlChQLb6kSlVQ.png)](https://pub.towardsai.net/?source=post_page---post_publication_info--163191f21a1d---------------------------------------). [![Image 6: Towards AI](https://miro.medium.com/v2/resize:fill:128:128/1*JyIThO-cLjlChQLb6kSlVQ.png)](https://pub.towardsai.net/?source=post_page---post_publication_info--163191f21a1d---------------------------------------). ## [Published in Towards AI](https://pub.towardsai.net/?source=post_page---post_publication_info--163191f21a1d---------------------------------------). [135K followers](https://pub.towardsai.net/followers?source=post_page---post_publication_info--163191f21a1d---------------------------------------). ·[Last published 4 hours ago](https://pub.towardsai.net/%EF%B8%8F-postgresql-pgvector-and-sql-server-2025-as-vector-stores-for-rag-a-practitioners-guide-283891452667?source=post_page---post_publication_info--163191f21a1d---------------------------------------). Free: 6-day Agentic AI Engineering Email Guide: [https://email-course.towardsai.net/](https://email-course.towardsai.net/). [![Image 7: M](https://miro.medium.com/v2/resize:fill:96:96/1*wwxMRP6RrqZVaB115zsoOA.png)](https://medium.com/@maddpublish?source=post_page---post_author_info--163191f21a1d---------------------------------------). [![Image 8: M](https://miro.medium.com/v2/resize:fill:128:128/1*wwxMRP6RrqZVaB115zsoOA.png)](https://medium.com/@maddpublish?source=post_page---post_author_info--163191f21a1d---------------------------------------). ## [Written by M](https://medium.com/@maddpublish?source=post_page---post_author_info--163191f21a1d---------------------------------------). [136 followers](https://medium.com/@maddpublish/followers?source=post_page---post_author_info--163191f21a1d---------------------------------------). ·[27 following](https://medium.com/@maddpublish/following?source=post_page---post_author_info--163191f21a1d---------------------------------------). [](https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page---post_responses--163191f21a1d---------------------------------------). ![Image 9](https://miro.medium.com/v2/resize:fill:32:32/1*dmbNkD5D-u45r44go_cf0g.png). [What are your thoughts?](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fwhats-next-for-meta-s-llama-a-roadmap-to-2026-163191f21a1d&source=---post_responses--163191f21a1d---------------------respond_sidebar------------------). [Help](https://help.medium.com/hc/en-us?source=post_page-----163191f21a1d---------------------------------------). [Status](https://status.medium.com/?source=post_page-----163191f21a1d---------------------------------------). [About](https://medium.com/about?autoplay=1&source=post_page-----163191f21a1d---------------------------------------). [Careers](https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----163191f21a1d---------------------------------------). [Press](mailto:pressinquiries@medium.com). [Blog](https://blog.medium.com/?source=post_page-----163191f21a1d---------------------------------------). [Privacy](https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----163191f21a1d---------------------------------------). [Rules](https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page-----163191f21a1d---------------------------------------). [Terms](https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----163191f21a1d---------------------------------------). [Text to speech](https://speechify.com/medium?source=post_page-----163191f21a1d---------------------------------------)."
+  },
+  {
+    "title": "Meta Llama Ai Model Update 2026 - Instagram",
+    "url": "https://www.instagram.com/popular/meta-llama-ai-model-update-2026/",
+    "summary": "Meta just unveiled Llama 2, the most powerful open-source large language model out there, now available for free! What makes Llama 2 unique? It's been trained",
+    "source": "meta-ai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-67",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "Oracle AI 对比 Meta AI / Llama — 2026年5月",
+    "url": "https://the-oracleai.com/blog/oracle-ai-vs-meta-ai-llama-may-2026.html",
+    "summary": "截至2026年5月Oracle AI与Meta AI/Llama的对比分析，指出行业格局已发生显著变化",
+    "source": "meta-ai-blog",
+    "published_at": "2026-05-01T00:00:00+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-68",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Oracle AI vs Meta AI / Llama — May 2026",
+    "summary_original": "oracle ai vs meta ai llama — that's the question that brought you here, and the honest answer in May 2026 is that the landscape has changed"
+  },
+  {
+    "title": "AI at Meta Blog",
+    "url": "https://ai.meta.com/blog/",
+    "summary": "- [Get Llama](https://www.llama.com/?utm_source=ai_meta_site&utm_medium=web&utm_content=AI_nav&utm_campaign=09252025_moment). - [Try Meta AI](https://applink.meta.ai/?utm_source=ai_meta_site&utm_medium=web&utm_content=AI_nav&utm_campaign=04082026_moment). The latest AI news from Meta. [Introducing Muse Spark: Scaling Towards Personal Superintelligence](https://ai.meta.com/blog/introducing-muse-spark-msl/). [FEATURED](https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/). [Scaling How We Build and Test Our Most Advanced AI](https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/). [How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet](https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/). [FEATURED](https://ai.meta.com/blog/segment-anything-model-3/). [SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking With Multiplexing and Global Reasoning](https://ai.meta.com/blog/segment-anything-model-3/). [FEATURED](https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/). [Four MTIA Chips in Two Years: Scaling AI Experiences for Billions](https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/). Get the latest from AI at Meta in your inbox. [About AI at Meta](/about). [People](/results/?content_types%5B0%5D=person&sort_by=random). [Careers](https://www.metacareers.com/jobs/?is_leadership=0&sub_teams[0]=Artificial%20Intelligence&is_in_page=0). [Demos](https://aidemos.meta.com/). [Explore Meta AI](/meta-ai/). [Get Meta AI](/get-meta-ai/). [Our approach](/about)[About AI at Meta](/about)[People](/results/?content_types%5B0%5D=person&sort_by=random)[Careers](https://www.metacareers.com/jobs/?is_leadership=0&sub_teams[0]=Artificial%20Intelligence&is_in_page=0). [Research](/research)[Infrastructure](/infrastructure)[Resources](/resources)[Demos](https://aidemos.meta.com/). [Meta AI](/meta-ai/)[Explore Meta AI](/meta-ai/)[Get Meta AI](/get-meta-ai/)[AI Studio](/ai-studio/). [Latest news](/blog)[Blog](/blog)[Newsletter](/subscribe). [Llama](https://www.llama.com/). [Privacy Policy](https://www.facebook.com/about/privacy/).",
+    "source": "meta-ai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "id": "item-69",
+    "category": "major-release",
+    "trimmed": true,
+    "trimmed_reason": "stale: 2026-04-08 (via page_date)"
+  },
+  {
+    "title": "MiniMax发布2025年全年业绩-美通社PR-Newswire",
+    "url": "https://www.prnasia.com/story/523613-1.shtml",
+    "summary": "香港2026年3月2日 /美通社/ -- 全球领先的通用人工智能科技公司MiniMax Group Inc.（\"MiniMax\"或\"公司\"；香港联交所股票代码：00100），今日发布截至2025年12月31日止的2025年全年业绩。. **AI****原生产品收入**由2024年的21.8百万美元增加143.4%至2025年的53.1百万美元，主要得益于用户参与度提升、用户对产品付费意愿增强，及海螺AI等产品的持续推广及商业化。. **开放平台及其他基于****AI****的企业服务收入**由2024年的8.7百万美元增加197.8%至2025年的26.0百万美元，主要受益于付费客户数量的显著增加。. **毛利**由2024年的3.7百万美元增加437.2%至2025年的20.1百万美元，其增幅显著高于收入增幅，**毛利率**由2024年的12.2%增加至2025年的25.4%，主要是由于模型及系统效率的提升，以及基础设施配置的优化所致。. **销售及分销开支**由2024年的87.0百万美元减少40.3%至2025年的51.9百万美元，由于我们的AI原生产品业务主要由自然增长及口碑传播驱动，推广开支相应减小。. **行政开支**由2024年的14.4百万美元增加155.9%至2025年的36.8百万美元，主要由于员工总数增加导致的员工成本上升，以及行政人员股份支付费用的增长。此外，2025年产生的上市开支亦导致行政开支整体增加，而于2024年并未产生该等开支。. **研发开支**由2024年的189.0百万美元增加33.8%至2025年的252.8百万美元，主要由于我们持续开发及完善基础模型及多模态能力，模型迭代及升级增加，致使与训练活动相关的云服务开支增加。年内，我们的研发开支同比增幅远低于158.9%的收入增长率，足证我们的研发效率有所提升。. 2025年**经调整净亏损**（1）为250.9百万美元，2024年为244.2百万美元。. **现金余额**（2）截至2025年12月31日为1,050.3百万美元，而截至2024年12月31日现金余额为880.6百万美元。. | *（**1）我们将\"经调整净亏损\"定义为净亏损加回股份支付费用、金融负债公允价值亏损以及上市开支。* |. | *（**2）现金余额包括但不限于现金及现金等价物、以摊销成本计量的金融资产、以公允价值计量且其变动计入损益的金融资产、受限制现金及定期存款。* |. *（**1）我们将\"经调整净亏损\"定义为净亏损加回股份支付费用、金融负债公允价值亏损以及上市开支。*. *（**2）现金余额包括但不限于现金及现金等价物、以摊销成本计量的金融资产、以公允价值计量且其变动计入损益的金融资产、受限制现金及定期存款。*. 在语言模型方面，2025年第四季度我们更新了M2、M2.1、M2-her三款模型。**M2**重新定义了效果、价格和速度上的平衡，具备编程、工具调用和深度搜索三项关键能力，成为OpenRouter上首个日token消耗量超过500亿的中国模型，并登顶HuggingFace全球热榜第一。**M2.1**重点提升了真实世界复杂任务的表现，尤其在编程和办公场景中能够更好地理解和执行多步骤指令。**M2-her**作为支持星野和Talkie两款AI互动产品的底层模型，专注于打造更自然、更个性化的对话体验，在100轮长程对话测试中综合表现位居全球第一。. 2026年2月，我们发布了 **M2.5**，在编程、工具调用和办公等生产力场景全面达到全球顶尖水平。编程效率较上一代M2.1提升37%，M2.5让复杂Agent的运行在经济成本上变得可无限扩展。从M2到M2.1再到M2.5，每一代模型的能力和使用量都有显著的提升。M2系列文本模型在2026年2月的平均单日token消耗量已增长至2025年12月的超过6倍，其中来自Coding Plan的token消耗量增长超过10倍。. 在研发上述模型和产品的过程中，我们也在持续向AI原生组织演进。我们内部的Agent实习生已经覆盖了近90%的员工，涵盖编程开发、数据分析、运维管理、人力招聘、市场销售等。我们将自身视为AI原生组织能力演进的试验场，这一演进将直接决定公司未来的研发效率。2026年1月，我们将沉淀的能力产品化，成功推出MiniMax Agent AI-native Workspace。. https://s1.c-conf.com/diamondpass/10053115-hu76t5.html. 此外，公司投资者关系网站亦会提供电话会议（包括中文专线及英文同声传译专线）的直播及存档，网址为：https://ir-tool.minimaxi.com/calendar/index.html。. MiniMax是全球领先的通用人工智能科技公司。公司以\"与所有人共创智能\"为使命，致力于推动人工智能科技前沿发展，实现通用人工智能(AGI）。MiniMax自主研发了一系列多模态通用大模型，具备强大的代码和Agent能力，以及超长上下文处理能力，能够理解、生成并整合包括文本、音频、图像、视频和音乐在内的多种模态。基于这些自研模型，MiniMax已经面向全球推出一系列AI原生产品，以及面向企业和开发者的开放平台，共同为全球用户提供极致的智能体验，提升社会整体生产力，丰富个人生活质量。有关公司详细资料，请浏览网站https://ir.minimaxi.com/。. 除过往事实的陈述外，本新闻稿载有前瞻性陈述，涉及本公司的业务展望、财务表现估计、预测业务计划、发展策略及对我们行业预期趋势的预测等。前瞻性陈述一般可透过所使用前瞻性词汇识别，例如\"或会\"、\"可能\"、\"可\"、\"可以\"、\"将\"、\"将会\"、\"预期\"、\"认为\"、\"继续\"、\"估计\"、\"预计\"、\"预测\"、\"打算\"、\"计划\"、\"寻求\"或\"时间表\"等。该等前瞻性陈述是根据本公司现有的资料，亦按本新闻稿刊发之时的展望为基准，在本新闻稿内载列。该等前瞻性陈述是根据若干预测、假设及前提，当中有些涉及主观因素或不受我们控制。该等前瞻性陈述或会证明为不正确及可能不会在将来实现。该等前瞻性陈述涉及许多风险及不明朗因素。鉴于风险及不明朗因素，本新闻稿内所载列的前瞻性陈述不应视为董事会或本公司声明该等计划及目标将会实现，故投资者不应过于倚赖该等陈述。除法律要求的情形外，本公司、本公司董事会、雇员及代理概不承担公开发布为反映本新闻稿日期后发生的事件或情况或意料之外事件而修订、更正或更新本新闻稿所载前瞻性陈述的任何义务，亦不承担倘因任何前瞻性表述不能实现或变得不准确而引致损失的任何责任。. |  |  | **截至****12****月****31****日止年度** | | | |. | **毛利** |  | **20,079** |  |  | 3,738 |. | 销售及分销开支 |  | **(51,896)** |  |  | (86,995) |. | 行政开支 |  | **(36,813)** |  |  | (14,384) |. | 研发开支 |  | **(252,771)** |  |  | (188,979) |. **截至****12****月****31****日止年度**. |  | |  | **于****12****月****31****日** | | | | | | | |. | 以公允价值计量且其变动计入     损益的金融资产 | |  | **69,965** | |  | |  | | 95,331 | |. | 以公允价值计量且其变动计入     其他全面收益的金融资产 | |  | **6,224** | |  | |  | | 4,836 | |. **于****12****月****31****日**. | *截至**2025**年**12**月**31**日止年度* |  |  | | | |. |  |  | **截至****12****月****31****日止年度** | | | |. | **经调整净亏损****(非《国际财务报告准则》计量指标**(5)**)** |  | **(250,856)** |  |  | (244,243) |. *截至**2025**年**12**月**31**日止年度*. **截至****12****月****31****日止年度**. **经调整净亏损****(非《国际财务报告准则》计量指标**(5)**)**.",
+    "source": "minimax-news",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-70",
+    "category": "policy-regulation",
+    "trimmed": true,
+    "trimmed_reason": "stale: 2026-03-02 (via page_date)"
+  },
+  {
+    "title": "兵贵神速！MiniMax下月有望上市",
+    "url": "https://stcn.com/article/detail/3552829.html",
+    "summary": "要闻   金融   评论   产经   创投   滚动. A股   公司   新股   基金   港美股. 来源：深圳商报作者：詹钰叶2025-12-23 08:49. ​通用人工智能公司MiniMax（稀宇科技）已通过港交所上市聆讯，最快可能于2026年1月在港交所挂牌上市。若顺利上市，该公司将在AI公司中创下自成立至IPO的用时最短纪录。. 通用人工智能公司MiniMax（稀宇科技）已通过港交所上市聆讯，最快可能于2026年1月在港交所挂牌上市。若顺利上市，该公司将在AI公司中创下自成立至IPO的用时最短纪录。. 招股书显示，该公司存在“高增长、高亏损”这一典型的初创高科技企业财务特征。公司在美被指控旗下“海螺AI”侵权，市场认为存在不确定性。. 根据港交所披露的聆讯后资料集，MiniMax（稀宇科技）在财务上呈现初创高科技企业典型特征：公司在2022年无营收，2023年至2025年9月累计实现营收8742万美元（约合6.16亿元人民币），其中2024年营收同比增速高达782.2%，2025年前9个月同比增长近175%；毛利率从2023年的-24.7%提升至2025年前9个月的23.3%。同时，自2022年至2025年9月的这45个月内，公司累计亏损额超过13.27亿美元，约合92亿元人民币，“烧钱”速度远超营收增长。. 公司还在公告中提到，截至2025年9月30日，可用流动资金合计10.46亿美元。和其他高科技企业初创期类似，MiniMax的亏损主要是由于研发“烧钱”。根据公告，2025年前9个月公司研发支出为1.803亿美元，已接近2024年全年研发支出，占同期总营收的337.4%，主要用于模型训练的云服务及算力成本。另外，公司在销售、行政等方面的开支同步增长，进一步挤压利润空间。公司称全模态模型的训练、迭代需持续投入计算资源，短期内难以降低核心成本，预计2025年的净亏损将显著增加。. 公开资料显示，MiniMax成立于2022年初，截至今年9月累计融资15.5亿美元，已获得米哈游、阿里、腾讯、小红书、高瓴、IDG、红杉、经纬、明势、云启等多家顶尖机构的投资和支持；其间公司“烧”了5亿美元，而对比来看，同期OpenAI累计“烧掉”400亿至550亿美元。. 公司自主研发了MiniMaxM2、Hailuo2.3等一系列多模态通用大模型，并基于上述自研模型，向全球推出了一系列AI原生产品，包括MiniMaxAgent、海螺AI、MiniMaxAudio、星野等，以及面向企业和开发者的开放平台。商业化方面，公司形成了“B端+C端”双轮驱动模式。截至2025年9月30日，MiniMax的AI原生产品已累计服务超过2亿用户，以及至少10万家企业与开发者，覆盖全球200多个国家和地区。业内认为，若MiniMax最终顺利上市，将成为“港股多模态大模型第一股”。. 诉讼风险为公司上市进程带来了不确定性。今年9月，MiniMax遭迪士尼、环球影业、华纳兄弟等12家好莱坞公司起诉，指控其旗下视频生成产品海螺AI侵犯超500项影视IP版权，诉求永久禁令+最高7500万美元法定赔偿（每部侵权作品最高15万美元）。有市场人士担忧若败诉，其海外业务运营或受影响，不排除被迫下架的可能。财报显示，MiniMax的海外收入占同期营收的比例已从2023年的19.2%提升至2025年前9月的73.1%。. 声明：证券时报力求信息真实、准确，文章提及内容仅供参考，不构成实质性投资建议，据此操作风险自担. 下载\"证券时报\"官方APP，或关注官方微信公众号，即可随时了解股市动态，洞察政策信息，把握财富机会。. 关于我们|服务条例|联系我们|版权声明|网站地图|线索提交. 备案号：粤ICP备09109218号-7|增值电信业务经营许可证：粤B2-20080118|互联网新闻信息服务许可证10120170066|粤公网安备44030002008846号. 违法和不良信息举报电话：0755-83514034 邮箱：bwb@stcn.com 中央网信办违法和不良信息举报中心|证券时报网举报中心. Copyright © 2008-2026 Shenzhen Securities Times Co., Ltd. All Rights Reserved.",
+    "source": "minimax-news",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-71",
+    "category": "policy-regulation",
+    "trimmed": true,
+    "trimmed_reason": "stale: 2025-09-30 (via page_date)"
+  },
+  {
+    "title": "MiniMax 登上戛纳，AI 与艺术的全球和解开始了？",
+    "url": "https://h5.ifeng.com/c/vivoArticle/v0020FpqeRvMVPx0k8XoTDBRLiWHVN8Rue3PFaHKX3vPKhI__?isNews=1&showComments=0",
+    "summary": "# MiniMax 登上戛纳，AI 与艺术的全球和解开始了？. 4 月 21 日，全球首个，也是迄今为止规模最大的 AI 电影节 WAIFF（2026），在法国戛纳电影宫正式举办。蔚蓝海岸线前，一众影视行业的从业者鱼贯而入，但一改往日红毯众星云集的流光溢彩，这一次的电影节，地毯换成了象征科技的紫色，而走上这条「紫毯」的，也换成了一众 AI 内容的创作者。. 几乎同一时期，地球另一端的中国影视圈：恒星引力这家打造出《苍兰诀》《永夜星河》的头部 IP 公司，正式与头部大模型公司 MiniMax 签署 AI 内容战略合作，并联合推出了由 MiniMax 提供技术支持制作的《古乐风华录》概念动画，其东方幻想美学风格，迅速在业内出圈。. 2025 年，中国影视行业发生了一件被低估的事：长剧集的流量底盘在持续收缩，但供给量不降反升。根据云合数据创始人李雪琳的演讲，2025 年新剧的集均 V30 以及全网长剧的有效播放都出现下滑，而剧集上新量并未减少。也就是说，传统长剧集运营模式已难以适应当前的市场节奏。. 而 AI，或者正是那个改变长剧运营模式的关键变量。 2025 年 4 月，成都第十三届中国网络视听大会的「东方幻想 IP 进化与内容新范式」分论坛现场期间，恒星引力成为了第一个吃螃蟹的玩家。. 活动期间，恒星引力正式与大模型玩家 MiniMax 签署 AI 内容战略合作协议。. 对很多人来说，恒星引力这家公司可能不如华策、新丽那样家喻户晓，但它的 IP 运营能力在国内绝对顶尖——截至目前，恒星引力出品内容累计有效播放近 200 亿，其代表作《苍兰诀》甚至能在播出三年后，仍位居全网长剧霸屏榜第 21 名。 这种量级的 IP 一旦合作 MiniMax，接入 AI 生产管线，能产出的内容体量是惊人的。. 合作的另一边 MiniMax，则是全球少数掌握文本、视频、语音、音乐全模态能力的大模型企业。其海螺 AI 视频系列已累计生成超 6 亿个视频，语音模型支持 40 余种语言，海外营收占比超七成，全球个人用户数破两亿（截止 2025 年年底）。. 也是因此，恒星引力选择 MiniMax，看中的不是 AI 能直接产出什么，而是 AI 能帮助他们释放以及加速什么： 按照合作内容，MiniMax 的技术将深度融入恒星引力的 IP 开发全链路：从前期的世界观设计、美术探索，到制作环节的虚拟拍摄、特效生成，再到衍生内容的多形态开发。. 如果说与恒星引力 的合作，是 MiniMax 联手影视行业新锐做影视 工业化的探索，那么 MiniMax 旗下海螺在 WAIFF 的动作，则是在融进去之后的关键下一步：走出去。. 2026 年 4 月 21 日，法国戛纳电影宫，第二届世界人工智能电影节（WAIFF）正式开幕。这里是全世界电影人心中最神圣的圣殿，历史上，关于围绕电影是怎样的艺术，戛纳一度成为胶片 VS 数字，院线 VS 奈飞流媒体的舆论场焦点，而每一次，戛纳都坚定地站在了艺术与美的一端，不向流量与时代妥协。. 在现场同样引起轰动的，还有以色列最顶尖的 AI 视频创作者 Dor Brothers 团队。提到 AI 与创作的关系，Dor Brothers 在 WAIFF 现场分享了一个故事： 「 16 岁的时候，我天真地想——找个人雇来帮我拍电影。然后我发现，那要花 5000 万欧元。于是我决定自己学。学了几年传统电影制作之后我才意识到——就算我自己拍，它还是要 5000 万欧元。 」. 而当巩俐、Dor Brothers 这样的顶级艺术家们开始认真对待 AI 影视 ，这种信任也会不断扩散——他们身边的朋友、粉丝、他们参加的展会受众，都会在某个时刻接触到 MiniMax，然后产生原来 AI 还可以这样的认知。. 2025 年 6 月，海螺 2 发布。采用 「 Noise-aware Compute Redistribution(NCR) 」 架构，训练和推理效率较上代提升 2.5 倍，模型参数量和训练数据量分别达到上一代产品的 3 倍和 4 倍。AI 榜单 Artificial Analysis Video Arena 排名全球第二，超越谷歌 Veo 3 Preview 和快手可灵 2.0。. 在此之后，2025 年 10 月，MiniMax 的 Media Agent 完成了根据用户表达一键成片的进化；同期海螺 2.3 发布，在物理表现、风格化表达、成本优化，都做了大幅提升，成为后续合作恒星引力，用 AI 落地东方美学的重要技术支撑。.",
+    "source": "minimax-news",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-72",
+    "category": "industry-business",
+    "trimmed": false
+  },
+  {
+    "title": "营收狂飙却大幅亏损，MiniMax的AI牌怎么打？-览富财经网",
+    "url": "https://www.lanfucaijing.com/read/198060",
+    "summary": "打开微信，点击底部的“发现”使用“扫一扫”即可将网页分享至朋友圈. # 营收狂飙却大幅亏损，MiniMax的AI牌怎么打？. 2026年3月2日，MiniMax发布上市后首份2025年度业绩公告，这份财报成为其在AI赛道发展的重要答卷，既展现出高速增长的亮眼表现，也反映出行业发展阶段的问题。. 数据显示，公司2025年全年收入同比大增158.9%至7903.8万美元，毛利更是实现437.2%的暴涨，商业化能力实现实质性突破，还成功跨过港交所18C规则相关收入门槛。但与之相伴的是，公司年内亏损同比扩大302.3%至18.72亿美元，营收与亏损的反差引发市场关注。. 财报背后，是MiniMax C端与B端双轮驱动的业务架构成效凸显，全球化布局更是成为最大亮点，海外收入占比提升至73%，产品覆盖超200个国家和地区。. 同时，公司成本结构持续优化，规模效应逐步显现，毛利率翻倍，运营效率显著提升。而亏损的大幅扩大实则受非经营性因素主导。. 这份财报也清晰勾勒出MiniMax从大模型公司向AI平台型企业转型的战略路径，其在全模态技术研发上的突破构筑了核心壁垒，但转型路上仍面临技术迭代、合规成本、行业竞争等多重挑战。如何将技术优势转化为商业优势，撑起资本市场的高估值，成为MiniMax未来发展的关键命题。. 2025年对于MiniMax的业务发展而言，是规模快速扩张与结构持续优化的一年。全年7903.8万美元的总收入，不仅同比实现158.9%的高速增长，更成功跨过港交所18C规则下“已商业化公司”2.5亿港元的收入门槛，标志着公司商业化能力的实质性突破。. 在业务结构上，两大核心板块均呈现强劲增长态势。AI原生产品作为C端核心业务，2025年收入达到5307.5万美元，同比增长143.4%，占总营收的67.2%，成为公司收入的基本盘。. 这一增长主要得益于用户参与度提升、付费意愿增强以及海螺AI等核心产品的持续推广，其中海螺AI作为视频生成领域的代表性产品，已帮助全球创作者累计生成超过6亿个视频，成为推动收入增长的重要引擎。. 面向企业客户的开放平台及其他AI企业服务则表现更为迅猛，收入从2024年的871.8万美元增至2596.3万美元，同比增幅高达197.8%，占总营收的比重也从28.6%提升至32.8%，展现出强劲的增长势头。. 这一变化背后，是付费企业客户数量的显著增加，截至2025年底，公司已服务来自100多个国家及地区的21.4万企业客户及开发者，验证了其B端业务的市场认可度。. 全球化布局成为本次财报的最大亮点之一。2025年，公司来自中国大陆以外地区的收入达到5766.3万美元，占总营收的73%，较2024年的69.8%进一步提升，形成了以海外市场为核心的收入结构。. 截至2025年底，公司产品及服务已覆盖超过200个国家和地区，累计服务逾2.36亿名个人用户，这种广泛的全球覆盖，不仅体现了产品和技术的跨文化适应性，更为公司打开了广阔的增长空间。. 从收入确认方式来看，公司业务也呈现出可持续增长特征，其中于一段时间内转让的服务收入达到3186.1万美元，较2024年的482.8万美元大幅增长，反映出长期合作客户的持续增加。. 如果说营收增长展现了MiniMax的业务扩张能力，那么成本与效率的改善则体现了公司的核心运营实力。2025年，公司在收入快速增长的同时，实现了成本结构的持续优化和运营效率的显著提升。. 毛利率的大幅提升是效率改善的核心体现。2025年，公司毛利从2024年的373.8万美元跃升至2007.9万美元，同比增长437.2%，毛利率也从12.2%提升至25.4%，实现翻倍式增长。. 财报明确指出，毛利率的提升主要源于模型及系统效率的提升，以及基础设施配置的优化，这一结论在后续数据中得到了印证。2026年2月发布的M2.5模型让复杂 Agent 的运行在经济成本上大幅降低。. 各项费用的结构性变化进一步凸显了运营效率的提升。销售及分销开支是变化最为显著的项目，2025年该项开支从2024年的8699.5万美元降至5189.6万美元，同比大幅减少40.3%。这一变化背后，是公司自然增长、口碑传播的差异化增长路径，降低了消费级AI产品对买量获客的依赖。. 研发开支方面，2025年公司研发投入2.53亿美元，同比增长33.8%，虽然绝对值持续增加，但增速远低于158.9%的收入增速，意味着单位收入分摊的研发成本正在下降，研发投入的效率持续提升。. 值得注意的是，公司仅用428名员工就实现了四大模态模型的全球领先，人均创收达到18.5万美元，展现出极高的组织运营效率。行政开支同比增长155.9%至3681.3万美元，主要源于员工成本上升、股份支付费用增长及上市相关开支，属于公司发展阶段的合理投入。. 财报中最引人关注的矛盾点，在于高速增长的营收与扩大的亏损之间的反差。2025年，公司年内亏损达到18.72亿美元，同比扩大302.3%，但深入分析后可以发现，这一亏损数据存在显著的非经营性因素影响，实际经营层面的亏损控制已初见成效。. 从亏损构成来看，账面亏损的大幅扩大主要源于金融负债公允价值变动这一非现金项目。财报显示，2025年公司金融负债公允价值亏损高达15.9亿美元，占总亏损的85%，这一亏损源于公司估值持续增加导致的优先股重新计量，属于会计准则下的账面损失，并不影响公司实际经营现金流。. 剔除股份支付费用、金融负债公允价值亏损及上市开支等非经营性项目后，公司经调整净亏损仅为2.51亿美元，同比仅小幅扩大2.7%，亏损率较上年同期已大幅收窄，展现出经营状况持续改善的积极信号。. 与亏损形成鲜明对比的是公司在资本市场的火爆表现。作为2026年1月才在港股上市的企业，MiniMax股价最高时涨幅超400%，市值一度突破3200亿港元，截至3月3日收盘价达821港元每股。. 如此高的估值，核心源于两大因素：一是港股市场纯AI原生标的的稀缺性，在全球AI产业高景气周期下，标的供给稀缺与资金需求旺盛形成供需错配；二是资本市场对中国AI企业全球化突围的乐观预期，对标OpenAI、Anthropic等国际巨头的估值水平，市场给予了MiniMax较高的成长溢价。. 但高估值背后也潜藏着风险与挑战，公司必须在高基数下持续维持翻倍式增长，并不断优化成本结构。一旦技术迭代放缓、商业化增速不及预期或行业竞争格局生变，估值可能面临剧烈回调压力。. 2026年2月下旬，港股大模型板块的剧烈震荡已为市场敲响警钟，智谱因服务承载能力不足引发用户质疑，导致股价单日大跌，MiniMax也受到波及，暴露了高估值AI企业对业绩波动的敏感性。. 技术研发方面，公司坚持全模态自研路线，已在语言、视频、语音、音乐四大模态均构建起具备全球竞争力的模型。. 语言模型领域，2025年10月至12月及2026年2月，公司密集发布M2、M2.1、M2-her和M2.5四款模型。其中，M2于2025年10月27日发布，M2.1和M2-her于2025年12月发布，M2.5于2026年2月12日发布。. 编程方面，M2.5在SWE-BenchVerified测试中刷新行业纪录，同时比上一代M2.1效率提升37%。更关键的是，M2.5让复杂Agent的运行在经济成本上变得可无限扩展，以每秒100Token的输出速度连续工作一小时只需1美金，这意味着1万美金可以让4个Agent连续工作一年。. 多模态领域，视频模型Hailuo 2.3实现人物动作、画面质量和风格化的显著提升，Fast模型使批量创作成本降低50%；语音模型Speech 2.6支持40多种语言和全球顶尖水平的超低延时；音乐模型Music 2.5可生成最长5分钟的作品，稳定驾驭多种唱法与情感风格。四大模态的全面突破构成了公司的核心技术壁垒。. 平台化转型是公司未来发展的核心战略。创始人闫俊杰提出，AI时代平台公司的价值取决于智能密度×Token吞吐，不同于互联网时代的流量逻辑，AI平台的核心是通过提升单位时间内的智能输出质量和规模，构建可持续的竞争优势。. 基于这一逻辑，公司明确了三大聚焦方向：Agent生产力场景、多模态创作、全球化市场，公司内部已实现近90%员工覆盖Agent实习生，形成与Agent协同工作的运营模式，既提升了组织效率，也为模型迭代提供了真实场景反馈。2026年1月推出的MiniMax Agent AI-native Workspace，标志着公司开始将内部沉淀的能力产品化，平台化转型进入实质阶段。. 但战略落地过程中仍面临多重风险挑战。技术层面，AI行业迭代速度快，若下一代模型无法实现突破性进展，高估值将失去核心支撑；法律层面，2025年9月迪士尼等好莱坞公司起诉海螺AI侵犯知识产权，随着欧美版权监管趋严，合规成本可能持续上升。. 外部环境层面，73%的海外收入占比使公司对跨境技术管制、数据合规等政策变化更为敏感；竞争与资金层面，公司资产负债率已从2024年末的187.8%升至343.3%，同时面临海外OpenAI、谷歌及国内字节、百度等巨头的双重竞争，算力和人才成本居高不下。. 公司预判2026年AI行业将迎来三大趋势：编程领域从工具走向L4-L5级别同事级协作，办公领域复刻编程领域的进步速度，多模态创作走向直出可交付的中长内容。. 对于MiniMax而言，2025年的财报是一份亮点突出、挑战明确的答卷，如何将技术优势持续转化为商业优势，将高增长转化为可持续盈利，将平台化战略落地为实际的生态壁垒，将是决定公司能否撑起高估值、实现长期发展的关键。. MiniMax的2025年财报展现了一家成长型AI企业的典型特征：技术驱动下的高速增长、规模效应释放中的效率提升、战略转型中的结构优化，以及行业发展阶段固有的亏损与风险。. 作为中国AI行业全球化突围的非典型样本，MiniMax的探索背后是AI企业从技术研发到商业变现的复杂路径。未来，只有持续突破技术瓶颈、优化盈利结构、化解合规风险，才能真正实现从高性价比模型提供者到不可替代的智能基础设施的跨越。. 2.本站的原创文章，欢迎转载，请转载时务必注明文章作者和来源，不尊重原创的行为我们将追究责任；. 岚图汽车（07489.HK）控股股东增持新进展：东风香港累计购入546.9万股H股，持股逼近70%. 天星医疗（01609.HK）H股每股发售价98.50港元. 友芝友生物（02496.HK）M701两项研究入选2026 ASCO年会，恶性腹水III期数据获口头报告.",
+    "source": "minimax-news",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-73",
+    "category": "policy-regulation",
+    "trimmed": false
+  },
+  {
+    "title": "MiniMax发布2025年全年业绩 - 中国工业新闻网",
+    "url": "https://www.cinn.cn/hz/2026/03-03/brY0K5W1.html",
+    "summary": "海螺AI产品中升级的MediaAgent支持全模态全能创作，可基于用户描述一键成片。截至2025年年底，我们的视频模型已帮助全球创作者累计生成超过6亿个视频。我们",
+    "source": "minimax-news",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "minimax-news"
+    ],
+    "id": "item-74",
+    "category": "tools-release",
+    "trimmed": false
+  },
+  {
+    "title": "What OpenAI And ChatGPT Tell Us About What's Coming In 2026",
+    "url": "https://www.forbes.com/sites/daviddoty/2026/01/06/what-openai-and-chatgpt-tell-us-about-whats-coming-in-2026/",
+    "summary": "Sign Up For NewslettersGamesShare a News Tip. *   The Enterprise AI Shortcut: Why Co-Innovation Is Setting A New Speed For Adopting and Operationalizing AI| Paid Program. *   Why These Leaders Raised Thousands For Blood Cancer — And How You Can, Too| Paid Program. *   2026 America's Top Wealth Advisors List. *   2026 Best-In-State Top Wealth Advisors List. *   New Era, New Icons: The Creators Redefining High-Quality Storytelling on TikTok| Paid Program. *   AI’s Nuanced Impact And A Quest To Quantify It. *   CMO Unscripted: Vulnerability Is The New Superpower For Leaders In The AI Era. *   Nvidia GTC 2026 And The Ambitious Path to $1 Trillion In AI Revenue. Our best stories, exclusive reporting and Forbes perspectives on the day’s top news. On top of it all is the enormous, unprecedented scale in audience shift in loyalty, time and attention from older digital participants to the new world order of ChatGPT (as well as a sprinkling of other AI platforms).",
+    "source": "openai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "openai-blog"
+    ],
+    "id": "item-75",
+    "trimmed": true,
+    "category": "major-release"
+  },
+  {
+    "title": "OpenAI News",
+    "url": "https://openai.com/news/",
+    "summary": "[Skip to main content](https://openai.com/news/#main). *   [Research](https://openai.com/research/index/). *   [Business](https://openai.com/business/). *   [Developers](https://openai.com/api/). *   [Company](https://openai.com/about/). *   [Company](https://openai.com/news/company-announcements/). *   [Research](https://openai.com/news/research/). *   [Product](https://openai.com/news/product-releases/). *   [Safety](https://openai.com/news/safety-alignment/). *   [Engineering](https://openai.com/news/engineering/). *   [Security](https://openai.com/news/security/). *   [Global Affairs](https://openai.com/news/global-affairs/). *   [AI Adoption](https://openai.com/news/ai-adoption/). *   [All](https://openai.com/news/). [Introducing Advanced Account Security Product Apr 30, 2026](https://openai.com/index/advanced-account-security/). [Our principles Company Apr 26, 2026](https://openai.com/index/our-principles/). [Introducing GPT-5.5 Product Apr 23, 2026](https://openai.com/index/introducing-gpt-5-5/). [GPT-5.5 System Card Safety Apr 23, 2026](https://openai.com/index/gpt-5-5-system-card/). *   [Research Index](https://openai.com/research/index/). *   [Research Overview](https://openai.com/research/). *   [Research Residency](https://openai.com/residency/). *   [Economic Research](https://openai.com/signals/). *   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/). *   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/). *   [GPT-5.3 Instant](https://openai.com/index/gpt-5-3-instant/). *   [GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex/). *   [Safety Approach](https://openai.com/safety/). *   [Security & Privacy](https://openai.com/security-and-privacy/). *   [Trust & Transparency](https://openai.com/trust-and-transparency/). *   [Platform Overview](https://openai.com/api/). *   [Pricing](https://openai.com/api/pricing/). *   [API log in(opens in a new window)](https://platform.openai.com/login). *   [Documentation(opens in a new window)](https://developers.openai.com/api/docs). *   [Developer Forum(opens in a new window)](https://community.openai.com/). *   [Business Overview](https://openai.com/business/). *   [Solutions](https://openai.com/solutions/). *   [Contact Sales](https://openai.com/contact-sales/). *   [About Us](https://openai.com/about/). *   [Our Charter](https://openai.com/charter/). *   [Careers](https://openai.com/careers/). *   [Brand](https://openai.com/brand/). *   [Help Center(opens in a new window)](https://help.openai.com/). *   [News](https://openai.com/news/). *   [Stories](https://openai.com/stories/). *   [Academy](https://openai.com/academy/). *   [Livestreams](https://openai.com/live/). *   [Podcast](https://openai.com/podcast/). *   [RSS](https://openai.com/news/rss.xml). *   [Other Policies](https://openai.com/policies/).",
+    "source": "openai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "openai-blog"
+    ],
+    "id": "item-76",
+    "category": "major-release",
+    "trimmed": true,
+    "trim_reason": "homepage"
+  },
+  {
+    "title": "OpenAI在2026年全力进军企业市场",
+    "url": "https://finance.yahoo.com/news/openai-coming-those-sweet-enterprise-005233697.html",
+    "summary": "OpenAI正在积极拓展企业级市场，争夺丰厚的企业客户收入",
+    "source": "openai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "openai-blog"
+    ],
+    "id": "item-77",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "OpenAI is coming for those sweet enterprise dollars in 2026",
+    "summary_original": "### [News](https://www.yahoo.com/). * [US](https://www.yahoo.com/news/us/). * [Health](https://health.yahoo.com/). * [Health](https://health.yahoo.com/). * [Shopping](https://shopping.yahoo.com/). + [Health](https://shopping.yahoo.com/health/). + [Tech](https://shopping.yahoo.com/tech/). ### [Finance](https://finance.yahoo.com/). * [My Portfolio](https://finance.yahoo.com/portfolios/). * [News](https://finance.yahoo.com/news/). + [Crypto](https://finance.yahoo.com/markets/crypto/). + [Tech](https://finance.yahoo.com/topic/tech/). + [More Topics](https://finance.yahoo.com/news/). * [Markets](https://finance.yahoo.com/markets/). + [Stocks](https://finance.yahoo.com/markets/stocks/). + [Crypto](https://finance.yahoo.com/markets/crypto/all/). + [Sectors](https://finance.yahoo.com/sectors/). - [Technology](https://finance.yahoo.com/sectors/technology/). + [Futures](https://finance.yahoo.com/markets/commodities/). + [Currencies](https://finance.yahoo.com/markets/currencies/ ). + [ETFs](https://finance.yahoo.com/markets/etfs/). + [Calendar](https://finance.yahoo.com/calendar/). - [Earnings](https://finance.yahoo.com/calendar/earnings/). - [Economic events](https://finance.yahoo.com/calendar/economic/). * [Community](https://finance.yahoo.com/community/). + [My Money](https://finance.yahoo.com/my-money/). * [Videos](https://finance.yahoo.com/videos/). * [Watch Now](https://finance.yahoo.com/live/). ### [Sports](https://sports.yahoo.com/). * [Show all](https://sports.yahoo.com/). + [More news](https://sports.yahoo.com/news/). * [Tech](https://tech.yahoo.com/). - [Business](https://tech.yahoo.com/business/). [Yahoo Finance](https://finance.yahoo.com/). * [News](https://www.yahoo.com/). * [Finance](https://finance.yahoo.com/). * [Sports](https://sports.yahoo.com/). + [News](https://www.yahoo.com/). - [US](https://www.yahoo.com/news/us/). - [Health](https://health.yahoo.com/). - [Health](https://health.yahoo.com/). - [Shopping](https://shopping.yahoo.com/). + [Finance](https://finance.yahoo.com/). - [My portfolio](https://finance.yahoo.com/portfolios/). - [News](https://finance.yahoo.com/news/). - [Markets](https://finance.yahoo.com/markets/). - [Community](https://finance.yahoo.com/community/). - [Videos](https://finance.yahoo.com/videos/). + [Sports](https://sports.yahoo.com/). - [Show all](https://sports.yahoo.com/). * [Tech](https://tech.yahoo.com/). 1. [My Portfolio](https://finance.yahoo.com/portfolios/). 2. [News](https://finance.yahoo.com/news/). 6. [Crypto](https://finance.yahoo.com/markets/crypto/). 7. [Tech](https://finance.yahoo.com/topic/tech/). 3. [Markets](https://finance.yahoo.com/markets/). 1. [Stocks](https://finance.yahoo.com/markets/stocks/). 2. [Crypto](https://finance.yahoo.com/markets/crypto/all/). 5. [Sectors](https://finance.yahoo.com/sectors/). 1. [Technology](https://finance.yahoo.com/sectors/technology/). 7. [Futures](https://finance.yahoo.com/markets/commodities/). 8. [Currencies](https://finance.yahoo.com/markets/currencies/ ). [ETFs](https://finance.yahoo.com/markets/etfs/). 3. [Calendar](https://finance.yahoo.com/calendar/). 1. [Earnings](https://finance.yahoo.com/calendar/earnings/). 4. [Economic events](https://finance.yahoo.com/calendar/economic/). 5. [Community](https://finance.yahoo.com/community/). 7. [Videos](https://finance.yahoo.com/videos/). 8. [Watch Now](https://finance.yahoo.com/live/). [Dow Jones](https://finance.yahoo.com/quote/%5EDJI/) [S&P 500](https://finance.yahoo.com/quote/SPY/) [DAX Index](https://finance.yahoo.com/quote/%5EGDAXI/) [Nvidia](https://finance.yahoo.com/quote/NVDA/) [Tesla](https://finance.yahoo.com/quote/TSLA/) [DJT](https://finance.yahoo.com/quote/DJT/) [Tariffs](https://finance.yahoo.com/topic/tariffs/)."
+  },
+  {
+    "title": "智能时代的产业政策 | OpenAI",
+    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age/",
+    "summary": "OpenAI发布了一份关于AI时代产业政策的政策文件",
+    "source": "openai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "openai-blog"
+    ],
+    "id": "item-78",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Industrial policy for the Intelligence Age | OpenAI",
+    "summary_original": "[Skip to main content](https://openai.com/index/industrial-policy-for-the-intelligence-age/#main). *   [Research](https://openai.com/research/index/). *   [Business](https://openai.com/business/). *   [Developers](https://openai.com/api/). *   [Company](https://openai.com/about/). [Global Affairs](https://openai.com/news/global-affairs/). [Read the document(opens in a new window)](https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf). Read the full ideas document [here⁠⁠(opens in a new window)](http://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf). *   [Policies and Procedures](https://openai.com/news/?tags=policies-procedures). *   [2026](https://openai.com/news/?tags=2026). [View all](https://openai.com/news/). [Building the compute infrastructure for the Intelligence Age Global Affairs Apr 29, 2026](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/). [Cybersecurity in the Intelligence Age Global Affairs Apr 29, 2026](https://openai.com/index/cybersecurity-in-the-intelligence-age/). *   [Research Index](https://openai.com/research/index/). *   [Research Overview](https://openai.com/research/). *   [Research Residency](https://openai.com/residency/). *   [Economic Research](https://openai.com/signals/). *   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/). *   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/). *   [GPT-5.3 Instant](https://openai.com/index/gpt-5-3-instant/). *   [Safety Approach](https://openai.com/safety/). *   [Security & Privacy](https://openai.com/security-and-privacy/). *   [Platform Overview](https://openai.com/api/). *   [Pricing](https://openai.com/api/pricing/). *   [API log in(opens in a new window)](https://platform.openai.com/login). *   [Documentation(opens in a new window)](https://developers.openai.com/api/docs). *   [Developer Forum(opens in a new window)](https://community.openai.com/). *   [Business Overview](https://openai.com/business/). *   [Solutions](https://openai.com/solutions/). *   [Contact Sales](https://openai.com/contact-sales/). *   [About Us](https://openai.com/about/). *   [Our Charter](https://openai.com/charter/). *   [Careers](https://openai.com/careers/). *   [Brand](https://openai.com/brand/). *   [Help Center(opens in a new window)](https://help.openai.com/). *   [News](https://openai.com/news/). *   [Stories](https://openai.com/stories/). *   [Academy](https://openai.com/academy/). *   [Livestreams](https://openai.com/live/). *   [Podcast](https://openai.com/podcast/). *   [RSS](https://openai.com/news/rss.xml). *   [Terms of Use](https://openai.com/policies/terms-of-use/). *   [Privacy Policy](https://openai.com/policies/privacy-policy/). *   [Other Policies](https://openai.com/policies/)."
+  },
+  {
+    "title": "推出面向生命科学研究的GPT-Rosalind",
+    "url": "https://openai.com/index/introducing-gpt-rosalind/",
+    "summary": "OpenAI发布GPT-Rosalind，这是一款专为生命科学研究中的科研工作流打造的模型，已获得客户和生态合作伙伴的支持",
+    "source": "openai-blog",
+    "published_at": "2026-05-03T02:02:49.742245+00:00",
+    "fetched_at": "2026-05-03T02:02:49.742245+00:00",
+    "source_count": 1,
+    "sources": [
+      "openai-blog"
+    ],
+    "id": "item-79",
+    "category": "major-release",
+    "trimmed": false,
+    "title_original": "Introducing GPT-Rosalind for life sciences research",
+    "summary_original": "*   [Research](https://openai.com/research/index/). *   [Built for scientific workflows](https://openai.com/index/introducing-gpt-rosalind/#built-for-scientific-workflows). *   [Customers and ecosystem](https://openai.com/index/introducing-gpt-rosalind/#customers-and-ecosystem). *   [Performance and evaluation](https://openai.com/index/introducing-gpt-rosalind/#performance-and-evaluation). *   [Industry evaluations](https://openai.com/index/introducing-gpt-rosalind/#industry-evaluations). *   [Connecting to the tools scientists use](https://openai.com/index/introducing-gpt-rosalind/#connecting-to-the-tools-scientists-use). *   [Trusted access](https://openai.com/index/introducing-gpt-rosalind/#trusted-access). *   [Getting started](https://openai.com/index/introducing-gpt-rosalind/#getting-started). *   [What’s next](https://openai.com/index/introducing-gpt-rosalind/#whats-next). We’re also introducing a freely accessible Life Sciences research plugin for Codex, helping scientists connect models to over 50 scientific tools and data sources. Scientists can use our new [Life Sciences research plugin⁠(opens in a new window)](https://github.com/openai/plugins/tree/main/plugins/life-science-research) for Codex, available today in GitHub. This package includes a broad set of modular skills for most common research workflows, designed to help users work across human genetics, functional genomics, protein structure, biochemistry, clinical evidence, and public study discovery. Organizations can [request access⁠](https://openai.com/form/life-sciences-access/) through our qualification and safety review process. If you’d like to explore ways OpenAI Life Sciences can support your work, you can [contact our Life Sciences team⁠](https://openai.com/contact-sales/). [Introducing OpenAI Privacy Filter Research Apr 22, 2026](https://openai.com/index/introducing-openai-privacy-filter/). *   [Research Index](https://openai.com/research/index/). *   [Research Overview](https://openai.com/research/). *   [Research Residency](https://openai.com/residency/). *   [Economic Research](https://openai.com/signals/). *   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/). *   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/). *   [About Us](https://openai.com/about/). ![Image 5](https://bat.bing.com/action/0?ti=187204252&Ver=2&mid=7324483a-692e-4cc3-bf0c-21bed859f9de&bo=1&sid=6c79d450469111f1a4aa1d2ac4fba324&vid=6c79e870469111f19e7477fc3da510b8&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Introducing%20GPT-Rosalind%20for%20life%20sciences%20research%20%7C%20OpenAI&p=https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-gpt-rosalind%2F&r=&lt=1104&evt=pageLoad&sv=2&cdb=AQAS&rn=486484)."
+  },
+  {
+    "title": "Hugging Face和ClawHub被滥用于恶意软件传播",
+    "url": "https://www.securityweek.com/hugging-face-clawhub-abused-for-malware-distribution/",
+    "published_at": "2026-05-01T08:41:57+00:00",
+    "summary": "威胁行为者利用Hugging Face和ClawHub等AI平台上的木马化共享文件传播恶意软件，通过社会工程手段诱骗用户下载恶意代码",
+    "language": "en",
+    "fetched_at": "2026-05-03T02:01:20.638183+00:00",
+    "source": "search-ai-security",
+    "source_count": 1,
+    "sources": [
+      "search-ai-security"
+    ],
+    "id": "item-80",
+    "category": "policy-regulation",
+    "trimmed": false,
+    "title_original": "Hugging Face, ClawHub Abused for Malware Distribution - SecurityWeek",
+    "summary_original": "**Threat actors are using trojanized shared files to distribute malware via AI distribution platforms such as Hugging Face and ClawHub, Acronis reports.**. The attacks do not compromise AI agents, but rely on social engineering to trick users into downloading files containing malicious code designed to execute commands, fetch payloads, and install hidden dependencies. The same as other AI distribu"
+  },
+  {
+    "title": "全球网络安全机构警告自主AI智能体风险",
+    "url": "https://news.bloomberglaw.com/business-and-practice/cybersecurity-agencies-worldwide-warn-about-agentic-ai-risks",
+    "published_at": "2026-05-01T18:19:20+00:00",
+    "summary": "美国、英国、澳大利亚的网络安全机构警告企业注意自主AI智能体的风险，智能体可能被滥用或遭到入侵，导致生产力损失",
+    "language": "en",
+    "fetched_at": "2026-05-03T02:01:20.638183+00:00",
+    "source": "search-ai-security",
+    "source_count": 1,
+    "sources": [
+      "search-ai-security"
+    ],
+    "id": "item-81",
+    "category": "policy-regulation",
+    "trimmed": false,
+    "title_original": "Cybersecurity Agencies Worldwide Warn About Agentic AI Risks - Bloomberg Law News",
+    "summary_original": "# Cybersecurity Agencies Worldwide Warn About Agentic AI Risks. May 1, 2026, 6:19 PM UTC. Companies and governments using AI agents need to anticipate and assess how their use can open them up to risks and affect operations, cybersecurity agencies in the USA, U.K. and Australia warned. Agents that work autonomously can easily be misused and breached by hackers, leading to productivity losses and c"
+  },
+  {
+    "title": "Anthropic推出Claude Security用于AI漏洞扫描",
+    "url": "https://www.infosecurity-magazine.com/news/anthropic-claude-security-for-ai/",
+    "published_at": "2026-05-01T11:00:12+00:00",
+    "summary": "Anthropic面向企业客户推出Claude Security（公开测试版），基于Claude Opus 4.7构建，可扫描代码库以发现和修复安全漏洞，此前名为Claude Code Security",
+    "language": "en",
+    "fetched_at": "2026-05-03T02:01:20.638183+00:00",
+    "source": "search-ai-security",
+    "source_count": 1,
+    "sources": [
+      "search-ai-security"
+    ],
+    "id": "item-82",
+    "category": "policy-regulation",
+    "trimmed": false,
+    "title_original": "Anthropic Rolls Out Claude Security for AI Vulnerability Scanning - Infosecurity Magazine",
+    "summary_original": "# Anthropic Rolls Out Claude Security for AI Vulnerability Scanning. Anthropic has launched Claude Security in public beta to its Claude Enterprise customers. Previously known as Claude Code Security, the cybersecurity tool is built on Anthropic’s latest generally available AI model, Claude Opus 4.7, to scan codebases to find and patch software vulnerabilities. It comes with scheduled and targeted"
+  },
+  {
+    "title": "AI生成的演员和剧本现已无缘Oscar奖",
+    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+    "published_at": "2026-05-02T21:54:58+00:00",
+    "summary": "Oscar规则更新，AI生成的表演和剧本被排除在评选资格之外",
+    "language": "en",
+    "source": "techcrunch-ai",
+    "fetched_at": "2026-05-03T02:01:20.488273+00:00",
+    "source_count": 1,
+    "sources": [
+      "techcrunch-ai"
+    ],
+    "id": "item-83",
+    "category": "industry-business",
+    "trimmed": false,
+    "title_original": "AI-generated actors and scripts are now ineligible for Oscars",
+    "summary_original": "Bad news for Tilly Norwood."
+  },
+  {
+    "title": "The best AI dictation apps, tested and ranked",
+    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+    "published_at": "2026-05-02T16:00:00+00:00",
+    "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
+    "language": "en",
+    "source": "techcrunch-ai",
+    "fetched_at": "2026-05-03T02:01:20.488566+00:00",
+    "source_count": 1,
+    "sources": [
+      "techcrunch-ai"
+    ],
+    "id": "item-84",
+    "category": "industry-business",
+    "trimmed": true,
+    "trim_reason": "listicle"
+  },
+  {
+    "title": "Two hours agoMusk v. Altman is getting a live audio stream next week.In addition to our ongoing reporting from the courtroom and digging through newly released evidence, you will be able to listen in ",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/922826/musk-v-altman-youtube-audio",
+    "published_at": "2026-05-02T23:17:13+00:00",
+    "summary": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+    "language": "en",
+    "fetched_at": "2026-05-03T02:01:20.961620+00:00",
+    "recent": true,
+    "source": "theverge-ai",
+    "source_count": 1,
+    "sources": [
+      "theverge-ai"
+    ],
+    "id": "item-85",
+    "category": "industry-business",
+    "trimmed": true,
+    "trim_reason": "liveblog_snippet"
+  }
+]

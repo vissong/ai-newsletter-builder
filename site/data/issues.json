@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-03",
+      "n": 13,
+      "dow": "SAT",
+      "title": "Copilot署名风波与AI安全工具密集上线",
+      "summary": "署名可以被代码悄悄写入，安全却要靠整个行业一起扫描。当工具开始在你不知情时认领功劳，我们或许需要先问清楚——到底谁在为谁署名。",
+      "headlines": [
+        {
+          "title": "VS Code 未经同意自动添加 Copilot 联合署名引发争议",
+          "tag": "工具发布"
+        },
+        {
+          "title": "Anthropic推出Claude Security漏洞扫描工具",
+          "tag": "重大发布"
+        },
+        {
+          "title": "OpenAI发布面向生命科学的GPT-Rosalind",
+          "tag": "重大发布"
+        },
+        {
+          "title": "全球网络安全机构联合警告AI智能体风险",
+          "tag": "政策监管"
+        },
+        {
+          "title": "月之暗面IPO在即，估值冲击180亿美元",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-50",
+          "title": "VS Code 不管是否使用了 Copilot，都在提交中自动插入「Co-Authored-by Copilot」",
+          "source_count": 1,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-82",
+          "title": "Anthropic推出Claude Security用于AI漏洞扫描",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-79",
+          "title": "推出面向生命科学研究的GPT-Rosalind",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-81",
+          "title": "全球网络安全机构警告自主AI智能体风险",
+          "source_count": 1,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-64",
+          "title": "月之暗面傳赴港IPO 估值上看180億美元",
+          "source_count": 1,
+          "category": "major-release"
+        }
+      ],
+      "item_count": 40,
+      "trimmed_count": 46,
+      "source_count": 13,
+      "categories": {
+        "major-release": 11,
+        "industry-business": 4,
+        "research-frontier": 0,
+        "tools-release": 10,
+        "policy-regulation": 4,
+        "kol-posts": 11
+      },
+      "generated_at": "2026-05-03T02:09:13.744532+00:00"
+    },
+    {
       "date": "2026-05-02",
       "n": 12,
       "dow": "FRI",
