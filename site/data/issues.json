@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-04",
+      "n": 14,
+      "dow": "SUN",
+      "title": "AI诊断胜过急诊医生，好莱坞为人类创作筑起围栏",
+      "summary": "当OpenAI的模型在急诊室里比医生更准确地判断病情，奥斯卡却在颁奖典礼上画出了AI不可逾越的红线——技术能力的边界与人类尊严的边界，正在同一个周末里被重新丈量。",
+      "headlines": [
+        {
+          "title": "OpenAI o1 对急诊患者的正确诊断率达 67%，而分诊医生仅为 50-55%",
+          "tag": "重大发布"
+        },
+        {
+          "title": "SAG-AFTRA 与制片厂达成四年协议，新增 AI 保护条款",
+          "tag": "行业动态"
+        },
+        {
+          "title": "DeepClaude——结合 Claude Code 与 DeepSeek V4 Pro 的智能体循环，成本降低 17 倍",
+          "tag": "工具发布"
+        },
+        {
+          "title": "奥斯卡禁止 AI 获得表演和编剧类奖项",
+          "tag": "行业动态"
+        },
+        {
+          "title": "不只是音乐，AI 播客也在威胁取代人类播客主",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-41",
+          "title": "OpenAI o1 对急诊患者的正确诊断率达 67%，而分诊医生仅为 50-55%",
+          "source_count": 1,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-88",
+          "title": "SAG-AFTRA 与制片厂达成四年协议，新增 AI 保护条款",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-46",
+          "title": "DeepClaude——结合 Claude Code 与 DeepSeek V4 Pro 的智能体循环，成本降低 17 倍",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-56",
+          "title": "奥斯卡禁止 AI 获得表演和编剧类奖项",
+          "source_count": 1,
+          "category": "tools-release"
+        },
+        {
+          "id": "item-86",
+          "title": "不只是音乐，AI 播客也在威胁取代人类播客主",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 38,
+      "trimmed_count": 51,
+      "source_count": 13,
+      "categories": {
+        "major-release": 7,
+        "industry-business": 8,
+        "research-frontier": 1,
+        "tools-release": 13,
+        "policy-regulation": 1,
+        "kol-posts": 8
+      },
+      "generated_at": "2026-05-04T02:09:02.337158+00:00"
+    },
+    {
       "date": "2026-05-03",
       "n": 13,
       "dow": "SAT",
