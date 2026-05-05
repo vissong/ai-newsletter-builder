@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-05",
+      "n": 15,
+      "dow": "MON",
+      "title": "Sierra与Cerebras竞逐企业AI高地，安全机构为智能体划红线",
+      "summary": "当Anthropic和OpenAI同时将触手伸向华尔街的资管巨头，Sierra悄然拿下十五亿美元估值——企业AI的战场从技术竞赛滑向渠道争夺。与此同时，CISA为自主智能体画下第一道监管边界，仿佛在提醒所有人：放出去的Agent，终究需要一条缰绳。",
+      "headlines": [
+        {
+          "title": "Sierra融资9.5亿美元，企业AI竞争白热化",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Anthropic和OpenAI均推出企业AI服务合资项目",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Musk诉Altman案第一周：法庭现场实录",
+          "tag": "行业动态"
+        },
+        {
+          "title": "安全机构为智能体AI部署划定红线",
+          "tag": "政策监管"
+        },
+        {
+          "title": "OpenAI的亲密伙伴Cerebras正迈向重磅IPO",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-118",
+          "title": "Sierra融资9.5亿美元，企业AI竞争白热化",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-120",
+          "title": "Anthropic和OpenAI均推出企业AI服务合资项目",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-115",
+          "title": "OpenAI的亲密伙伴Cerebras正迈向重磅IPO",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-112",
+          "title": "安全机构为智能体AI部署划定红线",
+          "source_count": 1,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-111",
+          "title": "Musk诉Altman案第一周：法庭现场实录",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 52,
+      "trimmed_count": 86,
+      "source_count": 13,
+      "categories": {
+        "major-release": 4,
+        "industry-business": 15,
+        "research-frontier": 10,
+        "tools-release": 8,
+        "policy-regulation": 3,
+        "kol-posts": 12
+      },
+      "generated_at": "2026-05-05T02:09:54.195937+00:00"
+    },
+    {
       "date": "2026-05-04",
       "n": 14,
       "dow": "SUN",
