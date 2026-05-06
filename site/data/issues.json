@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-06",
+      "n": 16,
+      "dow": "WED",
+      "title": "Chrome静默植入AI模型引争议，白宫酝酿模型发布前审查",
+      "summary": "当浏览器开始在用户不知情时往硬盘写入4GB神经网络，隐私的边界便在一次静默更新中被悄然重绘；与此同时华盛顿也在摸索新的缰绳——发布前审查的构想，像一道投向整个行业的长影。",
+      "headlines": [
+        {
+          "title": "Google Chrome 未经同意静默安装 4GB AI 模型",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Meta 正开发面向普通用户的 AI 代理 Hatch",
+          "tag": "行业动态"
+        },
+        {
+          "title": "白宫考虑在 AI 模型发布前进行审查",
+          "tag": "政策监管"
+        },
+        {
+          "title": "SAP 豪掷11.6亿美元收购德国 AI 实验室 Prior Labs",
+          "tag": "行业动态"
+        },
+        {
+          "title": "OpenAI 模型、Codex 和托管 Agent 登陆 AWS",
+          "tag": "重大发布"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-94",
+          "title": "Google Chrome 在未经用户同意的情况下静默安装 4GB AI 模型",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-3",
+          "title": "Meta 正在为普通用户开发类似 OpenClaw 的 AI 代理，内部代号 Hatch",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-114",
+          "title": "白宫考虑在AI模型发布前进行审查",
+          "source_count": 1,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-15",
+          "title": "SAP 豪掷11.6亿美元押注成立仅18个月的德国 AI 实验室，并接纳 NemoClaw",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-58",
+          "title": "OpenAI 模型、Codex 和托管 Agent 登陆 AWS",
+          "source_count": 1,
+          "category": "major-release"
+        }
+      ],
+      "item_count": 68,
+      "trimmed_count": 141,
+      "source_count": 13,
+      "categories": {
+        "major-release": 8,
+        "industry-business": 12,
+        "research-frontier": 10,
+        "tools-release": 19,
+        "policy-regulation": 4,
+        "kol-posts": 15
+      },
+      "generated_at": "2026-05-06T02:10:31.084332+00:00"
+    },
+    {
       "date": "2026-05-05",
       "n": 15,
       "dow": "MON",
