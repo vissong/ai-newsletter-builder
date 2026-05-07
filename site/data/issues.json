@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-07",
+      "n": 17,
+      "dow": "WED",
+      "title": "GPT-5.5 Instant登场与千亿美元算力竞赛",
+      "summary": "当OpenAI把「准确」两个字重新放到模型名字里的同一天，SpaceX和Musk的旧日伙伴们正在德州丈量一座千亿美元工厂的地基——AI的战场已经从参数表滑向了电力线和晶圆厂。",
+      "headlines": [
+        {
+          "title": "OpenAI发布GPT-5.5 Instant，大幅提升事实准确性",
+          "tag": "重大发布"
+        },
+        {
+          "title": "SpaceX或斥资1190亿美元建造芯片工厂",
+          "tag": "行业动态"
+        },
+        {
+          "title": "OpenAI今年将投入500亿美元算力",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Google关闭Project Mariner项目",
+          "tag": "重大发布"
+        },
+        {
+          "title": "xAI更名SpaceXAI，转型算力基础设施",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-42",
+          "title": "OpenAI发布GPT-5.5 Instant以提升ChatGPT的事实准确性",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-19",
+          "title": "SpaceX或将斥资高达1190亿美元在德州建造「Terafab」芯片工厂",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-40",
+          "title": "Brockman称OpenAI将在2026年投入500亿美元用于算力",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-1",
+          "title": "Google关闭Project Mariner项目",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-8",
+          "title": "AI正在变成SpaceXAI",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 48,
+      "trimmed_count": 126,
+      "source_count": 11,
+      "categories": {
+        "major-release": 13,
+        "industry-business": 12,
+        "research-frontier": 10,
+        "tools-release": 2,
+        "policy-regulation": 4,
+        "kol-posts": 7
+      },
+      "generated_at": "2026-05-07T02:09:08.216371+00:00"
+    },
+    {
       "date": "2026-05-06",
       "n": 16,
       "dow": "WED",
