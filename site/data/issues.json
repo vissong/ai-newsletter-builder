@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-08",
+      "n": 18,
+      "dow": "THU",
+      "title": "Musk 诉 Altman 案庭审白热化，AI 编程工具安全漏洞集中爆发",
+      "summary": "法庭上 Mira Murati 的证词与 OpenAI 总裁的私人日记同时曝光，一场关于 AI 创始使命的论战正把行业最隐秘的角落翻到台前；而另一边，从 Gemini CLI 到 Claude Code 再到 Cline，编程智能体的攻击面像多米诺骨牌一样逐个倒下——我们在加速构建的同时，地基上的裂缝也在加速蔓延。",
+      "headlines": [
+        {
+          "title": "Musk 诉 Altman 案庭审实时更新，OpenAI 总裁被迫朗读个人日记",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Cloudflare 裁员 1100 人，AI 使用量增长 600%",
+          "tag": "行业动态"
+        },
+        {
+          "title": "SpaceX 计划斥资 550 亿美元建造 AI 芯片工厂",
+          "tag": "行业动态"
+        },
+        {
+          "title": "AI 编程智能体安全漏洞集中爆发：Gemini CLI、Claude Code、Cline 相继暴露风险",
+          "tag": "政策监管"
+        },
+        {
+          "title": "Claude 推出 Dreaming 功能让 Agent 持续学习，Anthropic 与 SpaceX 达成算力合作",
+          "tag": "重大发布"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-musk-altman",
+          "title": "Musk 诉 Altman 案庭审实时更新",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-cloudflare-layoff",
+          "title": "Cloudflare 裁员 1,100 人，同时其 AI 使用量增长了 600%",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-spacex-chips",
+          "title": "SpaceX 计划斥资 550 亿美元在 Texas 建造 AI 芯片工厂",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-gemini-cli-vuln",
+          "title": "Gemini CLI 漏洞可能导致代码执行与供应链攻击",
+          "source_count": 1,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-dreaming",
+          "title": "Dreaming 功能回顾 Agent 历史会话，让 Agent 持续学习成长",
+          "source_count": 1,
+          "category": "major-release"
+        }
+      ],
+      "item_count": 64,
+      "trimmed_count": 152,
+      "source_count": 9,
+      "categories": {
+        "major-release": 9,
+        "industry-business": 15,
+        "research-frontier": 10,
+        "tools-release": 17,
+        "policy-regulation": 6,
+        "kol-posts": 7
+      },
+      "generated_at": "2026-05-08T12:57:16.284488+00:00"
+    },
+    {
       "date": "2026-05-07",
       "n": 17,
       "dow": "WED",
