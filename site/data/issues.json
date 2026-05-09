@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-09",
+      "n": 19,
+      "dow": "FRI",
+      "title": "AI裁员与安全裂缝：效率繁荣的另一面",
+      "summary": "AI 开始用效率的尺子丈量自己制造者的岗位——Cloudflare 裁掉千人的同一天，Anthropic 以十倍速度招兵买马；而浏览器扩展里的一个信任漏洞提醒我们：Agent 越强大，被劫持的后果也越不可逆。",
+      "headlines": [
+        {
+          "title": "Cloudflare 称 AI 淘汰了 1100 个岗位，同期营收创历史新高",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Claude Chrome 扩展漏洞允许任意插件劫持用户 AI",
+          "tag": "政策安全"
+        },
+        {
+          "title": "Anthropic 年增长10倍，而其他公司纷纷裁员超10%",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Mozilla 称 Mythos 发现的 271 个漏洞几乎零误报",
+          "tag": "政策安全"
+        },
+        {
+          "title": "Meta 将于2026年启动 AI 超级集群 Prometheus",
+          "tag": "重大发布"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-159",
+          "title": "Cloudflare 称 AI 淘汰了 1100 个岗位，同期营收创历史新高",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-156",
+          "title": "Claude Chrome 扩展漏洞允许任意插件劫持用户 AI",
+          "source_count": 1,
+          "category": "policy-regulation"
+        },
+        {
+          "id": "item-133",
+          "title": "[AINews] Anthropic 年增长10倍，而其他公司纷纷裁员超10%",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-146",
+          "title": "Meta 将于2026年启动 AI 超级集群 Prometheus",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-155",
+          "title": "Mozilla 称 Mythos 发现的 271 个漏洞几乎零误报",
+          "source_count": 1,
+          "category": "policy-regulation"
+        }
+      ],
+      "item_count": 41,
+      "trimmed_count": 131,
+      "source_count": 14,
+      "categories": {
+        "major-release": 4,
+        "industry-business": 12,
+        "research-frontier": 10,
+        "tools-release": 3,
+        "policy-regulation": 6,
+        "kol-posts": 6
+      },
+      "generated_at": "2026-05-09T02:14:13.617753+00:00"
+    },
+    {
       "date": "2026-05-08",
       "n": 18,
       "dow": "THU",
