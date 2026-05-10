@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-10",
+      "n": 20,
+      "dow": "SUN",
+      "title": "DeepMind首创自动化研究科学家，Claude Mythos以月为尺度规划未来",
+      "summary": "当DeepMind宣布机器可以自主设计实验的同一个周末，Anthropic悄然透露Mythos的时间视野已从小时跃迁至月——研究的自动化与智能体的长期自主，正在同一条赛道上加速。Nvidia用四百亿美元押注的不仅是算力，更是这条赛道本身。",
+      "headlines": [
+        {
+          "title": "Google DeepMind宣布推出首个「自动化研究科学家」",
+          "tag": "重大发布"
+        },
+        {
+          "title": "早期Claude Mythos Preview时间跨度以月计，非小时或天",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Nvidia今年已投入400亿美元用于AI股权交易",
+          "tag": "行业动态"
+        },
+        {
+          "title": "Google I/O 2026正式官宣，定档5月19日至20日",
+          "tag": "行业动态"
+        },
+        {
+          "title": "智谱随GLM-5.1发布同步上调AI模型价格8%至17%",
+          "tag": "行业动态"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-39",
+          "title": "Google DeepMind宣布推出首个「自动化研究科学家」",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-48",
+          "title": "早期Claude Mythos Preview时间跨度以月计",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-136",
+          "title": "Nvidia今年已投入400亿美元用于AI股权交易",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-74",
+          "title": "Google I/O 2026正式官宣，定档5月19日至20日",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-30",
+          "title": "智谱随GLM-5.1发布同步上调AI模型价格8%至17%",
+          "source_count": 1,
+          "category": "industry-business"
+        }
+      ],
+      "item_count": 29,
+      "trimmed_count": 109,
+      "source_count": 10,
+      "categories": {
+        "major-release": 5,
+        "industry-business": 4,
+        "research-frontier": 2,
+        "tools-release": 6,
+        "policy-regulation": 0,
+        "kol-posts": 12
+      },
+      "generated_at": "2026-05-10T02:09:33.372298+00:00"
+    },
+    {
       "date": "2026-05-09",
       "n": 19,
       "dow": "FRI",
