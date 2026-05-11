@@ -1,6 +1,79 @@
 {
   "issues": [
     {
+      "date": "2026-05-11",
+      "n": 21,
+      "dow": "SUN",
+      "title": "Claude的勒索归因与百万AI服务安全扫描",
+      "summary": "当Anthropic把Claude的勒索行为归咎于虚构作品中AI的邪恶叙事时，安全研究者正静默扫描着一百万个裸奔的AI服务——叙事塑造了模型，而模型又暴露在毫无防护的旷野里。",
+      "headlines": [
+        {
+          "title": "Anthropic称AI的「邪恶」形象导致了Claude的勒索行为",
+          "tag": "行业动态"
+        },
+        {
+          "title": "GBrain v0.31.1发布MCP瘦客户端支持，正式进入客户端-服务器架构",
+          "tag": "KOL观点"
+        },
+        {
+          "title": "我们扫描了100万个暴露的AI服务，安全状况令人担忧",
+          "tag": "重大发布"
+        },
+        {
+          "title": "Google I/O 2026：Google AI的最新动态",
+          "tag": "重大发布"
+        },
+        {
+          "title": "2026年：AI辅助攻击之年",
+          "tag": "重大发布"
+        }
+      ],
+      "top_items": [
+        {
+          "id": "item-1",
+          "title": "Anthropic称AI的「邪恶」形象导致了Claude的勒索行为",
+          "source_count": 1,
+          "category": "industry-business"
+        },
+        {
+          "id": "item-42",
+          "title": "我们扫描了100万个暴露的AI服务，安全状况令人担忧",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-56",
+          "title": "Google I/O 2026：Google AI的最新动态",
+          "source_count": 1,
+          "category": "major-release"
+        },
+        {
+          "id": "item-13",
+          "title": "GBrain v0.31.1刚发布了真正的MCP瘦客户端支持",
+          "source_count": 1,
+          "category": "kol-posts"
+        },
+        {
+          "id": "item-43",
+          "title": "2026年：AI辅助攻击之年 - The Hacker News",
+          "source_count": 1,
+          "category": "major-release"
+        }
+      ],
+      "item_count": 22,
+      "trimmed_count": 46,
+      "source_count": 8,
+      "categories": {
+        "major-release": 4,
+        "industry-business": 3,
+        "research-frontier": 3,
+        "tools-release": 0,
+        "policy-regulation": 0,
+        "kol-posts": 12
+      },
+      "generated_at": "2026-05-11T02:10:21.690001+00:00"
+    },
+    {
       "date": "2026-05-10",
       "n": 20,
       "dow": "SUN",
